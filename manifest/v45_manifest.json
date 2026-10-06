@@ -1,0 +1,358 @@
+{
+ "rows": [
+  {
+   "檔": "experiments/blindtest/scripts/run_7b_arm.py",
+   "sha256": "cb2ed42dee7e6d2f0dee6723c6439fb01ade50ecea9b7886690ce1bd95bebfeb",
+   "位元": 6755,
+   "被誰 import": [
+    "入口：臂二 裸 7B"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/composite-classifier/src/classifier.py",
+   "sha256": "7ed901dcd3e278c69a08651882ee4a20f29aa146b7f0cc80b2903b565e253521",
+   "位元": 15150,
+   "被誰 import": [
+    "classifier ← pipeline_v2.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/composite-classifier/src/wording.py",
+   "sha256": "43a93a7f6b3775e1d8922a8de266be94684ce32550aa7e3e98689a7f3e2b77f1",
+   "位元": 8276,
+   "被誰 import": [
+    "wording ← classifier.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/control-station/judge_v4.py",
+   "sha256": "8845e46d5aaaa97fb63699916172b5f61901f05462f177a0aabfbef0c81df341",
+   "位元": 32337,
+   "被誰 import": [
+    "入口：裁決器 v4.1 排序"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/control-station/request_form.py",
+   "sha256": "15f0eec929ad946f434f95a8a3c35d21791b875c09c76c90174084c356fed587",
+   "位元": 10427,
+   "被誰 import": [
+    "request_form ← judge_v4.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/mechanical-v2/clause_v2.py",
+   "sha256": "1524a992a869b98fc7fb08be3d8b9b4b9b270ce5b0dad138feded35c978a40c1",
+   "位元": 29170,
+   "被誰 import": [
+    "clause_v2 ← run_perf.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "改"
+  },
+  {
+   "檔": "experiments/mechanical-v2/detectors.py",
+   "sha256": "69a6cedefaeaf5f8aa7e75989ae4b8ca3d813afec0ed85bca9c6e55591f1173e",
+   "位元": 28991,
+   "被誰 import": [
+    "detectors ← clause_v2.py",
+    "detectors ← pipeline_v2.py",
+    "detectors ← reorder_v2.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/mechanical-v2/lexicon_v2.py",
+   "sha256": "99b6e68b297358c8639929314d748ccb2d11d9f5b86bdb67aa99c99dc4e88c7a",
+   "位元": 34860,
+   "被誰 import": [
+    "lexicon_v2 ← clause_v2.py",
+    "lexicon_v2 ← detectors.py",
+    "lexicon_v2 ← judge_v4.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/mechanical-v2/pipeline_v2.py",
+   "sha256": "d8723b37c3ac4017e08694be7f4e53c02fb2e78091e6639093c6b9e8e96f69a1",
+   "位元": 8464,
+   "被誰 import": [
+    "pipeline_v2 ← clause_v2.py",
+    "pipeline_v2 ← reorder_v2.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/mechanical-v2/reorder_v2.py",
+   "sha256": "c8aeb6795009d9a8caf613a041816702a501bd0190b70e80a3c041029e52a56a",
+   "位元": 10554,
+   "被誰 import": [
+    "reorder_v2 ← clause_v2.py",
+    "reorder_v2 ← run_perf.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "改"
+  },
+  {
+   "檔": "experiments/mechanical-v2/rules_v2.py",
+   "sha256": "f979a3095f9b8d82222d26097df293ec3d5a085021987c8d1056a0dfda7b9764",
+   "位元": 11462,
+   "被誰 import": [
+    "rules_v2 ← adjudicator_v3b.py",
+    "rules_v2 ← early_stop.py",
+    "rules_v2 ← run_perf.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/perf-station/early_stop.py",
+   "sha256": "3e60d5a62f3ff9fcdd197a3f831b35488954164ff988c536d5fdd227dad99aab",
+   "位元": 3451,
+   "被誰 import": [
+    "early_stop ← run_perf.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/perf-station/run_perf.py",
+   "sha256": "83b01addf50c804ce85b23e5cf947f522a27d74d4a90fc3d5d5d0ac3fe8a662d",
+   "位元": 28862,
+   "被誰 import": [
+    "入口：臂一 管線（丙-1 快檢台）"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/perf-station/schema_v1.py",
+   "sha256": "712ffc481bd0800d4edd0e73b79a0f2f36a6f1bfa9dfb11718e3862098fbb8b5",
+   "位元": 5402,
+   "被誰 import": [
+    "schema_v1 ← early_stop.py",
+    "schema_v1 ← run_perf.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/semantic-station/scripts/probe_causal.py",
+   "sha256": "3b19b026fc75649bfc378386f82e731cbb48326f461d81ac987768bf9a57cd7e",
+   "位元": 6282,
+   "被誰 import": [
+    "probe_causal ← probe_noise.py",
+    "probe_causal ← run_perf.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/semantic-station/scripts/probe_noise.py",
+   "sha256": "e82e21bebdc24271217c1a54c6ce6b7bc26511e2e78a7313cefa84a975b771cc",
+   "位元": 4651,
+   "被誰 import": [
+    "probe_noise ← run_7b_arm.py",
+    "probe_noise ← run_fold.py",
+    "probe_noise ← run_perf.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/semantic-station/scripts/run_fold.py",
+   "sha256": "b8bb750d03ad0dbd0dd8d4c0d63a4df72f13b84b533d74be483cf39e05ac9fc2",
+   "位元": 5796,
+   "被誰 import": [
+    "run_fold ← run_perf.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/semantic-station/scripts/run_station.py",
+   "sha256": "b6ca26fa3d273199e7cde4939c5d00cde679fb938a8a6c21e04de59f8fc13b0f",
+   "位元": 5641,
+   "被誰 import": [
+    "run_station ← run_station2.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/semantic-station/scripts/run_station2.py",
+   "sha256": "0167072dc7579e62676cd58402c4da6a4474691e8ad6d28bd299dcf8901465ed",
+   "位元": 7692,
+   "被誰 import": [
+    "run_station2 ← judge_v4.py",
+    "run_station2 ← run_7b_arm.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "laios-bridge/reports/attachments/2026-09-24_框架消費b路/adjudicator_v3b.py",
+   "sha256": "3777470fb3c277bafd31c941973077736b0a55d0de9ea1b752f0390dc6d28dc2",
+   "位元": 1275,
+   "被誰 import": [
+    "adjudicator_v3b ← run_perf.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "scripts/canon_v3/modeling.py",
+   "sha256": "e75067d2aa5452c51ee618cb4ab5db2063e92bbd07ae476d4a4254f0719c8c87",
+   "位元": 1677,
+   "被誰 import": [
+    "canon_v3.modeling ← classifier.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "scripts/canon_v3/prompts.py",
+   "sha256": "bc2558da42f912359d07db890a8e9b23b5f4bffc30578003acf8628359987faa",
+   "位元": 5582,
+   "被誰 import": [
+    "canon_v3.prompts ← detectors.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "src/generation/stop_tokens.py",
+   "sha256": "b7d3161dd301de92d7d073b8e0ece89885eadf59fdd24c77f780394c0c57adbd",
+   "位元": 374,
+   "被誰 import": [
+    "src.generation.stop_tokens ← modeling.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "src/model/base.py",
+   "sha256": "d36527ca9a4b03bbce9c0e730e4e52dc4c8260163af2585930b3fc84ce0646b9",
+   "位元": 722,
+   "被誰 import": [
+    "src.model.base ← chat_template.py",
+    "src.model.base ← hf_backend.py",
+    "src.model.base ← loader.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "src/model/chat_template.py",
+   "sha256": "df33089c77b59764c59065e6d7026203669efdd03f7d4fd4c8b1c0332ada2365",
+   "位元": 731,
+   "被誰 import": [
+    "src.model.chat_template ← judge_v4.py",
+    "src.model.chat_template ← modeling.py",
+    "src.model.chat_template ← probe_causal.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "src/model/hf_backend.py",
+   "sha256": "047291b12beecfdec4d6e0a6166803b960188c9fb4070c13a2b2038ded50537b",
+   "位元": 2416,
+   "被誰 import": [
+    "src.model.hf_backend ← loader.py",
+    "src.model.hf_backend ← modeling.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "src/model/loader.py",
+   "sha256": "212f07a9b94cda97490135230dacd8e6de9120ddee386ad81717265c740a976a",
+   "位元": 2673,
+   "被誰 import": [
+    "src.model.loader ← judge_v4.py",
+    "src.model.loader ← probe_causal.py",
+    "src.model.loader ← probe_noise.py"
+   ],
+   "來源": "import 鏈",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/mechanical-v2/signed_tables/knife2_one_classifier.json",
+   "sha256": "bb4a4ccadf6355ef0da0a236b6afc20084cd3b6196699116f7012b2710db7e40",
+   "位元": 2413,
+   "被誰 import": [
+    "（以路徑讀取）刀2 簽核表（detectors 讀）"
+   ],
+   "來源": "路徑讀取",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/mechanical-v2/signed_tables/function_layer.json",
+   "sha256": "ec1df128cce3e2c0a7a8d805edbad760eacc04169873907f3bb0a670dfd72a9b",
+   "位元": 1877,
+   "被誰 import": [
+    "（以路徑讀取）F4 功能層表（pipeline_v2 讀）"
+   ],
+   "來源": "路徑讀取",
+   "對v43": "同"
+  },
+  {
+   "檔": "experiments/mechanical-v2/signed_tables/lexicon_registry.json",
+   "sha256": "c207c1208d9e167053b2e0803af24c65ebd1ee443cf4b00764d358a4a00028e5",
+   "位元": 1892,
+   "被誰 import": [
+    "（以路徑讀取）F5 註冊表（classifier 讀）"
+   ],
+   "來源": "路徑讀取",
+   "對v43": "同"
+  },
+  {
+   "檔": "tools/split_sentences.py",
+   "sha256": "890a73048d47a3c748bb188d7f4cad7bbf63588d8f55a95fa3ccbbdc04f3bd31",
+   "位元": 16650,
+   "被誰 import": [
+    "（以路徑讀取）正典切分器（卷檔產生）"
+   ],
+   "來源": "路徑讀取",
+   "對v43": "改"
+  }
+ ],
+ "flags": {
+  "F1_DOC_STATUS": "True",
+  "F1_WRITING_SPEC_EXEMPT（本代新增）": "True",
+  "F1_WS_SCOPE": "sentence",
+  "F2_WS_EXEMPT（本代新增）": "True",
+  "F2_DESCRIPTIVE_NON_FIRST": "True",
+  "F2_SCOPE": "sentence",
+  "F3_IMPERATIVE_YOU": "True",
+  "F4_FUNCTION_LAYER": "True",
+  "F4_COMBINE": "and",
+  "KNIFE1C_PASTE_SCOPE": "True",
+  "KNIFE1C_AS_FALLBACK": "True",
+  "KNIFE2_ONE_CLASSIFIER": "True",
+  "KNIFE1_AGG_FIX（棄決）": "False",
+  "CASE1_POSSESSIVE_EXCEPTION": "True",
+  "CASE2_DEGREE_GUARD": "True",
+  "TIME_INHERIT": "False",
+  "PERSON_INHERIT": "False"
+ },
+ "entries": [
+  "experiments/perf-station/run_perf.py",
+  "experiments/blindtest/scripts/run_7b_arm.py",
+  "experiments/control-station/judge_v4.py"
+ ]
+}

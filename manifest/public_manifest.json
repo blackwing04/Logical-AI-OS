@@ -1,0 +1,281 @@
+{
+ "rows": [
+  {
+   "檔": "docs/literature_mapping.md",
+   "sha256": "8a10c693e2b9a1cec1ec73f7b9f5b94c9e08d8e24d4094d36db86ad8e7335f4f",
+   "位元": 17800,
+   "處理": "去人名",
+   "內部來源": "docs/literature_mapping.md",
+   "內部來源sha256": null
+  },
+  {
+   "檔": "docs/method/2026-07-22_四條相鄰文獻線查證與定位.md",
+   "sha256": "a50cc3b2fc841024af15cbde83716f12e44f8a55fd9f60de2bbb1bbc896a62e6",
+   "位元": 3692,
+   "處理": "原樣",
+   "內部來源": "docs/timeline/2026-07-22_method_四條相鄰文獻線查證與定位.md",
+   "內部來源sha256": null
+  },
+  {
+   "檔": "docs/method/2026-07-29_方法論答辯_模型貼標籤.md",
+   "sha256": "a4f995913af6b0afd3a76fc55cf2ee93f0eeda110799b794270ae43bab782ee6",
+   "位元": 6598,
+   "處理": "去人名",
+   "內部來源": "docs/timeline/2026-07-29_method_模型貼標籤方法論答辯.md",
+   "內部來源sha256": null
+  },
+  {
+   "檔": "docs/method/2026-07-29_框架_GPS對外解釋.md",
+   "sha256": "82c47e4d0d68593796447ff0570d5d79ba5c8c04d564b8b0df56788d7271886c",
+   "位元": 3800,
+   "處理": "去人名",
+   "內部來源": "docs/timeline/2026-07-29_framework_GPS對外解釋.md",
+   "內部來源sha256": null
+  },
+  {
+   "檔": "docs/protocol/盲測制度說明.md",
+   "sha256": "9c63c7b94185764a0906749d96f996451bbc8d4a89acb36ef40e2ffdec4270bb",
+   "位元": 7105,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "docs/theory/AI行為虛構_機制假說與文獻對應.md",
+   "sha256": "35677340fca14043f5567bf2801d09591be018c0d3bcfce8a1b468d8766f56ef",
+   "位元": 4187,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "docs/theory/失控機制理論與文獻定位.md",
+   "sha256": "0d5ba4399f925427fbdcd25887e7f1908d9bd35efe55ebbf0079e50b2f4f83e0",
+   "位元": 3723,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "LICENSE",
+   "sha256": "6ac9e44619713aa8dd4c4e57362e7a2b5911db90d60148f324bdb2d670be8871",
+   "位元": 1083,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "LICENSE-docs",
+   "sha256": "1ec1b3d515d885939000ca28250c4887bfa0ccad571860cb1cfb775d8c34405c",
+   "位元": 1883,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "manifest/v45_manifest.json",
+   "sha256": "ab05661190ff303fe63ead8f545469111d18fb5a34f450d2976d5655977e7958",
+   "位元": 10167,
+   "處理": "原樣",
+   "內部來源": "experiments/control-station/v45_manifest.json",
+   "內部來源sha256": null
+  },
+  {
+   "檔": "manifest/v45_manifest.md",
+   "sha256": "40d3b839efbaa000c32945175ec83ebd9990619ec12bd2879aad92ab3bb485de",
+   "位元": 4863,
+   "處理": "原樣",
+   "內部來源": "experiments/control-station/v45_manifest.md",
+   "內部來源sha256": null
+  },
+  {
+   "檔": "manifest/v45_manifest.py",
+   "sha256": "c87a5cb7e9ef7bc8f6707032d0304fd2c458f9556915a29c1ce20c729ff82cee",
+   "位元": 8514,
+   "處理": "去人名",
+   "內部來源": "experiments/control-station/v45_manifest.py",
+   "內部來源sha256": null
+  },
+  {
+   "檔": "MANIFEST.md",
+   "sha256": "d9e6cc9df34ee373c0278567fc88f3d1f7bedb69ef8079aff7e176e1408450b2",
+   "位元": 17393,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "PUBLIC_NOTES.md",
+   "sha256": "3ca27d271fc603fd4c092f9e23afa66cb5bc64631db13edc6090df12277925af",
+   "位元": 4813,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "README.md",
+   "sha256": "e9cc20e3aeef3e966909004c50910dc8ab053b079e10266e2f01fd58b401fba0",
+   "位元": 5182,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "results/2026-10-05_卷五開獎報告_去語料.md",
+   "sha256": "8ccf64ed0a901e4ebc731b98fc381d7a53a36501bc7eb77c1b04abde2a22014e",
+   "位元": 2074,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "results/2026-10-06_卷七開獎報告_辨識線結案_去語料.md",
+   "sha256": "3dbe4328e30fddbc3fe2292feffa520e716d1bfbed4897d6b9f48b8ecdc877ab",
+   "位元": 3403,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "results/2026-10-06_卷六開獎報告_去語料.md",
+   "sha256": "bcc3ca26724f38472263830fc11e2868ceaaf12583128fa2e30fa366236e8b9b",
+   "位元": 1370,
+   "處理": "新寫／節錄",
+   "內部來源": null,
+   "內部來源sha256": null
+  },
+  {
+   "檔": "src/blindtest/run_7b_arm.py",
+   "sha256": "cb2ed42dee7e6d2f0dee6723c6439fb01ade50ecea9b7886690ce1bd95bebfeb",
+   "位元": 6755,
+   "處理": "去人名",
+   "內部來源": "experiments/blindtest/scripts/run_7b_arm.py",
+   "內部來源sha256": "cb2ed42dee7e6d2f0dee6723c6439fb01ade50ecea9b7886690ce1bd95bebfeb"
+  },
+  {
+   "檔": "src/control/judge_v4.py",
+   "sha256": "764732bfb7e1596a06068fba4268c0cf141642aa365ee71b63d1c8d19b851482",
+   "位元": 32331,
+   "處理": "去人名",
+   "內部來源": "experiments/control-station/judge_v4.py",
+   "內部來源sha256": "8845e46d5aaaa97fb63699916172b5f61901f05462f177a0aabfbef0c81df341"
+  },
+  {
+   "檔": "src/control/request_form.py",
+   "sha256": "7ed23ac8fadc52072725d7f542be869ad61d4487b26101206cd7a8c2bb5e72cc",
+   "位元": 10425,
+   "處理": "去人名",
+   "內部來源": "experiments/control-station/request_form.py",
+   "內部來源sha256": "15f0eec929ad946f434f95a8a3c35d21791b875c09c76c90174084c356fed587"
+  },
+  {
+   "檔": "src/mechanical/clause_v2.py",
+   "sha256": "5b182a8cac27b376131625bdf3f6fa0b5b765510d329641dd17a5ae057a34d67",
+   "位元": 29111,
+   "處理": "去語料+去人名",
+   "內部來源": "experiments/mechanical-v2/clause_v2.py",
+   "內部來源sha256": "1524a992a869b98fc7fb08be3d8b9b4b9b270ce5b0dad138feded35c978a40c1"
+  },
+  {
+   "檔": "src/mechanical/detectors.py",
+   "sha256": "48612cc9095a91fb60109a5785db32a575f7304fe997d99c7e18f30f660d470b",
+   "位元": 28985,
+   "處理": "去人名",
+   "內部來源": "experiments/mechanical-v2/detectors.py",
+   "內部來源sha256": "69a6cedefaeaf5f8aa7e75989ae4b8ca3d813afec0ed85bca9c6e55591f1173e"
+  },
+  {
+   "檔": "src/mechanical/lexicon_v2.py",
+   "sha256": "c7121d902052697a4a7dba64bd3984e6d0d70d63c079f04311a8783dea69a8c7",
+   "位元": 34829,
+   "處理": "去人名",
+   "內部來源": "experiments/mechanical-v2/lexicon_v2.py",
+   "內部來源sha256": "99b6e68b297358c8639929314d748ccb2d11d9f5b86bdb67aa99c99dc4e88c7a"
+  },
+  {
+   "檔": "src/mechanical/pipeline_v2.py",
+   "sha256": "092c1c715ad454d4c43fdb924c7e3a970962234d44855f15c898543a2e8bf5ee",
+   "位元": 8497,
+   "處理": "去語料+去人名",
+   "內部來源": "experiments/mechanical-v2/pipeline_v2.py",
+   "內部來源sha256": "d8723b37c3ac4017e08694be7f4e53c02fb2e78091e6639093c6b9e8e96f69a1"
+  },
+  {
+   "檔": "src/mechanical/reorder_v2.py",
+   "sha256": "d1c022bee13ee2c02eae98d25c91bc140a445aca7f5bb36d2393403242c43675",
+   "位元": 10561,
+   "處理": "去語料+去人名",
+   "內部來源": "experiments/mechanical-v2/reorder_v2.py",
+   "內部來源sha256": "c8aeb6795009d9a8caf613a041816702a501bd0190b70e80a3c041029e52a56a"
+  },
+  {
+   "檔": "src/mechanical/rules_v2.py",
+   "sha256": "1e3fc5e9ec09c15fa5a6d5ab934f3fd9e89709fd76894997100769ca98cbcd5e",
+   "位元": 11450,
+   "處理": "去人名",
+   "內部來源": "experiments/mechanical-v2/rules_v2.py",
+   "內部來源sha256": "f979a3095f9b8d82222d26097df293ec3d5a085021987c8d1056a0dfda7b9764"
+  },
+  {
+   "檔": "src/mechanical/signed_tables/function_layer.json",
+   "sha256": "dd4a3d4a2557d205c460166c2be14fe8286d8b48b563809b43f1a76066b75f1a",
+   "位元": 1876,
+   "處理": "去人名",
+   "內部來源": "experiments/mechanical-v2/signed_tables/function_layer.json",
+   "內部來源sha256": "ec1df128cce3e2c0a7a8d805edbad760eacc04169873907f3bb0a670dfd72a9b"
+  },
+  {
+   "檔": "src/mechanical/signed_tables/knife2_one_classifier.json",
+   "sha256": "b106667fd4350cbea24be094ff92f02bb21afca41627434c28aa30934e4f751d",
+   "位元": 2409,
+   "處理": "去人名",
+   "內部來源": "experiments/mechanical-v2/signed_tables/knife2_one_classifier.json",
+   "內部來源sha256": "bb4a4ccadf6355ef0da0a236b6afc20084cd3b6196699116f7012b2710db7e40"
+  },
+  {
+   "檔": "src/mechanical/signed_tables/lexicon_registry.json",
+   "sha256": "52586129f1461d6b88fb35eca98394e47fbc75f1f6271a55353fac456a23025d",
+   "位元": 1891,
+   "處理": "去人名",
+   "內部來源": "experiments/mechanical-v2/signed_tables/lexicon_registry.json",
+   "內部來源sha256": "c207c1208d9e167053b2e0803af24c65ebd1ee443cf4b00764d358a4a00028e5"
+  },
+  {
+   "檔": "src/perf/early_stop.py",
+   "sha256": "3e60d5a62f3ff9fcdd197a3f831b35488954164ff988c536d5fdd227dad99aab",
+   "位元": 3451,
+   "處理": "去人名",
+   "內部來源": "experiments/perf-station/early_stop.py",
+   "內部來源sha256": "3e60d5a62f3ff9fcdd197a3f831b35488954164ff988c536d5fdd227dad99aab"
+  },
+  {
+   "檔": "src/perf/run_perf.py",
+   "sha256": "60c211e02ccd5c397bb5192fc1e348db77a6f7867cb8f3f233aef10413e8024e",
+   "位元": 28860,
+   "處理": "去人名",
+   "內部來源": "experiments/perf-station/run_perf.py",
+   "內部來源sha256": "83b01addf50c804ce85b23e5cf947f522a27d74d4a90fc3d5d5d0ac3fe8a662d"
+  },
+  {
+   "檔": "src/perf/schema_v1.py",
+   "sha256": "3118b84b017ffd7eab9308b46de5097528109bdf3db7bb78caf6a4269cd0ca4d",
+   "位元": 5401,
+   "處理": "去人名",
+   "內部來源": "experiments/perf-station/schema_v1.py",
+   "內部來源sha256": "712ffc481bd0800d4edd0e73b79a0f2f36a6f1bfa9dfb11718e3862098fbb8b5"
+  },
+  {
+   "檔": "src/tools/split_sentences.py",
+   "sha256": "34bfcbf9d1c82cfeddd6508d8140f349dc5fcad9cae3491697b2256cd3fd554a",
+   "位元": 16616,
+   "處理": "去語料+去人名",
+   "內部來源": "tools/split_sentences.py",
+   "內部來源sha256": "890a73048d47a3c748bb188d7f4cad7bbf63588d8f55a95fa3ccbbdc04f3bd31"
+  }
+ ],
+ "未涵蓋": [
+  "manifest/public_manifest.json",
+  "manifest/public_manifest.md"
+ ],
+ "雜湊法": "sha256(LF 正規化後的位元組)"
+}
