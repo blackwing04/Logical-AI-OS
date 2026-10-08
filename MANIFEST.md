@@ -21,9 +21,9 @@
 | # | staging 路徑 | 來源 | 處理 | sha256（前16） | 來源 sha256（前16） | 為何該公開 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | `docs/literature_mapping.md` | `docs/literature_mapping.md` | **去人名** | `8a10c693e2b9a1ce` | `b04affc65ec636aa` | 文獻對照總表，39 列，含「借名」與「已有前作」的誠實判定；外部審查最需要的一份 |
-| 2 | `docs/method/2026-07-22_四條相鄰文獻線查證與定位.md` | `docs/timeline/2026-07-22_method_四條相鄰文獻線查證與定位.md` | **原樣** | `a50cc3b2fc841024` | `a50cc3b2fc841024` | 四條相鄰線逐線判決；對外定位句的出處，無語料無人名 |
-| 3 | `docs/method/2026-07-29_方法論答辯_模型貼標籤.md` | `docs/timeline/2026-07-29_method_模型貼標籤方法論答辯.md` | **去人名** | `a4f995913af6b0af` | `d8287a5c2ce3a365` | 「用模型貼標籤為何不自相矛盾」的答辯；已是概念文 |
-| 4 | `docs/method/2026-07-29_框架_GPS對外解釋.md` | `docs/timeline/2026-07-29_framework_GPS對外解釋.md` | **去人名** | `82c47e4d0d685937` | `ce7b6f59a1c4df2d` | 對外解釋框架（黑箱三層／GPS 比喻／ASK 定位）；已是概念文 |
+| 2 | `docs/method/2026-07-22_adjacent-literature-lines.md` | `docs/timeline/2026-07-22_method_四條相鄰文獻線查證與定位.md` | **原樣** | `a50cc3b2fc841024` | `a50cc3b2fc841024` | 四條相鄰線逐線判決；對外定位句的出處，無語料無人名 |
+| 3 | `docs/method/2026-07-29_methodology-defense_model-labeling.md` | `docs/timeline/2026-07-29_method_模型貼標籤方法論答辯.md` | **去人名** | `a4f995913af6b0af` | `d8287a5c2ce3a365` | 「用模型貼標籤為何不自相矛盾」的答辯；已是概念文 |
+| 4 | `docs/method/2026-07-29_framework_gps-analogy.md` | `docs/timeline/2026-07-29_framework_GPS對外解釋.md` | **去人名** | `82c47e4d0d685937` | `ce7b6f59a1c4df2d` | 對外解釋框架（黑箱三層／GPS 比喻／ASK 定位）；已是概念文 |
 | 5 | `manifest/v45_manifest.json` | `experiments/control-station/v45_manifest.json` | **原樣** | `ab05661190ff303f` | `ab05661190ff303f` | 同上，完整 64 位雜湊 |
 | 6 | `manifest/v45_manifest.md` | `experiments/control-station/v45_manifest.md` | **原樣** | `40d3b839efbaa000` | `40d3b839efbaa000` | v4.5 封筆 31 組件雜湊與旗標表；只有路徑與雜湊，無語料 |
 | 7 | `manifest/v45_manifest.py` | `experiments/control-station/v45_manifest.py` | **去人名** | `c87a5cb7e9ef7bc8` | `c87a5cb7e9ef7bc8` | manifest 產生器本身（自 import 鏈反查，不憑印象列） |
@@ -53,12 +53,12 @@
 | 3 | `MANIFEST.md` | （本檔） | **新寫** | `4d6d7469f995c3e9` | 17484 | 收裝清單與自查結果，令文 §一要求 |
 | 4 | `PUBLIC_NOTES.md` | （公開版新寫） | **新寫** | `3ca27d271fc603fd` | 4813 | 去語料／去人名的處理聲明，與雜湊落差的說明 |
 | 5 | `README.md` | （公開版新寫） | **新寫** | `e9cc20e3aeef3e96` | 5182 | 倉導覽；**誠實清單前置**：把借名、已有前作、方法學缺口、制度未解決的三件事放在和結果同等位置 |
-| 6 | `docs/protocol/盲測制度說明.md` | （公開版新寫，材料散在內部各輪修正令） | **新寫** | `9c63c7b94185764a` | 7105 | 三方分權／seed 規矩／gold 凍結流程／artifact 自證；**制度說明可公開，gold 本身不可**。§九 列出這套制度沒解決的事 |
-| 7 | `docs/theory/AI行為虛構_機制假說與文獻對應.md` | 節錄：`laios-bridge/docs/timeline/2026-08-15_AI行為虛構事件紀錄_Fable5.md` §五＋§六 | **節錄** | `35677340fca14043` | 4187 | **只留機制假說與文獻對應**；逐輪事件紀錄全刪，依令文辦 |
-| 8 | `docs/theory/失控機制理論與文獻定位.md` | 節錄：`docs/timeline/2026-08-04_archive_R8R9結案與失控機制.md` §六 ＋ `laios-bridge/docs/timeline/2026-08-05_archive_R10R10b結案.md` §五 | **節錄** | `0d5ba4399f925427` | 3723 | 四句失控論與其文獻定位；概念文，去人名後可公開 |
-| 9 | `results/2026-10-05_卷五開獎報告_去語料.md` | `laios-bridge/reports/2026-10-05_卷五開獎報告.md` | **去語料** | `8ccf64ed0a901e4e` | 2074 | 歷卷帳的第一筆有效卷（我方負）；統計與歸因留，原句片段刪 |
-| 10 | `results/2026-10-06_卷七開獎報告_辨識線結案_去語料.md` | `laios-bridge/reports/2026-10-06_卷七開獎報告_辨識線結案.md` | **去語料** | `3dbe4328e30fddbc` | 3403 | 辨識線結案與有界結論；對外能寫與不能寫的話都在這裡 |
-| 11 | `results/2026-10-06_卷六開獎報告_去語料.md` | `laios-bridge/reports/2026-10-06_卷六開獎報告.md` | **去語料** | `bcc3ca26724f3847` | 1370 | 不算成績那一卷；根因是判準層令文缺陷，**公開這一筆才看得出修法的由來** |
+| 6 | `docs/protocol/blind-test-protocol.md` | （公開版新寫，材料散在內部各輪修正令） | **新寫** | `9c63c7b94185764a` | 7105 | 三方分權／seed 規矩／gold 凍結流程／artifact 自證；**制度說明可公開，gold 本身不可**。§九 列出這套制度沒解決的事 |
+| 7 | `docs/theory/behavioral-confabulation_mechanism-and-literature.md` | 節錄：`laios-bridge/docs/timeline/2026-08-15_AI行為虛構事件紀錄_Fable5.md` §五＋§六 | **節錄** | `35677340fca14043` | 4187 | **只留機制假說與文獻對應**；逐輪事件紀錄全刪，依令文辦 |
+| 8 | `docs/theory/runaway-mechanism_theory-and-literature.md` | 節錄：`docs/timeline/2026-08-04_archive_R8R9結案與失控機制.md` §六 ＋ `laios-bridge/docs/timeline/2026-08-05_archive_R10R10b結案.md` §五 | **節錄** | `0d5ba4399f925427` | 3723 | 四句失控論與其文獻定位；概念文，去人名後可公開 |
+| 9 | `results/2026-10-05_round5_results_redacted.md` | `laios-bridge/reports/2026-10-05_卷五開獎報告.md` | **去語料** | `8ccf64ed0a901e4e` | 2074 | 歷卷帳的第一筆有效卷（我方負）；統計與歸因留，原句片段刪 |
+| 10 | `results/2026-10-06_round7_results_recognizer-line-closeout_redacted.md` | `laios-bridge/reports/2026-10-06_卷七開獎報告_辨識線結案.md` | **去語料** | `3dbe4328e30fddbc` | 3403 | 辨識線結案與有界結論；對外能寫與不能寫的話都在這裡 |
+| 11 | `results/2026-10-06_round6_results_redacted.md` | `laios-bridge/reports/2026-10-06_卷六開獎報告.md` | **去語料** | `bcc3ca26724f3847` | 1370 | 不算成績那一卷；根因是判準層令文缺陷，**公開這一筆才看得出修法的由來** |
 
 ---
 
@@ -97,8 +97,8 @@ id 單獨存在無法回溯到語料）；**留** PI 自撰的測試句，但在
 | 檔 | 代換處數 |
 | --- | --- |
 | `docs/literature_mapping.md` | 1 處 |
-| `docs/method/2026-07-29_方法論答辯_模型貼標籤.md` | 3 處 |
-| `docs/method/2026-07-29_框架_GPS對外解釋.md` | 1 處 |
+| `docs/method/2026-07-29_methodology-defense_model-labeling.md` | 3 處 |
+| `docs/method/2026-07-29_framework_gps-analogy.md` | 1 處 |
 | `src/mechanical/clause_v2.py` | 7 處 |
 | `src/mechanical/reorder_v2.py` | 6 處 |
 | `src/mechanical/pipeline_v2.py` | 3 處 |
@@ -250,4 +250,46 @@ id 單獨存在無法回溯到語料）；**留** PI 自撰的測試句，但在
 
 1. **公開版 manifest 要不要另出**（§3a）——現行做法需兩步才可驗。
 2. **`lexicon_v2.py` 的 PI 自撰測試句**要不要一併刪（§3b）。
-3. **我補進 `進` 清單的兩項**，請核：`docs/protocol/盲測制度說明.md`（新寫，令文列了「盲測制度說明」但倉內無此檔，故由我整理）與 `README.md`（新寫，公開倉需要入口；我把誠實清單放在最前面）。
+3. **我補進 `進` 清單的兩項**，請核：`docs/protocol/blind-test-protocol.md`（新寫，令文列了「盲測制度說明」但倉內無此檔，故由我整理）與 `README.md`（新寫，公開倉需要入口；我把誠實清單放在最前面）。
+
+---
+
+## 七、檔名 ASCII 改名對照（2026-10-08）
+
+公開倉的九個中文檔名已改為 ASCII。**改名不動內容**——其中 **8 個檔與
+`ade2734` 逐位元組相同**，雜湊與原始發佈的值一致。
+
+**一個例外，照實記**：`results/2026-10-06_round6_results_redacted.md`
+差 **1 行**——它的正文有一行連到 round7 的報告，而那個檔也被改名了。
+「九檔逐位元組相同」與「全倉無舊路徑」兩條在這一個檔上不能同時成立；
+取**連結可用**，因為保留舊路徑會在本倉留一個指向不存在檔案的連結。
+該行的新舊內容在內部工作倉的 `rename_log.json` 逐字留存。
+
+| # | 原名 | 新名 |
+| --- | --- | --- |
+| 1 | `docs/method/2026-07-22_四條相鄰文獻線查證與定位.md` | `docs/method/2026-07-22_adjacent-literature-lines.md` |
+| 2 | `docs/method/2026-07-29_方法論答辯_模型貼標籤.md` | `docs/method/2026-07-29_methodology-defense_model-labeling.md` |
+| 3 | `docs/method/2026-07-29_框架_GPS對外解釋.md` | `docs/method/2026-07-29_framework_gps-analogy.md` |
+| 4 | `docs/protocol/盲測制度說明.md` | `docs/protocol/blind-test-protocol.md` |
+| 5 | `docs/theory/AI行為虛構_機制假說與文獻對應.md` | `docs/theory/behavioral-confabulation_mechanism-and-literature.md` |
+| 6 | `docs/theory/失控機制理論與文獻定位.md` | `docs/theory/runaway-mechanism_theory-and-literature.md` |
+| 7 | `results/2026-10-05_卷五開獎報告_去語料.md` | `results/2026-10-05_round5_results_redacted.md` |
+| 8 | `results/2026-10-06_卷六開獎報告_去語料.md` | `results/2026-10-06_round6_results_redacted.md` |
+| 9 | `results/2026-10-06_卷七開獎報告_辨識線結案_去語料.md` | `results/2026-10-06_round7_results_recognizer-line-closeout_redacted.md` |
+
+碼內識別字同時改名（`lexicon` 的 `v2*` 一族，9 個鍵）：
+
+| 舊 | 新 |
+| --- | --- |
+| `v2寫作規格形_字負向右界` | `v2_writing_spec_form_char_neg_right_bound` |
+| `v2寫作規格形_段負向右界` | `v2_writing_spec_form_para_neg_right_bound` |
+| `v2寫作規格形_blockers` | `v2_writing_spec_form_blockers` |
+| `v2寫作規格形_出處` | `v2_writing_spec_form_source` |
+| `v2寫作規格形` | `v2_writing_spec_form` |
+| `v2英文單位_出處` | `v2_english_unit_source` |
+| `v2英文單位字母` | `v2_english_unit_letters` |
+| `v2補充單位_出處` | `v2_supplementary_units_source` |
+| `v2補充單位` | `v2_supplementary_units` |
+
+`lexicon` 另有 61 個中文鍵**未動**——那是已簽核詞表的結構，
+改它屬判準層變更，須先簽核。對照草案留在內部工作倉，不在本倉。

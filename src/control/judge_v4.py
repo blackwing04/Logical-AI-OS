@@ -18,7 +18,7 @@ B = f(I, C, R) 的 **B 出口工程**：感知層候選在此被裁決為三類�
 2. **K 配額不選**：§二.3 說「K 於開發集定」，放行令 §4 說開發集探索交數後由
    聊天端起草、PI 簽。所以本檔**輸出完整池序與各 K 的出口曲線，不挑 K**。
 3. **型標不發明**：契約 §二 表要求 C 的型標（寫作規格／個人條件／資源清單／其他），
-   可機械推導的只有**寫作規格**（修三 `v2寫作規格形` cue 命中）；
+   可機械推導的只有**寫作規格**（修三 `v2_writing_spec_form` cue 命中）；
    個人條件／資源清單無任何既有偵測器，要新詞表＝判準層物件。
    故填「寫作規格」或「其他（型標詞表未簽，無法機械分型）」，**不自造分類器**。
 
@@ -95,7 +95,7 @@ def type_tag(rec):
 	hits = rec.get("表五命中") or []
 	try:
 		import lexicon_v2 as L
-		ws = {w[0] for w in L.CONSTRAINT_SHAPE["v2寫作規格形"] if w[3] == "詞"}
+		ws = {w[0] for w in L.CONSTRAINT_SHAPE["v2_writing_spec_form"] if w[3] == "詞"}
 	except Exception:
 		ws = set()
 	if any(h in ws for h in hits):
@@ -412,7 +412,7 @@ def main() -> None:
 	print("| 供應物 | 件數 | 說明 |")
 	print("| --- | --- | --- |")
 	print("| **C**（條件） | **%d** | 出口＝執行 或 ASK 者；含型標／出口類別／來源層／票型／P值（歸因鏈全留） |" % len(C))
-	print("| ├ 其中型標＝寫作規格 | %d | 由修三 `v2寫作規格形` cue 推導 |"
+	print("| ├ 其中型標＝寫作規格 | %d | 由修三 `v2_writing_spec_form` cue 推導 |"
 	      % sum(1 for x in C if x["型標"] == "寫作規格"))
 	print("| └ 其中型標＝其他 | %d | **型標詞表未簽，無法機械分型**（個人條件／資源清單缺偵測器） |"
 	      % sum(1 for x in C if x["型標"] != "寫作規格"))

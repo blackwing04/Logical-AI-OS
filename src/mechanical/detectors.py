@@ -503,9 +503,9 @@ def constraint_shape(text: str) -> dict:
 	        if not (c.get("source") == "table5_limiting_head"
 	                and c.get("cue") in _BOUNDARY_GUARDED_HEADS
 	                and not _guarded_head_ok(text, str(c["cue"])))]
-	pats = [_NUM + "(?:" + "|".join(L.CONSTRAINT_SHAPE["v2補充單位"]) + ")"]
+	pats = [_NUM + "(?:" + "|".join(L.CONSTRAINT_SHAPE["v2_supplementary_units"]) + ")"]
 	# 修一：英文單位字母。**左邊必須是阿拉伯數字**（含全形），大小寫皆收。
-	letters = "".join(L.CONSTRAINT_SHAPE["v2英文單位字母"])
+	letters = "".join(L.CONSTRAINT_SHAPE["v2_english_unit_letters"])
 	pats.append(r"[0-9０-９]+[%s%s]" % (letters, letters.lower()))
 	extra = scan_re(text, tuple(pats))
 	for e in extra:
@@ -534,16 +534,16 @@ def constraint_shape(text: str) -> dict:
 # ── 修三（2026-09-25 修三補位令第二節）：表五增補「寫作規格形」 ─────────────
 # 與既有表五**同等地位、同一入口**——掛在 `constraint_shape` 裡，
 # 所以照樣受 `reorder_v2` 的框架閘管（主請求框／過去敘事框／描述框不進場）。
-# 詞表與每一詞形的類別歸屬理由在 `lexicon_v2.CONSTRAINT_SHAPE["v2寫作規格形"]`。
-_WS = L.CONSTRAINT_SHAPE["v2寫作規格形"]
+# 詞表與每一詞形的類別歸屬理由在 `lexicon_v2.CONSTRAINT_SHAPE["v2_writing_spec_form"]`。
+_WS = L.CONSTRAINT_SHAPE["v2_writing_spec_form"]
 _WS_CAT = {w[0]: (w[1], w[2]) for w in _WS}
 _WS_TERMS = tuple(w[0] for w in _WS if w[3] == "詞")
-_WS_BLOCKERS = L.CONSTRAINT_SHAPE["v2寫作規格形_blockers"]
+_WS_BLOCKERS = L.CONSTRAINT_SHAPE["v2_writing_spec_form_blockers"]
 # 數字構式帶負向右界：「一段時間」「一段路」不是篇幅，「五十字體」不是字數。
 _WS_PATTERNS = {
 	"N個字": _NUM + "個字",
-	"N字": _NUM + "字(?!" + "|".join(L.CONSTRAINT_SHAPE["v2寫作規格形_字負向右界"]) + ")",
-	"N段": _NUM + "段(?!" + "|".join(L.CONSTRAINT_SHAPE["v2寫作規格形_段負向右界"]) + ")",
+	"N字": _NUM + "字(?!" + "|".join(L.CONSTRAINT_SHAPE["v2_writing_spec_form_char_neg_right_bound"]) + ")",
+	"N段": _NUM + "段(?!" + "|".join(L.CONSTRAINT_SHAPE["v2_writing_spec_form_para_neg_right_bound"]) + ")",
 	"N句": _NUM + "句",
 }
 

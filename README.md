@@ -34,7 +34,7 @@
   - 「對抗抽樣」是**借名**（哨兵對應 MFT，不是 contrast set）；
   - 「空框請求」**無文獻支持**，不掛在言語行為論底下；
   - bootstrap 的重抽單位有方法學缺口（以句重抽，但同篇句子不獨立）。
-- [`docs/protocol/盲測制度說明.md`](docs/protocol/盲測制度說明.md) §九 —
+- [`docs/protocol/blind-test-protocol.md`](docs/protocol/blind-test-protocol.md) §九 —
   這套評測制度**沒有解決的三件事**。
 
 ## 目錄

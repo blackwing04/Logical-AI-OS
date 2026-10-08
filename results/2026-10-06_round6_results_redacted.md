@@ -12,7 +12,7 @@ v4.3 **16.9** ／ 裸 7B **43.2** ／ 全判有 **25.8**。
 而寫作規格句（字數、格式一類）本來就沒有第一人稱，於是被誤鎖成貼文、
 表五不進場、送進模型層後降權棄答。**36 句漏抓裡有 22 句出於此。**
 
-修法與後續在 `results/2026-10-06_卷七開獎報告_辨識線結案_去語料.md` 與
+修法與後續在 `results/2026-10-06_round7_results_recognizer-line-closeout_redacted.md` 與
 `src/mechanical/clause_v2.py`（`F1_WRITING_SPEC_EXEMPT`）、
 `src/mechanical/reorder_v2.py`（`F2_WS_EXEMPT`）。
 
