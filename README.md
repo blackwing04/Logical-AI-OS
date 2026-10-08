@@ -1,97 +1,165 @@
-# Logical AI OS — 公開收裝
+English | [繁體中文](README.zh-TW.md)
 
-以邏輯映射取代參數窮舉的一次實作嘗試。行為公式 `B = f(I, C, R)`，驗證公式 `M = i × e`。
+# Logical AI OS — public release
 
-本倉是**辨識線結案後的公開收裝**：把一條做完、有結論、結論有界的研究線
-連同它的碼、判準表、文獻定位與評測制度一起放出來。
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23226740.svg)](https://doi.org/10.5281/zenodo.23226740)
+[![prior work: LoRA line](https://zenodo.org/badge/DOI/10.5281/zenodo.17848554.svg)](https://doi.org/10.5281/zenodo.17848554)
+[![prior work: LoRA line](https://zenodo.org/badge/DOI/10.5281/zenodo.17848305.svg)](https://doi.org/10.5281/zenodo.17848305)
 
-## 這條線做了什麼、結果是什麼
+An attempt at replacing parameter search with logical mapping. Behaviour equation
+`B = f(I, C, R)`; verification equation `M = i × e`.
 
-目標是：用一個**外部機械層**（零模型呼叫的語言學判準）加一個**小模型**（3B），
-在開放領域的使用者請求上，把「對答案的限制」與「待處理的材料」分開；
-缺口不猜，走 ASK 回問。
+This repository is the **public release made after the recognizer line was closed
+out**: one research line that was carried to completion, reached a conclusion, and
+whose conclusion is bounded — released together with its code, its criterion tables,
+its literature positioning and its evaluation protocol.
 
-七卷盲測、三方分權評測、兩臂對照（本系統 vs 裸 7B）。**結論是有界的**：
+## What this line did, and what came out of it
 
-- **不能宣稱「外部框架 ＋ 3B ≥ 裸 7B」。** 兩次有效卷一勝一負，勝的那卷
-  bootstrap 95% 區間含零。
-- **能宣稱的穩定差異（兩卷同向）**：守側哨兵上框架 0/10、1/7，裸 7B 4/10、5/7
-  ——裸模型會把小說文案與截斷自述判成限制，框架不會；兩者的偽陽性型態不同。
-- **兩條路徑的共同天花板**：無字面形狀的語義限制（要求改變措辭風格、語氣、
-  詞彙層級一類），兩邊都抓不到。
+The goal: use an **external mechanical layer** (zero model calls, linguistic
+criteria) plus a **small model** (3B) to separate, in open-domain user requests,
+"constraints on the answer" from "material to be processed"; where there is a gap,
+ask rather than guess.
 
-詳見 [`results/`](results/)。
+Seven blind rounds, three-party separation of duties, two arms (this system vs. a
+bare 7B). **The conclusion is bounded:**
 
-## 誠實清單（先讀這個）
+- **We cannot claim "external framework + 3B ≥ bare 7B."** Two valid rounds, one
+  loss and one win, and the win's bootstrap 95% interval contains zero.
+- **The stable differences we can state (same direction in both rounds):** on the
+  defensive sentinels the framework scored 0/10 and 1/7, the bare 7B 4/10 and 5/7
+  — the bare model classifies narrative copywriting and a truncated self-report as
+  constraint-bearing; the framework does not. The two arms' false positives also
+  differ in shape.
+- **The ceiling both paths share:** semantic constraints with no lexical form
+  (requirements to change phrasing, tone, vocabulary level and so on). Neither
+  reaches them.
 
-這份收裝刻意把**不利的判定**放在和結果同等的位置：
+Details in [`results/`](results/).
 
-- [`docs/literature_mapping.md`](docs/literature_mapping.md) — 39 列文獻對照總表。
-  每一列都標了關係：`對得上`／**`借名`**／**`已有前作`**／`部分重疊`／`出處待核`。
-  其中：
-  - 三件候選原創，查重結果是 **兩件「已有前作」、一件「部分重疊」**；
-  - 五框的「框架」一詞是**借名**（與 Fillmore 的 frame 不是同一構造物）；
-  - 「對抗抽樣」是**借名**（哨兵對應 MFT，不是 contrast set）；
-  - 「空框請求」**無文獻支持**，不掛在言語行為論底下；
-  - bootstrap 的重抽單位有方法學缺口（以句重抽，但同篇句子不獨立）。
-- [`docs/protocol/blind-test-protocol.md`](docs/protocol/blind-test-protocol.md) §九 —
-  這套評測制度**沒有解決的三件事**。
+## Honesty list (read this first)
 
-## 目錄
+This release deliberately places the **unfavourable findings** on the same footing
+as the results:
 
-| 路徑 | 內容 |
+- [`docs/literature_mapping.md`](docs/literature_mapping.md) — a 39-row literature
+  correspondence table. Every row is labelled with its relation:
+  `matches` / **`borrowed name`** / **`prior work exists`** / `partial overlap` /
+  `provenance pending`. Among them:
+  - of three candidate original contributions, the de-duplication search found
+    **two to be prior work and one a partial overlap**;
+  - the word "frame" for the five entry gates is a **borrowed name** (our gate is
+    not the same construct as a frame in frame semantics);
+  - "adversarial sampling" is a **borrowed name** (the sentinels correspond to a
+    minimum functionality test, not to a contrast set);
+  - the "empty-frame request" category has **no support in the literature** and is
+    not placed under speech-act theory;
+  - the bootstrap has a methodological gap in its resampling unit (resampled by
+    sentence, while sentences within one article are not independent).
+- [`docs/protocol/blind-test-protocol.md`](docs/protocol/blind-test-protocol.md) §9
+  — the **three things this evaluation protocol does not solve.**
+
+## Contents
+
+| Path | Contents |
 | --- | --- |
-| [`docs/literature_mapping.md`](docs/literature_mapping.md) | 文獻對照總表（我方零件 vs 最近前作 vs 關係 vs 來源） |
-| [`docs/method/`](docs/method/) | 四條相鄰文獻線的逐線判決、方法論答辯、對外解釋框架 |
-| [`docs/theory/`](docs/theory/) | 失控機制理論與文獻定位；AI 行為虛構的機制假說與文獻對應 |
-| [`docs/protocol/`](docs/protocol/) | 盲測制度（三方分權、seed 規矩、gold 凍結流程、artifact 自證） |
-| [`results/`](results/) | 卷五／卷六／卷七開獎報告（去語料版） |
-| [`src/`](src/) | v4.5 判定鏈：機械層、控制層、效能站、對照臂、切分器 |
-| [`src/mechanical/signed_tables/`](src/mechanical/signed_tables/) | 簽核詞表（量詞分類器、功能層、詞表註冊表） |
-| [`manifest/`](manifest/) | v4.5 封筆 manifest：31 組件的 sha256 與旗標表 |
+| [`docs/literature_mapping.md`](docs/literature_mapping.md) | Literature correspondence table (our component vs. nearest prior work vs. relation vs. source) |
+| [`docs/method/`](docs/method/) | Line-by-line verdicts on four adjacent literature lines; the methodology defence; the external explanation framework |
+| [`docs/theory/`](docs/theory/) | The runaway-mechanism theory and its literature positioning; mechanism hypotheses and literature correspondence for behavioural confabulation |
+| [`docs/protocol/`](docs/protocol/) | The blind-test protocol (three-party separation of duties, seed rules, answer-key freezing, artifact self-evidence) |
+| [`docs/PORTING.md`](docs/PORTING.md) | What transfers, what must be rebuilt, and what must be re-signed when porting this measurement layer to another language |
+| [`results/`](results/) | Round 5 / 6 / 7 results reports (corpus-redacted) |
+| [`src/`](src/) | The v4.5 judgement chain: mechanical layer, control layer, performance station, comparison arm, sentence splitter |
+| [`src/mechanical/signed_tables/`](src/mechanical/signed_tables/) | Signed tables (numeral-classifier classifier, function layer, lexicon registry) |
+| [`manifest/`](manifest/) | The v4.5 sealing manifest: sha256 of 31 components plus the flag table |
+| `papers/` | The technical report (Zenodo deposit): body, Chinese abstract, bibliography. **Not in this commit** — it lands with the Zenodo deposit |
 
-## 公開範圍與不公開的東西
+## Scope of this release, and what is not in it
 
-**不在本倉**，而且是刻意的：
+**Not in this repository**, and that is deliberate:
 
-- **七卷的句子檔與任何原始語料衍生內容**。測試語料源自 WildChat，
-  含真實使用者對話；本倉不重新散布任何使用者原句。
-- **所有答案本（gold）**。公開答案本等於作廢這些卷。
-- 各輪修正令與進度檔（內部工作流）。
-- 任何憑證。
+- **The seven rounds' sentence files and anything derived from the source corpus.**
+  The test corpus comes from WildChat, which contains real user conversations; this
+  repository redistributes no user sentence.
+- **All answer keys (gold).** Publishing them would void these rounds.
+- Each round's correction orders and progress files (internal workflow).
+- Any credential.
 
-**凡是從內部檔去語料／去人名而來的檔，檔頭都寫明處理方式**；
-逐檔逐處的刪改紀錄在 [`PUBLIC_NOTES.md`](PUBLIC_NOTES.md)。
+### Release discipline: what is public and what is not
 
-## 復現性的誠實邊界
+The scope of this project's public releases has been, since 2026-10-08, an
+**institutional line** rather than a case-by-case judgement:
 
-碼與判準表都在，但**語料不在**，所以本倉**不能逐位元組復現**七卷的數字。
-可以復現的是：
+| | Contents |
+| --- | --- |
+| **Public line = the measurement layer** | Recognition components (code, criterion tables), the evaluation protocol, the failure theory, the literature correspondence, the corpus-redacted round reports |
+| **Non-public line = the operational layer** | How the behaviour equation is gated and wired, the computation and thresholds of the verification equation, the control layer, the integrity-protocol design, and the handling of defects not yet closed out |
 
-- 判定鏈在**你自己的**句子上的行為（`src/` 可直接跑）；
-- 簽核表與旗標的完整狀態（`manifest/`）；
-- 每一個結論的歸因鏈（`results/` 的拆帳）。
+Non-public items **do not appear in this repository, nor in any outward-facing
+text**; their design drafts stay in the internal working repository. Where a record
+is needed, it takes the form of a hash commitment — **the content is sealed and only
+the hash is published**, as in
+[`COMMITMENT_2026-09-24.md`](COMMITMENT_2026-09-24.md).
 
-`manifest/` 裡的雜湊是**內部原始檔**的雜湊，與本倉的去語料版**不相符**；
-原因與對照方式見 [`PUBLIC_NOTES.md`](PUBLIC_NOTES.md) §三。這是去語料的必然代價，
-不是紀錄錯誤。
+The reason for this line is stated here rather than hidden: **the measurement layer
+can be inspected by outsiders, and before the operational layer can be inspected
+there has to be a measurement layer that can be.** Releasing the half that is
+verifiable first is a question of order, not of withholding.
 
-## 授權與引用
+**Every file that came from an internal file by corpus redaction or name redaction
+states the processing in its own header**; the per-file, per-instance record of
+deletions and edits is in [`PUBLIC_NOTES.md`](PUBLIC_NOTES.md).
 
-**雙授權，依路徑分管**：
+## The honest boundary of reproducibility
 
-| 路徑 | 授權 | 檔 |
+The code and the criterion tables are here, but **the corpus is not**, so this
+repository **cannot reproduce the seven rounds' numbers byte for byte**. What it can
+reproduce is:
+
+- the behaviour of the judgement chain on **your own** sentences (`src/` runs
+  directly);
+- the complete state of the signed tables and the flags (`manifest/`);
+- the attribution chain behind every conclusion (the breakdowns in `results/`).
+
+The hashes in `manifest/` are those of the **internal source files** and **do not
+match** this repository's corpus-redacted versions; the reason and the way to check
+across them are in [`PUBLIC_NOTES.md`](PUBLIC_NOTES.md) §3. That is the unavoidable
+cost of corpus redaction, not a recording error.
+
+## Licence and citation
+
+**Dual licence, split by path:**
+
+| Path | Licence | File |
 | --- | --- | --- |
-| [`src/`](src/)、[`manifest/`](manifest/) | **MIT** | [`LICENSE`](LICENSE) |
-| [`docs/`](docs/)、[`results/`](results/)、`README.md`、`PUBLIC_NOTES.md`、`MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
+| [`src/`](src/), [`manifest/`](manifest/) | **MIT** | [`LICENSE`](LICENSE) |
+| [`docs/`](docs/), [`results/`](results/), `papers/`, `README.md`, `PUBLIC_NOTES.md`, `MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
 
-論文（Zenodo）側為 **CC BY**。
+The paper (Zenodo) side is **CC BY**.
 
-**不在任何授權範圍內**：測試語料。它源自 WildChat，授權由該資料集自身規範；
-本倉未重新散布其中任何內容（見 [`PUBLIC_NOTES.md`](PUBLIC_NOTES.md)）。
+**Under no licence here**: the test corpus. It comes from WildChat, whose licence
+governs it; this repository redistributes none of its content (see
+[`PUBLIC_NOTES.md`](PUBLIC_NOTES.md)).
 
-### 引用
+### Citation
 
-若要引用本專案，請**連同 [`docs/literature_mapping.md`](docs/literature_mapping.md) 一起引**——
-那張表列出每個零件的最近前作與關係（含三件「借名」與兩件「已有前作」），
-**它才是這條線的誠實位置**。單引結論而不引那張表，會讓讀者誤以為零件是新的。
+**Author: Joe Yuan.** That is the project's public pen name, not a legal name, and it
+is the name to cite. The name-redaction rule described in
+[`PUBLIC_NOTES.md`](PUBLIC_NOTES.md) §1b covers internal handles and third parties;
+it does not cover this pen name.
+
+Technical report: Joe Yuan, *Logical AI OS, Measurement Layer: An External Mechanical
+Extractor of Answer Constraints*, Zenodo, 2026,
+[10.5281/zenodo.23226740](https://doi.org/10.5281/zenodo.23226740).
+
+If you cite this project, please **cite it together with
+[`docs/literature_mapping.md`](docs/literature_mapping.md)** — that table lists the
+nearest prior work for each component and the relation to it (including three
+borrowed names and two findings of prior work). **That table is this line's honest
+position.** Citing the conclusions without the table would leave a reader thinking
+the components are new.
+
+An earlier line of this project (LoRA fine-tuning of a 3B model) is deposited
+separately at [10.5281/zenodo.17848554](https://doi.org/10.5281/zenodo.17848554) and
+[10.5281/zenodo.17848305](https://doi.org/10.5281/zenodo.17848305); the work in this
+repository does not depend on it.
