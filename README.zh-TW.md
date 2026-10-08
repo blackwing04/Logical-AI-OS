@@ -2,9 +2,10 @@
 
 # Logical AI OS — 公開收裝
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23226740.svg)](https://doi.org/10.5281/zenodo.23226740)
-[![prior work: LoRA line](https://zenodo.org/badge/DOI/10.5281/zenodo.17848554.svg)](https://doi.org/10.5281/zenodo.17848554)
-[![prior work: LoRA line](https://zenodo.org/badge/DOI/10.5281/zenodo.17848305.svg)](https://doi.org/10.5281/zenodo.17848305)
+[![DOI, this version](https://zenodo.org/badge/DOI/10.5281/zenodo.23226740.svg)](https://doi.org/10.5281/zenodo.23226740)
+[![DOI, all versions](https://zenodo.org/badge/DOI/10.5281/zenodo.23226739.svg)](https://doi.org/10.5281/zenodo.23226739)
+[![prior work: LoRA line, software](https://zenodo.org/badge/DOI/10.5281/zenodo.17848554.svg)](https://doi.org/10.5281/zenodo.17848554)
+[![prior work: LoRA line, preprint](https://zenodo.org/badge/DOI/10.5281/zenodo.17848305.svg)](https://doi.org/10.5281/zenodo.17848305)
 
 以邏輯映射取代參數窮舉的一次實作嘗試。行為公式 `B = f(I, C, R)`，驗證公式 `M = i × e`。
 
@@ -56,7 +57,7 @@
 | [`src/`](src/) | v4.5 判定鏈：機械層、控制層、效能站、對照臂、切分器 |
 | [`src/mechanical/signed_tables/`](src/mechanical/signed_tables/) | 簽核詞表（量詞分類器、功能層、詞表註冊表） |
 | [`manifest/`](manifest/) | v4.5 封筆 manifest：31 組件的 sha256 與旗標表 |
-| `papers/` | 技術報告（Zenodo 存放）：正文、中文摘要、bib。**本 commit 還沒有**——隨 Zenodo 存放一起進來 |
+| [`papers/`](papers/) | 技術報告（Zenodo 存放）：PDF、Markdown 正文、中文摘要、bib，附雜湊 |
 
 ## 公開範圍與不公開的東西
 
@@ -107,7 +108,7 @@
 | 路徑 | 授權 | 檔 |
 | --- | --- | --- |
 | [`src/`](src/)、[`manifest/`](manifest/) | **MIT** | [`LICENSE`](LICENSE) |
-| [`docs/`](docs/)、[`results/`](results/)、`papers/`、`README.md`、`PUBLIC_NOTES.md`、`MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
+| [`docs/`](docs/)、[`results/`](results/)、[`papers/`](papers/)、`README.md`、`PUBLIC_NOTES.md`、`MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
 
 論文（Zenodo）側為 **CC BY**。
 
@@ -120,9 +121,18 @@
 [`PUBLIC_NOTES.md`](PUBLIC_NOTES.md) §1b 所述的去人名規矩管的是內部代稱與第三方，
 **不管這個筆名**。
 
-技術報告：Joe Yuan，《Logical AI OS, Measurement Layer: An External Mechanical
-Extractor of Answer Constraints》，Zenodo，2026，
-[10.5281/zenodo.23226740](https://doi.org/10.5281/zenodo.23226740)。
+技術報告已在 Zenodo 發布。引用句照 Zenodo 給的（APA）：
+
+> Yuan, J. (2026). Logical AI OS, Measurement Layer: An External Mechanical Extractor of Answer Constraints — Protocol, Failure Theory, and Bounded Results from Seven Blind Rounds (Version v1.2). Zenodo. https://doi.org/10.5281/zenodo.23226740
+
+**兩個 DOI，不可互換。** 要引用**所有版本**用 [10.5281/zenodo.23226739](https://doi.org/10.5281/zenodo.23226739)——它永久指向最新版；
+要引用**本版**用 [10.5281/zenodo.23226740](https://doi.org/10.5281/zenodo.23226740)。
+若你的論點依賴的是 v1.2 當時的那組數字，用版本 DOI。
+
+存放檔在 [`papers/zenodo_v1.2/`](papers/zenodo_v1.2/)，附雜湊；該處的 PDF 與
+已發布的那一份逐位元組相同，而
+[`papers/zenodo_v1.2/CHECKSUMS.md`](papers/zenodo_v1.2/CHECKSUMS.md)
+寫明那四個檔裡**哪些在存放裡、哪些不在**。
 
 若要引用本專案，請**連同 [`docs/literature_mapping.md`](docs/literature_mapping.md) 一起引**——
 那張表列出每個零件的最近前作與關係（含三件「借名」與兩件「已有前作」），

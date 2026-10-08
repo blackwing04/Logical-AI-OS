@@ -1,0 +1,555 @@
+% Logical AI OS — Technical Report v1.2 references
+% Every entry below has a verifiable locator (arXiv id, DOI, ACL Anthology id,
+% proceedings page, or a URL with the date read).
+%
+% Entries recorded as "provenance pending" in docs/literature_mapping.md are
+% deliberately ABSENT here, per the artifact's own rule of not citing what could
+% not be located:
+%   - the journal version (volume/DOI) of the "Embers of Autoregression" paper
+%     -> the arXiv preprint is cited instead (mccoy2024embers);
+%   - a specific paper for "shortcut learning" (notes give the area only);
+%   - specific works by two authors named in the notes without titles;
+%   - two figure numbers in sheshadri2025faking that could not be confirmed
+%     -> that work is not cited in this report at all.
+
+% ---------- this report, and the project's earlier deposit ----------
+
+@misc{aibehavior2025software,
+  author    = {Joe Yuan},
+  title     = {blackwing04/AI-Behavior-Research: v1.1 --- English Translation \&
+               Cross-Linguistic Validation Release},
+  year      = {2025},
+  month     = {12},
+  day       = {14},
+  doi       = {10.5281/zenodo.17848554},
+  note      = {Software. Concept DOI (always resolves to the latest version;
+               the current version DOI is 10.5281/zenodo.17928846). An earlier
+               line of this project: LoRA fine-tuning of a 3B model.}
+}
+
+@misc{aibehavior2025preprint,
+  author    = {Joe Yuan},
+  title     = {{AI} Behavioral Architecture Model: A Weak-Autonomy Reasoning
+               Framework from the Instinct Equation to the {CAST} Emotion Module},
+  year      = {2025},
+  month     = {12},
+  day       = {14},
+  doi       = {10.5281/zenodo.17848305},
+  note      = {Preprint. Concept DOI (current version DOI is
+               10.5281/zenodo.17928863). An earlier line of this project:
+               LoRA fine-tuning of a 3B model.}
+}
+
+@techreport{logicalaios2026v12,
+  author      = {Joe Yuan},
+  title       = {Logical {AI} {OS}, Measurement Layer: An External Mechanical
+                 Extractor of Answer Constraints --- Protocol, Failure Theory,
+                 and Bounded Results from Seven Blind Rounds},
+  institution = {Zenodo},
+  type        = {Technical Report},
+  number      = {v1.2},
+  year        = {2026},
+  month       = {10},
+  doi         = {10.5281/zenodo.23226740},
+  note        = {This report. The version number follows the project's internal
+                 numbering; the two earlier versions were internal working drafts
+                 and were never published.}
+}
+
+@misc{logicalaios2026runaway,
+  title   = {Logical {AI} {OS} --- earlier deposit on the runaway-mechanism
+             argument},
+  year    = {2026},
+  doi     = {10.5281/zenodo.22263515},
+  note    = {Cited only where this report refers to that earlier deposit. It is
+             NOT the DOI of this report.}
+}
+
+% ---------- (i) instruction hierarchy / constraint separation ----------
+
+@inproceedings{zverev2025sep,
+  author    = {Zverev, Egor and Abdelnabi, Sahar and Tabesh, Soroush and
+               Fritz, Mario and Lampert, Christoph H.},
+  title     = {Can {LLMs} Separate Instructions From Data? And What Do We Even
+               Mean By That?},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  eprint    = {2403.06833},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  note      = {Introduces a formal measure of instruction-data separation and the
+               SEP dataset; all tested models separate poorly.}
+}
+
+@misc{wallace2024hierarchy,
+  author        = {Wallace, Eric and Xiao, Kai and Leike, Reimar and
+                   Weng, Lilian and H{\'e}roux-Dubois, Johannes and Schulman, John},
+  title         = {The Instruction Hierarchy: Training {LLMs} to Prioritize
+                   Privileged Instructions},
+  year          = {2024},
+  eprint        = {2404.13208},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  note          = {Privilege ordering: system > developer > user > tool output.}
+}
+
+@misc{agentif2025,
+  title         = {{AGENTIF}: Benchmarking Instruction Following of Large Language
+                   Models in Agentic Scenarios},
+  year          = {2025},
+  eprint        = {2505.16944},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note          = {Partitions instructions into Task / Context / Constraint, with
+                   global and local constraint scope. Closest prior work to the
+                   constraint-versus-material labelling in this report.}
+}
+
+@misc{followbench2024,
+  title         = {{FollowBench}: A Multi-level Fine-grained Constraints Following
+                   Benchmark for Large Language Models},
+  year          = {2024},
+  eprint        = {2310.20410},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note          = {Constraint taxonomy: content / keyword / phrase / length /
+                   format / style.}
+}
+
+@misc{structflow2025,
+  title         = {{StructFlowBench}: A Structured Flow Benchmark for Multi-turn
+                   Instruction Following},
+  year          = {2025},
+  eprint        = {2502.14494},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note          = {Extracts atomic constraint expressions from user prompts.}
+}
+
+% ---------- (ii) external guards / rules overriding models ----------
+
+@inproceedings{rebedea2023nemo,
+  author    = {Rebedea, Traian and Dinu, Razvan and Sreedhar, Makesh and
+               Parisien, Christopher and Cohen, Jonathan},
+  title     = {{NeMo Guardrails}: A Toolkit for Controllable and Safe {LLM}
+               Applications with Programmable Rails},
+  booktitle = {Proceedings of EMNLP 2023: System Demonstrations},
+  year      = {2023},
+  eprint    = {2310.10501},
+  archivePrefix = {arXiv},
+  note      = {Runtime programmable rails, independent of the underlying model,
+               no fine-tuning required. Architecturally the same claim as the
+               external layer in this report.}
+}
+
+@misc{coucke2018snips,
+  author        = {Coucke, Alice and Saade, Alaa and Ball, Adrien and
+                   Bluche, Th{\'e}odore and Caulier, Alexandre and Leroy, David
+                   and Doumouro, Cl{\'e}ment and Gisselbrecht, Thibault and
+                   Caltagirone, Francesco and Lavril, Thibaut and
+                   Primet, Ma{\"e}l and Dureau, Joseph},
+  title         = {Snips Voice Platform: an embedded Spoken Language Understanding
+                   system for private-by-design voice interfaces},
+  year          = {2018},
+  eprint        = {1805.10190},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note          = {Deterministic parser first, probabilistic parser only when the
+                   first extracts nothing. Predates the cascade shape used here
+                   by seven years.}
+}
+
+@inproceedings{katz2020guarded,
+  author    = {Katz, Guy},
+  title     = {Guarded Deep Learning using Scenario-Based Modeling},
+  booktitle = {Proceedings of MODELSWARD 2020 (8th International Conference on
+               Model-Driven Engineering and Software Development)},
+  year      = {2020},
+  eprint    = {2006.03863},
+  archivePrefix = {arXiv},
+  note      = {Hand-written override rules that overwrite a network's decision
+               when stated conditions hold. Named prior art for "rules beat the
+               model". Extended in arXiv:2301.08114.}
+}
+
+@inproceedings{alshiekh2018shielding,
+  author    = {Alshiekh, Mohammed and Bloem, Roderick and Ehlers, R{\"u}diger and
+               K{\"o}nighofer, Bettina and Niekum, Scott and Topcu, Ufuk},
+  title     = {Safe Reinforcement Learning via Shielding},
+  booktitle = {Proceedings of the Thirty-Second AAAI Conference on Artificial
+               Intelligence (AAAI-18)},
+  year      = {2018},
+  eprint    = {1708.08611},
+  archivePrefix = {arXiv},
+  note      = {A shield synthesised from a temporal-logic specification corrects
+               an action only when it is unsafe.}
+}
+
+@misc{plguard2026,
+  title         = {{PL-Guard}: Probabilistic Logic Reasoning for {LLM} Guardrails},
+  year          = {2026},
+  eprint        = {2608.15673},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note          = {Neural grounding into predicate probabilities, symbolic
+                   probabilistic-logic reasoning over them.}
+}
+
+% ---------- (iii) clarifying questions / abstention ----------
+
+@book{jurafsky2024slp3,
+  author    = {Jurafsky, Daniel and Martin, James H.},
+  title     = {Speech and Language Processing},
+  edition   = {3rd (draft)},
+  chapter   = {24, Chatbots and Dialogue Systems},
+  year      = {2024},
+  url       = {https://web.stanford.edu/~jurafsky/slp3/},
+  urldate   = {2026-10-07},
+  note      = {Documents the three-threshold confidence policy
+               (reject / explicit confirm / implicit confirm / accept) and
+               missing-slot asking as standard components.}
+}
+
+@misc{padmakumar2020clarification,
+  author        = {Padmakumar, Aishwarya and Thomason, Jesse},
+  title         = {Dialog Policy Learning for Joint Clarification and Active
+                   Learning Queries},
+  year          = {2020},
+  eprint        = {2006.05456},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note          = {Asks for clarification when information gain exceeds a floor
+                   and top belief is below a confidence ceiling.}
+}
+
+@article{chow1970reject,
+  author  = {Chow, C. K.},
+  title   = {On Optimum Recognition Error and Reject Tradeoff},
+  journal = {IEEE Transactions on Information Theory},
+  volume  = {16},
+  number  = {1},
+  pages   = {41--46},
+  year    = {1970},
+  doi     = {10.1109/TIT.1970.1054406},
+  note    = {Origin of the reject option. The action is declining to predict;
+             it does not include asking.}
+}
+
+@inproceedings{madras2018defer,
+  author    = {Madras, David and Pitassi, Toniann and Zemel, Richard},
+  title     = {Predict Responsibly: Improving Fairness and Accuracy by Learning
+               to Defer},
+  booktitle = {Advances in Neural Information Processing Systems 31 (NeurIPS)},
+  year      = {2018},
+  eprint    = {1711.06664},
+  archivePrefix = {arXiv},
+  note      = {Learning to defer; pure confidence-threshold deferral is
+               suboptimal because it ignores the downstream recipient.}
+}
+
+@misc{verma2022calibrated,
+  author        = {Verma, Rajeev and Nalisnick, Eric},
+  title         = {Calibrated Learning to Defer with One-vs-All Classifiers},
+  year          = {2022},
+  eprint        = {2202.03673},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG}
+}
+
+@misc{abstention2026vision,
+  title   = {A Vision for Abstention in Large Language Models},
+  year    = {2026},
+  doi     = {10.36227/techrxiv.175682660.02761872},
+  note    = {Argues abstention should be a core design principle; distinguishes
+             epistemic abstention from safety refusal and from unanswerable or
+             underspecified queries; states that the external verifier may be a
+             symbolic reasoner, a fact-checking API, or a domain rule engine.}
+}
+
+@misc{intentgov2026,
+  title         = {Intent-Governed Tool Authorization for {AI} Agents},
+  year          = {2026},
+  eprint        = {2606.22916},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  note          = {Seven-field structured intent decomposition (W5H2), the last
+                   field being constraint.}
+}
+
+@misc{scop2026,
+  title         = {{SCoP}: Structured Constraint Parsing for Evidence-Space
+                   Control in Temporal Knowledge Graph Question Answering},
+  year          = {2026},
+  eprint        = {2609.22213},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note          = {Conservative normalisation that never fills or removes an
+                   unknown slot.}
+}
+
+% ---------- (iv) separation of duties in evaluation ----------
+
+@inproceedings{roelofs2019metaanalysis,
+  author    = {Roelofs, Rebecca and Shankar, Vaishaal and Recht, Benjamin and
+               Fridovich-Keil, Sara and Hardt, Moritz and Miller, John and
+               Schmidt, Ludwig},
+  title     = {A Meta-Analysis of Overfitting in Machine Learning},
+  booktitle = {Advances in Neural Information Processing Systems 32 (NeurIPS)},
+  year      = {2019},
+  url       = {https://papers.nips.cc/paper/9117-a-meta-analysis-of-overfitting-in-machine-learning},
+  urldate   = {2026-10-06},
+  note      = {Uses public/private test splits as a natural experiment on
+               leaderboard overfitting; test labels are withheld from entrants.}
+}
+
+@misc{chen2026scorer,
+  author  = {Chen, Wenjie},
+  title   = {An Evaluator outside the Model: Non-Decomposable Judgments in
+             Hidden-Test Agent Evaluation --- A Case Study of the
+             {WorkBuddyBench} Official Scorer},
+  year    = {2026},
+  howpublished = {SSRN 7555178},
+  url     = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7555178},
+  urldate = {2026-10-06}
+}
+
+@misc{auditinggames2026,
+  title         = {Auditing Games for Sandbagging},
+  year          = {2026},
+  eprint        = {2512.07810},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  note          = {Red/blue separation with design-time visibility and run-time
+                   blinding; the blue team is not told which models sandbag.}
+}
+
+@misc{factortu2026,
+  title         = {Factor({T},{U}): Factored Cognition Strengthens Monitoring of
+                   Untrusted {AI}},
+  year          = {2026},
+  eprint        = {2512.02157},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI}
+}
+
+@misc{aiscientists2026survey,
+  title         = {Autonomous Research Agents: A Survey of {AI} Scientists and the
+                   Verification Gap},
+  year          = {2026},
+  eprint        = {2608.05179},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  note          = {States that an agent running the optimisation loop grades its
+                   own work, so creator and evaluator must not share context;
+                   also states the double-blind form in which the test set is
+                   sealed from the model owner and the model from the evaluator.}
+}
+
+% ---------- speech acts / construction grammar ----------
+
+@book{austin1962,
+  author    = {Austin, J. L.},
+  title     = {How to Do Things with Words},
+  publisher = {Clarendon Press / Harvard University Press},
+  year      = {1962},
+  note      = {The William James Lectures, Harvard 1955. Lectures VIII--IX:
+               locutionary / illocutionary / perlocutionary. Source of the claim
+               that form does not fix force.}
+}
+
+@incollection{searle1975,
+  author    = {Searle, John R.},
+  title     = {Indirect Speech Acts},
+  booktitle = {Syntax and Semantics 3: Speech Acts},
+  editor    = {Cole, Peter and Morgan, Jerry L.},
+  pages     = {59--82},
+  publisher = {Academic Press},
+  year      = {1975}
+}
+
+@book{goldberg1995,
+  author    = {Goldberg, Adele E.},
+  title     = {Constructions: A Construction Grammar Approach to Argument
+               Structure},
+  publisher = {University of Chicago Press},
+  year      = {1995},
+  note      = {Cited for one claim only: the construction carries meaning that
+               the component words do not fix, hence sentence-level structure
+               must precede lexical matching. The construction-grammar construct
+               itself is not claimed here.}
+}
+
+% ---------- behavioural testing / statistics ----------
+
+@inproceedings{ribeiro2020checklist,
+  author    = {Ribeiro, Marco Tulio and Wu, Tongshuang and Guestrin, Carlos and
+               Singh, Sameer},
+  title     = {Beyond Accuracy: Behavioral Testing of {NLP} Models with
+               {CheckList}},
+  booktitle = {Proceedings of ACL 2020},
+  pages     = {4902--4912},
+  year      = {2020},
+  doi       = {10.18653/v1/2020.acl-main.442},
+  note      = {Best Overall Paper. The sentinels in this report correspond to the
+               Minimum Functionality Test; the invariance and directional test
+               types are not implemented here.}
+}
+
+@inproceedings{gardner2020contrast,
+  author    = {Gardner, Matt and Artzi, Yoav and Basmov, Victoria and others},
+  title     = {Evaluating Models' Local Decision Boundaries via Contrast Sets},
+  booktitle = {Findings of EMNLP 2020},
+  year      = {2020},
+  eprint    = {2004.02709},
+  archivePrefix = {arXiv},
+  note      = {Cited to mark a distinction, not a lineage: a contrast set requires
+               minimal edits to one sample that flip its label. The sentinels used
+               here are whole new samples and are therefore not contrast sets.}
+}
+
+@book{efron1993bootstrap,
+  author    = {Efron, Bradley and Tibshirani, Robert J.},
+  title     = {An Introduction to the Bootstrap},
+  publisher = {Chapman \& Hall},
+  year      = {1993},
+  note      = {Chapter 8 covers stratified and clustered resampling --- the basis
+               for the statement in section 4.2 that the article, not the
+               sentence, is the correct resampling unit here.}
+}
+
+@article{efron1979bootstrap,
+  author  = {Efron, Bradley},
+  title   = {Bootstrap Methods: Another Look at the Jackknife},
+  journal = {The Annals of Statistics},
+  volume  = {7},
+  number  = {1},
+  pages   = {1--26},
+  year    = {1979},
+  doi     = {10.1214/aos/1176344552}
+}
+
+@inproceedings{koehn2004significance,
+  author    = {Koehn, Philipp},
+  title     = {Statistical Significance Tests for Machine Translation Evaluation},
+  booktitle = {Proceedings of EMNLP 2004},
+  pages     = {388--395},
+  year      = {2004},
+  url       = {https://aclanthology.org/W04-3250/},
+  note      = {Paired bootstrap resampling; a higher score is not a significant
+               difference. Direct source of the "interval contains zero, no claim"
+               rule used here.}
+}
+
+% ---------- failure theory ----------
+
+@misc{mccoy2024embers,
+  author        = {McCoy, R. Thomas and Yao, Shunyu and Friedman, Dan and
+                   Hardy, Mathew D. and Griffiths, Thomas L.},
+  title         = {Embers of Autoregression: Understanding Large Language Models
+                   Through the Problem They are Trained to Solve},
+  year          = {2024},
+  eprint        = {2309.13638},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note          = {Nearest relative to the four-factor integration in section 5,
+                   reached by a teleological route. A journal version exists but
+                   its volume and DOI could not be confirmed, so the preprint is
+                   cited here.}
+}
+
+@misc{kalai2025hallucinate,
+  author        = {Kalai, Adam Tauman and Nachum, Ofir and Vempala, Santosh S.
+                   and Zhang, Edwin},
+  title         = {Why Language Models Hallucinate},
+  year          = {2025},
+  eprint        = {2509.04664},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  note          = {Training and evaluation reward guessing over admitting
+                   uncertainty. Source for the "no alarm" factor.}
+}
+
+@inproceedings{xu2025wdct,
+  author    = {Xu, Ruoxi and others},
+  title     = {Large Language Models Often Say One Thing and Do Another},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  eprint    = {2503.07003},
+  archivePrefix = {arXiv},
+  note      = {The Words and Deeds Consistency Test. Alignment on one side
+               transfers poorly and unpredictably to the other.}
+}
+
+@misc{driftbench2026,
+  title         = {Models Recall What They Violate: Constraint Adherence in
+                   Multi-Turn {LLM} Ideation},
+  year          = {2026},
+  eprint        = {2604.28031},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note          = {Knows-but-violates rates of 8\% to 99\%. Identified by the
+                   matching rate range and repository name; a similarly named
+                   paper (arXiv:2602.02455) addresses a different topic and is
+                   not the work cited here.}
+}
+
+@misc{cartagena2026gap,
+  author        = {Cartagena, Arnold and Teixeira, Ariane},
+  title         = {Mind the {GAP}: Text Safety Does Not Transfer to Tool-Call
+                   Safety in {LLM} Agents},
+  year          = {2026},
+  eprint        = {2602.16943},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR}
+}
+
+@inproceedings{turpin2023cot,
+  author    = {Turpin, Miles and Michael, Julian and Perez, Ethan and
+               Bowman, Samuel R.},
+  title     = {Language Models Don't Always Say What They Think: Unfaithful
+               Explanations in Chain-of-Thought Prompting},
+  booktitle = {Advances in Neural Information Processing Systems 36 (NeurIPS)},
+  year      = {2023},
+  eprint    = {2305.04388},
+  archivePrefix = {arXiv},
+  note      = {Accuracy drops by up to 36 points under injected biasing features
+               that the explanation does not mention.}
+}
+
+@misc{anthropic2025biology,
+  author       = {{Anthropic}},
+  title        = {On the Biology of a Large Language Model},
+  year         = {2025},
+  howpublished = {Transformer Circuits Thread},
+  url          = {https://transformer-circuits.pub/2025/attribution-graphs/biology.html},
+  urldate      = {2026-10-06},
+  note         = {Attribution graphs / circuit tracing; the stated text and the
+                  internal path can diverge.}
+}
+
+% ---------- live instance (section 5) ----------
+
+@misc{hillclimb2026rules,
+  title        = {{StarSkirmish} {Hillclimb} --- competition rules},
+  year         = {2026},
+  howpublished = {\url{https://starskirmish.com/hillclimb}},
+  urldate      = {2026-10-07},
+  note         = {Entrants may practise against reference bots but may not read
+                  their source code; graded runs use fresh hidden seeds.}
+}
+
+@misc{mcpheeters2026post,
+  author       = {McPheeters, Kai},
+  title        = {Organiser's public post on the {Hillclimb} rollback},
+  year         = {2026},
+  month        = {10},
+  day          = {2},
+  howpublished = {Public post on X},
+  urldate      = {2026-10-07},
+  note         = {Reports that an entrant obtained a copy of a stronger
+                  human-written bot and that the entrant's code was rolled back
+                  on 2 October to remove it; the subsequent tier clearance is
+                  also from the organiser's feed. No independent code review is
+                  available. Secondary press coverage exists and is deliberately
+                  not cited.}
+}

@@ -2,9 +2,10 @@ English | [繁體中文](README.zh-TW.md)
 
 # Logical AI OS — public release
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23226740.svg)](https://doi.org/10.5281/zenodo.23226740)
-[![prior work: LoRA line](https://zenodo.org/badge/DOI/10.5281/zenodo.17848554.svg)](https://doi.org/10.5281/zenodo.17848554)
-[![prior work: LoRA line](https://zenodo.org/badge/DOI/10.5281/zenodo.17848305.svg)](https://doi.org/10.5281/zenodo.17848305)
+[![DOI, this version](https://zenodo.org/badge/DOI/10.5281/zenodo.23226740.svg)](https://doi.org/10.5281/zenodo.23226740)
+[![DOI, all versions](https://zenodo.org/badge/DOI/10.5281/zenodo.23226739.svg)](https://doi.org/10.5281/zenodo.23226739)
+[![prior work: LoRA line, software](https://zenodo.org/badge/DOI/10.5281/zenodo.17848554.svg)](https://doi.org/10.5281/zenodo.17848554)
+[![prior work: LoRA line, preprint](https://zenodo.org/badge/DOI/10.5281/zenodo.17848305.svg)](https://doi.org/10.5281/zenodo.17848305)
 
 An attempt at replacing parameter search with logical mapping. Behaviour equation
 `B = f(I, C, R)`; verification equation `M = i × e`.
@@ -72,7 +73,7 @@ as the results:
 | [`src/`](src/) | The v4.5 judgement chain: mechanical layer, control layer, performance station, comparison arm, sentence splitter |
 | [`src/mechanical/signed_tables/`](src/mechanical/signed_tables/) | Signed tables (numeral-classifier classifier, function layer, lexicon registry) |
 | [`manifest/`](manifest/) | The v4.5 sealing manifest: sha256 of 31 components plus the flag table |
-| `papers/` | The technical report (Zenodo deposit): body, Chinese abstract, bibliography. **Not in this commit** — it lands with the Zenodo deposit |
+| [`papers/`](papers/) | The technical report (Zenodo deposit): the PDF, the Markdown body, the Chinese abstract, the bibliography, and their checksums |
 
 ## Scope of this release, and what is not in it
 
@@ -133,7 +134,7 @@ cost of corpus redaction, not a recording error.
 | Path | Licence | File |
 | --- | --- | --- |
 | [`src/`](src/), [`manifest/`](manifest/) | **MIT** | [`LICENSE`](LICENSE) |
-| [`docs/`](docs/), [`results/`](results/), `papers/`, `README.md`, `PUBLIC_NOTES.md`, `MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
+| [`docs/`](docs/), [`results/`](results/), [`papers/`](papers/), `README.md`, `PUBLIC_NOTES.md`, `MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
 
 The paper (Zenodo) side is **CC BY**.
 
@@ -148,9 +149,19 @@ is the name to cite. The name-redaction rule described in
 [`PUBLIC_NOTES.md`](PUBLIC_NOTES.md) §1b covers internal handles and third parties;
 it does not cover this pen name.
 
-Technical report: Joe Yuan, *Logical AI OS, Measurement Layer: An External Mechanical
-Extractor of Answer Constraints*, Zenodo, 2026,
-[10.5281/zenodo.23226740](https://doi.org/10.5281/zenodo.23226740).
+The technical report is published at Zenodo. Citation as Zenodo gives it:
+
+> Yuan, J. (2026). Logical AI OS, Measurement Layer: An External Mechanical Extractor of Answer Constraints — Protocol, Failure Theory, and Bounded Results from Seven Blind Rounds (Version v1.2). Zenodo. https://doi.org/10.5281/zenodo.23226740
+
+**Two DOIs, and they are not interchangeable.** Cite **all versions** with
+[10.5281/zenodo.23226739](https://doi.org/10.5281/zenodo.23226739) — it always resolves to the latest one. Cite **this
+version** with [10.5281/zenodo.23226740](https://doi.org/10.5281/zenodo.23226740). Use the version DOI when a claim you
+make depends on the numbers as they stood in v1.2.
+
+The deposit files are in [`papers/zenodo_v1.2/`](papers/zenodo_v1.2/) with
+their checksums; the PDF there is byte-identical to the published one, and
+[`papers/zenodo_v1.2/CHECKSUMS.md`](papers/zenodo_v1.2/CHECKSUMS.md) says
+which of those files the deposit does and does not contain.
 
 If you cite this project, please **cite it together with
 [`docs/literature_mapping.md`](docs/literature_mapping.md)** — that table lists the

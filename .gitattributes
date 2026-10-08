@@ -1,0 +1,4 @@
+# PDF 一律當二進位。本機 core.autocrlf=true，若 git 把 PDF 判成文字檔，
+# CRLF 轉換會改壞它，而「與 Zenodo 上傳檔逐位元組相同」就成了假話。
+# git 的二進位啟發式通常判得對，但那是啟發式。
+*.pdf binary

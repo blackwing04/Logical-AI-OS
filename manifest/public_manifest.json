@@ -1,6 +1,12 @@
 {
  "rows": [
   {
+   "檔": ".gitattributes",
+   "sha256": "ba167fe150d07505879a5555e449cbefda419f1463b99a821e7b1c162be46da0",
+   "位元": 264,
+   "改名前": false
+  },
+  {
    "檔": "COMMITMENT_2026-09-24.md",
    "sha256": "ee4fdbf0c1c2dbb87932871da4974527781f7ee629da7d2475f187bb1ce238c7",
    "位元": 1174,
@@ -97,6 +103,36 @@
    "改名前": false
   },
   {
+   "檔": "papers/zenodo_v1.2/abstract_zh.md",
+   "sha256": "c2437b0bca2ead34d4ebd513c9f06867c0bd06df5ba88387ae036ce3b0dc4e72",
+   "位元": 5099,
+   "改名前": false
+  },
+  {
+   "檔": "papers/zenodo_v1.2/CHECKSUMS.md",
+   "sha256": "8ca9fef569d6cfd92fe72b360f524f4fd0ce2a60262b53dd2a7fe2e5d53c8ee7",
+   "位元": 2024,
+   "改名前": false
+  },
+  {
+   "檔": "papers/zenodo_v1.2/references.bib",
+   "sha256": "dddc3cc61d226fcf3dd3914b8643dca39419f209a2e5a721083c6b3043a7de9d",
+   "位元": 22360,
+   "改名前": false
+  },
+  {
+   "檔": "papers/zenodo_v1.2/report_v1.2.md",
+   "sha256": "f84ba956e7d4535f1a648df01c5d32587ec1dae63ffe925fc527a1ed17c099c2",
+   "位元": 41012,
+   "改名前": false
+  },
+  {
+   "檔": "papers/zenodo_v1.2/report_v1.2.pdf",
+   "sha256": "b99dbe7b0eb815c59c2b80ef8649623cb54e782d251f38e7e42359bb03cc15eb",
+   "位元": 310044,
+   "改名前": false
+  },
+  {
    "檔": "PUBLIC_NOTES.md",
    "sha256": "d016f31c9222dd9583a69e9ce3fa94b2c462b644895e0928b11f428d85510318",
    "位元": 7909,
@@ -110,14 +146,14 @@
   },
   {
    "檔": "README.md",
-   "sha256": "b233cebcf6afe59b668859fbb9cb49281a666f14c3db34f362cd6ea384ff73ef",
-   "位元": 9299,
+   "sha256": "33ff1210e4172c63c06938f43b49604440177935195fe3b7d7003208d1c95166",
+   "位元": 10239,
    "改名前": false
   },
   {
    "檔": "README.zh-TW.md",
-   "sha256": "355d5510efa47cc656dcb499c8f807f80d064bd751777760b905fc8c4dd5ea61",
-   "位元": 7520,
+   "sha256": "8ddb4640b7b181a4f91d5809d464a760ec18adb4a90de9c905a5ee26433a1548",
+   "位元": 8372,
    "改名前": false
   },
   {
@@ -239,5 +275,6 @@
   "manifest/public_manifest.json",
   "manifest/public_manifest.md"
  ],
- "雜湊法": "sha256(LF 正規化後的位元組)"
+ "雜湊法": "sha256(LF 正規化後的位元組)",
+ "papers 原始位元組雜湊": "papers/zenodo_v1.2/CHECKSUMS.md"
 }
