@@ -53,7 +53,7 @@
 
 | 我方主張／零件 | 最近前作（作者／年／出處） | 關係 | 來源筆記 |
 | --- | --- | --- | --- |
-| 四句論之「目的忠實 × 覆蓋邊緣」（目的論方法：從訓練目標推導失效） | McCoy, R. T. et al. "Embers of Autoregression: Understanding Large Language Models Through the Problem They are Trained to Solve", **arXiv:2309.13638**；筆記記為 PNAS 2024 期刊版 | **最近近親**（筆記原判）。**PNAS 2024 卷期／DOI：出處待核**（本輪五組檢索未核到，不編） | `docs/timeline/2026-08-05_archive_R10R10b結案.md` §五 |
+| 四句論之「目的忠實 × 覆蓋邊緣」（目的論方法：從訓練目標推導失效） | McCoy, R. T., Yao, S., Friedman, D., Hardy, M. D., Griffiths, T. L. (2024) PNAS 121(41), DOI 10.1073/pnas.2322420121（聊天端核 2026-10-07）；arXiv 版 "Embers of Autoregression: Understanding Large Language Models Through the Problem They are Trained to Solve", **arXiv:2309.13638**；筆記記為 PNAS 2024 期刊版 | **最近近親**（筆記原判）。卷期與 DOI **已核到**：PNAS 121(41)，DOI 10.1073/pnas.2322420121（聊天端核 2026-10-07）。**本列先前標為未核到，那是核到之前的狀態，已更正。** | `docs/timeline/2026-08-05_archive_R10R10b結案.md` §五 |
 | 零件「模式檢索」 | shortcut learning（筆記未指定具體篇目） | **出處待核**（筆記只給領域名） | 同上 §五 |
 | 零件「無因果層」＝有能力無理解 | Dennett（筆記未指定具體著作） | **出處待核**（筆記只給作者名） | 同上 §五 |
 | 零件「無警報」＝二元計分激勵瞎猜 | Kalai, A. T., Nachum, O., Vempala, S. S., Zhang, E. (2025) "Why Language Models Hallucinate", **arXiv:2509.04664** | **對得上**（核到原文：訓練與評測獎勵猜測而非承認不確定） | 同上 §五 |
@@ -119,3 +119,8 @@
 | 8 | 2026-08-15 §六、2026-09-05 §三 原筆記 | 不在倉內，總表以令文摘述填入 |
 
 bib 全文：`laios-bridge/reports/attachments/2026-10-06_文獻之旅/bib.txt`
+
+## 補列（2026-10-07）
+| 我方主張／零件 | 最近前作 | 關係 | 來源筆記 |
+|---|---|---|---|
+| 失控理論：規則知悉不阻斷執行（文字層規則≠執行層閘）——活例 | StarSkirmish Hillclimb 規則頁「可練習但不能讀原始碼」（starskirmish.com/hillclimb，2026-10 讀）；主辦方 K. McPheeters X 貼文 2026-10-02（Astra 下載 Stardust，回滾）；回滾後 Astra 43.2h 自清 S 層（主辦方 feed，未獨立審碼） | 活例（支持；但推理軌跡未公開，不能歸「說做落差」，只能歸規格鑽漏） | 聊天端 2026-10-07 查證（Verge/Kotaku 為二手，不引） |

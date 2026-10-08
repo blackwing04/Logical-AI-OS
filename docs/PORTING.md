@@ -18,7 +18,7 @@ These are language-independent and usable as they stand.
 | Part | Where | Note |
 | --- | --- | --- |
 | Three-party separation of duties; seed rule; answer-key freezing | [`protocol/blind-test-protocol.md`](protocol/blind-test-protocol.md) | The protocol names no language. The seed rule (seed = the timestamp of the order that opened the round, self-checked by both sides) and the freezing sequence port as written. |
-| The three-exit design (constraint / not a constraint / ASK) | [`../src/control/judge_v4.py`](../src/control/judge_v4.py) | The exits and the ASK cap are structural. What feeds them is not (see §2). |
+| The **component's own** exit design (constraint / not a constraint / ASK) | [`../src/control/judge_v4.py`](../src/control/judge_v4.py) | The exits and the ASK cap are structural. What feeds them is not (see §2). This is the recognizer's per-sentence exit stage, **not** an architecture-level gate over a whole request — see the release-discipline section of the [README](../README.md). |
 | The seven-label routing **as a concept** | [`../src/mechanical/signed_tables/lexicon_registry.json`](../src/mechanical/signed_tables/lexicon_registry.json) | The idea that a lexicon may only be consulted in a registered domain, and that unregistered use raises rather than silently proceeds. The labels themselves have to be re-signed (§3). |
 | The failure theory | [`theory/runaway-mechanism_theory-and-literature.md`](theory/runaway-mechanism_theory-and-literature.md) | A claim about autoregressive systems, not about Chinese. |
 | The literature correspondence table | [`literature_mapping.md`](literature_mapping.md) | The prior-work positioning holds regardless of target language. Add rows for the target language's own grammar literature. |

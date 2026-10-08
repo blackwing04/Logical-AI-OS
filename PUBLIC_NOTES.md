@@ -111,7 +111,12 @@ inside that table rather than hidden.
   contained the handle, 7 instances); after re-marking and re-running, zero.
 - **C, credentials**: five patterns. **0 hits.**
 - **D, release boundary**: nine patterns for the non-public operational layer
-  (see the release-discipline section of the [README](README.md)).
+  (see the release-discipline section of the [README](README.md)). A component's
+  own exits are **inside** the public line; the architecture-level B gate, which
+  is not implemented, is outside it. That distinction is in the README, and
+  getting it wrong is what this gate exists to catch — it did not catch it, a
+  full rescan did (see below).
+  **One rule this gate learned the hard way:** which side of the line a file is on is decided by **what it does** — what it takes in, what it gives out, which layer calls it — not by what its own header claims. A header can borrow a name; the code cannot. A file here was once stopped as a leak on the strength of its docstring alone, and the docstring was wrong about the file.
 
 **The limits of the self-checks themselves**, also stated: A2 is a full scan but
 compares **whole sentences only**, so it is blind to corpus that was **paraphrased**

@@ -1,5 +1,12 @@
 # public_staging 收裝清單（MANIFEST）
 
+> **本檔是 `ade2734` 首發當時的紀錄（歷史），不是現行清單。**
+> §一的逐檔雜湊、§四的自查數字都是那一刻的值；此後本倉已數次增修，
+> 檔數也已從 36 增至 47。**要問「現在這個倉有哪些檔、雜湊是什麼」，
+> 看 [`manifest/public_manifest.md`](manifest/public_manifest.md)**
+> ——那張表每輪重產、涵蓋全樹。本檔回答的是「首發當時收了什麼、怎麼處理的」，
+> 那個問題的答案不該隨後續變動而改寫。（PI 裁 2026-10-08）
+
 令：`orders/2026-10-07_公開倉收裝令.md` §一。**三段制，本輪只做第一段。**
 
 | 項 | 值 |
@@ -28,7 +35,7 @@
 | 6 | `manifest/v45_manifest.md` | `experiments/control-station/v45_manifest.md` | **原樣** | `40d3b839efbaa000` | `40d3b839efbaa000` | v4.5 封筆 31 組件雜湊與旗標表；只有路徑與雜湊，無語料 |
 | 7 | `manifest/v45_manifest.py` | `experiments/control-station/v45_manifest.py` | **去人名** | `c87a5cb7e9ef7bc8` | `c87a5cb7e9ef7bc8` | manifest 產生器本身（自 import 鏈反查，不憑印象列） |
 | 8 | `src/blindtest/run_7b_arm.py` | `experiments/blindtest/scripts/run_7b_arm.py` | **去人名** | `cb2ed42dee7e6d2f` | `cb2ed42dee7e6d2f` | 臂二裸 7B；對照臂的全部設定 |
-| 9 | `src/control/judge_v4.py` | `experiments/control-station/judge_v4.py` | **去人名** | `764732bfb7e1596a` | `8845e46d5aaaa97f` | 裁決器 v4.1：出口三分、ASK 池、刀1-R 排序 |
+| 9 | `src/control/judge_v4.py` | `experiments/control-station/judge_v4.py` | **去人名** | `764732bfb7e1596a` | `8845e46d5aaaa97f` | **辨識零件自身的出口**裁決器 v4.1：句級出口三分、ASK 池、刀1-R 排序。不是架構級 B 閘（那一層尚未實作、不公開）——見 README 收裝規矩節 |
 | 10 | `src/control/request_form.py` | `experiments/control-station/request_form.py` | **去人名** | `7ed23ac8fadc5207` | `15f0eec929ad946f` | 請求形特徵列舉器（零新詞，自帶 self_audit） |
 | 11 | `src/mechanical/clause_v2.py` | `experiments/mechanical-v2/clause_v2.py` | **去語料+去人名** | `5b182a8cac27b376` | `1524a992a869b98f` | 子句站本體；F1／F1-WS／刀1-C 全在此檔 |
 | 12 | `src/mechanical/detectors.py` | `experiments/mechanical-v2/detectors.py` | **去人名** | `48612cc9095a91fb` | `69a6cedefaeaf5f8` | 七個偵測器與刀2；判定的訊號來源 |
@@ -94,7 +101,7 @@ id 單獨存在無法回溯到語料）；**留** PI 自撰的測試句，但在
 專案內以一個短代稱指稱人類主持人。它是專案代稱而非真實姓名，但令文對概念文明文
 要求「去人名後」，所以**全 staging 一律代換為 `PI`**，不分檔種——一致比偏好重要。
 
-**一句例外（Joe 裁 2026-10-08）**：對外筆名 **Joe Yuan** 不在此限。那是本著作
+**一句例外（PI 裁 2026-10-08）**：對外筆名 **Joe Yuan** 不在此限。那是本著作
 發表與被引用時的署名，是筆名而非法定姓名；本條管的是內部代稱與第三方姓名。
 
 | 檔 | 代換處數 |

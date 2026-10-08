@@ -14,8 +14,8 @@
   },
   {
    "檔": "docs/literature_mapping.md",
-   "sha256": "8a10c693e2b9a1cec1ec73f7b9f5b94c9e08d8e24d4094d36db86ad8e7335f4f",
-   "位元": 17800,
+   "sha256": "3f936121791e5fff93d27069d35c8575587250e1601c46beda5a62b3bc4e6cb8",
+   "位元": 18683,
    "改名前": false
   },
   {
@@ -38,14 +38,14 @@
   },
   {
    "檔": "docs/PORTING.md",
-   "sha256": "02a8854fb975c4d5173f2f068f5968cd8c0803898832f30b352ef952edbac4eb",
-   "位元": 9347,
+   "sha256": "bb3a043f4d15ca7a123826ce03f134823c9141fe82298f8148d7511a4461bde9",
+   "位元": 9537,
    "改名前": false
   },
   {
    "檔": "docs/PORTING.zh-TW.md",
-   "sha256": "a7431539d03c54f30096953767cf43e0f11dd69ba285ddc8a2b7df430724031d",
-   "位元": 7911,
+   "sha256": "1b73cfb48ed87adb89f07757e99e11396530f5e408efb0b99d230c5bdfbb05f5",
+   "位元": 8061,
    "改名前": false
   },
   {
@@ -98,8 +98,8 @@
   },
   {
    "檔": "MANIFEST.md",
-   "sha256": "7e04bbdf1a80d1d6c9686fbe469dc2984a4911f9ede344df4bcfba88c452d965",
-   "位元": 20274,
+   "sha256": "7b1b7b3ba8ff95179b529fbfe237972453904973ec6ab2947ccdb82910f1b124",
+   "位元": 20952,
    "改名前": false
   },
   {
@@ -134,26 +134,26 @@
   },
   {
    "檔": "PUBLIC_NOTES.md",
-   "sha256": "d016f31c9222dd9583a69e9ce3fa94b2c462b644895e0928b11f428d85510318",
-   "位元": 7909,
+   "sha256": "703bd8d675bd524114426336dddcc25230f899f07d874506bbb2181a44194dd7",
+   "位元": 8574,
    "改名前": false
   },
   {
    "檔": "PUBLIC_NOTES.zh-TW.md",
-   "sha256": "af1d522daab8b3eee3dd04d903bb62301dc551b228d0d9a169eea88f162f9cf7",
-   "位元": 6216,
+   "sha256": "bbdae2a0ee3a73f4ce276cbbf5cc4c436042dbf7108720fe88242e9cfce52788",
+   "位元": 6774,
    "改名前": false
   },
   {
    "檔": "README.md",
-   "sha256": "33ff1210e4172c63c06938f43b49604440177935195fe3b7d7003208d1c95166",
-   "位元": 10239,
+   "sha256": "bcec837395a2cab99ffb19e93bc7d2d8df0cd67bde5e23380a0bc70fdd78b06a",
+   "位元": 10680,
    "改名前": false
   },
   {
    "檔": "README.zh-TW.md",
-   "sha256": "8ddb4640b7b181a4f91d5809d464a760ec18adb4a90de9c905a5ee26433a1548",
-   "位元": 8372,
+   "sha256": "e67bed802699ec99c0caaf4c6634481cf3ab46dfc6fed4a37c1fa48a3eb9776f",
+   "位元": 8695,
    "改名前": false
   },
   {
@@ -182,8 +182,8 @@
   },
   {
    "檔": "src/control/judge_v4.py",
-   "sha256": "fe6bdcc92439749196f38719db9809abad94eabbac90f12a3e9980bdaf51eaef",
-   "位元": 32340,
+   "sha256": "860262e4447a10990ca79d595c605e36c963aeb0f6d8fec322f56c6ba6ee4f45",
+   "位元": 32730,
    "改名前": false
   },
   {

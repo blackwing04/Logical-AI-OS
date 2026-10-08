@@ -17,7 +17,7 @@
 | 部分 | 位置 | 註 |
 | --- | --- | --- |
 | 三方分權、seed 規矩、gold 凍結流程 | [`protocol/blind-test-protocol.md`](protocol/blind-test-protocol.md) | 協定本身不提任何語言。seed 規矩（seed＝下令當下時間戳，兩端各自自查）與凍結順序照抄即可。 |
-| 三出口設計（限制／非限制／ASK） | [`../src/control/judge_v4.py`](../src/control/judge_v4.py) | 出口與 ASK 上限是結構性的。餵進出口的東西不是（見 §二）。 |
+| **零件自身的**出口設計（限制／非限制／ASK） | [`../src/control/judge_v4.py`](../src/control/judge_v4.py) | 出口與 ASK 上限是結構性的。餵進出口的東西不是（見 §二）。這是辨識零件的**逐句**出口，**不是**管整個請求的架構級閘——見 [README](../README.md) 的收裝規矩節。 |
 | 七標籤路由**的概念** | [`../src/mechanical/signed_tables/lexicon_registry.json`](../src/mechanical/signed_tables/lexicon_registry.json) | 「詞表只能在已註冊的域內被查，未註冊即拋例外而非默默往下走」這個設計。標籤本身必須重新簽核（§三）。 |
 | 失控理論 | [`theory/runaway-mechanism_theory-and-literature.md`](theory/runaway-mechanism_theory-and-literature.md) | 那是關於自迴歸系統的主張，不是關於中文的。 |
 | 文獻對照表 | [`literature_mapping.md`](literature_mapping.md) | 前作定位不隨目標語言改變。該補的是目標語言自己的語法文獻列。 |

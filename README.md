@@ -96,6 +96,8 @@ The scope of this project's public releases has been, since 2026-10-08, an
 | **Public line = the measurement layer** | Recognition components (code, criterion tables), the evaluation protocol, the failure theory, the literature correspondence, the corpus-redacted round reports |
 | **Non-public line = the operational layer** | How the behaviour equation is gated and wired, the computation and thresholds of the verification equation, the control layer, the integrity-protocol design, and the handling of defects not yet closed out |
 
+**One distinction inside that line, stated because it is the one that was got wrong.** A component's *own* exits — the sentence-level three exits and the ASK quota — are part of the measurement layer and are public. The **architecture-level B gate** — deciding whether a whole request is answered or asked back about, based on how complete `C` is — is the operational layer. It **is not implemented**, and it will not be published.
+
 Non-public items **do not appear in this repository, nor in any outward-facing
 text**; their design drafts stay in the internal working repository. Where a record
 is needed, it takes the form of a hash commitment — **the content is sealed and only
