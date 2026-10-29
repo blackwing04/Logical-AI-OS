@@ -1,0 +1,234 @@
+paper,constraint_type,arm,passed,total
+S1,len_ab,B0,5,22
+S1,len_ab,B1 v1.3,6,22
+S1,len_ab,A0,9,22
+S1,len_ab,A1 v1.3,8,22
+S1,len_ge,B0,23,40
+S1,len_ge,B1 v1.3,27,40
+S1,len_ge,A0,25,40
+S1,len_ge,A1 v1.3,28,40
+S1,len_le,B0,28,36
+S1,len_le,B1 v1.3,32,36
+S1,len_le,A0,28,36
+S1,len_le,A1 v1.3,26,36
+S1,count,B0,16,27
+S1,count,B1 v1.3,16,27
+S1,count,A0,12,27
+S1,lang_en,B0,34,36
+S1,lang_en,B1 v1.3,32,36
+S1,lang_en,A0,32,36
+S1,lang_en,A1 v1.3,31,36
+S1,person_first,B0,14,17
+S1,person_first,B1 v1.3,13,17
+S1,person_first,A0,12,17
+S1,person_first,A1 v1.3,13,17
+S1,term_req,B0,18,27
+S1,term_req,B1 v1.3,20,27
+S1,term_req,A0,21,27
+S1,term_req,A1 v1.3,20,27
+S2,count,B0,18,42
+S2,count,B1 v1.6,13,42
+S2,count,A0,23,42
+S2,count,A1' v1.6,23,42
+S2,count,B1 v1.7,15,42
+S2,count,B_oracle,18,42
+S2,fmt_list,B0,16,16
+S2,fmt_list,B1 v1.6,15,16
+S2,fmt_list,A0,15,16
+S2,fmt_list,A1' v1.6,15,16
+S2,fmt_para3,B0,7,8
+S2,fmt_para3,B1 v1.6,7,8
+S2,fmt_para3,A0,7,8
+S2,fmt_para3,A1' v1.6,6,8
+S2,fmt_table,B0,9,9
+S2,fmt_table,B1 v1.6,9,9
+S2,fmt_table,A0,9,9
+S2,fmt_table,A1' v1.6,8,9
+S2,lang_en,B0,22,25
+S2,lang_en,B1 v1.6,19,25
+S2,lang_en,A0,21,25
+S2,lang_en,A1' v1.6,19,25
+S2,lang_en,B1 v1.7,20,25
+S2,lang_en,B_oracle,23,25
+S2,len_ab,B0,2,20
+S2,len_ab,B1 v1.6,4,20
+S2,len_ab,A0,5,20
+S2,len_ab,A1' v1.6,4,20
+S2,len_ab,B1 v1.7,2,20
+S2,len_ab,B_oracle,7,20
+S2,len_ge,B0,22,33
+S2,len_ge,B1 v1.6,24,33
+S2,len_ge,A0,24,33
+S2,len_ge,A1' v1.6,25,33
+S2,len_ge,B1 v1.7,25,33
+S2,len_ge,B_oracle,26,33
+S2,len_le,B0,34,39
+S2,len_le,B1 v1.6,39,39
+S2,len_le,A0,34,39
+S2,len_le,A1' v1.6,38,39
+S2,len_le,B1 v1.7,38,39
+S2,len_le,B_oracle,37,39
+S2,no_digit,B0,12,16
+S2,no_digit,B1 v1.6,11,16
+S2,no_digit,A0,10,16
+S2,no_digit,A1' v1.6,10,16
+S2,no_emoji,B0,15,15
+S2,no_emoji,B1 v1.6,15,15
+S2,no_emoji,A0,15,15
+S2,no_emoji,A1' v1.6,15,15
+S2,no_latin,B0,9,11
+S2,no_latin,B1 v1.6,9,11
+S2,no_latin,A0,8,11
+S2,no_latin,A1' v1.6,8,11
+S2,person_first,B0,17,21
+S2,person_first,B1 v1.6,17,21
+S2,person_first,A0,18,21
+S2,person_first,A1' v1.6,17,21
+S2,person_first,B1 v1.7,19,21
+S2,person_first,B_oracle,21,21
+S2,person_third,B0,6,9
+S2,person_third,B1 v1.6,5,9
+S2,person_third,A0,7,9
+S2,person_third,A1' v1.6,6,9
+S2,term_forb,B0,21,23
+S2,term_forb,B1 v1.6,21,23
+S2,term_forb,A0,23,23
+S2,term_forb,A1' v1.6,23,23
+S2,term_req,B0,18,24
+S2,term_req,B1 v1.6,18,24
+S2,term_req,A0,18,24
+S2,term_req,A1' v1.6,19,24
+S2,term_req,B1 v1.7,22,24
+S2,term_req,B_oracle,22,24
+S3,len_ge,B0,14,33
+S3,len_ge,B1 v1.8,25,33
+S3,len_ge,A0,22,33
+S3,len_ge,A1 v1.8,30,33
+S3,len_ab,B0,5,21
+S3,len_ab,B1 v1.8,9,21
+S3,len_ab,A0,7,21
+S3,len_ab,A1 v1.8,16,21
+S3,len_le,B0,32,37
+S3,len_le,B1 v1.8,37,37
+S3,len_le,A0,32,37
+S3,len_le,A1 v1.8,36,37
+S3,person_first,B0,11,16
+S3,person_first,B1 v1.8,14,16
+S3,person_first,A0,11,16
+S3,person_first,A1 v1.8,13,16
+S3,term_req,B0,12,20
+S3,term_req,B1 v1.8,17,20
+S3,term_req,A0,17,20
+S3,term_req,A1 v1.8,16,20
+S3,count,B0,22,45
+S3,count,B1 v1.8,17,45
+S3,count,A0,27,45
+S3,count,A1 v1.8,28,45
+Multi-IF zh,combination:repeat_prompt,B0,6,45
+Multi-IF zh,combination:repeat_prompt,B1 v1.9,6,45
+Multi-IF zh,combination:repeat_prompt,A0,10,45
+Multi-IF zh,combination:repeat_prompt,A1 v1.9,9,45
+Multi-IF zh,combination:two_responses,B0,13,31
+Multi-IF zh,combination:two_responses,B1 v1.9,12,31
+Multi-IF zh,combination:two_responses,A0,22,31
+Multi-IF zh,combination:two_responses,A1 v1.9,22,31
+Multi-IF zh,detectable_content:number_placeholders,B0,21,29
+Multi-IF zh,detectable_content:number_placeholders,B1 v1.9,22,29
+Multi-IF zh,detectable_content:number_placeholders,A0,23,29
+Multi-IF zh,detectable_content:number_placeholders,A1 v1.9,23,29
+Multi-IF zh,detectable_format:json_format,B0,15,20
+Multi-IF zh,detectable_format:json_format,B1 v1.9,15,20
+Multi-IF zh,detectable_format:json_format,A0,15,20
+Multi-IF zh,detectable_format:json_format,A1 v1.9,15,20
+Multi-IF zh,detectable_format:multiple_sections,B0,1,1
+Multi-IF zh,detectable_format:multiple_sections,B1 v1.9,1,1
+Multi-IF zh,detectable_format:multiple_sections,A0,1,1
+Multi-IF zh,detectable_format:multiple_sections,A1 v1.9,1,1
+Multi-IF zh,detectable_format:number_bullet_lists,B0,16,23
+Multi-IF zh,detectable_format:number_bullet_lists,B1 v1.9,15,23
+Multi-IF zh,detectable_format:number_bullet_lists,A0,12,23
+Multi-IF zh,detectable_format:number_bullet_lists,A1 v1.9,11,23
+Multi-IF zh,detectable_format:number_highlighted_sections,B0,38,53
+Multi-IF zh,detectable_format:number_highlighted_sections,B1 v1.9,36,53
+Multi-IF zh,detectable_format:number_highlighted_sections,A0,44,53
+Multi-IF zh,detectable_format:number_highlighted_sections,A1 v1.9,45,53
+Multi-IF zh,detectable_format:title,B0,34,41
+Multi-IF zh,detectable_format:title,B1 v1.9,34,41
+Multi-IF zh,detectable_format:title,A0,38,41
+Multi-IF zh,detectable_format:title,A1 v1.9,38,41
+Multi-IF zh,keywords:existence,B0,16,28
+Multi-IF zh,keywords:existence,B1 v1.9,16,28
+Multi-IF zh,keywords:existence,A0,18,28
+Multi-IF zh,keywords:existence,A1 v1.9,19,28
+Multi-IF zh,keywords:forbidden_words,B0,38,45
+Multi-IF zh,keywords:forbidden_words,B1 v1.9,38,45
+Multi-IF zh,keywords:forbidden_words,A0,40,45
+Multi-IF zh,keywords:forbidden_words,A1 v1.9,40,45
+Multi-IF zh,keywords:frequency,B0,5,10
+Multi-IF zh,keywords:frequency,B1 v1.9,5,10
+Multi-IF zh,keywords:frequency,A0,8,10
+Multi-IF zh,keywords:frequency,A1 v1.9,8,10
+Multi-IF zh,length_constraints:nth_paragraph_first_word,B0,1,15
+Multi-IF zh,length_constraints:nth_paragraph_first_word,B1 v1.9,1,15
+Multi-IF zh,length_constraints:nth_paragraph_first_word,A0,0,15
+Multi-IF zh,length_constraints:nth_paragraph_first_word,A1 v1.9,0,15
+Multi-IF zh,length_constraints:number_paragraphs,B0,12,26
+Multi-IF zh,length_constraints:number_paragraphs,B1 v1.9,12,26
+Multi-IF zh,length_constraints:number_paragraphs,A0,17,26
+Multi-IF zh,length_constraints:number_paragraphs,A1 v1.9,17,26
+Multi-IF zh,length_constraints:number_sentences,B0,31,46
+Multi-IF zh,length_constraints:number_sentences,B1 v1.9,22,46
+Multi-IF zh,length_constraints:number_sentences,A0,32,46
+Multi-IF zh,length_constraints:number_sentences,A1 v1.9,22,46
+Multi-IF zh,length_constraints:number_words,B0,31,54
+Multi-IF zh,length_constraints:number_words,B1 v1.9,37,54
+Multi-IF zh,length_constraints:number_words,A0,36,54
+Multi-IF zh,length_constraints:number_words,A1 v1.9,44,54
+Multi-IF zh,punctuation:no_comma,B0,64,68
+Multi-IF zh,punctuation:no_comma,B1 v1.9,64,68
+Multi-IF zh,punctuation:no_comma,A0,68,68
+Multi-IF zh,punctuation:no_comma,A1 v1.9,68,68
+Multi-IF zh,startend:end_checker,B0,25,39
+Multi-IF zh,startend:end_checker,B1 v1.9,24,39
+Multi-IF zh,startend:end_checker,A0,27,39
+Multi-IF zh,startend:end_checker,A1 v1.9,27,39
+Multi-IF zh,startend:quotation,B0,28,36
+Multi-IF zh,startend:quotation,B1 v1.9,27,36
+Multi-IF zh,startend:quotation,A0,26,36
+Multi-IF zh,startend:quotation,A1 v1.9,26,36
+ComplexBench rule-only subset,Json,B0,33,42
+ComplexBench rule-only subset,Json,B1 v1.11,27,42
+ComplexBench rule-only subset,Json,A0,32,42
+ComplexBench rule-only subset,Json,A1 v1.11,29,42
+ComplexBench rule-only subset,constraint_punc,B0,2,3
+ComplexBench rule-only subset,constraint_punc,B1 v1.11,2,3
+ComplexBench rule-only subset,constraint_punc,A0,1,3
+ComplexBench rule-only subset,constraint_punc,A1 v1.11,1,3
+ComplexBench rule-only subset,endswith,B0,7,19
+ComplexBench rule-only subset,endswith,B1 v1.11,4,19
+ComplexBench rule-only subset,endswith,A0,14,19
+ComplexBench rule-only subset,endswith,A1 v1.11,11,19
+ComplexBench rule-only subset,forbidden_word,B0,21,28
+ComplexBench rule-only subset,forbidden_word,B1 v1.11,20,28
+ComplexBench rule-only subset,forbidden_word,A0,23,28
+ComplexBench rule-only subset,forbidden_word,A1 v1.11,23,28
+ComplexBench rule-only subset,keyword,B0,37,51
+ComplexBench rule-only subset,keyword,B1 v1.11,38,51
+ComplexBench rule-only subset,keyword,A0,38,51
+ComplexBench rule-only subset,keyword,A1 v1.11,43,51
+ComplexBench rule-only subset,length,B0,27,77
+ComplexBench rule-only subset,length,B1 v1.11,44,77
+ComplexBench rule-only subset,length,A0,35,77
+ComplexBench rule-only subset,length,A1 v1.11,50,77
+ComplexBench rule-only subset,length_word,B0,3,7
+ComplexBench rule-only subset,length_word,B1 v1.11,4,7
+ComplexBench rule-only subset,length_word,A0,3,7
+ComplexBench rule-only subset,length_word,A1 v1.11,4,7
+ComplexBench rule-only subset,modek_keyword,B0,1,1
+ComplexBench rule-only subset,modek_keyword,B1 v1.11,1,1
+ComplexBench rule-only subset,modek_keyword,A0,1,1
+ComplexBench rule-only subset,modek_keyword,A1 v1.11,0,1
+ComplexBench rule-only subset,startswith,B0,13,24
+ComplexBench rule-only subset,startswith,B1 v1.11,12,24
+ComplexBench rule-only subset,startswith,A0,14,24
+ComplexBench rule-only subset,startswith,A1 v1.11,13,24

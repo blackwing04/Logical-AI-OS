@@ -13,9 +13,15 @@
    "改名前": false
   },
   {
+   "檔": "docs/failure_taxonomy.md",
+   "sha256": "6131a2124c4dd30a6d1e16f2fa0705ec9daefac0291a01442cdf45012254ee54",
+   "位元": 6993,
+   "改名前": false
+  },
+  {
    "檔": "docs/literature_mapping.md",
-   "sha256": "3f936121791e5fff93d27069d35c8575587250e1601c46beda5a62b3bc4e6cb8",
-   "位元": 18683,
+   "sha256": "b17d2031a707e80e7aaecfa6e898ca95fc070537f3e9549d8cbf68b1cf5c260e",
+   "位元": 29250,
    "改名前": false
   },
   {
@@ -37,15 +43,21 @@
    "改名前": true
   },
   {
+   "檔": "docs/parts_spec_v2.md",
+   "sha256": "8e0ac58c10644c3bc6d9142c8c6f923480c39e4f9554b58cdfe83e850e3ea38b",
+   "位元": 6380,
+   "改名前": false
+  },
+  {
    "檔": "docs/PORTING.md",
-   "sha256": "bb3a043f4d15ca7a123826ce03f134823c9141fe82298f8148d7511a4461bde9",
-   "位元": 9537,
+   "sha256": "f643802167fb861a0d76fd91a3442e371b2243b3c17a408b45ee5c239f6a22af",
+   "位元": 12480,
    "改名前": false
   },
   {
    "檔": "docs/PORTING.zh-TW.md",
-   "sha256": "1b73cfb48ed87adb89f07757e99e11396530f5e408efb0b99d230c5bdfbb05f5",
-   "位元": 8061,
+   "sha256": "db1ac30895679606187cc7ddd0200361e2458d2a06ba1faef69227dbe9bc21e2",
+   "位元": 10475,
    "改名前": false
   },
   {
@@ -53,6 +65,12 @@
    "sha256": "9c63c7b94185764a0906749d96f996451bbc8d4a89acb36ef40e2ffdec4270bb",
    "位元": 7105,
    "改名前": true
+  },
+  {
+   "檔": "docs/protocol/phase2/evaluation_protocol_phase2.md",
+   "sha256": "51e4c5dec651845030158f99aff68c6490b732b485bcc6bd2f3a41a70d5206eb",
+   "位元": 9517,
+   "改名前": false
   },
   {
    "檔": "docs/theory/behavioral-confabulation_mechanism-and-literature.md",
@@ -65,6 +83,60 @@
    "sha256": "0d5ba4399f925427fbdcd25887e7f1908d9bd35efe55ebbf0079e50b2f4f83e0",
    "位元": 3723,
    "改名前": true
+  },
+  {
+   "檔": "eval/complexbench/extract_rule_subset.py",
+   "sha256": "5a51ff639503bb7dd6854768df71445bb0aac4de3917584ebf733d06f7143636",
+   "位元": 1995,
+   "改名前": false
+  },
+  {
+   "檔": "eval/complexbench/obs_coverage.py",
+   "sha256": "66d6cbef3218a42a9e403d0c69659cc62f156d4a38573e613cd6c1e97ce1b805",
+   "位元": 4479,
+   "改名前": false
+  },
+  {
+   "檔": "eval/complexbench/rule_mapping.py",
+   "sha256": "abb93674f095793786071bd6d8ceb4360bb3563508b8475f9abb4168dfc0f3e1",
+   "位元": 4889,
+   "改名前": false
+  },
+  {
+   "檔": "eval/complexbench/score_complexbench.py",
+   "sha256": "eae331e32a57e646e89711c84381e1106e69c340fef91dced13062ecabae828f",
+   "位元": 4453,
+   "改名前": false
+  },
+  {
+   "檔": "eval/multi_if/score_multi_if.py",
+   "sha256": "ee65442980482c48b1c7a1611897696bf389ece46fd53eca07c5aeee8e8abc92",
+   "位元": 4221,
+   "改名前": false
+  },
+  {
+   "檔": "eval/README.md",
+   "sha256": "69c1d0bb29e3f7df3089ace6fa05d3f7875b6c81ae5817cc3fce7363da0f1d7b",
+   "位元": 4112,
+   "改名前": false
+  },
+  {
+   "檔": "eval/synthetic/grade_s1.py",
+   "sha256": "bdbd9e9377d3682e773d84df37c2bb87d3f9618915a6acaeecc609c9f75ebd36",
+   "位元": 5190,
+   "改名前": false
+  },
+  {
+   "檔": "eval/synthetic/grade_s2.py",
+   "sha256": "a4edaad80f034f95ad17c8e6e0c1f4403c799185dd53577a69653d82225e828a",
+   "位元": 5162,
+   "改名前": false
+  },
+  {
+   "檔": "eval/synthetic/grade_s3.py",
+   "sha256": "5603f0ed9dd24113e7af934871f39feadab452f62511e496a2b0f3468a40bc18",
+   "位元": 5150,
+   "改名前": false
   },
   {
    "檔": "LICENSE",
@@ -100,6 +172,12 @@
    "檔": "MANIFEST.md",
    "sha256": "7b1b7b3ba8ff95179b529fbfe237972453904973ec6ab2947ccdb82910f1b124",
    "位元": 20952,
+   "改名前": false
+  },
+  {
+   "檔": "MANIFEST_phase2.md",
+   "sha256": "86647396e5672c48659dfcbc8774da20d6ec2d2428092906d67dab8494f7d70a",
+   "位元": 19017,
    "改名前": false
   },
   {
@@ -146,14 +224,14 @@
   },
   {
    "檔": "README.md",
-   "sha256": "bcec837395a2cab99ffb19e93bc7d2d8df0cd67bde5e23380a0bc70fdd78b06a",
-   "位元": 10680,
+   "sha256": "0e1d416398a8637c166559802e3fae6c709a53e5ad3b2a52465e1ae3f0569e57",
+   "位元": 14545,
    "改名前": false
   },
   {
    "檔": "README.zh-TW.md",
-   "sha256": "e67bed802699ec99c0caaf4c6634481cf3ab46dfc6fed4a37c1fa48a3eb9776f",
-   "位元": 8695,
+   "sha256": "e0f2f9dc716a574b561aed6211c1d63f97413d17a516ba3a03e682ba899c0549",
+   "位元": 12048,
    "改名前": false
   },
   {
@@ -173,6 +251,42 @@
    "sha256": "3dbe4328e30fddbc3fe2292feffa520e716d1bfbed4897d6b9f48b8ecdc877ab",
    "位元": 3403,
    "改名前": true
+  },
+  {
+   "檔": "results/phase2/deltas.csv",
+   "sha256": "efc7ee6e24ff3690c8fe8d3f5ad972de97c97ffbbf996561f1cb44fddc706b0a",
+   "位元": 1481,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/headline.csv",
+   "sha256": "aacdc492fb7d38851fe6c3039ac6fb3db8e66eec14f6438270ab0848b715cf6d",
+   "位元": 9292,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/per_type.csv",
+   "sha256": "0c62ba373849bb36e981a5685e6f340a3ded9e2c58f043505a111d24166c1365",
+   "位元": 8640,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/README.md",
+   "sha256": "013cf4b8e62675bbc41633f3d4db1592aad3c76944ee53fd33957081c7ebf465",
+   "位元": 5802,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/summary.md",
+   "sha256": "1cd8d351d8157d9d0a0bd403a479957b98f6fafc1606cfead8676b1b71706cfe",
+   "位元": 12405,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/triggers_coverage.csv",
+   "sha256": "ace51d821c1c68ca0d4c7b7bc0201b302774b81d9803d02323d18d8172ce3b1e",
+   "位元": 2342,
+   "改名前": false
   },
   {
    "檔": "src/blindtest/run_7b_arm.py",

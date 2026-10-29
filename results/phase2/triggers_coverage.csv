@@ -1,0 +1,28 @@
+paper,arm,rules_version,quantity,num,den,pct,note
+M3,B1,v1.3,retry triggered (articles),11,116,9.5,5 genuine / 6 spurious
+S1,B1,v1.3,retry triggered (articles),48,117,41.0,
+S1,B1,v1.3,trap sentences that triggered a retry,9,18,50.0,
+S1,A1,v1.3,retry triggered (articles),43,117,36.8,
+S2,B1,v1.6,"retry triggered (articles, incl. 3 sentinels)",43,120,35.8,
+S2,B1,v1.6,trap sentences that triggered a retry,10,22,45.5,
+S2,A1',v1.6,"retry triggered (articles, incl. 3 sentinels)",41,120,34.2,
+S2,-,v1.6,"extraction recall, type only (no parameter check)",,,,35.0%
+S2,-,v1.7,"extraction recall, type only (no parameter check)",258,311,83.0,
+S3,B1,v1.8,"retry triggered (articles, incl. 3 sentinels)",74,120,61.7,
+S3,B2,v1.7,"retry triggered (articles, incl. 3 sentinels)",72,120,60.0,
+S3,A1,v1.8,"retry triggered (articles, incl. 3 sentinels)",64,120,53.3,
+Multi-IF zh,B1,v1.9,retry triggered (questions),36,454,7.9,
+Multi-IF zh,A1,v1.9,retry triggered (questions),35,454,7.7,
+Multi-IF zh,-,v1.7,"reading hits, same type only",59,362,16.3,different ruler from rows below
+Multi-IF zh,-,v1.7,"reading hits, type and parameters match",34,362,9.4,
+Multi-IF zh,-,v1.10,"reading hits, type and parameters match",167,362,46.1,
+Multi-IF zh,-,v1.11,"reading hits, type and parameters match",320,362,88.4,in-sample: Multi-IF became development material after it was scored
+Multi-IF zh (colloquial rewrite V2),-,v1.10,"reading hits, type and parameters match",155,362,42.8,in-sample
+Multi-IF zh (colloquial rewrite V2),-,v1.11,"reading hits, type and parameters match",301,362,83.1,in-sample
+Multi-IF zh,-,v1.10,reading hallucination rate (unmatched reads / reads),41,227,18.1,
+Multi-IF zh,-,v1.11,reading hallucination rate (unmatched reads / reads),,,,13.0% (51 unmatched)
+Multi-IF zh (colloquial rewrite V2),-,v1.11,reading hallucination rate (unmatched reads / reads),,,,14.0% (52 unmatched)
+ComplexBench rule-only subset,-,v1.10,"reading hits, type and parameters match",49,252,19.4,dry run before the blind shot; denominator includes 43 rules with no matching type
+ComplexBench rule-only subset,-,v1.11,"reading hits, type and parameters match",145,252,57.5,out-of-sample; same denominator
+ComplexBench rule-only subset,B1,v1.11,retry triggered (questions),102,209,48.8,
+ComplexBench rule-only subset,A1,v1.11,retry triggered (questions),89,209,42.6,

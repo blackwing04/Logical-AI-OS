@@ -29,6 +29,32 @@
 
 詳見 [`results/`](results/)。
 
+## 第二部分：驗證層（2026-10-17 至 2026-10-29）
+
+這一階段問的問題更窄：**同一個小模型，外面包一層零推論的外部架構之後，守明寫限制有沒有變好？**
+架構從題目讀出限制、以規則核對答案、生成後最多退回一次；自 v1.8 起加入生成時介入。
+比較永遠是「裸模型」對「同一模型＋架構」。
+
+- **合成限制密集卷 S3**（規則於生成前凍結、gold 盲於規則）：全部限制皆守率 3B 39.3 → 53.8%、
+  7B 51.3 → 68.4%；由聊天端自寫的獨立核對器評分。
+- **外部盲打：ComplexBench 純規則子集**（252 條，官方 `con_rule.py`，規則凍結於 v1.11）：
+  條過 3B 57.1 → 60.3%、7B 63.9 → 69.0%。每臂只取樣一次；評測對象為整篇回覆
+  （官方的 GPT-4 對象抽取未接）。
+- **負結果並列：**
+  - Multi-IF 中文 −1.8／−1.3 點，句數上限被讀成條數。
+  - 真實流量卷（WildChat）效應近零。
+  - ComplexBench 上改寫弄壞了裸模型原本過的 22／14 條，其中各只有 3 條是被退回的那一條本身。
+- **讀題覆蓋是天花板。**讀題步驟找到 ComplexBench 57.5% 的規則（樣本外）；增益集中在讀到的條，
+  沒讀到的幾乎沒有改善。
+
+表在 [`results/phase2/`](results/phase2/)；協定在 [`docs/protocol/phase2/`](docs/protocol/phase2/)；
+評分腳本在 [`eval/`](eval/)；失敗型錄與邊界圖在 [`docs/failure_taxonomy.md`](docs/failure_taxonomy.md)。
+所有動作層實作、規則表與門檻**不公開**（見下方收裝規矩）。
+
+Part II 的 gold 由聊天端（一個 LLM 會話）標註，不是人類標註；PI 做過抽查。
+
+Part II 報告：Zenodo DOI **待配發**（佔位）。
+
 ## 誠實清單（先讀這個）
 
 這份收裝刻意把**不利的判定**放在和結果同等的位置：
@@ -58,6 +84,11 @@
 | [`src/mechanical/signed_tables/`](src/mechanical/signed_tables/) | 簽核詞表（量詞分類器、功能層、詞表註冊表） |
 | [`manifest/`](manifest/) | v4.5 封筆 manifest：31 組件的 sha256 與旗標表 |
 | [`papers/`](papers/) | 技術報告（Zenodo 存放）：PDF、Markdown 正文、中文摘要、bib，附雜湊 |
+| [`results/phase2/`](results/phase2/) | Part II 彙總表（CSV＋Markdown）：各臂分數、改善／變差、逐型通過率、觸發率、讀題覆蓋率 |
+| [`docs/protocol/phase2/`](docs/protocol/phase2/) | Part II 評測協定：合成卷制度、神諭臂與只記不動臂、停工線、外部題庫（子彈）規矩，以及每一次門檻變更的沿革 |
+| [`eval/`](eval/) | Part II 評分腳本：呼叫 Multi-IF 與 ComplexBench 官方檢查器的 glue、聊天端為 S1–S3 自寫的獨立核對器、讀題覆蓋率統計 |
+| [`docs/parts_spec_v2.md`](docs/parts_spec_v2.md) | Part II 零件規格表：每個零件量什麼、量到多少（只有數值） |
+| [`docs/failure_taxonomy.md`](docs/failure_taxonomy.md) | Part II 失敗型錄（模型自身的失敗；架構造成的失敗）與邊界圖 |
 
 ## 公開範圍與不公開的東西
 
@@ -68,6 +99,8 @@
 - **所有答案本（gold）**。公開答案本等於作廢這些卷。
 - 各輪修正令與進度檔（內部工作流）。
 - 任何憑證。
+- **Part II：**WildChat、LMSYS-Chat-1M、Multi-IF、ComplexBench 的題目與答案原文；所有 gold；
+  以及所有動作層實作、規則表與門檻。
 
 ### 收裝規矩：公開線與不公開線
 
@@ -79,6 +112,10 @@
 | **不公開線＝操作層** | 行為公式的閘接法、驗證公式的計算定義與閾值、控制層、誠信協定設計，以及尚未結案的病灶處置 |
 
 **這條線裡面有一個分別，寫出來是因為它正是被弄錯的那一個。** 零件**自身**的出口——句級三出口與 ASK 配額——屬量測層，公開。**架構級 B 閘**——依 `C` 的完整度決定整個請求是回答還是反問——屬操作層，**尚未實作**，日後不公開。
+
+**Part II 補記（2026-10-29，PI 裁）。**2026-10-17 至 2026-10-29 新增的所有動作層實作、規則表與門檻
+同歸不公開線，理由同原線。對外文本只出現兩個動作的名稱——生成後退回一次、生成時介入——
+不描述任何一個怎麼做。Part II 只公開效應、協定、覆蓋率、失敗型錄、邊界與零件規格數值。
 
 不公開項**不出現在本倉、也不出現在任何對外文本**；其設計稿只留在內部工作倉。
 需要存證時走雜湊承諾的形式——**內容封存、本倉只放雜湊**，如同
@@ -97,7 +134,9 @@
 
 - 判定鏈在**你自己的**句子上的行為（`src/` 可直接跑）；
 - 簽核表與旗標的完整狀態（`manifest/`）；
-- 每一個結論的歸因鏈（`results/` 的拆帳）。
+- 每一個結論的歸因鏈（`results/` 的拆帳）；
+- Part II：用 `eval/` 的腳本為**你自己的**回覆在 Multi-IF 與 ComplexBench 上**評分**
+  （發佈前已在私有回覆上重跑，判決差異 0）。架構臂本身無法從本倉重跑。
 
 `manifest/` 裡的雜湊是**內部原始檔**的雜湊，與本倉的去語料版**不相符**；
 原因與對照方式見 [`PUBLIC_NOTES.md`](PUBLIC_NOTES.md) §三。這是去語料的必然代價，
@@ -109,7 +148,7 @@
 
 | 路徑 | 授權 | 檔 |
 | --- | --- | --- |
-| [`src/`](src/)、[`manifest/`](manifest/) | **MIT** | [`LICENSE`](LICENSE) |
+| [`src/`](src/)、[`manifest/`](manifest/)、[`eval/`](eval/) | **MIT** | [`LICENSE`](LICENSE) |
 | [`docs/`](docs/)、[`results/`](results/)、[`papers/`](papers/)、`README.md`、`PUBLIC_NOTES.md`、`MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
 
 論文（Zenodo）側為 **CC BY**。

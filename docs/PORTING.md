@@ -60,7 +60,7 @@ depends on Chinese comma usage.
 
 | Rule | Why it is language-bound |
 | --- | --- |
-| Zero anaphora / subject omission | Chinese is topic-prominent and licenses zero subjects through topic chains. English omits subjects in a narrower set of environments, so a detector built on "no person marker found" behaves differently. Note also that this project's own implementation conflated *zero subject* with *non-human subject*, which it had to correct — a port will meet the same trap in its own shape. |
+| Zero anaphora / subject omission | Chinese is topic-prominent and licenses zero subjects through topic chains. English omits subjects in a narrower set of environments, so a detector built on "no person word found" behaves differently. Note also that this project's own implementation conflated *zero subject* with *non-human subject*, which it had to correct — a port will meet the same trap in its own shape. |
 | Imperative implies second person | Chinese imperatives typically have no subject and the "you" is supplied pragmatically. English imperatives are also subjectless, but the morphology and the competing readings (infinitive, subjunctive) are different. |
 | "One + classifier" landing in the task body | **Does not apply**: no classifier system (see §2a). |
 
@@ -125,6 +125,68 @@ These are not properties of Chinese. They will appear in any language.
    negative answer appears, so the cost of the "yes" population is unbounded by it.
    As a corpus gets harder that population grows and the latency profile degrades —
    which is a property of the stopping rule, not of the language.
+
+## 6. Phase II: the three blocks you must build yourself
+
+Phase II wrapped an external, zero-inference architecture around a small model and measured
+whether it followed explicit constraints better. The referee side is public:
+
+- the protocol: [`protocol/phase2/`](protocol/phase2/)
+- the scoring scripts: [`../eval/`](../eval/)
+- the numbers: [`../results/phase2/`](../results/phase2/), [`parts_spec_v2.md`](parts_spec_v2.md)
+
+The three blocks that act on the answer are part of the control layer and are **not
+published**. A port has to build them. What follows says what each block must do and how to
+accept it. It gives no implementation.
+
+### 6a Constraint reading (prompt → checklist of typed constraints with parameters)
+
+**Must build:**
+
+- A reader for the target language that turns a request into typed constraints: length,
+  count, required and forbidden terms, language, character classes, format, structure, person.
+- Each constraint keeps its parameters **verbatim from the prompt**.
+- Material inside the prompt (text to be processed) must not be read as a request.
+
+**Accept it on:**
+
+1. **Hits on an out-of-sample benchmark under two rulers, reported separately:** type only,
+   and type plus parameters. Our out-of-sample type-plus-parameter number was 57.5%; the
+   in-sample number on the benchmark we developed against was 88.4%. Expect the gap.
+2. **Hallucination rate** (reads matching no gold), judged as a rate, not an absolute count.
+   The count grows with the number of reads.
+3. **Direction errors.** "No more than N sentences" read as "at least N" did real damage.
+4. **Scope.** "Each point under 50 characters" or "the title under 10" are not whole-answer
+   limits. We did not solve this; it is the largest known cause of harm.
+
+### 6b Retry once after generation
+
+**Must build:** a retry once after generation, triggered by the checker. How it is done is not
+published.
+
+**Accept it on:**
+
+1. **A frozen paper against the bare arm:** improved and worsened items, and constraint-level
+   fixes and breaks.
+2. **Collateral.** How many broken constraints were *not* the one that triggered the retry? For
+   us that was most of them.
+3. **An oracle arm.** Feed gold constraints into the same flow to see the ceiling of the flow
+   itself.
+4. **Trap sentences.** Measure how often material sentences trigger a retry.
+
+### 6c Generation-time intervention
+
+**Must build:** a generation-time intervention. How it is done is not published.
+
+**Accept it on:** the share of length and count constraints landing in range on an S3-style
+paper, compared with a control arm that has no intervention.
+
+### 6d What does not port
+
+- **The numbers.** Every effect in Phase II depends on the reading step's recall in the
+  benchmark's phrasing. A new language starts at zero recall.
+- **The thresholds and patterns.** They were tuned on Chinese prompts, and on Multi-IF after
+  it was scored. They are in-sample by construction.
 
 ---
 

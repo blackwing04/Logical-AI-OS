@@ -38,6 +38,38 @@ bare 7B). **The conclusion is bounded:**
 
 Details in [`results/`](results/).
 
+## Part II: the verification layer (2026-10-17 to 2026-10-29)
+
+The second line asked a narrower question: **does the same small model follow explicit
+constraints better when an external, zero-inference architecture is wrapped around it?**
+The architecture reads the constraints from the prompt, checks the answer by rule, retries at
+most once after generation, and from v1.8 adds a generation-time intervention.
+The comparison is always bare model vs. the same model plus the architecture.
+
+- **Synthetic, constraint-dense paper S3** (rules frozen before generation, gold blind to the
+  rules): all-constraints-kept rate 3B 39.3 → 53.8%, 7B 51.3 → 68.4%. Scored by an independent
+  checker written by the reviewer.
+- **External blind shot, ComplexBench rule-only subset** (252 rules, official `con_rule.py`,
+  rules frozen at v1.11): rule passes 3B 57.1 → 60.3%, 7B 63.9 → 69.0%. This is one sample per
+  arm, and the whole response is the evaluated object (the official GPT-4 extraction step was
+  not run).
+- **Negative results kept beside them:**
+  - Multi-IF zh was −1.8 / −1.3 points. Sentence limits were read as item counts.
+  - Real-traffic papers (WildChat) showed an effect near zero.
+  - On ComplexBench, rewrites broke 22 / 14 rules the bare model had passed. Only 3 per arm
+    were the retried rule itself.
+- **Reading coverage is the ceiling.** The reading step found 57.5% of ComplexBench's rules
+  (out-of-sample). Gains concentrate in the rules it found; unread rules almost never improved.
+
+Tables in [`results/phase2/`](results/phase2/); protocol in [`docs/protocol/phase2/`](docs/protocol/phase2/);
+scoring scripts in [`eval/`](eval/); failure taxonomy and boundary map in
+[`docs/failure_taxonomy.md`](docs/failure_taxonomy.md). All action-layer implementation, rule tables and
+thresholds are **not published** (see the release discipline below).
+
+Gold in Phase II was labelled by the reviewer session (an LLM), not by a human; the PI spot-checked.
+
+Part II report: Zenodo DOI **to be assigned** (placeholder).
+
 ## Honesty list (read this first)
 
 This release deliberately places the **unfavourable findings** on the same footing
@@ -74,6 +106,11 @@ as the results:
 | [`src/mechanical/signed_tables/`](src/mechanical/signed_tables/) | Signed tables (numeral-classifier classifier, function layer, lexicon registry) |
 | [`manifest/`](manifest/) | The v4.5 sealing manifest: sha256 of 31 components plus the flag table |
 | [`papers/`](papers/) | The technical report (Zenodo deposit): the PDF, the Markdown body, the Chinese abstract, the bibliography, and their checksums |
+| [`results/phase2/`](results/phase2/) | Part II aggregate tables (CSV + Markdown): scores per arm, improved / worsened, per-type pass rates, trigger rates, reading coverage |
+| [`docs/protocol/phase2/`](docs/protocol/phase2/) | Part II evaluation protocol: synthetic-paper rules, oracle and record-only arms, stop lines, the external-benchmark ("bullet") rules, and the history of every gate change |
+| [`eval/`](eval/) | Part II scoring scripts: glue around the official Multi-IF and ComplexBench checkers, the reviewer's independent checkers for S1–S3, the reading-coverage statistics |
+| [`docs/parts_spec_v2.md`](docs/parts_spec_v2.md) | Part II parts specification: what each part measures and the number it reached (numbers only) |
+| [`docs/failure_taxonomy.md`](docs/failure_taxonomy.md) | Part II failure taxonomy (the model's own failures; failures the architecture caused) and boundary map |
 
 ## Scope of this release, and what is not in it
 
@@ -85,6 +122,8 @@ as the results:
 - **All answer keys (gold).** Publishing them would void these rounds.
 - Each round's correction orders and progress files (internal workflow).
 - Any credential.
+- **Part II:** prompts and answers from WildChat, LMSYS-Chat-1M, Multi-IF and ComplexBench;
+  all gold files; and all action-layer implementation, rule tables and thresholds.
 
 ### Release discipline: what is public and what is not
 
@@ -97,6 +136,12 @@ The scope of this project's public releases has been, since 2026-10-08, an
 | **Non-public line = the operational layer** | How the behaviour equation is gated and wired, the computation and thresholds of the verification equation, the control layer, the integrity-protocol design, and the handling of defects not yet closed out |
 
 **One distinction inside that line, stated because it is the one that was got wrong.** A component's *own* exits — the sentence-level three exits and the ASK quota — are part of the measurement layer and are public. The **architecture-level B gate** — deciding whether a whole request is answered or asked back about, based on how complete `C` is — is the operational layer. It **is not implemented**, and it will not be published.
+
+**Part II addendum (2026-10-29, PI's ruling).** All action-layer implementation, rule tables and
+thresholds added from 2026-10-17 to 2026-10-29 fall on the non-public side, for the same reason as
+the original line. Public text names only the two actions, a retry once after generation and a
+generation-time intervention, and does not describe how either works. Part II publishes effects,
+protocol, coverage, the failure taxonomy, boundaries and part-level numbers.
 
 Non-public items **do not appear in this repository, nor in any outward-facing
 text**; their design drafts stay in the internal working repository. Where a record
@@ -122,7 +167,10 @@ reproduce is:
 - the behaviour of the judgement chain on **your own** sentences (`src/` runs
   directly);
 - the complete state of the signed tables and the flags (`manifest/`);
-- the attribution chain behind every conclusion (the breakdowns in `results/`).
+- the attribution chain behind every conclusion (the breakdowns in `results/`);
+- for Part II, the **scoring** of your own responses on Multi-IF and ComplexBench with the
+  scripts in `eval/` (rerun on the private responses before release: 0 differing verdicts).
+  The architecture arms themselves cannot be rerun from this repository.
 
 The hashes in `manifest/` are those of the **internal source files** and **do not
 match** this repository's corpus-redacted versions; the reason and the way to check
@@ -135,7 +183,7 @@ cost of corpus redaction, not a recording error.
 
 | Path | Licence | File |
 | --- | --- | --- |
-| [`src/`](src/), [`manifest/`](manifest/) | **MIT** | [`LICENSE`](LICENSE) |
+| [`src/`](src/), [`manifest/`](manifest/), [`eval/`](eval/) | **MIT** | [`LICENSE`](LICENSE) |
 | [`docs/`](docs/), [`results/`](results/), [`papers/`](papers/), `README.md`, `PUBLIC_NOTES.md`, `MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
 
 The paper (Zenodo) side is **CC BY**.

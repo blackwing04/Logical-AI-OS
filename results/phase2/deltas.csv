@@ -1,0 +1,17 @@
+paper,arm,baseline,unit,improved,worsened,violations_fixed,violations_broken,note
+M2,B1 v1.1,B0,usable answers,,,,,net -7 (8 wrong ASKs; 4 retries no gain)
+M2,B1 v1.2,B0,usable answers,4,2,,,net +2; ASK net contribution -2
+M3,B1 v1.3,B0,usable answers,1,1,,,"net 0; 11 triggers, 5 genuine / 6 spurious"
+S1,B1 v1.3,B0,articles (fewer / more violated constraints),16,9,16,10,
+S1,A1 v1.3,A0,articles (fewer / more violated constraints),12,15,12,16,net +4 violations on 7B
+S2,B1 v1.6,B0,articles (fewer / more violated constraints),7,7,11,13,
+S2,B1 v1.7,B0,articles (fewer / more violated constraints),14,8,22,17,development
+S2,B_oracle,B0,articles (fewer / more violated constraints),22,2,26,5,ceiling of v1.6 flow
+S2,A1' v1.6,A0,articles (fewer / more violated constraints),10,9,11,12,
+S3,B1 v1.8,B0,articles (fewer / more violated constraints),29,9,38,17,
+S3,B2 v1.7,B0,articles (fewer / more violated constraints),20,6,26,11,
+S3,A1 v1.8,A0,articles (fewer / more violated constraints),26,7,33,13,
+Multi-IF zh,B1 v1.9,B0,questions (all-pass flips),5,13,9,17,violations columns = instruction-level fixes / breaks
+ComplexBench rule-only subset,B1 v1.11,B0,questions (all-pass flips),26,14,30,22,violations columns = rule-level fixes / breaks
+Multi-IF zh,A1 v1.9,A0,questions (all-pass flips),5,11,10,12,violations columns = instruction-level fixes / breaks
+ComplexBench rule-only subset,A1 v1.11,A0,questions (all-pass flips),22,7,27,14,violations columns = rule-level fixes / breaks

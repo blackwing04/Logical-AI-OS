@@ -63,7 +63,7 @@
 ## 五、誠信對照（2026-08-15）
 
 **注意**：原筆記 §六 **不在倉內**（`data/record/2026-08-15/2026-08-15.md` 只有四節，無誠信對照）。
-以下三列依 `orders/2026-10-07_文獻補查與總表落檔令.md` §二 的摘述填入，出處由 CC 本輪補齊。
+以下三列依內部令文的摘述填入，出處由 CC 本輪補齊。
 
 | 我方主張／零件 | 最近前作（作者／年／出處） | 關係 | 來源筆記 |
 | --- | --- | --- | --- |
@@ -103,13 +103,56 @@
 | 7/13 原主張「低信心→ASK 閘門為 CIDM 生態普遍缺席」 | — | **已自我窄化**：該檔明定「clarification 為活躍領域；缺席的是『**輸入規格化管線內建＋行為公式錨定＋缺槽觸發**』之組合格。對外表述一律用窄版」 | 同上 §「7/13 主張窄化」。**7/13 原檔未在倉內找到**，但其主張已被 7/22 原文引述並修正 |
 | 總定位句（對外可用） | 各零件皆有成熟鄰居（control 之外部協定、abstention 之閾值理論、TOD 之缺槽即問、guardrails 之驗證工程） | **貢獻在組合與錨定**：公式驅動之領域通用規格化＋ASK，以小模型原子判斷實作，全程可審計 | 同上「總定位句」 |
 
+## 九、限制遵循與外部修正（2026-10-19，文獻之旅三）
+
+> 緣起：形狀層退回重做線（10/17 起）開工時未重跑文獻，2026-10-19 補查（DeCRIM 在 10/06–10/09 兩輪文獻之旅時已漏收）。
+> 本節每列三欄照令文：**一句結論／與本線對應處（相同／不同／借名）／可借用物**。核到程度：全部 **已核原典頁面**（arXiv abs＋HTML 全文或 GitHub README），例外另註。
+> 導入評估（可借／可替換／佐證／不借）另有內部報告，本表不評。
+
+### 9.1 外部修正（拆解→評審→修正）
+
+| 原典 | 一句結論 | 與本線對應處 | 可借用物 |
+| --- | --- | --- | --- |
+| Ferraz, T. P. et al. (2024) "LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints", *Findings of EMNLP 2024*, pp. 7773–7812, arXiv:2410.06458 | 把指令拆成限制清單、由 Critic 逐條判「followed／not followed」、只在有未達時修正；Mistral-7B-Instruct-v0.2 在 RealInstruct 指令級 76.8→80.5（自拆解＋弱監督 Critic）、→93.7（神諭拆解＋神諭 Critic）；**自己評自己（Self/Self）75.2，比不修還差**；修正只在約 25% 指令觸發；弱 Critic 會「過度修正好答案、漏修壞答案」 | **相同**：拆解＝我方 C.items 抽取；Critic＝我方規則核對器（零推論）；Refine＝退回重做；「神諭拆解」＝我方 B_oracle（gold 當 item）；Self/Self 變差＝我方小測「模型反問無用」與 7B 側 −1。**不同**：他們的 Critic 是模型（GPT-4／監督 Mistral），我方是規則；他們沒有「神諭拆解＋規則 Critic」這一格；他們不量偽觸發，我方量（陷阱句 50%／45%）。「弱／強回饋」原文**未正式定義**，語境上弱＝Self／監督 Mistral，強＝GPT-4／神諭 | 上界消融設計（拆解×Critic 兩軸各放神諭）；Critic 逐條二值輸出格式；「Make Sure」基線句；RealInstruct **22 類限制型錄**（附錄 E，本輪 HTML 讀到參考文獻即止，**型錄未核到**）。資料集**釋出與授權未核到**（arXiv／Anthology 頁皆無連結；題源 ShareGPT 第一輪、英文） |
+| Huang, J. et al. (2024) "Large Language Models Cannot Self-Correct Reasoning Yet", *ICLR 2024*, arXiv:2310.01798 | 無外部回饋的內在自我修正讓準確率下降（GPT-4 GSM8K 95.5→91.5→89.0；GPT-3.5 CommonSenseQA 75.8→38.1），因為「模型無法正確判斷自己推理的對錯」；有神諭標籤喊停時才上升 | **互為佐證**：我方小測 3B 幾乎全判矛盾、7B 幾乎全判一致（AUC 0.60／0.66）→ 模型自評不進 ASK 觸發；神諭臂（外部正確回饋）是上限 | 「與同算力基線比」「初始提示同等用心」兩條評測規矩 |
+| Kamoi, R. et al. (2024) "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs", *TACL* 12:1417–1440, arXiv:2406.01297 | 提示式自我修正在一般任務無可靠成功例；**有可靠外部回饋時有效**；驗證比生成容易的任務（可分解、可機械核）是例外 | **相同**：形狀層＝「驗證比生成容易」那一格的機械版 | 公平評測清單：不用神諭資訊、初始提示要強、與同成本基線比、**直接量回饋品質**（＝我方該量核對器的精確率／偽觸發） |
+
+### 9.2 可驗證指令與多限制基準
+
+| 原典 | 一句結論 | 與本線對應處 | 可借用物 |
+| --- | --- | --- | --- |
+| Zhou, J. et al. (2023) "Instruction-Following Evaluation for Large Language Models", arXiv:2311.07911 | IFEval：541 條英文提示、**25 型可機械驗證指令**（關鍵字含／禁／頻率、語言、段數／字數／句數、附註、佈位符、列點數、標題、選項、高亮、分節、JSON、重複提示、兩答案、全大寫／全小寫、結尾句、引號包、無逗號）；GPT-4 提示級嚴格 76.89 | **相同**：我方閉集（長度／數量／必含禁含／語言／格式／分段／無數字無英文無表情）是 25 型的子集加中文特有的「無英文字母」；他們 strict／loose 兩口徑＝我方 deliverable 範圍切法。**不同**：英文、單輪、無材料句 | 25 型型錄（擴閉集的對照）；strict／loose 口徑；程式 Apache-2.0（google-research 倉） |
+| Jiang, Y. et al. (2024) "FollowBench: A Multi-level Fine-grained Constraints Following Benchmark for Large Language Models", *ACL 2024*, arXiv:2310.20410 | 820 條、五層逐層加一條限制（內容／情境／風格／格式／範例）；**有中文版 790 條（data_zh/）**；GPT-4 HSR 73.4、Qwen-Chat-7B 40.6、LLaMA2-Chat-7B 46.3；L1→L5 單調下降（GPT-4 84.7→61.9）；開源模型上限約 2 條限制 | **相同**：限制越多越守不住＝我方 S1／S2 全守率 40–51%。**不同**：開放式題用 GPT-4 當判官；我方只收字面可核型 | 中文 790 條（Apache-2.0）；HSR／SSR／CSL 三指標；逐層加限制的卷設計 |
+| Wen, B. et al. (2024) "Benchmarking Complex Instruction-Following with Multiple Constraints Composition", *NeurIPS 2024 D&B*, arXiv:2407.03978 | ComplexBench：**中文原生** 1,150 條／5,306 評分題，4 型 19 維、4 種組合（And／Chain／Selection）；規則核的題只佔 17%（長度等），其餘 GPT-4 判；GPT-4 0.800、Qwen1.5-7B 0.658、Mistral-7B 0.592、ChatGLM3-6B 0.546；**格式／詞彙類（有明確判準）比語義類更難**；把指令拆成多輪反而讓 GPT-3.5 0.682→0.652 | **相同**：有明確判準的型最難＝我方長度（尤其約值）最弱；多輪拆解累積誤差＝我方多輪小測要看的「震盪」。**不同**：83% 題靠 GPT-4 判，我方 0% | 中文 1,150 條（資料 CC BY 4.0、程式 MIT）；`model_length:[lo,hi]` 規則欄；4 型 19 維型錄 |
+| Qin, Y. et al. (2024) "InFoBench: Evaluating Instruction Following Ability in Large Language Models", arXiv:2401.03601 | DRFR＝把指令拆成是／否題後的通過比；500 條／2,250 題；GPT-4 89.4、Vicuna-13B 78.4；GPT-4 當標註者對人工 89% 一致（只標 50 條） | **借名**：我方 e_shape 也是「逐條通過比」，但條目來源是規則抽取不是人工拆解 | 五類（內容／語言／風格／格式／數量）型錄；授權**未核到** |
+
+### 9.3 長度控制與受限生成
+
+| 原典／工具 | 一句結論 | 與本線對應處 | 可借用物 |
+| --- | --- | --- | --- |
+| Li, J. et al. (2024) "Ruler: A Model-Agnostic Method to Control Generated Length for Large Language Models", arXiv:2409.18943 | 模型「感知數值限制」有困難；用 Meta Length Token 訓練後 PM +27.97／FM +29.57 | **相同**（病）：長度是我方全模型最弱項。**不同**（藥）：要訓練，我方不改權重 | PM／FM（精確／寬鬆命中）兩口徑 |
+| Zhang, W. et al. (2025) "LIFEBench: Evaluating Length Instruction Following in Large Language Models", *NeurIPS 2025 D&B*, arXiv:2505.16234 | 10,800 例、**中英雙語**、16–8,192 詞；26 個模型過某長度後急降，幾乎全部達不到廠商宣稱的最大輸出 | **相同**：長度不守是普遍現象，不是 3B 特有 | 中文長度題；長度分級設計 |
+| Outlines（dottxt-ai/outlines，Apache-2.0；README 與 transformers 模型頁已核） | 以 regex／JSON schema／CFG／選項鎖死輸出；`outlines.from_transformers(model, tokenizer)` 包既有 HF 模型；**長度只有 max_new_tokens，不是文法**；Unicode／CJK 處理**未見文件** | **不同**：生成時鎖死 vs 我方生成後退回；可鎖的是格式／字元集／JSON，鎖不住字數／人稱／必含詞 | 格式與禁用字類兩型的「生成時鎖死」候選 |
+| Guidance（guidance-ai/guidance，MIT）＋ llguidance（MIT） | regex／select／CFG／JSON；transformers、llama.cpp 後端；引擎 llguidance：Earley＋regex derivatives、token 字首樹算 mask，約 50µs／token；Unicode **無明文** | 同上 | 同上；token fast-forward |
+| SGLang structured outputs（docs.sglang.io） | json_schema／regex／ebnf／structural_tag；文法後端 xgrammar（預設）／outlines／llguidance；**走伺服器引擎**，一請求一種限制 | **不同**：我方是 transformers 單機 4-bit 推論，不走 SGLang 引擎 | 三後端的能力矩陣 |
+| LMQL（lmql.ai，SRI Lab ETH） | `where` 硬限制：STOPS_AT、`len(VAR) < n`、型別、選項；transformers／llama.cpp／OpenAI | **借名**：它的 `len()` 是字元長度上限硬截斷，不是「約 N 字」 | 授權與現況**未核到** |
+| XGrammar（xgrammar.mlc.ai，文件首頁已核、內頁未讀） | JSON／EBNF／Lark／structural tag；「zero-overhead」 | — | 整合與 Unicode **未核到** |
+
+### 9.4 口語化信心不可靠
+
+| 原典 | 一句結論 | 與本線對應處 | 可借用物 |
+| --- | --- | --- | --- |
+| Xiong, M. et al. (2024) "Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs", *ICLR 2024*, arXiv:2306.13063 | 黑箱口語化信心**普遍過度自信**；白箱只略好（AUROC 0.522–0.605）；沒有一法穩贏 | **互為佐證**：我方「要模型答一致／矛盾」AUC 0.60／0.66 落在同一帶 | 「一致性抽樣＋聚合」若日後要量模型信心可借 |
+| Tian, K. et al. (2023) "Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback", *EMNLP 2023*, arXiv:2305.14975 | RLHF 模型的口語化信心比條件機率校準得更好（ECE 相對降約 50%） | **反例要記**：與 Xiong 方向不同；但他們量的是答案對錯的信心，不是對「某要求是否矛盾」的判斷 | — |
+| Kadavath, S. et al. (2022) "Language Models (Mostly) Know What They Know", arXiv:2207.05221 | 大模型在選擇題／是非題格式下校準良好；P(True) 自評可行；P(IK) 跨任務泛化弱 | **不同**：他們是大模型、是非題；我方 3B／7B 讀首 token 機率的二選一，3B 幾乎全押一邊 | 「先給多個樣本再自評」的設計 |
+
 ---
 
 ## 附：待核清單（不編，等核）
 
 | # | 待核項 | 狀態 |
 | --- | --- | --- |
-| 1 | McCoy et al., Embers of Autoregression 的 **PNAS 2024 卷期／DOI** | arXiv:2309.13638 已確認；期刊版未核到 |
+| 1 | McCoy et al., Embers of Autoregression 的 **PNAS 2024 卷期／DOI** | **已結項**：PNAS 121(41)，DOI 10.1073/pnas.2322420121（聊天端核 2026-10-07，見 §四該列） |
 | 2 | shortcut learning 的具體篇目 | 筆記只給領域名 |
 | 3 | Dennett 的具體著作 | 筆記只給作者名 |
 | 4 | Gazzaniga 的具體著作 | 筆記只給作者名 |
@@ -117,8 +160,11 @@
 | 6 | 「40 資料集先例」的所指 | CC 讀為我方 40 句考卷，待更正 |
 | 7 | DRIFTBENCH 的身分 | 認為是 arXiv:2604.28031（KBV 8–99% 相符、repo 名相符）；**另有同名近似論文 arXiv:2602.02455（主題不同）**，請覆核 |
 | 8 | 2026-08-15 §六、2026-09-05 §三 原筆記 | 不在倉內，總表以令文摘述填入 |
+| 9 | RealInstruct（DeCRIM）資料集釋出位置與授權；附錄 E 的 22 類限制型錄 | arXiv abs／Anthology 頁無連結，搜尋零命中；HTML 讀到參考文獻即止（2026-10-19） |
+| 10 | Outlines／llguidance／XGrammar 對 byte-level tokenizer 的 CJK（多位元組）處理 | 三者文件皆無明文（2026-10-19）；要答只能本機探針 |
+| 11 | LMQL 授權與維護現況；InFoBench 資料授權 | 官網／arXiv 頁未列（2026-10-19） |
 
-bib 全文：`laios-bridge/reports/attachments/2026-10-06_文獻之旅/bib.txt`
+bib 全文存於內部工作倉。
 
 ## 補列（2026-10-07）
 | 我方主張／零件 | 最近前作 | 關係 | 來源筆記 |
