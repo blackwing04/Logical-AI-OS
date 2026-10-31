@@ -53,7 +53,7 @@
 
 Part II 的 gold 由聊天端（一個 LLM 會話）標註，不是人類標註；PI 做過抽查。
 
-Part II 報告：Zenodo DOI **待配發**（佔位）。
+Part II 報告：Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/zenodo.23826978)。
 
 ## 誠實清單（先讀這個）
 

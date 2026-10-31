@@ -53,8 +53,8 @@
 | 35 | `papers/zenodo_v1.2/report_v1.2.pdf` | `b99dbe7b0eb815c59c2b80ef8649623cb54e782d251f38e7e42359bb03cc15eb` | 310044 |
 | 36 | `PUBLIC_NOTES.md` | `703bd8d675bd524114426336dddcc25230f899f07d874506bbb2181a44194dd7` | 8574 |
 | 37 | `PUBLIC_NOTES.zh-TW.md` | `bbdae2a0ee3a73f4ce276cbbf5cc4c436042dbf7108720fe88242e9cfce52788` | 6774 |
-| 38 | `README.md` | `0e1d416398a8637c166559802e3fae6c709a53e5ad3b2a52465e1ae3f0569e57` | 14545 |
-| 39 | `README.zh-TW.md` | `e0f2f9dc716a574b561aed6211c1d63f97413d17a516ba3a03e682ba899c0549` | 12048 |
+| 38 | `README.md` | `5ad2dfbc66bb19a7f9dff544c04e48b7fb5cd06196a138253a8109bf3dcd2186` | 14579 |
+| 39 | `README.zh-TW.md` | `c308e67c16994041c039459d68c0512c31ef552c87ab19d7c6c957edfeeb5033` | 12089 |
 | 40 | `results/2026-10-05_round5_results_redacted.md` | `8ccf64ed0a901e4ebc731b98fc381d7a53a36501bc7eb77c1b04abde2a22014e` | 2074 |
 | 41 | `results/2026-10-06_round6_results_redacted.md` | `9c881080655a9019a84e2351b1e98ad1d651c5a308ff98a9d3ecfb7e7636f67a` | 1374 |
 | 42 | `results/2026-10-06_round7_results_recognizer-line-closeout_redacted.md` | `3dbe4328e30fddbc3fe2292feffa520e716d1bfbed4897d6b9f48b8ecdc877ab` | 3403 |

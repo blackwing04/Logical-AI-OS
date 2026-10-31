@@ -68,7 +68,7 @@ thresholds are **not published** (see the release discipline below).
 
 Gold in Phase II was labelled by the reviewer session (an LLM), not by a human; the PI spot-checked.
 
-Part II report: Zenodo DOI **to be assigned** (placeholder).
+Part II report: Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/zenodo.23826978).
 
 ## Honesty list (read this first)
 
