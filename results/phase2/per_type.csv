@@ -18,14 +18,14 @@ S1,lang_en,B0,34,36
 S1,lang_en,B1 v1.3,32,36
 S1,lang_en,A0,32,36
 S1,lang_en,A1 v1.3,31,36
-S1,person_first,B0,14,17
-S1,person_first,B1 v1.3,13,17
-S1,person_first,A0,12,17
-S1,person_first,A1 v1.3,13,17
-S1,term_req,B0,18,27
-S1,term_req,B1 v1.3,20,27
-S1,term_req,A0,21,27
-S1,term_req,A1 v1.3,20,27
+S1,person_first,B0,14,15
+S1,person_first,B1 v1.3,13,15
+S1,person_first,A0,12,15
+S1,person_first,A1 v1.3,13,15
+S1,term_req,B0,18,22
+S1,term_req,B1 v1.3,20,22
+S1,term_req,A0,21,22
+S1,term_req,A1 v1.3,20,22
 S2,count,B0,18,42
 S2,count,B1 v1.6,13,42
 S2,count,A0,23,42

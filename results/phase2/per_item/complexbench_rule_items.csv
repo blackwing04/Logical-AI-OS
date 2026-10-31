@@ -1,0 +1,1009 @@
+item,main_id,point_id,kind,dims,mappable,dep_on_llm,arm,model,rules_version,pass,all_pass,mappable_all_pass,retry_triggered,obs_read,obs_would_trigger
+CB0001,1,5,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0001,1,5,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0001,1,5,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,,,no matching type,
+CB0001,1,5,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0004,4,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0004,4,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0004,4,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0004,4,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0006,6,2,startswith,Start with|Keywords,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,no matching type,
+CB0006,6,6,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0006,6,2,startswith,Start with|Keywords,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,no matching type,0
+CB0006,6,6,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0006,6,2,startswith,Start with|Keywords,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,1,,no matching type,
+CB0006,6,6,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,1,,"right type, wrong parameters",
+CB0006,6,2,startswith,Start with|Keywords,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,1,0,no matching type,0
+CB0006,6,6,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,1,0,"right type, wrong parameters",0
+CB0017,17,3,keyword,Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0017,17,3,keyword,Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0017,17,3,keyword,Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0017,17,3,keyword,Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0018,18,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0018,18,3,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,no matching type,
+CB0018,18,5,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,missed,
+CB0018,18,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0018,18,3,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,no matching type,0
+CB0018,18,5,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,0,0,missed,0
+CB0018,18,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0018,18,3,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,no matching type,
+CB0018,18,5,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,missed,
+CB0018,18,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0018,18,3,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,0,0,no matching type,0
+CB0018,18,5,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,0,0,missed,0
+CB0019,19,4,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0019,19,4,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0019,19,4,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0019,19,4,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0021,21,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0021,21,4,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,hit,
+CB0021,21,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,"right type, wrong parameters",1
+CB0021,21,4,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0021,21,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0021,21,4,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,hit,
+CB0021,21,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0021,21,4,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,0,1,hit,1
+CB0023,23,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0023,23,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0023,23,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0023,23,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0025,25,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0025,25,4,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,hit,
+CB0025,25,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0025,25,4,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,0,1,hit,1
+CB0025,25,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB0025,25,4,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0025,25,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,"right type, wrong parameters",0
+CB0025,25,4,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0028,28,1,endswith,Punctuation,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0028,28,1,endswith,Punctuation,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0028,28,1,endswith,Punctuation,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,,,no matching type,
+CB0028,28,1,endswith,Punctuation,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0033,33,0,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0033,33,0,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0033,33,0,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0033,33,0,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0035,35,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0035,35,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0035,35,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0035,35,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0037,37,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0037,37,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0037,37,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0037,37,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0040,40,0,startswith,Keywords,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0040,40,0,startswith,Keywords,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0040,40,0,startswith,Keywords,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,,,no matching type,
+CB0040,40,0,startswith,Keywords,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0041,41,0,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0041,41,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0041,41,0,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0041,41,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0041,41,0,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0041,41,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0041,41,0,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0041,41,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0042,42,0,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0042,42,0,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0042,42,0,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,missed,
+CB0042,42,0,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,missed,0
+CB0043,43,0,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0043,43,0,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,missed,1
+CB0043,43,0,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0043,43,0,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,missed,1
+CB0046,46,0,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0046,46,0,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0046,46,0,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0046,46,0,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0047,47,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0047,47,8,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,no matching type,
+CB0047,47,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0047,47,8,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,no matching type,1
+CB0047,47,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0047,47,8,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,no matching type,
+CB0047,47,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,1,1,hit,1
+CB0047,47,8,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,1,1,no matching type,1
+CB0049,49,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0049,49,4,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,no matching type,
+CB0049,49,5,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0049,49,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0049,49,4,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,no matching type,0
+CB0049,49,5,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0049,49,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,hit,
+CB0049,49,4,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,no matching type,
+CB0049,49,5,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0049,49,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,0,1,hit,1
+CB0049,49,4,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,0,1,no matching type,1
+CB0049,49,5,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0050,50,2,length,Length,1,1,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0050,50,3,forbidden_word,Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,1,0,0,,hit,
+CB0050,50,2,length,Length,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0050,50,3,forbidden_word,Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0050,50,2,length,Length,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0050,50,3,forbidden_word,Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0050,50,2,length,Length,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0050,50,3,forbidden_word,Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0051,51,6,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0051,51,6,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0051,51,6,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0051,51,6,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0053,53,0,Json,JSON Format|Template,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,1,,hit,
+CB0053,53,3,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,1,,no matching type,
+CB0053,53,0,Json,JSON Format|Template,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,1,1,hit,1
+CB0053,53,3,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,1,1,no matching type,1
+CB0053,53,0,Json,JSON Format|Template,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,1,,hit,
+CB0053,53,3,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,1,,no matching type,
+CB0053,53,0,Json,JSON Format|Template,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,1,0,hit,0
+CB0053,53,3,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,1,0,no matching type,0
+CB0054,54,5,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0054,54,6,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,no matching type,
+CB0054,54,5,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0054,54,6,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,no matching type,0
+CB0054,54,5,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0054,54,6,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,no matching type,
+CB0054,54,5,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0054,54,6,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,no matching type,0
+CB0055,55,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0055,55,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0055,55,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0055,55,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0056,56,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0056,56,4,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB0056,56,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0056,56,4,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,"right type, wrong parameters",0
+CB0056,56,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0056,56,4,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB0056,56,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0056,56,4,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,"right type, wrong parameters",0
+CB0065,65,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0065,65,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0065,65,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB0065,65,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,"right type, wrong parameters",0
+CB0066,66,0,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0066,66,0,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0066,66,0,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0066,66,0,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0067,67,0,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0067,67,0,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0067,67,0,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0067,67,0,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0068,68,2,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,1,,no matching type,
+CB0068,68,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,1,,hit,
+CB0068,68,2,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,1,1,no matching type,1
+CB0068,68,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,1,1,hit,1
+CB0068,68,2,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,1,,no matching type,
+CB0068,68,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,1,,hit,
+CB0068,68,2,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,1,0,no matching type,0
+CB0068,68,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,1,0,hit,0
+CB0069,69,0,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,1,,no matching type,
+CB0069,69,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,1,,hit,
+CB0069,69,0,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,1,0,no matching type,0
+CB0069,69,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,1,0,hit,0
+CB0069,69,0,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,no matching type,
+CB0069,69,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0069,69,0,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,1,1,no matching type,1
+CB0069,69,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,1,1,hit,1
+CB0071,71,4,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0071,71,4,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0071,71,4,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0071,71,4,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0072,72,5,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,1,,hit,
+CB0072,72,7,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,1,,no matching type,
+CB0072,72,5,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,1,0,hit,0
+CB0072,72,7,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,1,0,no matching type,0
+CB0072,72,5,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0072,72,7,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,no matching type,
+CB0072,72,5,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0072,72,7,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,no matching type,0
+CB0073,73,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0073,73,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0073,73,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0073,73,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0074,74,3,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0074,74,3,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0074,74,3,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0074,74,3,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0075,75,1,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0075,75,1,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0075,75,1,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0075,75,1,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0076,76,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0076,76,3,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,no matching type,
+CB0076,76,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0076,76,3,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,no matching type,1
+CB0076,76,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0076,76,3,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,no matching type,
+CB0076,76,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0076,76,3,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,no matching type,1
+CB0078,78,2,startswith,Start with,0,1,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0078,78,2,startswith,Start with,0,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,1,no matching type,1
+CB0078,78,2,startswith,Start with,0,1,A0,Qwen2.5-7B-Instruct,-,0,0,,,no matching type,
+CB0078,78,2,startswith,Start with,0,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0079,79,4,length_word,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0079,79,4,length_word,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0079,79,4,length_word,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0079,79,4,length_word,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0080,80,0,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,0,1,,no matching type,
+CB0080,80,1,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,1,,no matching type,
+CB0080,80,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,1,,hit,
+CB0080,80,0,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,1,0,no matching type,0
+CB0080,80,1,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,1,0,no matching type,0
+CB0080,80,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,1,0,hit,0
+CB0080,80,0,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,no matching type,
+CB0080,80,1,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,no matching type,
+CB0080,80,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0080,80,0,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,no matching type,0
+CB0080,80,1,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,no matching type,0
+CB0080,80,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0082,82,6,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0082,82,6,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0082,82,6,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0082,82,6,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0084,84,2,length,Length,1,1,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0084,84,2,length,Length,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0084,84,2,length,Length,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0084,84,2,length,Length,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0085,85,8,length_word,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0085,85,8,length_word,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0085,85,8,length_word,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0085,85,8,length_word,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0100,100,2,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0100,100,2,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0100,100,2,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0100,100,2,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0103,103,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0103,103,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,hit,0
+CB0103,103,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0103,103,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0118,118,3,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0118,118,3,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0118,118,3,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0118,118,3,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0119,119,5,keyword,Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0119,119,5,keyword,Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0119,119,5,keyword,Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0119,119,5,keyword,Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0123,123,4,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0123,123,4,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0123,123,4,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0123,123,4,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0124,124,1,forbidden_word,Punctuation,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0124,124,1,forbidden_word,Punctuation,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,missed,1
+CB0124,124,1,forbidden_word,Punctuation,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0124,124,1,forbidden_word,Punctuation,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,missed,1
+CB0126,126,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0126,126,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0126,126,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0126,126,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0133,133,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0133,133,3,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0133,133,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0133,133,3,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0133,133,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0133,133,3,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0133,133,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0133,133,3,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0136,136,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0136,136,3,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0136,136,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0136,136,3,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0136,136,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0136,136,3,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0136,136,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0136,136,3,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0137,137,3,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0137,137,3,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0137,137,3,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0137,137,3,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0138,138,6,forbidden_word,Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0138,138,6,forbidden_word,Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0138,138,6,forbidden_word,Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0138,138,6,forbidden_word,Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0139,139,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0139,139,5,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,no matching type,
+CB0139,139,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0139,139,5,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,no matching type,1
+CB0139,139,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0139,139,5,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,no matching type,
+CB0139,139,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,1,1,"right type, wrong parameters",1
+CB0139,139,5,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,1,1,no matching type,1
+CB0143,143,5,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0143,143,5,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0143,143,5,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0143,143,5,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0145,145,3,length,Length,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0145,145,3,length,Length,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0145,145,3,length,Length,1,1,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0145,145,3,length,Length,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0153,153,3,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,no matching type,
+CB0153,153,4,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0153,153,3,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,no matching type,1
+CB0153,153,4,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0153,153,3,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,no matching type,
+CB0153,153,4,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0153,153,3,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,0,0,no matching type,0
+CB0153,153,4,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0156,156,2,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0156,156,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0156,156,2,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0156,156,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,0,1,hit,1
+CB0156,156,2,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0156,156,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0156,156,2,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0156,156,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0158,158,5,length,Length,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0158,158,5,length,Length,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0158,158,5,length,Length,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0158,158,5,length,Length,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0161,161,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0161,161,2,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0161,161,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0161,161,2,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0161,161,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0161,161,2,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0161,161,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0161,161,2,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0163,163,4,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,,,no matching type,
+CB0163,163,5,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,,,no matching type,
+CB0163,163,4,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0163,163,5,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0163,163,4,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0163,163,5,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0163,163,4,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0163,163,5,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0164,164,2,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0164,164,2,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0164,164,2,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0164,164,2,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0165,165,3,forbidden_word,Keywords|Topic,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0165,165,3,forbidden_word,Keywords|Topic,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0165,165,3,forbidden_word,Keywords|Topic,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0165,165,3,forbidden_word,Keywords|Topic,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0166,166,2,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0166,166,2,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,missed,0
+CB0166,166,2,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,missed,
+CB0166,166,2,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,missed,0
+CB0167,167,2,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0167,167,2,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0167,167,2,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0167,167,2,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0171,171,2,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0171,171,2,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0171,171,2,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0171,171,2,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0172,172,5,keyword,Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0172,172,5,keyword,Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0172,172,5,keyword,Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0172,172,5,keyword,Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0181,181,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0181,181,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0181,181,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0181,181,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0184,184,2,keyword,Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0184,184,2,keyword,Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0184,184,2,keyword,Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0184,184,2,keyword,Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0187,187,1,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0187,187,1,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0187,187,1,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0187,187,1,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0188,188,1,length_word,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB0188,188,1,length_word,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,"right type, wrong parameters",1
+CB0188,188,1,length_word,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB0188,188,1,length_word,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,"right type, wrong parameters",1
+CB0191,191,0,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0191,191,3,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,no matching type,
+CB0191,191,0,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0191,191,3,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,no matching type,1
+CB0191,191,0,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0191,191,3,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,no matching type,
+CB0191,191,0,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0191,191,3,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,no matching type,1
+CB0195,195,2,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB0195,195,2,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,"right type, wrong parameters",0
+CB0195,195,2,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0195,195,2,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,"right type, wrong parameters",1
+CB0196,196,2,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0196,196,2,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0196,196,2,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0196,196,2,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0199,199,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0199,199,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0199,199,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0199,199,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0205,205,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0205,205,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0205,205,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0205,205,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0206,206,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0206,206,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0206,206,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0206,206,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0207,207,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0207,207,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0207,207,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0207,207,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0211,211,1,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0211,211,1,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0211,211,1,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,,,no matching type,
+CB0211,211,1,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0220,220,4,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0220,220,4,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,missed,1
+CB0220,220,4,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0220,220,4,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0230,230,2,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0230,230,2,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,missed,1
+CB0230,230,2,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0230,230,2,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,missed,1
+CB0231,231,1,Json,JSON Format|Template,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0231,231,1,Json,JSON Format|Template,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0231,231,1,Json,JSON Format|Template,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0231,231,1,Json,JSON Format|Template,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0232,232,0,Json,JSON Format|Template,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0232,232,0,Json,JSON Format|Template,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0232,232,0,Json,JSON Format|Template,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0232,232,0,Json,JSON Format|Template,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0234,234,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0234,234,3,constraint_punc,Punctuation,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0234,234,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,1,1,hit,1
+CB0234,234,3,constraint_punc,Punctuation,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,1,1,missed,1
+CB0234,234,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,1,,hit,
+CB0234,234,3,constraint_punc,Punctuation,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,1,,missed,
+CB0234,234,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,1,1,hit,1
+CB0234,234,3,constraint_punc,Punctuation,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,1,1,missed,1
+CB0235,235,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB0235,235,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0235,235,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0235,235,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0236,236,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0236,236,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0236,236,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0236,236,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0245,245,2,length,Length,1,1,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0245,245,3,keyword,Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,1,0,0,,missed,
+CB0245,245,2,length,Length,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,0,0,1,"right type, wrong parameters",1
+CB0245,245,3,keyword,Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,missed,1
+CB0245,245,2,length,Length,1,1,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0245,245,3,keyword,Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,1,0,0,,missed,
+CB0245,245,2,length,Length,1,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0245,245,3,keyword,Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,0,0,0,missed,0
+CB0249,249,3,length_word,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0249,249,4,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,missed,
+CB0249,249,3,length_word,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0249,249,4,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,missed,1
+CB0249,249,3,length_word,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0249,249,4,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,missed,
+CB0249,249,3,length_word,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0249,249,4,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,missed,1
+CB0260,260,1,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0260,260,1,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,1,no matching type,1
+CB0260,260,1,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0260,260,1,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,1,no matching type,1
+CB0261,261,1,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,,,no matching type,
+CB0261,261,1,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0261,261,1,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0261,261,1,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0265,265,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0265,265,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0265,265,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0265,265,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0271,271,2,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0271,271,2,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0271,271,2,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0271,271,2,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0274,274,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0274,274,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0274,274,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0274,274,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0294,294,3,forbidden_word,Punctuation,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0294,294,3,forbidden_word,Punctuation,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,missed,1
+CB0294,294,3,forbidden_word,Punctuation,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0294,294,3,forbidden_word,Punctuation,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0298,298,3,Json,Template|JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0298,298,3,Json,Template|JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0298,298,3,Json,Template|JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0298,298,3,Json,Template|JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0300,300,1,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0300,300,1,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,hit,0
+CB0300,300,1,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0300,300,1,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,hit,0
+CB0303,303,2,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0303,303,3,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,no matching type,
+CB0303,303,4,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,no matching type,
+CB0303,303,2,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0303,303,3,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,no matching type,1
+CB0303,303,4,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,no matching type,1
+CB0303,303,2,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0303,303,3,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,no matching type,
+CB0303,303,4,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,no matching type,
+CB0303,303,2,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0303,303,3,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,no matching type,1
+CB0303,303,4,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,no matching type,1
+CB0305,305,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0305,305,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0305,305,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0305,305,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0309,309,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0309,309,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0309,309,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0309,309,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0312,312,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0312,312,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0312,312,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0312,312,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0313,313,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0313,313,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0313,313,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0313,313,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0314,314,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0314,314,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0314,314,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0314,314,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0318,318,1,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,no matching type,
+CB0318,318,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0318,318,4,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,hit,
+CB0318,318,1,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,no matching type,1
+CB0318,318,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0318,318,4,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0318,318,1,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,no matching type,
+CB0318,318,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0318,318,4,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0318,318,1,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,no matching type,0
+CB0318,318,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0318,318,4,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0325,325,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0325,325,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,missed,1
+CB0325,325,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0325,325,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,missed,1
+CB0326,326,2,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0326,326,2,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0326,326,2,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0326,326,2,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0330,330,2,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,hit,
+CB0330,330,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0330,330,2,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0330,330,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0330,330,2,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0330,330,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0330,330,2,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0330,330,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0331,331,2,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,no matching type,
+CB0331,331,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0331,331,2,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,0,1,no matching type,1
+CB0331,331,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,missed,1
+CB0331,331,2,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,no matching type,
+CB0331,331,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,missed,
+CB0331,331,2,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,0,1,no matching type,1
+CB0331,331,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,missed,1
+CB0332,332,5,Json,JSON Format|Template,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0332,332,5,Json,JSON Format|Template,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0332,332,5,Json,JSON Format|Template,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0332,332,5,Json,JSON Format|Template,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0336,336,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0336,336,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0336,336,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0336,336,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0342,342,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0342,342,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0342,342,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0342,342,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0343,343,1,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0343,343,1,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0343,343,1,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0343,343,1,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0346,346,5,keyword,Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0346,346,5,keyword,Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0346,346,5,keyword,Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0346,346,5,keyword,Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0356,356,1,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0356,356,1,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0356,356,1,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0356,356,1,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0357,357,2,length_word,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0357,357,2,length_word,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0357,357,2,length_word,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0357,357,2,length_word,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0359,359,1,length_word,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0359,359,1,length_word,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0359,359,1,length_word,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0359,359,1,length_word,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0362,362,2,keyword,Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0362,362,2,keyword,Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0362,362,2,keyword,Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0362,362,2,keyword,Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0367,367,3,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0367,367,3,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0367,367,3,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0367,367,3,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0368,368,2,endswith,Keywords,0,1,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0368,368,2,endswith,Keywords,0,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0368,368,2,endswith,Keywords,0,1,A0,Qwen2.5-7B-Instruct,-,0,0,,,no matching type,
+CB0368,368,2,endswith,Keywords,0,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0369,369,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0369,369,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0369,369,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0369,369,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0371,371,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0371,371,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0371,371,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0371,371,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0372,372,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0372,372,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0372,372,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0372,372,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0373,373,3,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0373,373,3,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0373,373,3,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0373,373,3,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0375,375,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0375,375,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,hit,
+CB0375,375,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0375,375,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0375,375,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0375,375,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0375,375,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0375,375,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0376,376,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0376,376,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,missed,1
+CB0376,376,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0376,376,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,missed,1
+CB0377,377,1,forbidden_word,Punctuation,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0377,377,1,forbidden_word,Punctuation,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,missed,1
+CB0377,377,1,forbidden_word,Punctuation,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,missed,
+CB0377,377,1,forbidden_word,Punctuation,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,missed,1
+CB0379,379,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0379,379,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0379,379,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0379,379,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0380,380,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0380,380,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0380,380,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0380,380,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0381,381,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0381,381,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0381,381,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0381,381,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0382,382,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0382,382,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0382,382,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0382,382,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0386,386,2,keyword,Punctuation,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0386,386,2,keyword,Punctuation,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,missed,0
+CB0386,386,2,keyword,Punctuation,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,missed,
+CB0386,386,2,keyword,Punctuation,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,missed,0
+CB0390,390,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0390,390,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0390,390,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0390,390,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0391,391,3,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,,,no matching type,
+CB0391,391,3,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,,1,no matching type,1
+CB0391,391,3,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0391,391,3,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,1,no matching type,1
+CB0392,392,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0392,392,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0392,392,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0392,392,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0394,394,2,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,,,no matching type,
+CB0394,394,2,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0394,394,2,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0394,394,2,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0395,395,1,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0395,395,1,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0395,395,1,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0395,395,1,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0396,396,1,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,,,no matching type,
+CB0396,396,1,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0396,396,1,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0396,396,1,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0397,397,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0397,397,4,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,hit,
+CB0397,397,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0397,397,4,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,0,0,hit,0
+CB0397,397,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0397,397,4,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,hit,
+CB0397,397,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0397,397,4,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,0,1,hit,1
+CB0398,398,4,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0398,398,4,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0398,398,4,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0398,398,4,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,hit,0
+CB0399,399,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0399,399,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0399,399,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0399,399,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0400,400,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0400,400,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0400,400,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0400,400,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0401,401,2,startswith,Start with|Keywords,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,1,,no matching type,
+CB0401,401,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,1,,hit,
+CB0401,401,2,startswith,Start with|Keywords,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,1,0,no matching type,0
+CB0401,401,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,1,0,hit,0
+CB0401,401,2,startswith,Start with|Keywords,0,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,no matching type,
+CB0401,401,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0401,401,2,startswith,Start with|Keywords,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,no matching type,1
+CB0401,401,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0402,402,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0402,402,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,missed,0
+CB0402,402,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,missed,
+CB0402,402,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,missed,0
+CB0404,404,3,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0404,404,3,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0404,404,3,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0404,404,3,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0406,406,1,forbidden_word,Punctuation,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0406,406,1,forbidden_word,Punctuation,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0406,406,1,forbidden_word,Punctuation,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0406,406,1,forbidden_word,Punctuation,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0407,407,4,constraint_punc,Punctuation,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0407,407,4,constraint_punc,Punctuation,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0407,407,4,constraint_punc,Punctuation,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0407,407,4,constraint_punc,Punctuation,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0408,408,2,startswith,Punctuation,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,no matching type,
+CB0408,408,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0408,408,2,startswith,Punctuation,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,1,1,no matching type,1
+CB0408,408,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,1,1,hit,1
+CB0408,408,2,startswith,Punctuation,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,no matching type,
+CB0408,408,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0408,408,2,startswith,Punctuation,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,1,1,no matching type,1
+CB0408,408,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,0,1,1,hit,1
+CB0409,409,2,length_word,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0409,409,2,length_word,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0409,409,2,length_word,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0409,409,2,length_word,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0411,411,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0411,411,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0411,411,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0411,411,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0413,413,3,keyword,Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0413,413,3,keyword,Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,missed,0
+CB0413,413,3,keyword,Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,0,0,0,,missed,
+CB0413,413,3,keyword,Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,missed,0
+CB0426,426,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0426,426,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0426,426,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0426,426,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0429,429,6,endswith,End with,0,1,B0,Qwen2.5-3B-Instruct,-,1,1,,,no matching type,
+CB0429,429,6,endswith,End with,0,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0429,429,6,endswith,End with,0,1,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0429,429,6,endswith,End with,0,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0431,431,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0431,431,5,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,hit,
+CB0431,431,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0431,431,5,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0431,431,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0431,431,5,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,hit,
+CB0431,431,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0431,431,5,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0455,455,5,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,,,no matching type,
+CB0455,455,5,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,,1,no matching type,1
+CB0455,455,5,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0455,455,5,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0458,458,1,forbidden_word,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0458,458,1,forbidden_word,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0458,458,1,forbidden_word,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0458,458,1,forbidden_word,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0460,460,1,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0460,460,1,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,hit,0
+CB0460,460,1,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0460,460,1,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0461,461,2,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0461,461,2,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0461,461,2,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0461,461,2,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0464,464,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0464,464,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0464,464,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0464,464,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0475,475,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0475,475,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0475,475,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0475,475,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0477,477,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0477,477,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0477,477,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0477,477,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0478,478,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0478,478,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0478,478,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0478,478,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0479,479,2,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0479,479,2,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0479,479,2,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0479,479,2,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0481,481,6,Json,JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0481,481,6,Json,JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0481,481,6,Json,JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0481,481,6,Json,JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0483,483,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0483,483,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0483,483,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0483,483,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0485,485,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0485,485,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0485,485,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0485,485,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,"right type, wrong parameters",1
+CB0486,486,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0486,486,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,missed,0
+CB0486,486,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,missed,
+CB0486,486,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,missed,0
+CB0487,487,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0487,487,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0487,487,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0487,487,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0492,492,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0492,492,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0492,492,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0492,492,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,"right type, wrong parameters",0
+CB0493,493,2,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0493,493,2,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0493,493,2,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,0,0,,,no matching type,
+CB0493,493,2,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0500,500,2,keyword,Punctuation,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0500,500,2,keyword,Punctuation,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,missed,0
+CB0500,500,2,keyword,Punctuation,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,missed,
+CB0500,500,2,keyword,Punctuation,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,0,missed,0
+CB0502,502,5,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0502,502,5,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,"right type, wrong parameters",1
+CB0502,502,5,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB0502,502,5,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,"right type, wrong parameters",0
+CB0503,503,3,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0503,503,3,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0503,503,3,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0503,503,3,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0504,504,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0504,504,2,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0504,504,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0504,504,2,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0504,504,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,0,0,,hit,
+CB0504,504,2,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0504,504,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0504,504,2,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0507,507,1,length,Length,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0507,507,1,length,Length,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0507,507,1,length,Length,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,"right type, wrong parameters",
+CB0507,507,1,length,Length,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB0510,510,2,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,,,no matching type,
+CB0510,510,2,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0510,510,2,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0510,510,2,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0512,512,2,endswith,End with,0,0,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0512,512,2,endswith,End with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0512,512,2,endswith,End with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0512,512,2,endswith,End with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0540,540,5,Json,JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0540,540,5,Json,JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0540,540,5,Json,JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0540,540,5,Json,JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0555,555,7,Json,JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0555,555,7,Json,JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0555,555,7,Json,JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0555,555,7,Json,JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0571,571,0,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0571,571,0,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0571,571,0,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0571,571,0,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0573,573,1,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0573,573,1,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0573,573,1,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0573,573,1,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0574,574,1,keyword,Keywords,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,missed,
+CB0574,574,4,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,0,0,,hit,
+CB0574,574,1,keyword,Keywords,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,0,missed,0
+CB0574,574,4,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,0,0,0,hit,0
+CB0574,574,1,keyword,Keywords,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0574,574,4,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0574,574,1,keyword,Keywords,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0574,574,4,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0580,580,1,forbidden_word,Punctuation,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0580,580,1,forbidden_word,Punctuation,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,missed,0
+CB0580,580,1,forbidden_word,Punctuation,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0580,580,1,forbidden_word,Punctuation,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,missed,0
+CB0593,593,6,endswith,End with,0,1,B0,Qwen2.5-3B-Instruct,-,0,0,,,no matching type,
+CB0593,593,6,endswith,End with,0,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0593,593,6,endswith,End with,0,1,A0,Qwen2.5-7B-Instruct,-,0,0,,,no matching type,
+CB0593,593,6,endswith,End with,0,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,,0,no matching type,0
+CB0597,597,1,startswith,Start with,0,0,B0,Qwen2.5-3B-Instruct,-,1,1,,,no matching type,
+CB0597,597,1,startswith,Start with,0,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0597,597,1,startswith,Start with,0,0,A0,Qwen2.5-7B-Instruct,-,1,1,,,no matching type,
+CB0597,597,1,startswith,Start with,0,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,,0,no matching type,0
+CB0639,639,1,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0639,639,1,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0639,639,1,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0639,639,1,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0687,687,3,length,Length,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0687,687,3,length,Length,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0687,687,3,length,Length,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0687,687,3,length,Length,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0692,692,2,Json,Factuality|JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0692,692,2,Json,Factuality|JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0692,692,2,Json,Factuality|JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0692,692,2,Json,Factuality|JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0707,707,2,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0707,707,2,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0707,707,2,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0707,707,2,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0763,763,2,Json,JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0763,763,2,Json,JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0763,763,2,Json,JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0763,763,2,Json,JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0764,764,2,Json,JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0764,764,2,Json,JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0764,764,2,Json,JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0764,764,2,Json,JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0782,782,2,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0782,782,2,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0782,782,2,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0782,782,2,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0783,783,1,keyword,Helpfulness|Keywords,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,missed,
+CB0783,783,1,keyword,Helpfulness|Keywords,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,missed,1
+CB0783,783,1,keyword,Helpfulness|Keywords,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,missed,
+CB0783,783,1,keyword,Helpfulness|Keywords,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,missed,1
+CB0803,803,1,Json,Helpfulness|JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0803,803,1,Json,Helpfulness|JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0803,803,1,Json,Helpfulness|JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0803,803,1,Json,Helpfulness|JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0834,834,2,Json,JSON Format|Template,1,1,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0834,834,2,Json,JSON Format|Template,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0834,834,2,Json,JSON Format|Template,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0834,834,2,Json,JSON Format|Template,1,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0837,837,2,Json,JSON Format|Template,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0837,837,2,Json,JSON Format|Template,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0837,837,2,Json,JSON Format|Template,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0837,837,2,Json,JSON Format|Template,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0838,838,2,Json,JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0838,838,2,Json,JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0838,838,2,Json,JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0838,838,2,Json,JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB0842,842,0,Json,JSON Format|Template,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0842,842,0,Json,JSON Format|Template,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0842,842,0,Json,JSON Format|Template,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0842,842,0,Json,JSON Format|Template,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0843,843,0,Json,JSON Format|Template,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0843,843,0,Json,JSON Format|Template,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0843,843,0,Json,JSON Format|Template,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0843,843,0,Json,JSON Format|Template,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0849,849,2,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,0,0,0,,hit,
+CB0849,849,2,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0849,849,2,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB0849,849,2,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0855,855,1,Json,JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0855,855,1,Json,JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0855,855,1,Json,JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0855,855,1,Json,JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0856,856,1,Json,JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0856,856,1,Json,JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0856,856,1,Json,JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0856,856,1,Json,JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1
+CB0857,857,2,Json,JSON Format|Template,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0857,857,2,Json,JSON Format|Template,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0857,857,2,Json,JSON Format|Template,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0857,857,2,Json,JSON Format|Template,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0869,869,3,Json,JSON Format|Template,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0869,869,3,Json,JSON Format|Template,1,0,B1,Qwen2.5-3B-Instruct,v1.11,0,0,0,1,hit,1
+CB0869,869,3,Json,JSON Format|Template,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0869,869,3,Json,JSON Format|Template,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0870,870,3,Json,JSON Format|Template,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0870,870,3,Json,JSON Format|Template,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0870,870,3,Json,JSON Format|Template,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0870,870,3,Json,JSON Format|Template,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0880,880,3,Json,JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0880,880,3,Json,JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB0880,880,3,Json,JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0880,880,3,Json,JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB0951,951,1,Json,JSON Format,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB0951,951,1,Json,JSON Format,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,0,hit,0
+CB0951,951,1,Json,JSON Format,1,1,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB0951,951,1,Json,JSON Format,1,1,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,0,hit,0
+CB1052,1052,5,constraint_punc,Punctuation,1,1,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB1052,1052,5,constraint_punc,Punctuation,1,1,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB1052,1052,5,constraint_punc,Punctuation,1,1,A0,Qwen2.5-7B-Instruct,-,0,0,0,,hit,
+CB1052,1052,5,constraint_punc,Punctuation,1,1,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,hit,1
+CB1093,1093,1,modek_keyword,Word Matching|Factuality,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB1093,1093,1,modek_keyword,Word Matching|Factuality,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,"right type, wrong parameters",1
+CB1093,1093,1,modek_keyword,Word Matching|Factuality,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,"right type, wrong parameters",
+CB1093,1093,1,modek_keyword,Word Matching|Factuality,1,0,A1,Qwen2.5-7B-Instruct,v1.11,0,0,0,1,"right type, wrong parameters",1
+CB1144,1144,0,Json,JSON Format,1,0,B0,Qwen2.5-3B-Instruct,-,1,1,1,,hit,
+CB1144,1144,0,Json,JSON Format,1,0,B1,Qwen2.5-3B-Instruct,v1.11,1,1,1,1,hit,1
+CB1144,1144,0,Json,JSON Format,1,0,A0,Qwen2.5-7B-Instruct,-,1,1,1,,hit,
+CB1144,1144,0,Json,JSON Format,1,0,A1,Qwen2.5-7B-Instruct,v1.11,1,1,1,1,hit,1

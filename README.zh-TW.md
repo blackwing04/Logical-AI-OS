@@ -85,6 +85,8 @@ Part II 報告：Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/ze
 | [`manifest/`](manifest/) | v4.5 封筆 manifest：31 組件的 sha256 與旗標表 |
 | [`papers/`](papers/) | 技術報告（Zenodo 存放）：PDF、Markdown 正文、中文摘要、bib，附雜湊 |
 | [`results/phase2/`](results/phase2/) | Part II 彙總表（CSV＋Markdown）：各臂分數、改善／變差、逐型通過率、觸發率、讀題覆蓋率 |
+| [`results/phase2/per_item/`](results/phase2/per_item/) | Part II 逐題結果：合成卷每題每條限制、Multi-IF 每條指令、ComplexBench 每條規則，逐臂；配對統計與重算它的腳本；讀題變體表 |
+| [`data/phase2/`](data/phase2/) | Part II 題目與答案：S1–S3 題目（原稿與改寫稿）與各臂答案全文；Multi-IF zh 與 ComplexBench 純規則子集的各臂答案全文（以題號對應；不含題庫題目） |
 | [`docs/protocol/phase2/`](docs/protocol/phase2/) | Part II 評測協定：合成卷制度、神諭臂與只記不動臂、停工線、外部題庫（子彈）規矩，以及每一次門檻變更的沿革 |
 | [`eval/`](eval/) | Part II 評分腳本：呼叫 Multi-IF 與 ComplexBench 官方檢查器的 glue、聊天端為 S1–S3 自寫的獨立核對器、讀題覆蓋率統計 |
 | [`docs/parts_spec_v2.md`](docs/parts_spec_v2.md) | Part II 零件規格表：每個零件量什麼、量到多少（只有數值） |
@@ -99,8 +101,9 @@ Part II 報告：Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/ze
 - **所有答案本（gold）**。公開答案本等於作廢這些卷。
 - 各輪修正令與進度檔（內部工作流）。
 - 任何憑證。
-- **Part II：**WildChat、LMSYS-Chat-1M、Multi-IF、ComplexBench 的題目與答案原文；所有 gold；
-  以及所有動作層實作、規則表與門檻。
+- **Part II：**WildChat、LMSYS-Chat-1M 的題目與答案（M1–M3 卷）；Multi-IF、ComplexBench 的題目
+  （只給題號；答案在 `data/phase2/`）；所有 gold 檔（合成卷的限制清單只以
+  `results/phase2/per_item/` 的逐條欄位出現）；以及所有動作層實作、規則表與門檻。
 
 ### 收裝規矩：公開線與不公開線
 
@@ -137,6 +140,8 @@ Part II 報告：Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/ze
 - 每一個結論的歸因鏈（`results/` 的拆帳）；
 - Part II：用 `eval/` 的腳本為**你自己的**回覆在 Multi-IF 與 ComplexBench 上**評分**
   （發佈前已在私有回覆上重跑，判決差異 0）。架構臂本身無法從本倉重跑。
+- Part II：**除 M1–M3 外每一個公開數字都可核**：逐題判定在 `results/phase2/per_item/`，
+  判定所依的答案在 `data/phase2/`，`stats_paired.py` 只用逐題檔就能重算配對統計。
 
 `manifest/` 裡的雜湊是**內部原始檔**的雜湊，與本倉的去語料版**不相符**；
 原因與對照方式見 [`PUBLIC_NOTES.md`](PUBLIC_NOTES.md) §三。這是去語料的必然代價，
@@ -149,7 +154,11 @@ Part II 報告：Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/ze
 | 路徑 | 授權 | 檔 |
 | --- | --- | --- |
 | [`src/`](src/)、[`manifest/`](manifest/)、[`eval/`](eval/) | **MIT** | [`LICENSE`](LICENSE) |
-| [`docs/`](docs/)、[`results/`](results/)、[`papers/`](papers/)、`README.md`、`PUBLIC_NOTES.md`、`MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
+| [`docs/`](docs/)、[`results/`](results/)、[`papers/`](papers/)、[`data/`](data/)、`README.md`、`PUBLIC_NOTES.md`、`MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
+
+**例外**：Qwen2.5-3B-Instruct 的答案檔（`data/phase2/**/*_answers_3b.jsonl`）標為
+**research use only (Qwen Research License)**，不在 CC BY 範圍內。模型與兩個題庫的授權寫在
+[`data/phase2/README.md`](data/phase2/README.md)。
 
 論文（Zenodo）側為 **CC BY**。
 

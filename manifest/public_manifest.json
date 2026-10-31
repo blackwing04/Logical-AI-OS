@@ -13,6 +13,96 @@
    "改名前": false
   },
   {
+   "檔": "data/phase2/public_benchmarks/complexbench_rule_answers_3b.jsonl",
+   "sha256": "30536c7ca721ab8174a7232b3ff42eccbed764b1bc21b97f17b111cc5181e066",
+   "位元": 658035,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/public_benchmarks/complexbench_rule_answers_7b.jsonl",
+   "sha256": "398087f0a5d255289de04fb10deb1a3116ae9acb39263dec5f29a944fa918709",
+   "位元": 699190,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/public_benchmarks/extract_multiif_zh_turn1.py",
+   "sha256": "49b45b53200cf0e7af6d34941183c6067725bfc0765807c7b42f0700fc76303b",
+   "位元": 2504,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/public_benchmarks/multiif_zh_answers_3b.jsonl",
+   "sha256": "2f2f1948433f79c44339a8d490ac5a2f1ebff502d0effb055b0054f64d548888",
+   "位元": 1100930,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/public_benchmarks/multiif_zh_answers_7b.jsonl",
+   "sha256": "92dffc1b177d68b83f905ded547a1894b88f3da69f84df6905d9e2c96ac02f1f",
+   "位元": 1136859,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/README.md",
+   "sha256": "2b1b5a74e838b7ed683f4d19cabe130f9af30ef6de1d3d1c279a34fc47743e15",
+   "位元": 6583,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/synthetic/s1_answers_3b.jsonl",
+   "sha256": "c4739cd5fbdd35eb4c4e6e47132ff9d24ffd8cb05ed8b5de825c103b449420c7",
+   "位元": 578448,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/synthetic/s1_answers_7b.jsonl",
+   "sha256": "9fb1b574aca8255f3a40f678fcc53679edb6397fb47246632ac55574d5917406",
+   "位元": 492567,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/synthetic/s1_items.jsonl",
+   "sha256": "10e14b6ddf40a8895ce6dc4f8319e670118ee3476ef56c29bb36f7260d81fd35",
+   "位元": 135672,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/synthetic/s2_answers_3b.jsonl",
+   "sha256": "53402d58839759e2f7e5e92ac7ff929ac698c64cc281061304b02d0550c918cd",
+   "位元": 655313,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/synthetic/s2_answers_7b.jsonl",
+   "sha256": "bfc20b2bbbe528491ff4d8e536728205090b8675d9e2a558770c14f8d4f5ce38",
+   "位元": 496278,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/synthetic/s2_items.jsonl",
+   "sha256": "9ef869134b22fef31b78b067b1bdd0a5d51dc6ab2d2bfabd7deffabb01314f51",
+   "位元": 143728,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/synthetic/s3_answers_3b.jsonl",
+   "sha256": "9c7db089bd85bed0da24b8dd02dd3e4b910e157be19cd62a6a8db3b4797fdba7",
+   "位元": 473455,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/synthetic/s3_answers_7b.jsonl",
+   "sha256": "04aaa7fb358616a7871a9f08a296e32f952a8c21ded5ae2792fdf44f5a65670f",
+   "位元": 339549,
+   "改名前": false
+  },
+  {
+   "檔": "data/phase2/synthetic/s3_items.jsonl",
+   "sha256": "a02e5364482725bbe65e9a3a8e005f4ac03eb74ab1ad4eee70ecdf99b1a3f364",
+   "位元": 130371,
+   "改名前": false
+  },
+  {
    "檔": "docs/failure_taxonomy.md",
    "sha256": "6131a2124c4dd30a6d1e16f2fa0705ec9daefac0291a01442cdf45012254ee54",
    "位元": 6993,
@@ -116,8 +206,8 @@
   },
   {
    "檔": "eval/README.md",
-   "sha256": "69c1d0bb29e3f7df3089ace6fa05d3f7875b6c81ae5817cc3fce7363da0f1d7b",
-   "位元": 4112,
+   "sha256": "42269932a6de1974642f6edf90fba743ba5117b4675d7b77ad01aed365686afb",
+   "位元": 4435,
    "改名前": false
   },
   {
@@ -181,6 +271,12 @@
    "改名前": false
   },
   {
+   "檔": "MANIFEST_phase2_repro.md",
+   "sha256": "07bb80770b94b158fea457e3b52603aa5b46f6f77d9d0fb3d9a31ba4f94da88b",
+   "位元": 11424,
+   "改名前": false
+  },
+  {
    "檔": "papers/zenodo_v1.2/abstract_zh.md",
    "sha256": "c2437b0bca2ead34d4ebd513c9f06867c0bd06df5ba88387ae036ce3b0dc4e72",
    "位元": 5099,
@@ -224,14 +320,14 @@
   },
   {
    "檔": "README.md",
-   "sha256": "5ad2dfbc66bb19a7f9dff544c04e48b7fb5cd06196a138253a8109bf3dcd2186",
-   "位元": 14579,
+   "sha256": "308e31b128b0b6116ea8153a99c3a3d8df9921b74058cd195f74d4bc4f66cbcb",
+   "位元": 15919,
    "改名前": false
   },
   {
    "檔": "README.zh-TW.md",
-   "sha256": "c308e67c16994041c039459d68c0512c31ef552c87ab19d7c6c957edfeeb5033",
-   "位元": 12089,
+   "sha256": "7fd8ff796fdc4a35e460fb0853ce87de1d940b034586e879512ba491a9018bf6",
+   "位元": 13196,
    "改名前": false
   },
   {
@@ -265,15 +361,63 @@
    "改名前": false
   },
   {
+   "檔": "results/phase2/per_item/complexbench_rule_items.csv",
+   "sha256": "fa71da7e24452d5efac430910212670529a54133b5695d84d7b899f646f8e2e7",
+   "位元": 81931,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/per_item/multiif_zh_items.csv",
+   "sha256": "2a8c901c5b58ec079895f0897ac4c384dcbf0884eedbec074806d6cb072b5e79",
+   "位元": 232553,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/per_item/reading_variants.csv",
+   "sha256": "fe741b9c02a9bdda35babc65af98a824c2f416792a7738d24bced3f97f8683c1",
+   "位元": 10963,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/per_item/s1_items.csv",
+   "sha256": "304768f95a1bf47cebed69721037abeb073b93fdfa390be88946e86e95892093",
+   "位元": 148811,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/per_item/s2_items.csv",
+   "sha256": "bfc9ab4dd11458d5151a71e37c9d71dd8b5e6849666ac4d4073f57467da107bf",
+   "位元": 198135,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/per_item/s3_items.csv",
+   "sha256": "a62dc58cf843b2ef7e784648bc387c3b9709f4b7a8c01a4eeb661d786e7daf46",
+   "位元": 120916,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/per_item/stats_paired.csv",
+   "sha256": "c395b5b02c21719d6bf92b59bcbc1ff3b7725eb5e80f0fa88605464a801b07ed",
+   "位元": 2139,
+   "改名前": false
+  },
+  {
+   "檔": "results/phase2/per_item/stats_paired.py",
+   "sha256": "801a478d010e45f1ca84ae5161cc0bb34cd1796ce9a908e4a54e5cf08972c22e",
+   "位元": 6455,
+   "改名前": false
+  },
+  {
    "檔": "results/phase2/per_type.csv",
-   "sha256": "0c62ba373849bb36e981a5685e6f340a3ded9e2c58f043505a111d24166c1365",
+   "sha256": "aa8d4b140457201664846b0a5dcb455908d5d88afd45e7cc16fd433db9a4d9a0",
    "位元": 8640,
    "改名前": false
   },
   {
    "檔": "results/phase2/README.md",
-   "sha256": "013cf4b8e62675bbc41633f3d4db1592aad3c76944ee53fd33957081c7ebf465",
-   "位元": 5802,
+   "sha256": "c6bcf961205f8dbfac10e217e97fa368e5b16f2883d2c79a8958a80f06112d5a",
+   "位元": 11845,
    "改名前": false
   },
   {

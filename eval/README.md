@@ -3,9 +3,12 @@
 These scripts turn model responses into the scores in [`../results/phase2/`](../results/phase2/).
 None of them imports the architecture. They are the *referee side* only.
 
-**Not included:** benchmark data, prompts, model responses, and gold files. The corpora are
-not ours to redistribute, and gold for the synthetic papers stays private. The scripts are
-published so that the scoring logic can be read and rerun on your own copies.
+**Not included:** the benchmark data and prompts (not ours to redistribute; fetch them from the
+pinned sources below) and the reviewer's gold files. The model responses of S1–S3, Multi-IF
+and ComplexBench are in [`../data/phase2/`](../data/phase2/), and every per-constraint verdict
+is in [`../results/phase2/per_item/`](../results/phase2/per_item/); the synthetic papers'
+constraint lists appear only as the per-constraint columns there. The scripts are published
+so that the scoring logic can be read and rerun.
 
 ## Layout
 
@@ -24,7 +27,7 @@ published so that the scoring logic can be read and rerun on your own copies.
 | --- | --- | --- |
 | Multi-IF checker | https://github.com/facebookresearch/Multi-IF @ `1cdb53ed18499ad729e0766e5d3099dd5344406f` (`ifeval.py`, `metrics.py`) | Apache-2.0 |
 | Multi-IF data (Chinese turn-1 subset, 454 items) | same repository / its dataset card | Non-commercial licence as stated by the dataset (not redistributed here) |
-| ComplexBench `data_final.json`, `con_rule.py` | https://github.com/thu-coai/ComplexBench | Data CC BY 4.0, code MIT (as stated by the repository) |
+| ComplexBench `data_final.json`, `con_rule.py` | https://github.com/thu-coai/ComplexBench | MIT, as stated by the repository's `LICENSE` file (corrected 2026-10-31; this row earlier read "Data CC BY 4.0, code MIT") |
 
 ## Reproduction check
 

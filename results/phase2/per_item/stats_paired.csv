@@ -1,0 +1,18 @@
+paper,comparison,unit,n,base_arm,arm,base_pass,arm_pass,base_pct,arm_pct,delta_pts,up,down,mcnemar_p,ci_low,ci_high,bootstrap_B,seed,status
+S1,3B v1.3 vs bare,item,117,B0,B1,54,60,46.2,51.3,5.1,12,6,0.2379,-1.7,12.0,10000,20261029,formal
+S1,7B v1.3 vs bare,item,117,A0,A1,55,54,47.0,46.2,-0.9,10,11,1.0,-8.5,6.8,10000,20261029,formal
+S2,3B v1.6 vs bare,item,117,B0,B1,47,49,40.2,41.9,1.7,4,2,0.6875,-2.6,6.0,10000,20261029,formal
+S2,7B v1.6 (retry arm) vs bare,item,117,A0,A1',57,56,48.7,47.9,-0.9,6,7,1.0,-6.8,5.1,10000,20261029,formal
+S2,3B v1.7 vs bare,item,117,B0,B1_v1.7,47,55,40.2,47.0,6.8,11,3,0.0574,0.9,12.8,10000,20261029,development
+S2,3B oracle vs bare,item,117,B0,B_oracle,47,60,40.2,51.3,11.1,15,2,0.0023,4.3,17.9,10000,20261029,development (ceiling of the v1.6 flow)
+S3,3B v1.8 vs bare,item,117,B0,B1,46,63,39.3,53.8,14.5,21,4,0.0009,6.8,22.2,10000,20261029,formal
+S3,3B v1.7 vs bare,item,117,B0,B2,46,57,39.3,48.7,9.4,14,3,0.0127,3.4,16.2,10000,20261029,formal (ablation)
+S3,7B v1.8 vs bare,item,117,A0,A1,60,80,51.3,68.4,17.1,23,3,0.0001,9.4,24.8,10000,20261029,formal
+Multi-IF zh,3B v1.9 vs bare,item,454,B0,B1,262,254,57.7,55.9,-1.8,5,13,0.0963,-3.5,0.0,10000,20261029,formal (blind)
+Multi-IF zh,7B v1.9 vs bare,item,454,A0,A1,295,289,65.0,63.7,-1.3,5,11,0.2101,-3.1,0.4,10000,20261029,formal (blind)
+ComplexBench,"3B v1.11 vs bare, prompt level",item,209,B0,B1,109,121,52.2,57.9,5.7,26,14,0.0807,0.0,12.0,10000,20261029,formal (blind)
+ComplexBench,"7B v1.11 vs bare, prompt level",item,209,A0,A1,123,138,58.9,66.0,7.2,22,7,0.0081,2.4,12.4,10000,20261029,formal (blind)
+ComplexBench,"3B v1.11 vs bare, mappable subset",mappable,188,B0,B1,106,120,56.4,63.8,7.4,28,14,0.0436,0.5,14.4,10000,20261029,formal (blind)
+ComplexBench,"7B v1.11 vs bare, mappable subset",mappable,188,A0,A1,114,133,60.6,70.7,10.1,26,7,0.0013,4.3,16.0,10000,20261029,formal (blind)
+ComplexBench,"3B v1.11 vs bare, rule level",rule,252,B0,B1,144,152,57.1,60.3,3.2,30,22,0.3317,-2.4,8.7,10000,20261029,formal (blind)
+ComplexBench,"7B v1.11 vs bare, rule level",rule,252,A0,A1,161,174,63.9,69.0,5.2,27,14,0.0596,0.4,10.3,10000,20261029,formal (blind)

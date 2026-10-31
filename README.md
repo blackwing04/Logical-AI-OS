@@ -107,6 +107,8 @@ as the results:
 | [`manifest/`](manifest/) | The v4.5 sealing manifest: sha256 of 31 components plus the flag table |
 | [`papers/`](papers/) | The technical report (Zenodo deposit): the PDF, the Markdown body, the Chinese abstract, the bibliography, and their checksums |
 | [`results/phase2/`](results/phase2/) | Part II aggregate tables (CSV + Markdown): scores per arm, improved / worsened, per-type pass rates, trigger rates, reading coverage |
+| [`results/phase2/per_item/`](results/phase2/per_item/) | Part II per-item results: every constraint of every synthetic item, every Multi-IF instruction and every ComplexBench rule, per arm; the paired statistics and the script that recomputes them; the reading-variant table |
+| [`data/phase2/`](data/phase2/) | Part II items and answers: S1–S3 prompts (original and rewritten) and every arm's full answer; every arm's full answer on Multi-IF zh and the ComplexBench rule-only subset (keyed by item id; benchmark prompts not included) |
 | [`docs/protocol/phase2/`](docs/protocol/phase2/) | Part II evaluation protocol: synthetic-paper rules, oracle and record-only arms, stop lines, the external-benchmark ("bullet") rules, and the history of every gate change |
 | [`eval/`](eval/) | Part II scoring scripts: glue around the official Multi-IF and ComplexBench checkers, the reviewer's independent checkers for S1–S3, the reading-coverage statistics |
 | [`docs/parts_spec_v2.md`](docs/parts_spec_v2.md) | Part II parts specification: what each part measures and the number it reached (numbers only) |
@@ -122,8 +124,10 @@ as the results:
 - **All answer keys (gold).** Publishing them would void these rounds.
 - Each round's correction orders and progress files (internal workflow).
 - Any credential.
-- **Part II:** prompts and answers from WildChat, LMSYS-Chat-1M, Multi-IF and ComplexBench;
-  all gold files; and all action-layer implementation, rule tables and thresholds.
+- **Part II:** prompts and answers from WildChat and LMSYS-Chat-1M (rounds M1–M3); the prompts of
+  Multi-IF and ComplexBench (only item ids are given; the answers are in `data/phase2/`); all gold
+  files (the synthetic papers' constraint lists appear only as the per-constraint columns of
+  `results/phase2/per_item/`); and all action-layer implementation, rule tables and thresholds.
 
 ### Release discipline: what is public and what is not
 
@@ -171,6 +175,9 @@ reproduce is:
 - for Part II, the **scoring** of your own responses on Multi-IF and ComplexBench with the
   scripts in `eval/` (rerun on the private responses before release: 0 differing verdicts).
   The architecture arms themselves cannot be rerun from this repository.
+- for Part II, an **audit of every published number except M1–M3**: the per-item verdicts are in
+  `results/phase2/per_item/`, the answers they were computed from are in `data/phase2/`, and
+  `stats_paired.py` recomputes the paired statistics from the per-item files alone.
 
 The hashes in `manifest/` are those of the **internal source files** and **do not
 match** this repository's corpus-redacted versions; the reason and the way to check
@@ -184,7 +191,11 @@ cost of corpus redaction, not a recording error.
 | Path | Licence | File |
 | --- | --- | --- |
 | [`src/`](src/), [`manifest/`](manifest/), [`eval/`](eval/) | **MIT** | [`LICENSE`](LICENSE) |
-| [`docs/`](docs/), [`results/`](results/), [`papers/`](papers/), `README.md`, `PUBLIC_NOTES.md`, `MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
+| [`docs/`](docs/), [`results/`](results/), [`papers/`](papers/), [`data/`](data/), `README.md`, `PUBLIC_NOTES.md`, `MANIFEST.md` | **CC BY 4.0** | [`LICENSE-docs`](LICENSE-docs) |
+
+**Except** the Qwen2.5-3B-Instruct answer files (`data/phase2/**/*_answers_3b.jsonl`): they are
+marked **research use only (Qwen Research License)** and are not under CC BY. The licences of the
+models and of the two benchmarks are stated in [`data/phase2/README.md`](data/phase2/README.md).
 
 The paper (Zenodo) side is **CC BY**.
 

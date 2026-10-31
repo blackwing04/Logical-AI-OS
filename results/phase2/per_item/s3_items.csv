@@ -1,0 +1,1531 @@
+item,source_class,arm,model,system,rules_version,status,c_idx,c_type,c_param,c_pass,all_pass
+Q001,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,400,1,1
+Q001,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_forb,效率,1,1
+Q001,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,fmt_para3,,1,1
+Q002,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,5,0,0
+Q002,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,person_first,,1,0
+Q002,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,300,1,0
+Q003,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,400,1,1
+Q003,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,3,1,1
+Q004,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,0
+Q004,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,150,0,0
+Q005,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,3,0,0
+Q005,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_emoji,,1,0
+Q005,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,150,1,0
+Q006,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,5,0,0
+Q006,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_list,,1,0
+Q006,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,200,1,0
+Q007,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,no_digit,,1,1
+Q007,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_forb,社區,1,1
+Q007,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_ab,150,1,1
+Q008,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,3,1,0
+Q008,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,200,0,0
+Q008,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,fmt_list,,1,0
+Q009,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,no_emoji,,1,0
+Q009,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,400,0,0
+Q009,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,count,10,1,0
+Q010,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,no_emoji,,1,0
+Q010,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,200,1,0
+Q010,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_req,季節,0,0
+Q011,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,0,0
+Q011,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_emoji,,1,0
+Q011,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_ab,200,1,0
+Q012,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,fmt_list,,1,1
+Q012,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,lang_en,,1,1
+Q012,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,count,10,1,1
+Q013,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,800,1,1
+Q013,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,lang_en,,1,1
+Q013,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,count,10,1,1
+Q014,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,400,1,0
+Q014,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,person_third,,1,0
+Q014,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,效率,0,0
+Q015,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,8,0,0
+Q015,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_digit,,1,0
+Q015,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,person_first,,0,0
+Q016,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,fmt_para3,,1,1
+Q016,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_latin,,1,1
+Q017,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,0,0
+Q017,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_table,,1,0
+Q017,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,300,1,0
+Q018,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,no_digit,,1,0
+Q018,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_req,升級,0,0
+Q019,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,term_req,效率,0,0
+Q019,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,500,0,0
+Q019,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,fmt_table,,1,0
+Q020,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,0
+Q020,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,200,0,0
+Q021,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,200,0,0
+Q021,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_req,季節,1,0
+Q022,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,no_emoji,,1,1
+Q022,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,300,1,1
+Q022,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_req,升級,1,1
+Q023,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,150,0,0
+Q023,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,lang_en,,1,0
+Q024,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,200,1,1
+Q024,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,person_first,,1,1
+Q024,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,穩定,1,1
+Q025,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,term_forb,責任,1,1
+Q025,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,500,1,1
+Q025,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_latin,,1,1
+Q025,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,4,count,10,1,1
+Q026,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_third,,1,0
+Q026,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,500,0,0
+Q026,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_req,社區,1,0
+Q027,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,term_forb,信任,1,1
+Q027,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,3,1,1
+Q028,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,5,1,1
+Q028,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q028,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,300,1,1
+Q029,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,fmt_list,,1,1
+Q029,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_latin,,1,1
+Q029,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,200,1,1
+Q030,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q031,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_first,,0,0
+Q031,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,300,0,0
+Q031,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,責任,1,0
+Q032,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,5,1,0
+Q032,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,300,0,0
+Q032,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_emoji,,1,0
+Q034,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,400,0,0
+Q034,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_emoji,,1,0
+Q034,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_req,信任,1,0
+Q035,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,3,0,0
+Q035,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_req,社區,1,0
+Q036,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,10,0,0
+Q036,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_latin,,0,0
+Q036,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_ge,400,1,0
+Q037,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,5,0,0
+Q037,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,400,1,0
+Q037,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_emoji,,1,0
+Q038,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ab,200,1,1
+Q038,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_forb,效率,1,1
+Q039,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,fmt_list,,1,1
+Q039,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,person_first,,1,1
+Q040,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,term_forb,季節,1,0
+Q040,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,400,0,0
+Q041,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,300,1,1
+Q041,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_emoji,,1,1
+Q041,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_req,穩定,1,1
+Q043,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,200,1,1
+Q043,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_forb,信任,1,1
+Q043,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,person_third,,1,1
+Q044,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,5,1,1
+Q044,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q044,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,lang_en,,1,1
+Q045,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ab,800,0,0
+Q045,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,lang_en,,1,0
+Q046,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q046,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_table,,1,1
+Q047,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,500,0,0
+Q047,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_forb,穩定,1,0
+Q048,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,200,1,1
+Q048,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_forb,效率,1,1
+Q048,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,person_first,,1,1
+Q049,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,800,1,0
+Q049,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,lang_en,,0,0
+Q049,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_digit,,0,0
+Q050,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,500,0,0
+Q050,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,lang_en,,0,0
+Q051,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,0,0
+Q051,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,3,0,0
+Q051,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,200,1,0
+Q052,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,600,0,0
+Q052,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_forb,責任,1,0
+Q053,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,0
+Q053,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,300,0,0
+Q054,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,600,0,0
+Q054,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_digit,,1,0
+Q055,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q056,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q057,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,no_digit,,1,1
+Q057,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q057,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,穩定,1,1
+Q058,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,term_req,台北,0,0
+Q058,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_digit,,1,0
+Q060,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,150,1,1
+Q060,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q061,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q061,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,300,1,1
+Q061,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,count,3,1,1
+Q062,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_first,,1,1
+Q062,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,300,1,1
+Q062,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_req,信任,1,1
+Q063,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ab,300,0,0
+Q063,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,person_first,,1,0
+Q063,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,穩定,1,0
+Q064,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_third,,1,0
+Q064,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,300,0,0
+Q064,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,季節,1,0
+Q065,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,3,0,0
+Q065,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_digit,,1,0
+Q065,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,150,1,0
+Q066,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,600,1,1
+Q066,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_para3,,1,1
+Q066,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,person_first,,1,1
+Q067,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ab,400,0,0
+Q067,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,person_first,,1,0
+Q067,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_req,社區,1,0
+Q068,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,300,1,0
+Q068,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_latin,,1,0
+Q068,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,count,3,0,0
+Q069,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,fmt_table,,1,0
+Q069,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,3,0,0
+Q069,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,200,1,0
+Q070,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ab,200,0,0
+Q070,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,10,1,0
+Q070,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_req,效率,0,0
+Q071,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,fmt_para3,,1,0
+Q071,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,5,0,0
+Q071,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_latin,,1,0
+Q072,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_third,,1,1
+Q072,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,300,1,1
+Q072,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,升級,1,1
+Q073,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q073,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,300,1,1
+Q074,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,400,0,0
+Q074,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_forb,穩定,1,0
+Q074,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,fmt_para3,,1,0
+Q075,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_first,,0,0
+Q075,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,3,0,0
+Q076,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,term_req,社區,1,0
+Q076,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,10,0,0
+Q076,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,600,1,0
+Q077,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,term_forb,穩定,1,1
+Q077,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,10,1,1
+Q078,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_first,,1,1
+Q078,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,300,1,1
+Q078,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,效率,1,1
+Q079,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,200,1,0
+Q079,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_digit,,1,0
+Q079,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,person_first,,0,0
+Q080,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,5,1,0
+Q080,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_req,責任,0,0
+Q081,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,500,0,0
+Q081,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,8,0,0
+Q081,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,lang_en,,1,0
+Q082,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,300,0,0
+Q082,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_req,升級,1,0
+Q082,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,count,3,0,0
+Q083,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ab,200,0,0
+Q083,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_emoji,,1,0
+Q083,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,穩定,1,0
+Q084,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_third,,1,0
+Q084,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,300,0,0
+Q084,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_digit,,1,0
+Q085,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,0
+Q085,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,200,0,0
+Q086,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,500,0,0
+Q086,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_digit,,0,0
+Q086,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,lang_en,,1,0
+Q087,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,3,0,0
+Q087,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,400,0,0
+Q087,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,效率,1,0
+Q088,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,400,0,0
+Q088,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_para3,,1,0
+Q088,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_digit,,1,0
+Q089,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_le,300,1,0
+Q089,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_list,,0,0
+Q089,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,count,10,0,0
+Q090,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,fmt_list,,1,0
+Q090,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,800,0,0
+Q091,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,no_emoji,,1,0
+Q091,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_forb,台北,0,0
+Q091,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,500,1,0
+Q091,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,4,count,3,1,0
+Q092,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,10,0,0
+Q092,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,500,0,0
+Q092,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,lang_en,,0,0
+Q093,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ab,600,0,0
+Q093,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,10,0,0
+Q093,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,穩定,1,0
+Q094,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_third,,1,1
+Q094,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,400,1,1
+Q094,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,季節,1,1
+Q095,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,term_req,升級,0,0
+Q095,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,500,0,0
+Q096,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ab,150,1,1
+Q096,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_forb,社區,1,1
+Q097,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q098,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,500,1,0
+Q098,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,person_first,,1,0
+Q098,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,count,5,0,0
+Q099,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q099,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q100,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,600,1,1
+Q100,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,8,1,1
+Q100,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,責任,1,1
+Q101,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,10,0,0
+Q101,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,no_latin,,1,0
+Q102,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,no_digit,,1,1
+Q102,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,200,1,1
+Q102,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_emoji,,1,1
+Q103,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,fmt_list,,1,0
+Q103,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,800,0,0
+Q103,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,count,8,1,0
+Q104,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q105,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,no_digit,,1,0
+Q105,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_req,季節,0,0
+Q105,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,person_first,,0,0
+Q106,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,fmt_table,,1,1
+Q106,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,3,1,1
+Q106,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,300,1,1
+Q107,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,lang_en,,1,0
+Q107,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_list,,0,0
+Q108,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,no_digit,,0,0
+Q108,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ge,400,1,0
+Q109,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,5,1,1
+Q109,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,400,1,1
+Q109,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,person_third,,1,1
+Q110,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,150,1,1
+Q110,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,count,5,1,1
+Q111,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_third,,1,0
+Q111,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,400,0,0
+Q111,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,term_forb,責任,1,0
+Q112,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,term_req,升級,1,1
+Q112,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q113,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,3,0,0
+Q113,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_le,300,1,0
+Q113,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_latin,,1,0
+Q114,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,400,0,0
+Q114,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_para3,,0,0
+Q114,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_emoji,,1,0
+Q115,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_third,,1,0
+Q115,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,len_ab,300,0,0
+Q115,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_digit,,1,0
+Q116,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,600,1,1
+Q116,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,term_req,社區,1,1
+Q117,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,person_first,,1,1
+Q117,A,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_para3,,1,1
+Q118,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,len_ge,500,0,0
+Q118,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_para3,,1,0
+Q118,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,no_digit,,1,0
+Q119,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,3,1,1
+Q119,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,lang_en,,1,1
+Q119,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,300,1,1
+Q120,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,1,count,5,1,1
+Q120,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q120,B,B0,Qwen2.5-3B-Instruct,bare,-,formal,3,len_le,300,1,1
+Q001,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,400,1,1
+Q001,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_forb,效率,1,1
+Q001,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,fmt_para3,,1,1
+Q002,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,5,0,0
+Q002,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,person_first,,1,0
+Q002,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,0
+Q003,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,400,1,1
+Q003,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,3,1,1
+Q004,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,0
+Q004,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,150,0,0
+Q005,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,3,0,0
+Q005,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_emoji,,1,0
+Q005,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,150,1,0
+Q006,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q006,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q006,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,200,1,1
+Q007,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,no_digit,,1,0
+Q007,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_forb,社區,1,0
+Q007,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_ab,150,0,0
+Q008,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,3,0,0
+Q008,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,200,1,0
+Q008,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,fmt_list,,1,0
+Q009,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,no_emoji,,0,0
+Q009,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,400,0,0
+Q009,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,count,10,0,0
+Q010,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,no_emoji,,1,0
+Q010,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,200,1,0
+Q010,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_req,季節,0,0
+Q011,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,0,0
+Q011,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_emoji,,1,0
+Q011,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_ab,200,0,0
+Q012,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,fmt_list,,1,1
+Q012,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,1
+Q012,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,count,10,1,1
+Q013,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,800,1,1
+Q013,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,1
+Q013,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,count,10,1,1
+Q014,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,400,1,0
+Q014,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,person_third,,1,0
+Q014,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,效率,0,0
+Q015,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,8,0,0
+Q015,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_digit,,0,0
+Q015,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,person_first,,1,0
+Q016,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,fmt_para3,,1,1
+Q016,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_latin,,1,1
+Q017,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,0,0
+Q017,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_table,,1,0
+Q017,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,0
+Q018,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,no_digit,,1,0
+Q018,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_req,升級,0,0
+Q019,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,term_req,效率,1,0
+Q019,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,500,0,0
+Q019,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,fmt_table,,1,0
+Q020,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,0
+Q020,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,200,0,0
+Q021,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,200,1,1
+Q021,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_req,季節,1,1
+Q022,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,no_emoji,,1,1
+Q022,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,1
+Q022,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_req,升級,1,1
+Q023,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,150,1,1
+Q023,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,1
+Q024,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,200,1,1
+Q024,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,person_first,,1,1
+Q024,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,穩定,1,1
+Q025,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,term_forb,責任,1,1
+Q025,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,500,1,1
+Q025,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_latin,,1,1
+Q025,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,4,count,10,1,1
+Q026,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_third,,1,1
+Q026,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,500,1,1
+Q026,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_req,社區,1,1
+Q027,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,term_forb,信任,1,1
+Q027,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,3,1,1
+Q028,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,5,0,0
+Q028,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,0
+Q028,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,0
+Q029,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,fmt_list,,1,1
+Q029,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_latin,,1,1
+Q029,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,200,1,1
+Q030,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q031,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_first,,1,1
+Q031,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,300,1,1
+Q031,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,責任,1,1
+Q032,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,5,0,0
+Q032,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,0
+Q032,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_emoji,,1,0
+Q034,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,400,1,1
+Q034,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_emoji,,1,1
+Q034,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_req,信任,1,1
+Q035,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,3,0,0
+Q035,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_req,社區,1,0
+Q036,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,10,0,0
+Q036,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_latin,,0,0
+Q036,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_ge,400,1,0
+Q037,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q037,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,400,1,1
+Q037,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_emoji,,1,1
+Q038,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ab,200,1,1
+Q038,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_forb,效率,1,1
+Q039,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,fmt_list,,1,1
+Q039,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,person_first,,1,1
+Q040,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,term_forb,季節,1,0
+Q040,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,400,0,0
+Q041,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,300,1,1
+Q041,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_emoji,,1,1
+Q041,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_req,穩定,1,1
+Q043,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,200,1,1
+Q043,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_forb,信任,1,1
+Q043,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,person_third,,1,1
+Q044,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,5,0,0
+Q044,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,0
+Q044,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,lang_en,,0,0
+Q045,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ab,800,1,1
+Q045,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,1
+Q046,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q046,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_table,,1,1
+Q047,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,500,0,0
+Q047,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_forb,穩定,1,0
+Q048,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,200,1,1
+Q048,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_forb,效率,1,1
+Q048,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,person_first,,1,1
+Q049,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,800,1,0
+Q049,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,lang_en,,0,0
+Q049,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_digit,,0,0
+Q050,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,500,0,0
+Q050,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,0
+Q051,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,0,0
+Q051,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,3,0,0
+Q051,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,200,1,0
+Q052,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,600,0,0
+Q052,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_forb,責任,0,0
+Q053,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q053,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,300,1,1
+Q054,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,600,0,0
+Q054,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_digit,,1,0
+Q055,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q056,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q057,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,no_digit,,1,1
+Q057,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q057,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,穩定,1,1
+Q058,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,term_req,台北,0,0
+Q058,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_digit,,0,0
+Q060,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,150,1,1
+Q060,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q061,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,0
+Q061,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,0
+Q061,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,count,3,0,0
+Q062,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_first,,1,1
+Q062,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,300,1,1
+Q062,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_req,信任,1,1
+Q063,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ab,300,0,0
+Q063,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,person_first,,1,0
+Q063,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,穩定,1,0
+Q064,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_third,,1,1
+Q064,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,300,1,1
+Q064,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,季節,1,1
+Q065,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,3,0,0
+Q065,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_digit,,1,0
+Q065,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,150,1,0
+Q066,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,600,1,1
+Q066,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_para3,,1,1
+Q066,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,person_first,,1,1
+Q067,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ab,400,1,1
+Q067,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,person_first,,1,1
+Q067,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_req,社區,1,1
+Q068,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,300,1,0
+Q068,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_latin,,1,0
+Q068,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,count,3,0,0
+Q069,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,fmt_table,,1,0
+Q069,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,3,0,0
+Q069,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,200,1,0
+Q070,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ab,200,1,0
+Q070,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,10,0,0
+Q070,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_req,效率,1,0
+Q071,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,fmt_para3,,1,0
+Q071,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,5,0,0
+Q071,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_latin,,1,0
+Q072,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_third,,1,1
+Q072,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,1
+Q072,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,升級,1,1
+Q073,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q073,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,1
+Q074,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,400,1,0
+Q074,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_forb,穩定,0,0
+Q074,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,fmt_para3,,1,0
+Q075,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_first,,0,0
+Q075,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,3,0,0
+Q076,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,term_req,社區,1,0
+Q076,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,10,0,0
+Q076,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,600,1,0
+Q077,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,term_forb,穩定,1,1
+Q077,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,10,1,1
+Q078,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_first,,1,1
+Q078,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,300,1,1
+Q078,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,效率,1,1
+Q079,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,200,1,1
+Q079,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_digit,,1,1
+Q079,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,person_first,,1,1
+Q080,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q080,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_req,責任,1,1
+Q081,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,500,1,0
+Q081,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,8,0,0
+Q081,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,lang_en,,1,0
+Q082,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,300,1,0
+Q082,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_req,升級,1,0
+Q082,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,count,3,0,0
+Q083,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ab,200,0,0
+Q083,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_emoji,,1,0
+Q083,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,穩定,0,0
+Q084,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_third,,1,0
+Q084,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,300,0,0
+Q084,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_digit,,1,0
+Q085,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q085,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,200,1,1
+Q086,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,500,0,0
+Q086,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_digit,,0,0
+Q086,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,lang_en,,1,0
+Q087,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,3,0,0
+Q087,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,400,1,0
+Q087,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,效率,1,0
+Q088,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,400,1,1
+Q088,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_para3,,1,1
+Q088,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_digit,,1,1
+Q089,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_le,300,1,0
+Q089,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_list,,0,0
+Q089,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,count,10,0,0
+Q090,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,fmt_list,,1,0
+Q090,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,800,0,0
+Q091,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,no_emoji,,1,1
+Q091,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_forb,台北,1,1
+Q091,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,500,1,1
+Q091,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,4,count,3,1,1
+Q092,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,10,0,0
+Q092,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,500,0,0
+Q092,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,lang_en,,1,0
+Q093,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ab,600,0,0
+Q093,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,10,0,0
+Q093,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,穩定,1,0
+Q094,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_third,,1,1
+Q094,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,400,1,1
+Q094,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,季節,1,1
+Q095,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,term_req,升級,1,1
+Q095,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,500,1,1
+Q096,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ab,150,1,1
+Q096,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_forb,社區,1,1
+Q097,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q098,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,500,1,0
+Q098,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,person_first,,1,0
+Q098,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,count,5,0,0
+Q099,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q099,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q100,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,600,1,1
+Q100,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,8,1,1
+Q100,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,責任,1,1
+Q101,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,10,1,1
+Q101,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,no_latin,,1,1
+Q102,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,no_digit,,1,1
+Q102,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,200,1,1
+Q102,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_emoji,,1,1
+Q103,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,fmt_list,,1,0
+Q103,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,800,1,0
+Q103,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,count,8,0,0
+Q104,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q105,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,no_digit,,1,0
+Q105,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_req,季節,1,0
+Q105,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,person_first,,0,0
+Q106,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,fmt_table,,1,1
+Q106,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,3,1,1
+Q106,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,1
+Q107,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q107,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q108,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,no_digit,,0,0
+Q108,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ge,400,1,0
+Q109,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q109,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,400,1,1
+Q109,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,person_third,,1,1
+Q110,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,150,1,1
+Q110,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,count,5,1,1
+Q111,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_third,,1,0
+Q111,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,400,0,0
+Q111,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,term_forb,責任,1,0
+Q112,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,term_req,升級,1,1
+Q112,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q113,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,3,0,0
+Q113,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,0
+Q113,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_latin,,1,0
+Q114,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,400,1,1
+Q114,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_para3,,1,1
+Q114,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_emoji,,1,1
+Q115,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_third,,1,0
+Q115,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,len_ab,300,0,0
+Q115,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_digit,,1,0
+Q116,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,600,1,1
+Q116,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,term_req,社區,1,1
+Q117,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,person_first,,1,1
+Q117,A,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_para3,,1,1
+Q118,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,len_ge,500,1,1
+Q118,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_para3,,1,1
+Q118,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,no_digit,,1,1
+Q119,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,3,1,1
+Q119,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,1
+Q119,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,1
+Q120,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q120,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q120,B,B1,Qwen2.5-3B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,1
+Q001,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,400,1,1
+Q001,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_forb,效率,1,1
+Q001,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,fmt_para3,,1,1
+Q002,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,5,0,0
+Q002,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,person_first,,1,0
+Q002,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,300,1,0
+Q003,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,400,1,1
+Q003,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,3,1,1
+Q004,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,0
+Q004,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,150,0,0
+Q005,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,3,0,0
+Q005,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_emoji,,1,0
+Q005,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,150,1,0
+Q006,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,5,1,1
+Q006,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_list,,1,1
+Q006,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,200,1,1
+Q007,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,no_digit,,1,0
+Q007,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_forb,社區,1,0
+Q007,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_ab,150,0,0
+Q008,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,3,0,0
+Q008,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,200,1,0
+Q008,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,fmt_list,,1,0
+Q009,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,no_emoji,,1,0
+Q009,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,400,0,0
+Q009,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,count,10,0,0
+Q010,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,no_emoji,,1,0
+Q010,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,200,1,0
+Q010,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_req,季節,0,0
+Q011,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,0,0
+Q011,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_emoji,,1,0
+Q011,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_ab,200,1,0
+Q012,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,fmt_list,,1,1
+Q012,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,lang_en,,1,1
+Q012,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,count,10,1,1
+Q013,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,800,1,1
+Q013,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,lang_en,,1,1
+Q013,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,count,10,1,1
+Q014,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,400,1,0
+Q014,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,person_third,,1,0
+Q014,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,效率,0,0
+Q015,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,8,0,0
+Q015,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_digit,,0,0
+Q015,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,person_first,,1,0
+Q016,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,fmt_para3,,1,1
+Q016,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_latin,,1,1
+Q017,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,0,0
+Q017,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_table,,1,0
+Q017,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,300,1,0
+Q018,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,no_digit,,1,0
+Q018,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_req,升級,0,0
+Q019,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,term_req,效率,1,0
+Q019,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,500,0,0
+Q019,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,fmt_table,,1,0
+Q020,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,0
+Q020,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,200,0,0
+Q021,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,200,1,1
+Q021,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_req,季節,1,1
+Q022,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,no_emoji,,1,1
+Q022,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,300,1,1
+Q022,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_req,升級,1,1
+Q023,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,150,0,0
+Q023,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,lang_en,,1,0
+Q024,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,200,1,1
+Q024,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,person_first,,1,1
+Q024,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,穩定,1,1
+Q025,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,term_forb,責任,1,1
+Q025,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,500,1,1
+Q025,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_latin,,1,1
+Q025,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),4,count,10,1,1
+Q026,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_third,,1,0
+Q026,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,500,0,0
+Q026,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_req,社區,1,0
+Q027,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,term_forb,信任,1,1
+Q027,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,3,1,1
+Q028,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,5,0,0
+Q028,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_list,,1,0
+Q028,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,300,1,0
+Q029,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,fmt_list,,1,1
+Q029,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_latin,,1,1
+Q029,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,200,1,1
+Q030,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,1
+Q031,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_first,,1,0
+Q031,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,300,0,0
+Q031,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,責任,1,0
+Q032,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,5,1,0
+Q032,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,300,0,0
+Q032,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_emoji,,1,0
+Q034,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,400,0,0
+Q034,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_emoji,,1,0
+Q034,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_req,信任,1,0
+Q035,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,3,0,0
+Q035,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_req,社區,1,0
+Q036,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,10,0,0
+Q036,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_latin,,0,0
+Q036,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_ge,400,1,0
+Q037,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,5,1,1
+Q037,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,400,1,1
+Q037,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_emoji,,1,1
+Q038,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ab,200,1,1
+Q038,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_forb,效率,1,1
+Q039,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,fmt_list,,1,1
+Q039,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,person_first,,1,1
+Q040,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,term_forb,季節,1,0
+Q040,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,400,0,0
+Q041,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,300,1,1
+Q041,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_emoji,,1,1
+Q041,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_req,穩定,1,1
+Q043,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,200,1,1
+Q043,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_forb,信任,1,1
+Q043,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,person_third,,1,1
+Q044,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,5,0,0
+Q044,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_list,,1,0
+Q044,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,lang_en,,0,0
+Q045,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ab,800,0,0
+Q045,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,lang_en,,1,0
+Q046,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,1
+Q046,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_table,,1,1
+Q047,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,500,0,0
+Q047,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_forb,穩定,1,0
+Q048,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,200,1,1
+Q048,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_forb,效率,1,1
+Q048,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,person_first,,1,1
+Q049,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,800,1,0
+Q049,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,lang_en,,0,0
+Q049,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_digit,,0,0
+Q050,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,500,0,0
+Q050,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,lang_en,,1,0
+Q051,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,0
+Q051,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,3,0,0
+Q051,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,200,1,0
+Q052,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,600,0,0
+Q052,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_forb,責任,1,0
+Q053,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,0
+Q053,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,300,0,0
+Q054,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,600,0,0
+Q054,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_digit,,1,0
+Q055,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,1
+Q056,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,1
+Q057,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,no_digit,,1,1
+Q057,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_list,,1,1
+Q057,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,穩定,1,1
+Q058,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,term_req,台北,0,0
+Q058,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_digit,,0,0
+Q060,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,150,1,1
+Q060,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_list,,1,1
+Q061,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,1
+Q061,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,300,1,1
+Q061,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,count,3,1,1
+Q062,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_first,,1,1
+Q062,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,300,1,1
+Q062,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_req,信任,1,1
+Q063,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ab,300,1,1
+Q063,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,person_first,,1,1
+Q063,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,穩定,1,1
+Q064,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_third,,1,1
+Q064,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,300,1,1
+Q064,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,季節,1,1
+Q065,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,3,0,0
+Q065,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_digit,,1,0
+Q065,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,150,1,0
+Q066,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,600,1,1
+Q066,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_para3,,1,1
+Q066,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,person_first,,1,1
+Q067,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ab,400,1,1
+Q067,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,person_first,,1,1
+Q067,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_req,社區,1,1
+Q068,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,300,1,0
+Q068,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_latin,,1,0
+Q068,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,count,3,0,0
+Q069,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,fmt_table,,1,0
+Q069,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,3,0,0
+Q069,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,200,1,0
+Q070,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ab,200,0,0
+Q070,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,10,0,0
+Q070,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_req,效率,1,0
+Q071,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,fmt_para3,,1,0
+Q071,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,5,0,0
+Q071,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_latin,,1,0
+Q072,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_third,,1,1
+Q072,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,300,1,1
+Q072,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,升級,1,1
+Q073,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,1
+Q073,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,300,1,1
+Q074,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,400,0,0
+Q074,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_forb,穩定,0,0
+Q074,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,fmt_para3,,1,0
+Q075,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_first,,0,0
+Q075,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,3,0,0
+Q076,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,term_req,社區,1,0
+Q076,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,10,0,0
+Q076,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,600,1,0
+Q077,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,term_forb,穩定,1,1
+Q077,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,10,1,1
+Q078,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_first,,1,1
+Q078,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,300,1,1
+Q078,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,效率,1,1
+Q079,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,200,1,1
+Q079,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_digit,,1,1
+Q079,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,person_first,,1,1
+Q080,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,5,1,1
+Q080,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_req,責任,1,1
+Q081,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,500,0,0
+Q081,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,8,0,0
+Q081,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,lang_en,,1,0
+Q082,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,300,0,0
+Q082,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_req,升級,1,0
+Q082,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,count,3,0,0
+Q083,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ab,200,0,0
+Q083,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_emoji,,1,0
+Q083,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,穩定,1,0
+Q084,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_third,,1,0
+Q084,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,300,0,0
+Q084,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_digit,,1,0
+Q085,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,0
+Q085,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,200,0,0
+Q086,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,500,0,0
+Q086,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_digit,,0,0
+Q086,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,lang_en,,1,0
+Q087,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,3,0,0
+Q087,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,400,0,0
+Q087,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,效率,1,0
+Q088,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,400,0,0
+Q088,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_para3,,1,0
+Q088,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_digit,,1,0
+Q089,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_le,300,1,0
+Q089,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_list,,0,0
+Q089,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,count,10,0,0
+Q090,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,fmt_list,,1,0
+Q090,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,800,0,0
+Q091,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,no_emoji,,1,1
+Q091,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_forb,台北,1,1
+Q091,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,500,1,1
+Q091,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),4,count,3,1,1
+Q092,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,10,0,0
+Q092,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,500,0,0
+Q092,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,lang_en,,1,0
+Q093,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ab,600,1,0
+Q093,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,10,0,0
+Q093,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,穩定,0,0
+Q094,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_third,,1,1
+Q094,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,400,1,1
+Q094,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,季節,1,1
+Q095,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,term_req,升級,1,1
+Q095,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,500,1,1
+Q096,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ab,150,1,1
+Q096,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_forb,社區,1,1
+Q097,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,1
+Q098,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,500,1,0
+Q098,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,person_first,,1,0
+Q098,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,count,5,0,0
+Q099,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,1
+Q099,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_list,,1,1
+Q100,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,600,1,1
+Q100,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,8,1,1
+Q100,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,責任,1,1
+Q101,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,10,1,1
+Q101,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,no_latin,,1,1
+Q102,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,no_digit,,1,1
+Q102,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,200,1,1
+Q102,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_emoji,,1,1
+Q103,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,fmt_list,,1,0
+Q103,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,800,0,0
+Q103,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,count,8,1,0
+Q104,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,1
+Q105,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,no_digit,,1,0
+Q105,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_req,季節,1,0
+Q105,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,person_first,,0,0
+Q106,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,fmt_table,,1,1
+Q106,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,3,1,1
+Q106,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,300,1,1
+Q107,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,lang_en,,1,1
+Q107,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_list,,1,1
+Q108,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,no_digit,,0,0
+Q108,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ge,400,1,0
+Q109,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,5,1,1
+Q109,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,400,1,1
+Q109,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,person_third,,1,1
+Q110,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,150,1,1
+Q110,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,count,5,1,1
+Q111,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_third,,1,0
+Q111,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,400,0,0
+Q111,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,term_forb,責任,1,0
+Q112,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,term_req,升級,1,1
+Q112,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_list,,1,1
+Q113,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,3,0,0
+Q113,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_le,300,1,0
+Q113,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_latin,,1,0
+Q114,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,400,1,1
+Q114,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_para3,,1,1
+Q114,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_emoji,,1,1
+Q115,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_third,,1,0
+Q115,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,len_ab,300,0,0
+Q115,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_digit,,1,0
+Q116,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,600,1,1
+Q116,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,term_req,社區,1,1
+Q117,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,person_first,,1,1
+Q117,A,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_para3,,1,1
+Q118,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,len_ge,500,1,1
+Q118,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_para3,,1,1
+Q118,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,no_digit,,1,1
+Q119,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,3,1,1
+Q119,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,lang_en,,1,1
+Q119,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,300,1,1
+Q120,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),1,count,5,1,1
+Q120,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),2,fmt_list,,1,1
+Q120,B,B2,Qwen2.5-3B-Instruct,+architecture without the generation-time intervention,v1.7,formal (ablation),3,len_le,300,1,1
+Q001,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,400,1,1
+Q001,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_forb,效率,1,1
+Q001,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,fmt_para3,,1,1
+Q002,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,5,0,0
+Q002,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,person_first,,1,0
+Q002,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,300,0,0
+Q003,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,400,1,1
+Q003,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,3,1,1
+Q004,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q004,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,150,1,1
+Q005,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,3,1,1
+Q005,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_emoji,,1,1
+Q005,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,150,1,1
+Q006,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,5,1,1
+Q006,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q006,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,200,1,1
+Q007,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,no_digit,,1,1
+Q007,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_forb,社區,1,1
+Q007,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_ab,150,1,1
+Q008,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,3,1,0
+Q008,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,200,0,0
+Q008,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,fmt_list,,1,0
+Q009,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,no_emoji,,1,0
+Q009,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,400,0,0
+Q009,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,count,10,1,0
+Q010,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,no_emoji,,1,1
+Q010,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,200,1,1
+Q010,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_req,季節,1,1
+Q011,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,0
+Q011,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_emoji,,1,0
+Q011,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_ab,200,0,0
+Q012,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,fmt_list,,1,0
+Q012,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,lang_en,,1,0
+Q012,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,count,10,0,0
+Q013,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,800,1,1
+Q013,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,lang_en,,1,1
+Q013,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,count,10,1,1
+Q014,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,400,1,1
+Q014,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,person_third,,1,1
+Q014,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,效率,1,1
+Q015,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,8,0,0
+Q015,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_digit,,1,0
+Q015,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,person_first,,1,0
+Q016,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,fmt_para3,,1,1
+Q016,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_latin,,1,1
+Q017,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,0,0
+Q017,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_table,,1,0
+Q017,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,300,1,0
+Q018,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,no_digit,,1,1
+Q018,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_req,升級,1,1
+Q019,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,term_req,效率,1,0
+Q019,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,500,0,0
+Q019,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,fmt_table,,1,0
+Q020,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,0
+Q020,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,200,0,0
+Q021,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,200,1,0
+Q021,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_req,季節,0,0
+Q022,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,no_emoji,,1,0
+Q022,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,300,0,0
+Q022,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_req,升級,1,0
+Q023,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,150,0,0
+Q023,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,lang_en,,1,0
+Q024,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,200,1,0
+Q024,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,person_first,,0,0
+Q024,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,穩定,1,0
+Q025,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,term_forb,責任,1,1
+Q025,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,500,1,1
+Q025,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_latin,,1,1
+Q025,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,4,count,10,1,1
+Q026,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_third,,1,0
+Q026,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,500,0,0
+Q026,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_req,社區,1,0
+Q027,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,term_forb,信任,1,0
+Q027,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,3,0,0
+Q028,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,5,1,1
+Q028,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q028,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,300,1,1
+Q029,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,fmt_list,,1,1
+Q029,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_latin,,1,1
+Q029,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,200,1,1
+Q030,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q031,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_first,,0,0
+Q031,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,300,0,0
+Q031,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,責任,1,0
+Q032,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,5,1,0
+Q032,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,300,0,0
+Q032,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_emoji,,1,0
+Q034,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,400,1,1
+Q034,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_emoji,,1,1
+Q034,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_req,信任,1,1
+Q035,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,3,1,0
+Q035,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_req,社區,0,0
+Q036,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,10,0,0
+Q036,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_latin,,0,0
+Q036,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_ge,400,1,0
+Q037,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,5,1,1
+Q037,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,400,1,1
+Q037,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_emoji,,1,1
+Q038,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ab,200,0,0
+Q038,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_forb,效率,1,0
+Q039,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,fmt_list,,1,1
+Q039,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,person_first,,1,1
+Q040,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,term_forb,季節,1,1
+Q040,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,400,1,1
+Q041,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,300,1,1
+Q041,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_emoji,,1,1
+Q041,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_req,穩定,1,1
+Q043,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,200,1,1
+Q043,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_forb,信任,1,1
+Q043,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,person_third,,1,1
+Q044,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,5,1,1
+Q044,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q044,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,lang_en,,1,1
+Q045,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ab,800,0,0
+Q045,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,lang_en,,1,0
+Q046,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q046,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_table,,1,1
+Q047,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,500,0,0
+Q047,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_forb,穩定,1,0
+Q048,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,200,1,1
+Q048,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_forb,效率,1,1
+Q048,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,person_first,,1,1
+Q049,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,800,1,0
+Q049,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,lang_en,,0,0
+Q049,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_digit,,0,0
+Q050,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,500,0,0
+Q050,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,lang_en,,0,0
+Q051,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q051,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,3,1,1
+Q051,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,200,1,1
+Q052,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,600,0,0
+Q052,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_forb,責任,1,0
+Q053,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,0
+Q053,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,300,0,0
+Q054,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,600,1,1
+Q054,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_digit,,1,1
+Q055,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q056,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q057,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,no_digit,,1,0
+Q057,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_list,,0,0
+Q057,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,穩定,1,0
+Q058,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,term_req,台北,1,1
+Q058,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_digit,,1,1
+Q060,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,150,1,1
+Q060,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q061,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q061,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,300,1,1
+Q061,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,count,3,1,1
+Q062,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_first,,1,1
+Q062,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,300,1,1
+Q062,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_req,信任,1,1
+Q063,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ab,300,0,0
+Q063,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,person_first,,1,0
+Q063,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,穩定,1,0
+Q064,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_third,,1,1
+Q064,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,300,1,1
+Q064,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,季節,1,1
+Q065,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,3,0,0
+Q065,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_digit,,1,0
+Q065,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,150,1,0
+Q066,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,600,1,1
+Q066,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_para3,,1,1
+Q066,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,person_first,,1,1
+Q067,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ab,400,1,0
+Q067,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,person_first,,0,0
+Q067,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_req,社區,1,0
+Q068,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,300,1,1
+Q068,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_latin,,1,1
+Q068,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,count,3,1,1
+Q069,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,fmt_table,,1,0
+Q069,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,3,0,0
+Q069,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,200,1,0
+Q070,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ab,200,0,0
+Q070,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,10,1,0
+Q070,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_req,效率,1,0
+Q071,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,fmt_para3,,1,0
+Q071,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,5,0,0
+Q071,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_latin,,1,0
+Q072,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_third,,1,1
+Q072,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,300,1,1
+Q072,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,升級,1,1
+Q073,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q073,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,300,1,1
+Q074,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,400,1,1
+Q074,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_forb,穩定,1,1
+Q074,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,fmt_para3,,1,1
+Q075,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_first,,0,0
+Q075,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,3,0,0
+Q076,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,term_req,社區,1,0
+Q076,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,10,0,0
+Q076,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,600,1,0
+Q077,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,term_forb,穩定,1,1
+Q077,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,10,1,1
+Q078,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_first,,1,1
+Q078,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,300,1,1
+Q078,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,效率,1,1
+Q079,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,200,1,0
+Q079,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_digit,,1,0
+Q079,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,person_first,,0,0
+Q080,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,5,1,1
+Q080,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_req,責任,1,1
+Q081,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,500,1,0
+Q081,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,8,0,0
+Q081,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,lang_en,,1,0
+Q082,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,300,0,0
+Q082,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_req,升級,1,0
+Q082,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,count,3,0,0
+Q083,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ab,200,0,0
+Q083,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_emoji,,1,0
+Q083,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,穩定,1,0
+Q084,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_third,,1,0
+Q084,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,300,0,0
+Q084,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_digit,,1,0
+Q085,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,0
+Q085,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,200,0,0
+Q086,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,500,0,0
+Q086,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_digit,,0,0
+Q086,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,lang_en,,1,0
+Q087,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,3,0,0
+Q087,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,400,1,0
+Q087,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,效率,1,0
+Q088,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,400,1,1
+Q088,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_para3,,1,1
+Q088,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_digit,,1,1
+Q089,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_le,300,1,0
+Q089,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_list,,1,0
+Q089,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,count,10,0,0
+Q090,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,fmt_list,,1,0
+Q090,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,800,0,0
+Q091,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,no_emoji,,1,1
+Q091,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_forb,台北,1,1
+Q091,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,500,1,1
+Q091,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,4,count,3,1,1
+Q092,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,10,1,0
+Q092,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,500,0,0
+Q092,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,lang_en,,0,0
+Q093,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ab,600,1,0
+Q093,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,10,0,0
+Q093,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,穩定,1,0
+Q094,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_third,,1,1
+Q094,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,400,1,1
+Q094,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,季節,1,1
+Q095,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,term_req,升級,0,0
+Q095,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,500,1,0
+Q096,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ab,150,0,0
+Q096,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_forb,社區,1,0
+Q097,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q098,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,500,1,0
+Q098,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,person_first,,1,0
+Q098,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,count,5,0,0
+Q099,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q099,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q100,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,600,1,1
+Q100,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,8,1,1
+Q100,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,責任,1,1
+Q101,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,10,0,0
+Q101,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,no_latin,,1,0
+Q102,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,no_digit,,1,1
+Q102,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,200,1,1
+Q102,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_emoji,,1,1
+Q103,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,fmt_list,,1,0
+Q103,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,800,0,0
+Q103,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,count,8,1,0
+Q104,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q105,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,no_digit,,1,1
+Q105,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_req,季節,1,1
+Q105,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,person_first,,1,1
+Q106,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,fmt_table,,1,0
+Q106,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,3,0,0
+Q106,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,300,1,0
+Q107,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,lang_en,,1,1
+Q107,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q108,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,no_digit,,0,0
+Q108,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ge,400,1,0
+Q109,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,5,1,1
+Q109,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,400,1,1
+Q109,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,person_third,,1,1
+Q110,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,150,1,1
+Q110,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,count,5,1,1
+Q111,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_third,,1,1
+Q111,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,400,1,1
+Q111,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,term_forb,責任,1,1
+Q112,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,term_req,升級,1,1
+Q112,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q113,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,3,1,1
+Q113,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_le,300,1,1
+Q113,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_latin,,1,1
+Q114,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,400,0,0
+Q114,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_para3,,0,0
+Q114,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_emoji,,1,0
+Q115,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_third,,1,0
+Q115,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,len_ab,300,0,0
+Q115,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_digit,,1,0
+Q116,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,600,1,1
+Q116,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,term_req,社區,1,1
+Q117,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,person_first,,1,0
+Q117,A,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_para3,,0,0
+Q118,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,len_ge,500,1,1
+Q118,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_para3,,1,1
+Q118,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,no_digit,,1,1
+Q119,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,3,1,1
+Q119,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,lang_en,,1,1
+Q119,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,300,1,1
+Q120,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,1,count,5,1,1
+Q120,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,2,fmt_list,,1,1
+Q120,B,A0,Qwen2.5-7B-Instruct,bare,-,formal,3,len_le,300,1,1
+Q001,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,400,1,1
+Q001,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_forb,效率,1,1
+Q001,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,fmt_para3,,1,1
+Q002,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,5,0,0
+Q002,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,person_first,,0,0
+Q002,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,0
+Q003,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,400,1,1
+Q003,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,3,1,1
+Q004,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q004,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,150,1,1
+Q005,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,3,1,1
+Q005,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_emoji,,1,1
+Q005,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,150,1,1
+Q006,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q006,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q006,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,200,1,1
+Q007,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,no_digit,,1,1
+Q007,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_forb,社區,1,1
+Q007,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_ab,150,1,1
+Q008,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,3,1,1
+Q008,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,200,1,1
+Q008,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,fmt_list,,1,1
+Q009,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,no_emoji,,1,0
+Q009,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,400,0,0
+Q009,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,count,10,0,0
+Q010,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,no_emoji,,1,1
+Q010,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,200,1,1
+Q010,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_req,季節,1,1
+Q011,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q011,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_emoji,,1,1
+Q011,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_ab,200,1,1
+Q012,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,fmt_list,,1,1
+Q012,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,1
+Q012,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,count,10,1,1
+Q013,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,800,1,1
+Q013,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,1
+Q013,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,count,10,1,1
+Q014,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,400,1,1
+Q014,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,person_third,,1,1
+Q014,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,效率,1,1
+Q015,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,8,1,0
+Q015,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_digit,,0,0
+Q015,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,person_first,,0,0
+Q016,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,fmt_para3,,1,1
+Q016,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_latin,,1,1
+Q017,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,0,0
+Q017,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_table,,1,0
+Q017,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,0
+Q018,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,no_digit,,1,1
+Q018,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_req,升級,1,1
+Q019,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,term_req,效率,1,1
+Q019,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,500,1,1
+Q019,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,fmt_table,,1,1
+Q020,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q020,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,200,1,1
+Q021,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,200,1,0
+Q021,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_req,季節,0,0
+Q022,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,no_emoji,,1,1
+Q022,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,1
+Q022,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_req,升級,1,1
+Q023,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,150,1,1
+Q023,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,1
+Q024,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,200,1,1
+Q024,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,person_first,,1,1
+Q024,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,穩定,1,1
+Q025,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,term_forb,責任,0,0
+Q025,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,500,1,0
+Q025,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_latin,,1,0
+Q025,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,4,count,10,1,0
+Q026,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_third,,0,0
+Q026,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,500,1,0
+Q026,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_req,社區,1,0
+Q027,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,term_forb,信任,0,0
+Q027,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,3,1,0
+Q028,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q028,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q028,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,1
+Q029,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,fmt_list,,1,1
+Q029,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_latin,,1,1
+Q029,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,200,1,1
+Q030,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,0,0
+Q031,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_first,,1,0
+Q031,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,300,0,0
+Q031,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,責任,1,0
+Q032,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,5,0,0
+Q032,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,0
+Q032,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_emoji,,1,0
+Q034,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,400,1,1
+Q034,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_emoji,,1,1
+Q034,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_req,信任,1,1
+Q035,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,3,0,0
+Q035,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_req,社區,0,0
+Q036,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,10,0,0
+Q036,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_latin,,0,0
+Q036,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_ge,400,1,0
+Q037,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q037,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,400,1,1
+Q037,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_emoji,,1,1
+Q038,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ab,200,1,1
+Q038,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_forb,效率,1,1
+Q039,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,fmt_list,,1,1
+Q039,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,person_first,,1,1
+Q040,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,term_forb,季節,1,1
+Q040,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,400,1,1
+Q041,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,300,1,1
+Q041,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_emoji,,1,1
+Q041,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_req,穩定,1,1
+Q043,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,200,1,1
+Q043,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_forb,信任,1,1
+Q043,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,person_third,,1,1
+Q044,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q044,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q044,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,lang_en,,1,1
+Q045,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ab,800,1,1
+Q045,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,1
+Q046,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q046,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_table,,1,1
+Q047,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,500,1,1
+Q047,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_forb,穩定,1,1
+Q048,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,200,1,1
+Q048,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_forb,效率,1,1
+Q048,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,person_first,,1,1
+Q049,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,800,1,0
+Q049,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,lang_en,,0,0
+Q049,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_digit,,0,0
+Q050,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,500,0,0
+Q050,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,lang_en,,0,0
+Q051,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q051,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,3,1,1
+Q051,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,200,1,1
+Q052,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,600,0,0
+Q052,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_forb,責任,1,0
+Q053,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q053,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,300,1,1
+Q054,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,600,1,1
+Q054,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_digit,,1,1
+Q055,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q056,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q057,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,no_digit,,1,0
+Q057,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_list,,0,0
+Q057,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,穩定,1,0
+Q058,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,term_req,台北,0,0
+Q058,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_digit,,1,0
+Q060,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,150,1,1
+Q060,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q061,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q061,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,1
+Q061,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,count,3,1,1
+Q062,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_first,,1,1
+Q062,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,300,1,1
+Q062,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_req,信任,1,1
+Q063,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ab,300,1,1
+Q063,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,person_first,,1,1
+Q063,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,穩定,1,1
+Q064,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_third,,1,1
+Q064,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,300,1,1
+Q064,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,季節,1,1
+Q065,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,3,0,0
+Q065,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_digit,,1,0
+Q065,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,150,1,0
+Q066,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,600,1,1
+Q066,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_para3,,1,1
+Q066,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,person_first,,1,1
+Q067,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ab,400,1,1
+Q067,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,person_first,,1,1
+Q067,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_req,社區,1,1
+Q068,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,300,1,1
+Q068,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_latin,,1,1
+Q068,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,count,3,1,1
+Q069,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,fmt_table,,1,0
+Q069,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,3,0,0
+Q069,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,200,1,0
+Q070,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ab,200,0,0
+Q070,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,10,1,0
+Q070,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_req,效率,1,0
+Q071,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,fmt_para3,,1,0
+Q071,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,5,0,0
+Q071,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_latin,,1,0
+Q072,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_third,,1,1
+Q072,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,1
+Q072,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,升級,1,1
+Q073,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q073,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,1
+Q074,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,400,1,1
+Q074,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_forb,穩定,1,1
+Q074,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,fmt_para3,,1,1
+Q075,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_first,,0,0
+Q075,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,3,0,0
+Q076,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,term_req,社區,1,0
+Q076,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,10,0,0
+Q076,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,600,1,0
+Q077,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,term_forb,穩定,1,1
+Q077,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,10,1,1
+Q078,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_first,,1,1
+Q078,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,300,1,1
+Q078,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,效率,1,1
+Q079,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,200,1,1
+Q079,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_digit,,1,1
+Q079,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,person_first,,1,1
+Q080,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q080,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_req,責任,1,1
+Q081,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,500,1,1
+Q081,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,8,1,1
+Q081,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,lang_en,,1,1
+Q082,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,300,0,0
+Q082,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_req,升級,1,0
+Q082,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,count,3,0,0
+Q083,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ab,200,0,0
+Q083,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_emoji,,1,0
+Q083,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,穩定,1,0
+Q084,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_third,,1,1
+Q084,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,300,1,1
+Q084,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_digit,,1,1
+Q085,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q085,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,200,1,1
+Q086,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,500,1,0
+Q086,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_digit,,0,0
+Q086,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,lang_en,,1,0
+Q087,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,3,0,0
+Q087,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,400,1,0
+Q087,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,效率,1,0
+Q088,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,400,1,1
+Q088,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_para3,,1,1
+Q088,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_digit,,1,1
+Q089,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_le,300,1,1
+Q089,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q089,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,count,10,1,1
+Q090,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,fmt_list,,1,1
+Q090,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,800,1,1
+Q091,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,no_emoji,,1,1
+Q091,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_forb,台北,1,1
+Q091,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,500,1,1
+Q091,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,4,count,3,1,1
+Q092,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,10,0,0
+Q092,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,500,1,0
+Q092,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,lang_en,,1,0
+Q093,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ab,600,0,0
+Q093,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,10,0,0
+Q093,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,穩定,1,0
+Q094,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_third,,1,1
+Q094,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,400,1,1
+Q094,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,季節,1,1
+Q095,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,term_req,升級,0,0
+Q095,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,500,1,0
+Q096,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ab,150,1,1
+Q096,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_forb,社區,1,1
+Q097,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q098,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,500,1,0
+Q098,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,person_first,,1,0
+Q098,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,count,5,0,0
+Q099,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q099,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q100,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,600,1,1
+Q100,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,8,1,1
+Q100,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,責任,1,1
+Q101,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,10,0,0
+Q101,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,no_latin,,1,0
+Q102,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,no_digit,,1,1
+Q102,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,200,1,1
+Q102,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_emoji,,1,1
+Q103,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,fmt_list,,1,0
+Q103,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,800,0,0
+Q103,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,count,8,1,0
+Q104,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q105,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,no_digit,,1,1
+Q105,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_req,季節,1,1
+Q105,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,person_first,,1,1
+Q106,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,fmt_table,,1,0
+Q106,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,3,0,0
+Q106,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,0
+Q107,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,lang_en,,1,1
+Q107,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q108,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,no_digit,,0,0
+Q108,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ge,400,1,0
+Q109,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q109,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,400,1,1
+Q109,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,person_third,,1,1
+Q110,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,150,1,1
+Q110,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,count,5,1,1
+Q111,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_third,,1,1
+Q111,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,400,1,1
+Q111,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,term_forb,責任,1,1
+Q112,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,term_req,升級,1,1
+Q112,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q113,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,3,1,1
+Q113,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_le,300,1,1
+Q113,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_latin,,1,1
+Q114,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,400,1,1
+Q114,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_para3,,1,1
+Q114,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_emoji,,1,1
+Q115,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_third,,1,1
+Q115,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,len_ab,300,1,1
+Q115,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_digit,,1,1
+Q116,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,600,1,1
+Q116,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,term_req,社區,1,1
+Q117,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,person_first,,1,0
+Q117,A,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_para3,,0,0
+Q118,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,len_ge,500,1,1
+Q118,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_para3,,1,1
+Q118,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,no_digit,,1,1
+Q119,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,3,1,1
+Q119,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,lang_en,,1,1
+Q119,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,1
+Q120,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,1,count,5,1,1
+Q120,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,2,fmt_list,,1,1
+Q120,B,A1,Qwen2.5-7B-Instruct,+architecture,v1.8,formal,3,len_le,300,1,1

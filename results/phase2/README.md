@@ -5,9 +5,11 @@ better when an external, zero-inference architecture is wrapped around it?** The
 comparison is always *bare model vs. the same model plus the architecture*. A small
 model beating a larger one is not the claim.
 
-This directory holds **aggregate numbers only**. It contains no prompts, no answers
-and no per-item records. The prompts come from user corpora (WildChat, LMSYS-Chat-1M)
-and third-party benchmarks (Multi-IF, ComplexBench) and are not ours to republish.
+The CSV files at this level are **aggregate numbers**. The per-item records behind them are in
+[`per_item/`](per_item/) (see the last section), and the synthetic prompts and every arm's answers
+are in [`../../data/phase2/`](../../data/phase2/). Not published: anything from the user corpora
+(WildChat, LMSYS-Chat-1M; rounds M1–M3) and the prompts of the third-party benchmarks (Multi-IF,
+ComplexBench), which are referenced by item id only.
 
 ## Files
 
@@ -65,8 +67,9 @@ All action-layer implementation, rule tables and thresholds are **not published*
 - **ComplexBench, dependencies.** 36 of the 252 rules depend on an LLM-judged condition.
   They were judged independently instead of being chained.
 - **ComplexBench, sampling.** Generation used temperature 0.7 and top_p 0.9, with a fixed
-  seed per item (base seed plus item index). Each arm was sampled **once**, so there are
-  no confidence intervals.
+  seed per item (base seed plus item index). Each arm was sampled **once**, so run-to-run
+  generation variance is not estimated; the intervals in [`per_item/stats_paired.csv`](per_item/stats_paired.csv)
+  cover item sampling only.
 - **Multi-IF.** After it was scored, it was turned into development material. Every later
   Multi-IF *reading* number (v1.10, v1.11) is **in-sample**. The only out-of-sample reading
   number is ComplexBench's.
@@ -96,3 +99,86 @@ All action-layer implementation, rule tables and thresholds are **not published*
   3. A format was changed on a JSON task by the intervention.
 
   See [`../../docs/failure_taxonomy.md`](../../docs/failure_taxonomy.md).
+
+## Per-item results (`per_item/`)
+
+Every number in the Part II report except rounds M1–M3 can be recomputed from these files. They were
+generated from the delivered score files and checked against them: every per-constraint verdict of
+S1–S3 equals the reviewer's grading output, and every total, trigger count and coverage figure equals
+the published tables.
+
+| File | One row per | Report section |
+| --- | --- | --- |
+| [`s1_items.csv`](per_item/s1_items.csv), [`s2_items.csv`](per_item/s2_items.csv), [`s3_items.csv`](per_item/s3_items.csv) | item × arm × constraint | §5 table and paired statistics |
+| [`multiif_zh_items.csv`](per_item/multiif_zh_items.csv) | item × arm × instruction | §6 shot 1 |
+| [`complexbench_rule_items.csv`](per_item/complexbench_rule_items.csv) | item × arm × rule | §6 shot 2, observe-only arm |
+| [`stats_paired.csv`](per_item/stats_paired.csv), [`stats_paired.py`](per_item/stats_paired.py) | comparison | paired statistics in §5 and §6 |
+| [`reading_variants.csv`](per_item/reading_variants.csv) | variant × rules build × constraint type | §6 reading-generalization diagnosis |
+
+### Common columns
+
+| Column | Meaning |
+| --- | --- |
+| `item` | Item id. Synthetic `Q001`…; Multi-IF `MIF001`…; ComplexBench `CB0001`… |
+| `arm`, `model`, `rules_version` | Arm code as in the tables above; `-` = bare model |
+| `status` | `formal`, `formal (ablation)`, `candidate`, `development`, `record-only` (S files only; the benchmark files hold formal blind arms only) |
+| `all_pass` / `all_strict` | 1 = every constraint (rule, instruction) of the item passed — the "full compliance" metric |
+
+### `s*_items.csv` (synthetic papers)
+
+| Column | Meaning |
+| --- | --- |
+| `source_class` | `A` = written by the reviewer session; `B` = written by the executor from forum topics |
+| `c_idx`, `c_type`, `c_param` | The constraint as the reviewer's checker reads it. Types: `len_ge` / `len_le` (at least / at most N), `len_ab` (about N: 0.8N–1.2N), `count` (N items), `term_req` / `term_forb` (required / forbidden term), `person_first` / `person_third`, `lang_en`, `no_digit`, `no_latin`, `no_emoji`, `fmt_list`, `fmt_table`, `fmt_para3` |
+| `c_pass` | 1 = passed, by [`../../eval/synthetic/grade_s*.py`](../../eval/synthetic/) |
+
+Length is counted in CJK characters, or in English words when English dominates the answer. When
+English is required, the constraints that conflict with it are dropped before scoring (required /
+forbidden Chinese terms, no Latin letters, person); this is why S1 has fewer `term_req` and
+`person_first` rows than its items carry. Each paper has 120 items; the 3 sentinel items per paper
+are protocol checks, are not scored, and are not included (117 remain). S2 includes two development
+arms not in the frozen comparison: `B1_v1.7` and `B_oracle`; they were scored with the same checker
+against the same constraint lists. S2 `A1` is a record-only arm whose answers are the bare arm's.
+"Improved / worsened" in [`deltas.csv`](deltas.csv) compares the number of failed constraints per
+item between two arms.
+
+### `multiif_zh_items.csv`
+
+| Column | Meaning |
+| --- | --- |
+| `source_key` | The item's `key` in the Multi-IF dataset |
+| `instruction_id` | Multi-IF instruction id (its parameters are not reproduced; they are in the dataset) |
+| `our_type`, `mappable` | The project's constraint type the instruction maps to; empty / 0 = no matching type |
+| `strict`, `loose` | Official verdicts (`gen_acc_strict` / `gen_acc_loose`, unmodified checker) |
+| `mappable_all_strict` | All mappable instructions passed; empty when the item has none |
+| `retry_triggered` | Architecture arms only: whether the retry fired |
+
+### `complexbench_rule_items.csv`
+
+| Column | Meaning |
+| --- | --- |
+| `main_id`, `point_id` | Position in `data_final.json` (thu-coai/ComplexBench @ `749f4575`) and the rule's scoring-point id. Rule text and scoring questions are not reproduced; [`../../eval/complexbench/extract_rule_subset.py`](../../eval/complexbench/extract_rule_subset.py) rebuilds them |
+| `kind`, `dims` | Rule kind and the benchmark's constraint dimensions |
+| `mappable`, `dep_on_llm` | Rule has a matching project type; rule's condition depends on an LLM-judged rule (judged independently) |
+| `pass` | Official `con_rule.py` verdict on the whole response |
+| `mappable_all_pass` | All mappable rules of the item passed; empty when the item has none (21 items) |
+| `retry_triggered` | Architecture arms only |
+| `obs_read` | What the record-only arm's reading step did with this rule: `hit`, `right type, wrong parameters`, `missed`, `no matching type`. Reading depends only on the prompt and is identical for both models |
+| `obs_would_trigger` | Record-only arm: whether a retry would have fired |
+
+### `stats_paired.csv`
+
+Up / down are discordant items (fail → pass, pass → fail). `mcnemar_p` is the two-sided exact McNemar
+test; `ci_low` / `ci_high` are a percentile bootstrap of the item-level difference (B = 10,000,
+seed in the file). Against the report, the up / down counts and p values reproduce exactly; the
+report's bootstrap seed was not recorded, so interval ends differ by up to 0.8 points. `delta_pts`
+is computed from counts; the report subtracts rounded percentages, so two ComplexBench 7B cells
+differ by 0.1.
+
+### `reading_variants.csv`
+
+Reading hits (type and parameters both correct) on the Multi-IF zh prompts and their rewrites; the
+rewritten prompts are not published. `rules_build`: `v1.10`; `v1.11 candidate` (the build measured
+on all eight columns); `v1.11 frozen` (the released v1.11, measured on the original and V2 only —
+the report's 320/362 and 301/362, hallucination 13.0% / 14.0%). All Multi-IF reading numbers are
+in-sample.
