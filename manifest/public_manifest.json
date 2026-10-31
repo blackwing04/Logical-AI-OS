@@ -308,26 +308,44 @@
   },
   {
    "檔": "PUBLIC_NOTES.md",
-   "sha256": "703bd8d675bd524114426336dddcc25230f899f07d874506bbb2181a44194dd7",
-   "位元": 8574,
+   "sha256": "cd4af61e41163f32d92d7e808332333fe167d9d08dd63875f965a2842215fa2c",
+   "位元": 15688,
    "改名前": false
   },
   {
    "檔": "PUBLIC_NOTES.zh-TW.md",
-   "sha256": "bbdae2a0ee3a73f4ce276cbbf5cc4c436042dbf7108720fe88242e9cfce52788",
-   "位元": 6774,
+   "sha256": "d8161440a0b5b41aaf5c065a31291fd3c758b8009a862057707d7fde28f87cf8",
+   "位元": 13241,
+   "改名前": false
+  },
+  {
+   "檔": "QUICKSTART.md",
+   "sha256": "164ab87572473b4a6f97a4fc405635271d660479f90155adaaefcd55ddc6e08d",
+   "位元": 16418,
+   "改名前": false
+  },
+  {
+   "檔": "QUICKSTART.zh-TW.md",
+   "sha256": "10f830e79f9ed7718993a8d81c4685dad67d290086e384707382816b15427af9",
+   "位元": 15539,
    "改名前": false
   },
   {
    "檔": "README.md",
-   "sha256": "308e31b128b0b6116ea8153a99c3a3d8df9921b74058cd195f74d4bc4f66cbcb",
-   "位元": 15919,
+   "sha256": "ddddbe515240ac8e8c35e741ca936335b02a97827eb96bfb5b3a1c25c1fc9883",
+   "位元": 16166,
    "改名前": false
   },
   {
    "檔": "README.zh-TW.md",
-   "sha256": "7fd8ff796fdc4a35e460fb0853ce87de1d940b034586e879512ba491a9018bf6",
-   "位元": 13196,
+   "sha256": "e3b7c561b02246b1551c75aedb9257dad841457a428ab8b8f2d8b4757a064ec9",
+   "位元": 13442,
+   "改名前": false
+  },
+  {
+   "檔": "requirements.txt",
+   "sha256": "e02eb936d43da2cfef54e65cfd86b5bfff7bec802e42e6aa1e3a0ca3783a6d21",
+   "位元": 465,
    "改名前": false
   },
   {
@@ -434,14 +452,14 @@
   },
   {
    "檔": "src/blindtest/run_7b_arm.py",
-   "sha256": "cb2ed42dee7e6d2f0dee6723c6439fb01ade50ecea9b7886690ce1bd95bebfeb",
-   "位元": 6755,
+   "sha256": "a27ffe4d358afc998f8083d522fadc4c050d6aeeb00fc38da505b456f6c7ce22",
+   "位元": 6969,
    "改名前": false
   },
   {
    "檔": "src/control/judge_v4.py",
-   "sha256": "860262e4447a10990ca79d595c605e36c963aeb0f6d8fec322f56c6ba6ee4f45",
-   "位元": 32730,
+   "sha256": "313fa817ed30d86a980b02e0c67e812ea5e44563e83c05fe4a1e9d8a35ac1824",
+   "位元": 32989,
    "改名前": false
   },
   {
@@ -451,15 +469,51 @@
    "改名前": false
   },
   {
+   "檔": "src/mechanical/canon_v3/__init__.py",
+   "sha256": "ba4dd92bfadb6ce06937d6b404c62167e9eafef50c19ca790f61bf88ec763cd5",
+   "位元": 378,
+   "改名前": false
+  },
+  {
+   "檔": "src/mechanical/canon_v3/cue_anchor.py",
+   "sha256": "596ef48c6efe47fb5ad48eea720eb4f72465c661279872a47c5f2c6d936a8e71",
+   "位元": 5515,
+   "改名前": false
+  },
+  {
+   "檔": "src/mechanical/canon_v3/lexicon.py",
+   "sha256": "3cf6a06c778c9bdb547ee8b8b46ac314af27ce5674d39c79167d558101f3c6aa",
+   "位元": 10324,
+   "改名前": false
+  },
+  {
+   "檔": "src/mechanical/canon_v3/prompts.py",
+   "sha256": "c188840ac005c206b82d79feba0f56941ec1075df41f9c6fc10fce3e91c7e324",
+   "位元": 2320,
+   "改名前": false
+  },
+  {
+   "檔": "src/mechanical/canon_v3/quantity.py",
+   "sha256": "bcda7b3cd11cb0e2dde4f2f81cfe5394ea88f41f1802501ed1fb3e74c1ca85d2",
+   "位元": 8504,
+   "改名前": false
+  },
+  {
+   "檔": "src/mechanical/classifier.py",
+   "sha256": "ba88a7a4845d3b23c3b0efdef2b0aebada7954c58d943f02e944867b02f6807b",
+   "位元": 2098,
+   "改名前": false
+  },
+  {
    "檔": "src/mechanical/clause_v2.py",
-   "sha256": "b96461d163eb1700af5db2a3d65885e9869a68ddee7d82e38839c95819b140e8",
-   "位元": 29123,
+   "sha256": "b08c407d328cd96aef2bb01f9587a7787265742f2c3e8c138d5ca3567365edaf",
+   "位元": 29200,
    "改名前": false
   },
   {
    "檔": "src/mechanical/detectors.py",
-   "sha256": "0ceb57f7d24ed0530edb2ef30af6936a3f612e7fc52a52dda5d50fe80c476e14",
-   "位元": 29021,
+   "sha256": "e88e23d5c3519b9815e2ef4151ab7e27ed01d34f13256789c8aaa310f2349ee4",
+   "位元": 29089,
    "改名前": false
   },
   {
@@ -470,14 +524,14 @@
   },
   {
    "檔": "src/mechanical/pipeline_v2.py",
-   "sha256": "092c1c715ad454d4c43fdb924c7e3a970962234d44855f15c898543a2e8bf5ee",
-   "位元": 8497,
+   "sha256": "a13abcd840354597ddda9c957d78f7ccd85e8053fa66bf827b1624fa77dd9b84",
+   "位元": 8574,
    "改名前": false
   },
   {
    "檔": "src/mechanical/reorder_v2.py",
-   "sha256": "d1c022bee13ee2c02eae98d25c91bc140a445aca7f5bb36d2393403242c43675",
-   "位元": 10561,
+   "sha256": "06a2f42a7b3cdb15e949f254d2231cb843966a15d98f207da94d73589628fa0e",
+   "位元": 10638,
    "改名前": false
   },
   {
@@ -512,8 +566,8 @@
   },
   {
    "檔": "src/perf/run_perf.py",
-   "sha256": "60c211e02ccd5c397bb5192fc1e348db77a6f7867cb8f3f233aef10413e8024e",
-   "位元": 28860,
+   "sha256": "1e4113c9b37dc3e72ab12f0c80cf183029a7d5e2b62f401d4c3d627fa5c4e7e1",
+   "位元": 29075,
    "改名前": false
   },
   {
@@ -523,9 +577,15 @@
    "改名前": false
   },
   {
+   "檔": "src/run_recognizer.py",
+   "sha256": "b10abb21967432750c0a0deeae5ccbe56745f7bc977933541395af7313470743",
+   "位元": 2440,
+   "改名前": false
+  },
+  {
    "檔": "src/tools/split_sentences.py",
-   "sha256": "34bfcbf9d1c82cfeddd6508d8140f349dc5fcad9cae3491697b2256cd3fd554a",
-   "位元": 16616,
+   "sha256": "a5376fc5aba427d999ce9188f8bac9af7be84ec8d5a83f366c8b09cf12f0d12b",
+   "位元": 16685,
    "改名前": false
   }
  ],

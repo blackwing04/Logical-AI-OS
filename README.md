@@ -2,6 +2,8 @@ English | [繁體中文](README.zh-TW.md)
 
 # Logical AI OS — public release
 
+**Quickstart:** [`QUICKSTART.md`](QUICKSTART.md) — the commands to run the recognizer on your own sentences, recompute the Part II statistics and score your own answers, each with the output it printed.
+
 [![DOI, this version](https://zenodo.org/badge/DOI/10.5281/zenodo.23226740.svg)](https://doi.org/10.5281/zenodo.23226740)
 [![DOI, all versions](https://zenodo.org/badge/DOI/10.5281/zenodo.23226739.svg)](https://doi.org/10.5281/zenodo.23226739)
 [![prior work: LoRA line, software](https://zenodo.org/badge/DOI/10.5281/zenodo.17848554.svg)](https://doi.org/10.5281/zenodo.17848554)
@@ -168,8 +170,8 @@ The code and the criterion tables are here, but **the corpus is not**, so this
 repository **cannot reproduce the seven rounds' numbers byte for byte**. What it can
 reproduce is:
 
-- the behaviour of the judgement chain on **your own** sentences (`src/` runs
-  directly);
+- the behaviour of the judgement chain on **your own** sentences (`src/run_recognizer.py`,
+  see [`QUICKSTART.md`](QUICKSTART.md));
 - the complete state of the signed tables and the flags (`manifest/`);
 - the attribution chain behind every conclusion (the breakdowns in `results/`);
 - for Part II, the **scoring** of your own responses on Multi-IF and ComplexBench with the

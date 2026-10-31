@@ -19,8 +19,9 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 if str(HERE) not in sys.path:
 	sys.path.insert(0, str(HERE))
-if "H:/Projects/Logical-AI-OS/scripts" not in sys.path:
-	sys.path.insert(0, "H:/Projects/Logical-AI-OS/scripts")
+_SCRIPTS = str(Path(__file__).resolve().parents[2] / "scripts")  # was an absolute local path (PUBLIC_NOTES.md section 7)
+if _SCRIPTS not in sys.path:
+	sys.path.insert(0, _SCRIPTS)
 
 import lexicon_v2 as L
 from canon_v3.prompts import detect_table5_constraint_cues

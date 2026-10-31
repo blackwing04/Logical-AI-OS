@@ -12,6 +12,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -19,7 +20,7 @@ from pathlib import Path
 import torch
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path("H:/Projects/Logical-AI-OS")
+ROOT = Path(__file__).resolve().parents[2]  # repository root; was an absolute local path (PUBLIC_NOTES.md section 7)
 SEM = ROOT / "experiments/semantic-station"
 BR = ROOT / "laios-bridge"
 OUT = ROOT / "experiments/blindtest/outputs"
@@ -29,7 +30,8 @@ sys.path.insert(0, str(SEM / "scripts"))
 from run_station2 import PROMPT_TEMPLATE as PROMPT, N_RUNS, FULL_MED, FULL_FRAC
 from probe_noise import SEED
 
-MODEL = "E:/AI_models/qwen2.5-7b-instruct"
+_MODEL_DIR = os.environ.get("MODEL_DIR", "models")  # model directory; was an absolute local path (PUBLIC_NOTES.md section 7)
+MODEL = _MODEL_DIR + "/qwen2.5-7b-instruct"
 
 
 def model_fingerprint(d: Path):

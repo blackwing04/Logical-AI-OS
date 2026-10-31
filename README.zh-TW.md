@@ -2,6 +2,8 @@
 
 # Logical AI OS — 公開收裝
 
+**快速上手：**[`QUICKSTART.zh-TW.md`](QUICKSTART.zh-TW.md)——辨識零件跑你自己的句子、重算 Part II 統計、評你自己的回答，每一行指令都附實跑輸出。
+
 [![DOI, this version](https://zenodo.org/badge/DOI/10.5281/zenodo.23226740.svg)](https://doi.org/10.5281/zenodo.23226740)
 [![DOI, all versions](https://zenodo.org/badge/DOI/10.5281/zenodo.23226739.svg)](https://doi.org/10.5281/zenodo.23226739)
 [![prior work: LoRA line, software](https://zenodo.org/badge/DOI/10.5281/zenodo.17848554.svg)](https://doi.org/10.5281/zenodo.17848554)
@@ -135,7 +137,7 @@ Part II 報告：Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/ze
 碼與判準表都在，但**語料不在**，所以本倉**不能逐位元組復現**七卷的數字。
 可以復現的是：
 
-- 判定鏈在**你自己的**句子上的行為（`src/` 可直接跑）；
+- 判定鏈在**你自己的**句子上的行為（`src/run_recognizer.py`，見 [`QUICKSTART.zh-TW.md`](QUICKSTART.zh-TW.md)）；
 - 簽核表與旗標的完整狀態（`manifest/`）；
 - 每一個結論的歸因鏈（`results/` 的拆帳）；
 - Part II：用 `eval/` 的腳本為**你自己的**回覆在 Multi-IF 與 ComplexBench 上**評分**

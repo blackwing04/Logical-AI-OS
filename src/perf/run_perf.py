@@ -36,6 +36,7 @@ import contextlib
 import hashlib
 import importlib.util
 import json
+import os
 import re
 import sys
 import time
@@ -44,7 +45,7 @@ from pathlib import Path
 import torch
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path("H:/Projects/Logical-AI-OS")
+ROOT = Path(__file__).resolve().parents[2]  # repository root; was an absolute local path (PUBLIC_NOTES.md section 7)
 SEM = ROOT / "experiments/semantic-station"
 MECH = ROOT / "experiments/mechanical-v2"
 BR = ROOT / "laios-bridge"
@@ -62,8 +63,9 @@ from probe_noise import SEED
 import schema_v1 as SCH
 import early_stop as ES          # 刀3 早停條件（與離線驗證共用同一份）
 
-ADAPTER = "E:/AI_models/lora_output/qwen2.5-3b-instruct/zh-TW/negative-v1"
-BASE = "E:/AI_models/qwen2.5-3b-instruct"
+_MODEL_DIR = os.environ.get("MODEL_DIR", "models")  # model directory; was an absolute local path (PUBLIC_NOTES.md section 7)
+ADAPTER = _MODEL_DIR + "/lora_output/qwen2.5-3b-instruct/zh-TW/negative-v1"
+BASE = _MODEL_DIR + "/qwen2.5-3b-instruct"
 FROZEN = {
 	"rules_v2.py": "3de646fcb702fbeca61caa7257fd2f72fdbf7d51f7ed01b8e53a58035a53a6b4",
 	"adjudicator_v3b.py": "3777470fb3c277bafd31c941973077736b0a55d0de9ea1b752f0390dc6d28dc2",

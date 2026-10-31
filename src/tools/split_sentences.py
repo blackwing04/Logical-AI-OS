@@ -28,7 +28,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-BR = Path("H:/Projects/Logical-AI-OS/laios-bridge/data/blindtest")
+BR = Path(__file__).resolve().parents[2] / "laios-bridge/data/blindtest"  # was an absolute local path (PUBLIC_NOTES.md section 7)
 
 # 切點標點：`。` 與**半形** `?` `!`。
 # **全形 ？！ 不是切點**——這是從卷一反推出來的，不是我選的：
@@ -167,7 +167,7 @@ ROUNDS = {
 	       "gate": False},
 	# 卷六：**沒有草切可比**——卷六是先出句子檔、聊天端才提 gold，
 	# 所以 `expect` 不存在，也沒有期望句數閘。篇的選取改由**裁定**驅動：
-	# `ruling` 的四個數字全部出自 orders/2026-10-06_卷六候選裁定令.md，CC 不自撰。
+	# `ruling` 的四個數字全部出自卷六候選裁定令（內部令，不公開），CC 不自撰。
 	"r6": {"cand": "round6/candidates_40.jsonl", "prefix": "G",
 	       "out": "round6/test_sentences_r6.jsonl",
 	       "label": "卷六", "src": "卷六候選裁定令（**裁定驅動組卷，無草切**）",

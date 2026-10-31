@@ -40,6 +40,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -48,7 +49,7 @@ from pathlib import Path
 import torch
 
 sys.stdout.reconfigure(encoding="utf-8")
-ROOT = Path("H:/Projects/Logical-AI-OS")
+ROOT = Path(__file__).resolve().parents[2]  # repository root; was an absolute local path (PUBLIC_NOTES.md section 7)
 BR = ROOT / "laios-bridge"
 OUT = ROOT / "experiments/blindtest/outputs"
 CS = ROOT / "experiments/control-station"
@@ -59,15 +60,16 @@ for p in (ROOT, ROOT / "experiments/semantic-station/scripts",
 
 from run_station2 import PROMPT_TEMPLATE as PROMPT_LISTEN
 
-ADAPTER = "E:/AI_models/lora_output/qwen2.5-3b-instruct/zh-TW/negative-v1"
-BASE = "E:/AI_models/qwen2.5-3b-instruct"
+_MODEL_DIR = os.environ.get("MODEL_DIR", "models")  # model directory; was an absolute local path (PUBLIC_NOTES.md section 7)
+ADAPTER = _MODEL_DIR + "/lora_output/qwen2.5-3b-instruct/zh-TW/negative-v1"
+BASE = _MODEL_DIR + "/qwen2.5-3b-instruct"
 K_GRID = [0, 1, 2, 3, 5, 8, 10, 15, 20, 30, 50, 10 ** 9]
 
 # 反問模板 v1：**PI 簽核「一字不改」**（2026-10-03 v4 驗收簽核令 §1）。
 # **本檔在執行時從令文檔案直接讀取，全程不經人手轉寫**——
 # 它是判準層物件，而條款 8 的量詞表事故就是轉寫毀的。
 # 抽不到就 SystemExit，**不回退到任何手打副本**。
-ASK_TEMPLATE_SRC = BR / "orders/2026-10-04_v4驗收預簽與卷三備戰案_draft.md"
+ASK_TEMPLATE_SRC = BR / "ask_template_source.md"  # an internal file, not published; name neutralised (PUBLIC_NOTES.md section 7)
 _TPL_RE = re.compile(r"單一模板,佔位符替換:\n「(.+?)」\n", re.S)
 
 

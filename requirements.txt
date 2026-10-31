@@ -1,0 +1,11 @@
+# Needed only for eval/multi_if/score_multi_if.py (the official Multi-IF metrics.py imports these).
+# src/run_recognizer.py, results/phase2/per_item/stats_paired.py, eval/complexbench/*.py and
+# data/phase2/public_benchmarks/extract_multiif_zh_turn1.py use the standard library only.
+# Versions are the ones the Phase II scores were computed with (Python 3.13).
+pythainlp==5.4.0
+nltk==3.10.4
+langdetect==1.0.9
+emoji==2.16.0
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1

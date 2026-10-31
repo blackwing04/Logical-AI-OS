@@ -114,3 +114,97 @@ Belinkov、Turpin、Kalai、McCoy、Gazzaniga …）**全部保留**——那是
 
 同時把詞表的 `v2*` 識別字改為 ASCII（9 個鍵）。詞表**另外 61 個中文鍵未動**：
 那是已簽核表的結構，改它屬判準層變更，須先簽核。
+
+## 七、更正：`src/` 在我們這台以外跑不起來（2026-10-31）
+
+**更正紀錄。**首發（`ade2734`，2026-10-07）至本次更正前，`src/` 的辨識零件**在我們這台以外的機器上都不能執行**。原因三項：
+
+- 缺內部模組 `canon_v3`；
+- 缺內部模組 `classifier`；
+- 8 個檔把本機絕對路徑寫進 `sys.path`。
+
+這段期間 README「`src/` 可直接跑」那一句**不實**。2026-10-31 在乾淨環境逐條實跑 [`QUICKSTART.zh-TW.md`](QUICKSTART.zh-TW.md)
+時發現，以下列方式更正；README 該句已改為指向 QUICKSTART。
+
+**原本哪裡錯，細節。**首發從 v4.5 的 31 個組件只複製了 23 個。公開的辨識零件 import 的兩個模組不在其中：
+
+- 表五線索偵測器，由 `detectors.py` import；
+- 權重與路由對照，由 `pipeline_v2.py` import。
+
+所以 `src/` 除了我們這台之外，在任何機器上都跑不起來，README 說它可直接跑的那一句並不屬實。
+在我們這台看起來能跑，是因為有些檔把內部工作樹的一個路徑加進了 `sys.path`。
+
+**補了什麼。**6 個檔，外加一支新的指令入口 `src/run_recognizer.py`。
+新模組放在 `src/mechanical/`，那正是已公開的檔原本就會去找的位置。
+
+| 公開檔 | 內部來源 | 內部 sha256（LF） | 處理 |
+| --- | --- | --- | --- |
+| `src/mechanical/canon_v3/lexicon.py` | `scripts/canon_v3/lexicon.py` | `ecd15074b211bee434eedbea763549df32aef7d947efa26b6c6bce4039eb8ca6` | 去人名 4 處；去語料 2 例；1 處內部令檔引用改寫；1 個註解用詞改換 |
+| `src/mechanical/canon_v3/cue_anchor.py` | `scripts/canon_v3/cue_anchor.py` | `bb96e23abd20dfd5116dae927d4ec667f533f001e72ae1f1387ea5dd27b312fb` | 去人名 1 處；去語料 4 例 |
+| `src/mechanical/canon_v3/quantity.py` | `scripts/canon_v3/quantity.py` | `8b7ac0433ab69186a827d2057195474f9bb169d79ddf1ca9458b1ebba38330a8` | 1 個 docstring 用詞改換；一個函式內的迴圈變數改名 |
+| `src/mechanical/canon_v3/prompts.py` | `scripts/canon_v3/prompts.py` | `bc2558da42f912359d07db890a8e9b23b5f4bffc30578003acf8628359987faa` | **節錄** |
+| `src/mechanical/classifier.py` | `experiments/composite-classifier/src/classifier.py` | `7ed901dcd3e278c69a08651882ee4a20f29aa146b7f0cc80b2903b565e253521` | **節錄** |
+| `src/mechanical/canon_v3/__init__.py` | — | — | 新寫，只有 docstring。內部套件的 `__init__` 只做一件事：把內部倉根目錄加進 `sys.path` |
+
+每個檔都在自己的檔頭寫明來源與處理方式。
+
+**關於兩個節錄檔。**
+
+- **`prompts.py`** 逐字留兩個函式：`build_table5_cue_phrase`、`detect_table5_constraint_cues`。內部檔其餘部分在組模型標註工具的 prompt，不公開。
+- **`classifier.py`** 逐字留三樣：`weight_of`、`LexiconNotRegistered`、`route_of`。註冊表的讀取與「讀不到就停」的守衛也照留，只把指向同一張簽核表的路徑改成相對路徑。內部檔其餘部分在呼叫模型，不公開。
+- **不涉及模型碼。**沒有任何 prompt 模板、系統提示、閾值或模型碼進來，也不需要任何模型函式庫。
+
+**逐處刪改。**
+
+- **去人名：**內部代稱換成 `PI`，同第 1b 節。
+- **令檔引用：**指向內部令檔的那一處，改寫為「內部令，不公開」。
+- **去語料。**判準是：例子只要出現在我們的測試題庫裡，就視為語料，因為那些題庫無法逐筆溯源。
+  這類例子改寫成要點的陳述，並標記 `(example corpus-redacted)`。共 6 例：
+  - `lexicon.py`：
+    - 一個數詞加量詞的例子；
+    - 一句說明「就可以」作情態詞的題庫原句。
+  - `cue_anchor.py`：
+    - 一個由前句錨定的裸數量；
+    - 一個沒有可核排除對象的禁止句；
+    - 一個寫成「數字＋內」的預算；
+    - 一個「只能」之下的單一數量。
+- **用詞：**兩個註解用詞換成較平白的字（`lexicon.py`、`quantity.py` 各一）。`quantity.py` 裡 `_is_approximate_context`
+  的迴圈變數改名為 `hedge`，那正是檔內對它所迭代的表的稱呼。行為不變，見下方驗證。
+- **刻意保留：**當構詞或守衛例子用的常見詞形，例如 哪一個、第一次、下半年、要不要、一打開、24小時、100萬。它們在測試題庫裡也出現，只是因為它們常見。
+
+**與封筆版對照。**
+
+- `manifest/v45_manifest.md` 有列 `prompts.py` 與 `classifier.py`，上表的內部雜湊與它所列的相同。
+- 它**沒有列** `lexicon.py`、`quantity.py`、`cue_anchor.py`。那份 manifest 是循 import 走出來的，而那一趟沒有跟進套件內的相對 import。
+  這是那份 manifest 的缺口，在此照實寫明，不去改它。
+- 這三檔的內部雜湊見上表；它們最後一次內部變更（2026-08-25、2026-08-08、2026-08-22）都早於 v4.5 封筆。
+
+**怎麼核過。**公開的 S1–S3 題目所有文字欄（4,482 句）跑了兩種配置：
+
+- 這條公開鏈；
+- 內部鏈。
+
+兩者輸出逐位元組相同。這組測試裡有 1,293 句走到表五，各種框架都走到了。
+
+**絕對路徑。**8 個已公開的檔，內部倉的絕對路徑改成相對於檔案本身的 `Path(__file__).resolve().parents[2]`，
+並加註解標明，每檔一行（`detectors.py` 兩行）。這 8 檔是：
+
+- `src/mechanical/` 的 `clause_v2.py`、`pipeline_v2.py`、`reorder_v2.py`、`detectors.py`；
+- `src/control/judge_v4.py`；
+- `src/perf/run_perf.py`；
+- `src/blindtest/run_7b_arm.py`；
+- `src/tools/split_sentences.py`。
+
+那些路徑指名的子目錄是內部的、本倉沒有，所以在任何機器上，辨識零件現在都只會找到本倉裡的模組。
+
+三支會跑模型的腳本另外做了兩種改動：
+
+- **模型目錄。**模型目錄的絕對路徑（5 處）改由環境變數 `MODEL_DIR` 提供，預設 `models`，子路徑不變；這三檔各加了 `import os`。
+- **內部令檔名。**兩處內部令檔名改為中性寫法：
+  - `judge_v4.py` 的反問模板來源檔（內部、不公開）改名為 `ask_template_source.md`；
+  - `split_sentences.py` 一處註解改寫為「內部令，不公開」。
+
+這些檔的其餘部分一字未動。
+
+**仍然跑不起來的。**出口裁決器（`src/control/judge_v4.py`）、效能站（`src/perf/`）與對照臂（`src/blindtest/`）
+仍 import 未公開的內部模組。它們會跑模型，不屬於辨識零件。

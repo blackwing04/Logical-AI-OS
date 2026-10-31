@@ -67,51 +67,61 @@
 | 49 | `papers/zenodo_v1.2/references.bib` | `dddc3cc61d226fcf3dd3914b8643dca39419f209a2e5a721083c6b3043a7de9d` | 22360 |
 | 50 | `papers/zenodo_v1.2/report_v1.2.md` | `f84ba956e7d4535f1a648df01c5d32587ec1dae63ffe925fc527a1ed17c099c2` | 41012 |
 | 51 | `papers/zenodo_v1.2/report_v1.2.pdf` | `b99dbe7b0eb815c59c2b80ef8649623cb54e782d251f38e7e42359bb03cc15eb` | 310044 |
-| 52 | `PUBLIC_NOTES.md` | `703bd8d675bd524114426336dddcc25230f899f07d874506bbb2181a44194dd7` | 8574 |
-| 53 | `PUBLIC_NOTES.zh-TW.md` | `bbdae2a0ee3a73f4ce276cbbf5cc4c436042dbf7108720fe88242e9cfce52788` | 6774 |
-| 54 | `README.md` | `308e31b128b0b6116ea8153a99c3a3d8df9921b74058cd195f74d4bc4f66cbcb` | 15919 |
-| 55 | `README.zh-TW.md` | `7fd8ff796fdc4a35e460fb0853ce87de1d940b034586e879512ba491a9018bf6` | 13196 |
-| 56 | `results/2026-10-05_round5_results_redacted.md` | `8ccf64ed0a901e4ebc731b98fc381d7a53a36501bc7eb77c1b04abde2a22014e` | 2074 |
-| 57 | `results/2026-10-06_round6_results_redacted.md` | `9c881080655a9019a84e2351b1e98ad1d651c5a308ff98a9d3ecfb7e7636f67a` | 1374 |
-| 58 | `results/2026-10-06_round7_results_recognizer-line-closeout_redacted.md` | `3dbe4328e30fddbc3fe2292feffa520e716d1bfbed4897d6b9f48b8ecdc877ab` | 3403 |
-| 59 | `results/phase2/deltas.csv` | `efc7ee6e24ff3690c8fe8d3f5ad972de97c97ffbbf996561f1cb44fddc706b0a` | 1481 |
-| 60 | `results/phase2/headline.csv` | `aacdc492fb7d38851fe6c3039ac6fb3db8e66eec14f6438270ab0848b715cf6d` | 9292 |
-| 61 | `results/phase2/per_item/complexbench_rule_items.csv` | `fa71da7e24452d5efac430910212670529a54133b5695d84d7b899f646f8e2e7` | 81931 |
-| 62 | `results/phase2/per_item/multiif_zh_items.csv` | `2a8c901c5b58ec079895f0897ac4c384dcbf0884eedbec074806d6cb072b5e79` | 232553 |
-| 63 | `results/phase2/per_item/reading_variants.csv` | `fe741b9c02a9bdda35babc65af98a824c2f416792a7738d24bced3f97f8683c1` | 10963 |
-| 64 | `results/phase2/per_item/s1_items.csv` | `304768f95a1bf47cebed69721037abeb073b93fdfa390be88946e86e95892093` | 148811 |
-| 65 | `results/phase2/per_item/s2_items.csv` | `bfc9ab4dd11458d5151a71e37c9d71dd8b5e6849666ac4d4073f57467da107bf` | 198135 |
-| 66 | `results/phase2/per_item/s3_items.csv` | `a62dc58cf843b2ef7e784648bc387c3b9709f4b7a8c01a4eeb661d786e7daf46` | 120916 |
-| 67 | `results/phase2/per_item/stats_paired.csv` | `c395b5b02c21719d6bf92b59bcbc1ff3b7725eb5e80f0fa88605464a801b07ed` | 2139 |
-| 68 | `results/phase2/per_item/stats_paired.py` | `801a478d010e45f1ca84ae5161cc0bb34cd1796ce9a908e4a54e5cf08972c22e` | 6455 |
-| 69 | `results/phase2/per_type.csv` | `aa8d4b140457201664846b0a5dcb455908d5d88afd45e7cc16fd433db9a4d9a0` | 8640 |
-| 70 | `results/phase2/README.md` | `c6bcf961205f8dbfac10e217e97fa368e5b16f2883d2c79a8958a80f06112d5a` | 11845 |
-| 71 | `results/phase2/summary.md` | `1cd8d351d8157d9d0a0bd403a479957b98f6fafc1606cfead8676b1b71706cfe` | 12405 |
-| 72 | `results/phase2/triggers_coverage.csv` | `ace51d821c1c68ca0d4c7b7bc0201b302774b81d9803d02323d18d8172ce3b1e` | 2342 |
-| 73 | `src/blindtest/run_7b_arm.py` | `cb2ed42dee7e6d2f0dee6723c6439fb01ade50ecea9b7886690ce1bd95bebfeb` | 6755 |
-| 74 | `src/control/judge_v4.py` | `860262e4447a10990ca79d595c605e36c963aeb0f6d8fec322f56c6ba6ee4f45` | 32730 |
-| 75 | `src/control/request_form.py` | `1c91ba206cc7d2cf0c7cfe171407f9e7f15253534a9cd77872a1aaddf370f0c7` | 10428 |
-| 76 | `src/mechanical/clause_v2.py` | `b96461d163eb1700af5db2a3d65885e9869a68ddee7d82e38839c95819b140e8` | 29123 |
-| 77 | `src/mechanical/detectors.py` | `0ceb57f7d24ed0530edb2ef30af6936a3f612e7fc52a52dda5d50fe80c476e14` | 29021 |
-| 78 | `src/mechanical/lexicon_v2.py` | `2e07b50acee1d74c5a1416bf2652927f29edcb15d7e0e119d5a3ff3b2f3aaa28` | 34874 |
-| 79 | `src/mechanical/pipeline_v2.py` | `092c1c715ad454d4c43fdb924c7e3a970962234d44855f15c898543a2e8bf5ee` | 8497 |
-| 80 | `src/mechanical/reorder_v2.py` | `d1c022bee13ee2c02eae98d25c91bc140a445aca7f5bb36d2393403242c43675` | 10561 |
-| 81 | `src/mechanical/rules_v2.py` | `1e3fc5e9ec09c15fa5a6d5ab934f3fd9e89709fd76894997100769ca98cbcd5e` | 11450 |
-| 82 | `src/mechanical/signed_tables/function_layer.json` | `dd4a3d4a2557d205c460166c2be14fe8286d8b48b563809b43f1a76066b75f1a` | 1876 |
-| 83 | `src/mechanical/signed_tables/knife2_one_classifier.json` | `b106667fd4350cbea24be094ff92f02bb21afca41627434c28aa30934e4f751d` | 2409 |
-| 84 | `src/mechanical/signed_tables/lexicon_registry.json` | `52586129f1461d6b88fb35eca98394e47fbc75f1f6271a55353fac456a23025d` | 1891 |
-| 85 | `src/perf/early_stop.py` | `3e60d5a62f3ff9fcdd197a3f831b35488954164ff988c536d5fdd227dad99aab` | 3451 |
-| 86 | `src/perf/run_perf.py` | `60c211e02ccd5c397bb5192fc1e348db77a6f7867cb8f3f233aef10413e8024e` | 28860 |
-| 87 | `src/perf/schema_v1.py` | `3118b84b017ffd7eab9308b46de5097528109bdf3db7bb78caf6a4269cd0ca4d` | 5401 |
-| 88 | `src/tools/split_sentences.py` | `34bfcbf9d1c82cfeddd6508d8140f349dc5fcad9cae3491697b2256cd3fd554a` | 16616 |
+| 52 | `PUBLIC_NOTES.md` | `cd4af61e41163f32d92d7e808332333fe167d9d08dd63875f965a2842215fa2c` | 15688 |
+| 53 | `PUBLIC_NOTES.zh-TW.md` | `d8161440a0b5b41aaf5c065a31291fd3c758b8009a862057707d7fde28f87cf8` | 13241 |
+| 54 | `QUICKSTART.md` | `164ab87572473b4a6f97a4fc405635271d660479f90155adaaefcd55ddc6e08d` | 16418 |
+| 55 | `QUICKSTART.zh-TW.md` | `10f830e79f9ed7718993a8d81c4685dad67d290086e384707382816b15427af9` | 15539 |
+| 56 | `README.md` | `ddddbe515240ac8e8c35e741ca936335b02a97827eb96bfb5b3a1c25c1fc9883` | 16166 |
+| 57 | `README.zh-TW.md` | `e3b7c561b02246b1551c75aedb9257dad841457a428ab8b8f2d8b4757a064ec9` | 13442 |
+| 58 | `requirements.txt` | `e02eb936d43da2cfef54e65cfd86b5bfff7bec802e42e6aa1e3a0ca3783a6d21` | 465 |
+| 59 | `results/2026-10-05_round5_results_redacted.md` | `8ccf64ed0a901e4ebc731b98fc381d7a53a36501bc7eb77c1b04abde2a22014e` | 2074 |
+| 60 | `results/2026-10-06_round6_results_redacted.md` | `9c881080655a9019a84e2351b1e98ad1d651c5a308ff98a9d3ecfb7e7636f67a` | 1374 |
+| 61 | `results/2026-10-06_round7_results_recognizer-line-closeout_redacted.md` | `3dbe4328e30fddbc3fe2292feffa520e716d1bfbed4897d6b9f48b8ecdc877ab` | 3403 |
+| 62 | `results/phase2/deltas.csv` | `efc7ee6e24ff3690c8fe8d3f5ad972de97c97ffbbf996561f1cb44fddc706b0a` | 1481 |
+| 63 | `results/phase2/headline.csv` | `aacdc492fb7d38851fe6c3039ac6fb3db8e66eec14f6438270ab0848b715cf6d` | 9292 |
+| 64 | `results/phase2/per_item/complexbench_rule_items.csv` | `fa71da7e24452d5efac430910212670529a54133b5695d84d7b899f646f8e2e7` | 81931 |
+| 65 | `results/phase2/per_item/multiif_zh_items.csv` | `2a8c901c5b58ec079895f0897ac4c384dcbf0884eedbec074806d6cb072b5e79` | 232553 |
+| 66 | `results/phase2/per_item/reading_variants.csv` | `fe741b9c02a9bdda35babc65af98a824c2f416792a7738d24bced3f97f8683c1` | 10963 |
+| 67 | `results/phase2/per_item/s1_items.csv` | `304768f95a1bf47cebed69721037abeb073b93fdfa390be88946e86e95892093` | 148811 |
+| 68 | `results/phase2/per_item/s2_items.csv` | `bfc9ab4dd11458d5151a71e37c9d71dd8b5e6849666ac4d4073f57467da107bf` | 198135 |
+| 69 | `results/phase2/per_item/s3_items.csv` | `a62dc58cf843b2ef7e784648bc387c3b9709f4b7a8c01a4eeb661d786e7daf46` | 120916 |
+| 70 | `results/phase2/per_item/stats_paired.csv` | `c395b5b02c21719d6bf92b59bcbc1ff3b7725eb5e80f0fa88605464a801b07ed` | 2139 |
+| 71 | `results/phase2/per_item/stats_paired.py` | `801a478d010e45f1ca84ae5161cc0bb34cd1796ce9a908e4a54e5cf08972c22e` | 6455 |
+| 72 | `results/phase2/per_type.csv` | `aa8d4b140457201664846b0a5dcb455908d5d88afd45e7cc16fd433db9a4d9a0` | 8640 |
+| 73 | `results/phase2/README.md` | `c6bcf961205f8dbfac10e217e97fa368e5b16f2883d2c79a8958a80f06112d5a` | 11845 |
+| 74 | `results/phase2/summary.md` | `1cd8d351d8157d9d0a0bd403a479957b98f6fafc1606cfead8676b1b71706cfe` | 12405 |
+| 75 | `results/phase2/triggers_coverage.csv` | `ace51d821c1c68ca0d4c7b7bc0201b302774b81d9803d02323d18d8172ce3b1e` | 2342 |
+| 76 | `src/blindtest/run_7b_arm.py` | `a27ffe4d358afc998f8083d522fadc4c050d6aeeb00fc38da505b456f6c7ce22` | 6969 |
+| 77 | `src/control/judge_v4.py` | `313fa817ed30d86a980b02e0c67e812ea5e44563e83c05fe4a1e9d8a35ac1824` | 32989 |
+| 78 | `src/control/request_form.py` | `1c91ba206cc7d2cf0c7cfe171407f9e7f15253534a9cd77872a1aaddf370f0c7` | 10428 |
+| 79 | `src/mechanical/canon_v3/__init__.py` | `ba4dd92bfadb6ce06937d6b404c62167e9eafef50c19ca790f61bf88ec763cd5` | 378 |
+| 80 | `src/mechanical/canon_v3/cue_anchor.py` | `596ef48c6efe47fb5ad48eea720eb4f72465c661279872a47c5f2c6d936a8e71` | 5515 |
+| 81 | `src/mechanical/canon_v3/lexicon.py` | `3cf6a06c778c9bdb547ee8b8b46ac314af27ce5674d39c79167d558101f3c6aa` | 10324 |
+| 82 | `src/mechanical/canon_v3/prompts.py` | `c188840ac005c206b82d79feba0f56941ec1075df41f9c6fc10fce3e91c7e324` | 2320 |
+| 83 | `src/mechanical/canon_v3/quantity.py` | `bcda7b3cd11cb0e2dde4f2f81cfe5394ea88f41f1802501ed1fb3e74c1ca85d2` | 8504 |
+| 84 | `src/mechanical/classifier.py` | `ba88a7a4845d3b23c3b0efdef2b0aebada7954c58d943f02e944867b02f6807b` | 2098 |
+| 85 | `src/mechanical/clause_v2.py` | `b08c407d328cd96aef2bb01f9587a7787265742f2c3e8c138d5ca3567365edaf` | 29200 |
+| 86 | `src/mechanical/detectors.py` | `e88e23d5c3519b9815e2ef4151ab7e27ed01d34f13256789c8aaa310f2349ee4` | 29089 |
+| 87 | `src/mechanical/lexicon_v2.py` | `2e07b50acee1d74c5a1416bf2652927f29edcb15d7e0e119d5a3ff3b2f3aaa28` | 34874 |
+| 88 | `src/mechanical/pipeline_v2.py` | `a13abcd840354597ddda9c957d78f7ccd85e8053fa66bf827b1624fa77dd9b84` | 8574 |
+| 89 | `src/mechanical/reorder_v2.py` | `06a2f42a7b3cdb15e949f254d2231cb843966a15d98f207da94d73589628fa0e` | 10638 |
+| 90 | `src/mechanical/rules_v2.py` | `1e3fc5e9ec09c15fa5a6d5ab934f3fd9e89709fd76894997100769ca98cbcd5e` | 11450 |
+| 91 | `src/mechanical/signed_tables/function_layer.json` | `dd4a3d4a2557d205c460166c2be14fe8286d8b48b563809b43f1a76066b75f1a` | 1876 |
+| 92 | `src/mechanical/signed_tables/knife2_one_classifier.json` | `b106667fd4350cbea24be094ff92f02bb21afca41627434c28aa30934e4f751d` | 2409 |
+| 93 | `src/mechanical/signed_tables/lexicon_registry.json` | `52586129f1461d6b88fb35eca98394e47fbc75f1f6271a55353fac456a23025d` | 1891 |
+| 94 | `src/perf/early_stop.py` | `3e60d5a62f3ff9fcdd197a3f831b35488954164ff988c536d5fdd227dad99aab` | 3451 |
+| 95 | `src/perf/run_perf.py` | `1e4113c9b37dc3e72ab12f0c80cf183029a7d5e2b62f401d4c3d627fa5c4e7e1` | 29075 |
+| 96 | `src/perf/schema_v1.py` | `3118b84b017ffd7eab9308b46de5097528109bdf3db7bb78caf6a4269cd0ca4d` | 5401 |
+| 97 | `src/run_recognizer.py` | `b10abb21967432750c0a0deeae5ccbe56745f7bc977933541395af7313470743` | 2440 |
+| 98 | `src/tools/split_sentences.py` | `a5376fc5aba427d999ce9188f8bac9af7be84ec8d5a83f366c8b09cf12f0d12b` | 16685 |
 
 | 項 | 值 |
 | --- | --- |
-| 涵蓋檔數 | **88** |
+| 涵蓋檔數 | **98** |
 | 其中 `papers/`（Zenodo 存放） | 5 |
 | 其中檔名改過（2026-10-08 ASCII 改名） | 9 |
 | 本表未涵蓋（本表自己） | 2 |
-| 本倉檔數合計 | 90 |
+| 本倉檔數合計 | 100 |
 
 ### 自行核驗
 

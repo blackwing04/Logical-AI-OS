@@ -30,7 +30,7 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-REPO = Path("H:/Projects/Logical-AI-OS")
+REPO = Path(__file__).resolve().parents[2]  # repository root; was an absolute local path (PUBLIC_NOTES.md section 7)
 for p in (HERE, REPO / "experiments/composite-classifier/src", REPO / "scripts", REPO):
 	if str(p) not in sys.path:
 		sys.path.insert(0, str(p))
