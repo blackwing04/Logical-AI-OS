@@ -255,3 +255,45 @@ Nothing else in these files changed.
 **What still does not run.** The exit adjudicator (`src/control/judge_v4.py`), the performance station
 (`src/perf/`) and the comparison arm (`src/blindtest/`) still import internal modules that are not
 published. They run models and are not part of the recognizer.
+
+## 8. Correction: three reading faults, and the architecture version is now v1.13 (2026-11-05)
+
+**Correction record.** Three faults in the reading step (extraction of length requirements) were found on
+2026-11-05, while the length phrasings in our design material were being surveyed. Two of them are mechanical
+faults. The third is a reading that was lost without any record. All three are fixed in reading version
+v1.13. The code paths of the earlier versions were not changed.
+
+| Fault | Versions | What happened |
+| --- | --- | --- |
+| Direction reversed | v1.10 and v1.11, and the internal v1.12 line | "The length must not be less than N characters" was read as an upper bound of N − 1. The negation guard only looked at the character directly before "less than", so "must not" and "cannot" written in front of it were missed |
+| Upper bound of a range lost | v1.10 and v1.11, and the internal v1.12 line | "Keep the length to A–B characters" was read as both at least A and at most A, i.e. exactly A. The rule for the length field took the start of the range first |
+| Bare "N characters" lost | v1.10 onward | v1.3 to v1.9 read a bare "N characters" (as in "write a 2,000-character report") as a lower bound of N. When the reader was replaced at v1.10, this reading was not carried over, and neither the change request nor its delivery report says so. We checked it: v1.9 reads such a sentence, v1.10 does not |
+
+**What it touched.** We ran every version on all 3,646 articles of the design material (S1–S3, M1–M3, the
+ComplexBench rule-only subset, Multi-IF original and five rewrites):
+
+- **The first two faults: 0 articles.** No article in the design material uses either phrasing, so no reading
+  behind a published number was affected.
+- **The bare reading: 35 articles** receive an extra length reading under v1.13. That is 4 Multi-IF questions in
+  each of the six columns (24) and 11 articles in M1–M3. S1–S3 and ComplexBench: 0.
+- S1–S3 were scored with v1.7 and v1.8, which still had the bare reading.
+- **On Multi-IF**, the 4 questions state a real length requirement that is not among Multi-IF's official
+  instructions, so the gold, which labels only official instructions, does not contain it. Under v1.13 these
+  4 readings count as unmatched reads. The unmatched-read rate goes from 13.0% to 13.9% on the original and from
+  14.0% to 14.9% on the colloquial rewrite. The line for that rate (no higher than v1.10's 18.1%) still holds.
+  The internal line for this change, no higher than v1.11, does not hold. We record that as **not passed**,
+  with the cause stated.
+
+**Published numbers do not change.** Each published number measures a frozen version as it was, faults
+included. None is recomputed.
+
+**The architecture version is now v1.13.** v1.13 is reading version v1.13 plus one more condition on when the
+count action applies. The conditions are not published, as in [`docs/parts_spec_v2.md`](docs/parts_spec_v2.md).
+That condition lives in a frozen control-layer file, which is not published. Its sha256 changes:
+
+| | sha256 (LF) |
+| --- | --- |
+| Before (from v1.9 until v1.13) | `0cc444284c6273091652d98c3be0ad434df26edf2cf483537420451f0d4d1512` |
+| From v1.13 | `56820bdd11ccb028776a614e4d464dbc5f47b9d5a0288e6af47199c295401455` |
+
+Runs made on earlier tags check the earlier hash; new runs check the new one.

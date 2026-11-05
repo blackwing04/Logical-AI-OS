@@ -38,7 +38,7 @@
 | 20 | `docs/method/2026-07-22_adjacent-literature-lines.md` | `a50cc3b2fc841024af15cbde83716f12e44f8a55fd9f60de2bbb1bbc896a62e6` | 3692 |
 | 21 | `docs/method/2026-07-29_framework_gps-analogy.md` | `82c47e4d0d68593796447ff0570d5d79ba5c8c04d564b8b0df56788d7271886c` | 3800 |
 | 22 | `docs/method/2026-07-29_methodology-defense_model-labeling.md` | `a4f995913af6b0afd3a76fc55cf2ee93f0eeda110799b794270ae43bab782ee6` | 6598 |
-| 23 | `docs/parts_spec_v2.md` | `8e0ac58c10644c3bc6d9142c8c6f923480c39e4f9554b58cdfe83e850e3ea38b` | 6380 |
+| 23 | `docs/parts_spec_v2.md` | `6185ca88b37cfab26246a8205644f6e7600b686e969ba19fac074f732f02ab90` | 7237 |
 | 24 | `docs/PORTING.md` | `f643802167fb861a0d76fd91a3442e371b2243b3c17a408b45ee5c239f6a22af` | 12480 |
 | 25 | `docs/PORTING.zh-TW.md` | `db1ac30895679606187cc7ddd0200361e2458d2a06ba1faef69227dbe9bc21e2` | 10475 |
 | 26 | `docs/protocol/blind-test-protocol.md` | `9c63c7b94185764a0906749d96f996451bbc8d4a89acb36ef40e2ffdec4270bb` | 7105 |
@@ -67,8 +67,8 @@
 | 49 | `papers/zenodo_v1.2/references.bib` | `dddc3cc61d226fcf3dd3914b8643dca39419f209a2e5a721083c6b3043a7de9d` | 22360 |
 | 50 | `papers/zenodo_v1.2/report_v1.2.md` | `f84ba956e7d4535f1a648df01c5d32587ec1dae63ffe925fc527a1ed17c099c2` | 41012 |
 | 51 | `papers/zenodo_v1.2/report_v1.2.pdf` | `b99dbe7b0eb815c59c2b80ef8649623cb54e782d251f38e7e42359bb03cc15eb` | 310044 |
-| 52 | `PUBLIC_NOTES.md` | `cd4af61e41163f32d92d7e808332333fe167d9d08dd63875f965a2842215fa2c` | 15688 |
-| 53 | `PUBLIC_NOTES.zh-TW.md` | `d8161440a0b5b41aaf5c065a31291fd3c758b8009a862057707d7fde28f87cf8` | 13241 |
+| 52 | `PUBLIC_NOTES.md` | `06453a18340698ca387a842677834b02cdce8db463bd18d7573496ff8497db9f` | 19048 |
+| 53 | `PUBLIC_NOTES.zh-TW.md` | `7962eae786a4c2b04372be2a6bc2bffe791664562f9ffb05f43fd39109173570` | 16167 |
 | 54 | `QUICKSTART.md` | `164ab87572473b4a6f97a4fc405635271d660479f90155adaaefcd55ddc6e08d` | 16418 |
 | 55 | `QUICKSTART.zh-TW.md` | `10f830e79f9ed7718993a8d81c4685dad67d290086e384707382816b15427af9` | 15539 |
 | 56 | `README.md` | `ddddbe515240ac8e8c35e741ca936335b02a97827eb96bfb5b3a1c25c1fc9883` | 16166 |
