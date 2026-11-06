@@ -297,3 +297,5 @@ That condition lives in a frozen control-layer file, which is not published. Its
 | From v1.13 | `56820bdd11ccb028776a614e4d464dbc5f47b9d5a0288e6af47199c295401455` |
 
 Runs made on earlier tags check the earlier hash; new runs check the new one.
+
+**Erratum to the Part II report (Zenodo v2.1, section 6).** It says the 7B gain on the ComplexBench rule-only subset is significant at every level. At instruction level (n = 252 rules) the two tests disagree: McNemar p = 0.060, while the rule-level bootstrap 95% interval, +0.4 to +10.3 points (`results/phase2/per_item/stats_paired.csv`), excludes zero. Resampling by question instead, so that all rules of one question go in or out together, gives 0.0 to +10.5, which touches zero. That level should read **borderline**. Prompt level (p = 0.008) and the mappable subset (p = 0.001) are significant as stated. An outside reviewer found this by recomputing our paired statistics from the published per-item results. The Zenodo v2.1 PDF is not changed.

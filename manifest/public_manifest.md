@@ -67,8 +67,8 @@
 | 49 | `papers/zenodo_v1.2/references.bib` | `dddc3cc61d226fcf3dd3914b8643dca39419f209a2e5a721083c6b3043a7de9d` | 22360 |
 | 50 | `papers/zenodo_v1.2/report_v1.2.md` | `f84ba956e7d4535f1a648df01c5d32587ec1dae63ffe925fc527a1ed17c099c2` | 41012 |
 | 51 | `papers/zenodo_v1.2/report_v1.2.pdf` | `b99dbe7b0eb815c59c2b80ef8649623cb54e782d251f38e7e42359bb03cc15eb` | 310044 |
-| 52 | `PUBLIC_NOTES.md` | `06453a18340698ca387a842677834b02cdce8db463bd18d7573496ff8497db9f` | 19048 |
-| 53 | `PUBLIC_NOTES.zh-TW.md` | `7962eae786a4c2b04372be2a6bc2bffe791664562f9ffb05f43fd39109173570` | 16167 |
+| 52 | `PUBLIC_NOTES.md` | `2b49cc8bf4f8bf664eab47b8a3b54bb4dc49adaefc15436f32f1d29778fd174e` | 19801 |
+| 53 | `PUBLIC_NOTES.zh-TW.md` | `9514334f6864a8e853dffe83501cf679d15c20e82c8d73ae4e59e8a0bda65ebc` | 16795 |
 | 54 | `QUICKSTART.md` | `164ab87572473b4a6f97a4fc405635271d660479f90155adaaefcd55ddc6e08d` | 16418 |
 | 55 | `QUICKSTART.zh-TW.md` | `10f830e79f9ed7718993a8d81c4685dad67d290086e384707382816b15427af9` | 15539 |
 | 56 | `README.md` | `ddddbe515240ac8e8c35e741ca936335b02a97827eb96bfb5b3a1c25c1fc9883` | 16166 |
