@@ -1,0 +1,1225 @@
+{
+ "pack": "b",
+ "labels_file": [
+  "2026-11-09_站2品質包b_聊天端標註.md",
+  "3d5174c631120100"
+ ],
+ "key_sha256": "edac64c3d72387040b9bf32d64534ffd6d1250c7137c88800bf220502474a71a",
+ "n_units": 30,
+ "by_arm": {
+  "A0g": {
+   "可用": 27,
+   "內容變差": 2,
+   "截短": 1
+  },
+  "A1g": {
+   "可用": 18,
+   "截短": 4,
+   "內容變差": 8
+  },
+  "P1q7": {
+   "內容變差": 9,
+   "可用": 19,
+   "截短": 2
+  }
+ },
+ "paired": {
+  "A0g→A1g|全部": {
+   "n": 30,
+   "兩可用": 18,
+   "前可用後非": 9,
+   "前非後可用": 0,
+   "兩非": 3,
+   "sign_p": 0.00390625
+  },
+  "A0g→A1g|後臂有重做": {
+   "n": 22,
+   "兩可用": 11,
+   "前可用後非": 9,
+   "前非後可用": 0,
+   "兩非": 2,
+   "sign_p": 0.00390625
+  },
+  "A0g→P1q7|全部": {
+   "n": 30,
+   "兩可用": 19,
+   "前可用後非": 8,
+   "前非後可用": 0,
+   "兩非": 3,
+   "sign_p": 0.0078125
+  },
+  "A0g→P1q7|後臂有重做": {
+   "n": 30,
+   "兩可用": 19,
+   "前可用後非": 8,
+   "前非後可用": 0,
+   "兩非": 3,
+   "sign_p": 0.0078125
+  },
+  "A1g→P1q7|全部": {
+   "n": 30,
+   "兩可用": 14,
+   "前可用後非": 4,
+   "前非後可用": 5,
+   "兩非": 7,
+   "sign_p": 1.0
+  },
+  "A1g→P1q7|後臂有重做": {
+   "n": 30,
+   "兩可用": 14,
+   "前可用後非": 4,
+   "前非後可用": 5,
+   "兩非": 7,
+   "sign_p": 1.0
+  }
+ },
+ "by_redone": {
+  "A1g|有重做": {
+   "可用": 11,
+   "截短": 4,
+   "內容變差": 7
+  },
+  "A1g|未重做（與底同文）": {
+   "內容變差": 1,
+   "可用": 7
+  },
+  "P1q7|有重做": {
+   "內容變差": 9,
+   "可用": 19,
+   "截短": 2
+  },
+  "P1q7|未重做（與底同文）": {}
+ },
+ "by_stratum": {
+  "A1g|改善": [
+   "QB01",
+   "QB02",
+   "QB03",
+   "QB04",
+   "QB06",
+   "QB07",
+   "QB08",
+   "QB11",
+   "QB12",
+   "QB13",
+   "QB14",
+   "QB15"
+  ],
+  "A1g|變差": [
+   "QB05",
+   "QB09",
+   "QB10"
+  ],
+  "P1q7|變差": [
+   "QB16",
+   "QB18",
+   "QB21",
+   "QB23",
+   "QB26",
+   "QB27",
+   "QB30"
+  ],
+  "P1q7|改善": [
+   "QB17",
+   "QB19",
+   "QB20",
+   "QB22",
+   "QB24",
+   "QB25",
+   "QB28",
+   "QB29"
+  ]
+ },
+ "units": [
+  {
+   "id": "QB01",
+   "paper": "S3",
+   "篇": "Q074",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A1g": true,
+    "A0g": false,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "P1q7"
+   },
+   "label": {
+    "A1g": "可用",
+    "A0g": "可用",
+    "P1q7": "內容變差"
+   },
+   "reason": "丙整篇改簡體",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 467,
+    "A1g": 465,
+    "P1q7": 468
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB02",
+   "paper": "S3",
+   "篇": "Q096",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "P1q7": true,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   },
+   "label": {
+    "A0g": "可用",
+    "P1q7": "可用",
+    "A1g": "截短"
+   },
+   "reason": "丙尾「人生))?」",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 223,
+    "A1g": 179,
+    "P1q7": 166
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB03",
+   "paper": "CB",
+   "篇": "CB0069",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "A1g": true,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "P1q7"
+   },
+   "label": {
+    "A0g": "可用",
+    "A1g": "可用",
+    "P1q7": "可用"
+   },
+   "reason": "",
+   "range_row": "QB03–04",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 188,
+    "A1g": 524,
+    "P1q7": 515
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB04",
+   "paper": "CB",
+   "篇": "CB0265",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "P1q7": true,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   },
+   "label": {
+    "A0g": "可用",
+    "P1q7": "可用",
+    "A1g": "可用"
+   },
+   "reason": "",
+   "range_row": "QB03–04",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 215,
+    "A1g": 146,
+    "P1q7": 178
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB05",
+   "paper": "S3",
+   "篇": "Q052",
+   "drawn_from": "A1g",
+   "direction": "變差",
+   "verdicts": {
+    "A0g": true,
+    "P1q7": true,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   },
+   "label": {
+    "A0g": "內容變差",
+    "P1q7": "內容變差",
+    "A1g": "內容變差"
+   },
+   "reason": "三份皆殘留後設說明",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 699,
+    "A1g": 1175,
+    "P1q7": 952
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB06",
+   "paper": "CB",
+   "篇": "CB0205",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A1g": true,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "label": {
+    "P1q7": "可用",
+    "A1g": "可用",
+    "A0g": "可用"
+   },
+   "reason": "",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 1153,
+    "A1g": 2030,
+    "P1q7": 1788
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB07",
+   "paper": "S3",
+   "篇": "Q111",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "A1g": true,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "P1q7"
+   },
+   "label": {
+    "A0g": "可用",
+    "A1g": "截短",
+    "P1q7": "內容變差"
+   },
+   "reason": "乙尾「...\\\"」；丙中途轉簡體",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 545,
+    "A1g": 491,
+    "P1q7": 402
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB08",
+   "paper": "S3",
+   "篇": "Q098",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A1g": true,
+    "P1q7": true,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "P1q7",
+    "丙": "A0g"
+   },
+   "label": {
+    "A1g": "可用",
+    "P1q7": "可用",
+    "A0g": "可用"
+   },
+   "reason": "",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 841,
+    "A1g": 1040,
+    "P1q7": 1117
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB09",
+   "paper": "CB",
+   "篇": "CB0303",
+   "drawn_from": "A1g",
+   "direction": "變差",
+   "verdicts": {
+    "P1q7": true,
+    "A0g": true,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "label": {
+    "P1q7": "可用",
+    "A0g": "可用",
+    "A1g": "內容變差"
+   },
+   "reason": "丙失開頭標記、包成 json 區塊",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 79,
+    "A1g": 89,
+    "P1q7": 81
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB10",
+   "paper": "S3",
+   "篇": "Q058",
+   "drawn_from": "A1g",
+   "direction": "變差",
+   "verdicts": {
+    "A0g": true,
+    "P1q7": false,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   },
+   "label": {
+    "A0g": "可用",
+    "P1q7": "內容變差",
+    "A1g": "內容變差"
+   },
+   "reason": "乙丙改寫成英文",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 179,
+    "A1g": 666,
+    "P1q7": 681
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB11",
+   "paper": "S3",
+   "篇": "Q109",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A1g": true,
+    "A0g": false,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "P1q7"
+   },
+   "label": {
+    "A1g": "截短",
+    "A0g": "可用",
+    "P1q7": "可用"
+   },
+   "reason": "甲尾「顺利通过了国家。」",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 583,
+    "A1g": 537,
+    "P1q7": 504
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB12",
+   "paper": "CB",
+   "篇": "CB0078",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A1g": true,
+    "A0g": false,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "P1q7"
+   },
+   "label": {
+    "A1g": "內容變差",
+    "A0g": "可用",
+    "P1q7": "內容變差"
+   },
+   "reason": "甲丙缺題目要求的大綱",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 372,
+    "A1g": 236,
+    "P1q7": 205
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB13",
+   "paper": "S3",
+   "篇": "Q019",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "P1q7": true,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   },
+   "label": {
+    "A0g": "可用",
+    "P1q7": "可用",
+    "A1g": "可用"
+   },
+   "reason": "",
+   "range_row": "QB13–14",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 568,
+    "A1g": 1319,
+    "P1q7": 1056
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB14",
+   "paper": "S3",
+   "篇": "Q011",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A1g": true,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "label": {
+    "P1q7": "可用",
+    "A1g": "可用",
+    "A0g": "可用"
+   },
+   "reason": "",
+   "range_row": "QB13–14",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 706,
+    "A1g": 1193,
+    "P1q7": 1086
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB15",
+   "paper": "S3",
+   "篇": "Q045",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A0g": false,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "label": {
+    "P1q7": "可用",
+    "A0g": "可用",
+    "A1g": "內容變差"
+   },
+   "reason": "丙後設＋表情符號",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 2535,
+    "A1g": 4599,
+    "P1q7": 4605
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB16",
+   "paper": "CB",
+   "篇": "CB0153",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "P1q7": false,
+    "A1g": true,
+    "A0g": true
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "label": {
+    "P1q7": "內容變差",
+    "A1g": "內容變差",
+    "A0g": "內容變差"
+   },
+   "reason": "三份尾皆「彭博社记者」殘句",
+   "range_row": "",
+   "redone": {
+    "A1g": false,
+    "P1q7": true
+   },
+   "same_text": [
+    [
+     "A0g",
+     "A1g"
+    ]
+   ],
+   "chars": {
+    "A0g": 491,
+    "A1g": 491,
+    "P1q7": 361
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB17",
+   "paper": "S3",
+   "篇": "Q032",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "A1g": true,
+    "P1q7": true,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "P1q7",
+    "丙": "A0g"
+   },
+   "label": {
+    "A1g": "截短",
+    "P1q7": "可用",
+    "A0g": "可用"
+   },
+   "reason": "甲尾「1TB HDD.’”」",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 551,
+    "A1g": 341,
+    "P1q7": 320
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB18",
+   "paper": "S3",
+   "篇": "Q105",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "A0g": true,
+    "P1q7": false,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   },
+   "label": {
+    "A0g": "可用",
+    "P1q7": "可用",
+    "A1g": "可用"
+   },
+   "reason": "",
+   "range_row": "",
+   "redone": {
+    "A1g": false,
+    "P1q7": true
+   },
+   "same_text": [
+    [
+     "A0g",
+     "A1g"
+    ]
+   ],
+   "chars": {
+    "A0g": 193,
+    "A1g": 193,
+    "P1q7": 252
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB19",
+   "paper": "S3",
+   "篇": "Q087",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A1g": false,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "label": {
+    "P1q7": "內容變差",
+    "A1g": "內容變差",
+    "A0g": "截短"
+   },
+   "reason": "甲乙改成英文；丙只到結語一",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 528,
+    "A1g": 2679,
+    "P1q7": 5180
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB20",
+   "paper": "S3",
+   "篇": "Q050",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A1g": false,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "label": {
+    "P1q7": "截短",
+    "A1g": "可用",
+    "A0g": "可用"
+   },
+   "reason": "甲中文版停在「應於[」",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 1665,
+    "A1g": 2782,
+    "P1q7": 8161
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB21",
+   "paper": "CB",
+   "篇": "CB0398",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "A0g": true,
+    "A1g": true,
+    "P1q7": false
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "P1q7"
+   },
+   "label": {
+    "A0g": "可用",
+    "A1g": "可用",
+    "P1q7": "截短"
+   },
+   "reason": "丙計畫中斷",
+   "range_row": "",
+   "redone": {
+    "A1g": false,
+    "P1q7": true
+   },
+   "same_text": [
+    [
+     "A0g",
+     "A1g"
+    ]
+   ],
+   "chars": {
+    "A0g": 790,
+    "A1g": 790,
+    "P1q7": 1133
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB22",
+   "paper": "S3",
+   "篇": "Q069",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A1g": false,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "label": {
+    "P1q7": "可用",
+    "A1g": "可用",
+    "A0g": "可用"
+   },
+   "reason": "",
+   "range_row": "QB22–23",
+   "redone": {
+    "A1g": false,
+    "P1q7": true
+   },
+   "same_text": [
+    [
+     "A0g",
+     "A1g"
+    ]
+   ],
+   "chars": {
+    "A0g": 292,
+    "A1g": 292,
+    "P1q7": 371
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB23",
+   "paper": "CB",
+   "篇": "CB0050",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "A1g": true,
+    "P1q7": false,
+    "A0g": true
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "P1q7",
+    "丙": "A0g"
+   },
+   "label": {
+    "A1g": "可用",
+    "P1q7": "可用",
+    "A0g": "可用"
+   },
+   "reason": "",
+   "range_row": "QB22–23",
+   "redone": {
+    "A1g": false,
+    "P1q7": true
+   },
+   "same_text": [
+    [
+     "A0g",
+     "A1g"
+    ]
+   ],
+   "chars": {
+    "A0g": 27,
+    "A1g": 27,
+    "P1q7": 34
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB24",
+   "paper": "CB",
+   "篇": "CB0838",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A0g": false,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "label": {
+    "P1q7": "內容變差",
+    "A0g": "可用",
+    "A1g": "內容變差"
+   },
+   "reason": "甲稱文件無資料（實有 105.8 萬噸）；丙道歉後又給答案自相矛盾",
+   "range_row": "",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 40,
+    "A1g": 68,
+    "P1q7": 63
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB25",
+   "paper": "S3",
+   "篇": "Q017",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "P1q7": true,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   },
+   "label": {
+    "A0g": "可用",
+    "P1q7": "可用",
+    "A1g": "可用"
+   },
+   "reason": "",
+   "range_row": "QB25–26",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 882,
+    "A1g": 861,
+    "P1q7": 482
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB26",
+   "paper": "S3",
+   "篇": "Q039",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "P1q7": false,
+    "A1g": true,
+    "A0g": true
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "label": {
+    "P1q7": "可用",
+    "A1g": "可用",
+    "A0g": "可用"
+   },
+   "reason": "",
+   "range_row": "QB25–26",
+   "redone": {
+    "A1g": false,
+    "P1q7": true
+   },
+   "same_text": [
+    [
+     "A0g",
+     "A1g"
+    ]
+   ],
+   "chars": {
+    "A0g": 478,
+    "A1g": 478,
+    "P1q7": 231
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB27",
+   "paper": "CB",
+   "篇": "CB0356",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "P1q7": false,
+    "A1g": true,
+    "A0g": true
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "label": {
+    "P1q7": "內容變差",
+    "A1g": "可用",
+    "A0g": "可用"
+   },
+   "reason": "甲 JSON 結構錯",
+   "range_row": "",
+   "redone": {
+    "A1g": false,
+    "P1q7": true
+   },
+   "same_text": [
+    [
+     "A0g",
+     "A1g"
+    ]
+   ],
+   "chars": {
+    "A0g": 226,
+    "A1g": 226,
+    "P1q7": 248
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB28",
+   "paper": "S3",
+   "篇": "Q114",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "A1g": true,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "P1q7"
+   },
+   "label": {
+    "A0g": "可用",
+    "A1g": "可用",
+    "P1q7": "可用"
+   },
+   "reason": "",
+   "range_row": "QB28–30",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 281,
+    "A1g": 462,
+    "P1q7": 517
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB29",
+   "paper": "CB",
+   "篇": "CB0502",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A0g": false,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "label": {
+    "P1q7": "可用",
+    "A0g": "可用",
+    "A1g": "可用"
+   },
+   "reason": "",
+   "range_row": "QB28–30",
+   "redone": {
+    "A1g": false,
+    "P1q7": true
+   },
+   "same_text": [
+    [
+     "A0g",
+     "A1g"
+    ]
+   ],
+   "chars": {
+    "A0g": 36,
+    "A1g": 36,
+    "P1q7": 33
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QB30",
+   "paper": "CB",
+   "篇": "CB0313",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "P1q7": false,
+    "A0g": true,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "label": {
+    "P1q7": "可用",
+    "A0g": "可用",
+    "A1g": "可用"
+   },
+   "reason": "",
+   "range_row": "QB28–30",
+   "redone": {
+    "A1g": true,
+    "P1q7": true
+   },
+   "same_text": [],
+   "chars": {
+    "A0g": 2259,
+    "A1g": 2261,
+    "P1q7": 1535
+   },
+   "same_text_label_differs": []
+  }
+ ]
+}

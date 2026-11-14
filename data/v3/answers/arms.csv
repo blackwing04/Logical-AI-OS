@@ -1,0 +1,35 @@
+arm,model,family
+A0g,Qwen2.5-7B-Instruct,bare
+A1g,Qwen2.5-7B-Instruct,whole-answer retry
+B0g,Qwen2.5-3B-Instruct,bare
+B1g,Qwen2.5-3B-Instruct,whole-answer retry
+M0,Qwen2.5-14B-Instruct,bare
+M1,Qwen2.5-14B-Instruct,whole-answer retry
+R0,DeepSeek-R1-Distill-Qwen-7B,bare
+R1v13,DeepSeek-R1-Distill-Qwen-7B,whole-answer retry
+P0q7,Qwen2.5-7B-Instruct,"bare, restated input (P)"
+P1q7,Qwen2.5-7B-Instruct,"whole-answer retry, restated input (P)"
+P0r1,DeepSeek-R1-Distill-Qwen-7B,"bare, restated input (P)"
+P1r1,DeepSeek-R1-Distill-Qwen-7B,"whole-answer retry, restated input (P)"
+E1q7,Qwen2.5-7B-Instruct,generic redo (retry message without the failed-item list)
+E1r1,DeepSeek-R1-Distill-Qwen-7B,generic redo (retry message without the failed-item list)
+LPq7,Qwen2.5-7B-Instruct,local patch
+LPr1,DeepSeek-R1-Distill-Qwen-7B,local patch
+LPq3,Qwen2.5-3B-Instruct,local patch
+LPq14,Qwen2.5-14B-Instruct,local patch
+A1gL,Qwen2.5-7B-Instruct,"whole-answer retry, rerun with the v1.14 length control (a cut ends at a sentence boundary)"
+R1v13L,DeepSeek-R1-Distill-Qwen-7B,"whole-answer retry, rerun with the v1.14 length control (a cut ends at a sentence boundary)"
+A1g_L1v2,Qwen2.5-7B-Instruct,"whole-answer retry, rerun with revised length control"
+B1g_L1v2,Qwen2.5-3B-Instruct,"whole-answer retry, rerun with revised length control"
+M1_L1v2,Qwen2.5-14B-Instruct,"whole-answer retry, rerun with revised length control"
+R1v13_L1v2,DeepSeek-R1-Distill-Qwen-7B,"whole-answer retry, rerun with revised length control"
+P1q7_L1v2,Qwen2.5-7B-Instruct,"whole-answer retry, restated input (P), rerun with revised length control"
+P1r1_L1v2,DeepSeek-R1-Distill-Qwen-7B,"whole-answer retry, restated input (P), rerun with revised length control"
+LPq7_L1v2,Qwen2.5-7B-Instruct,"local patch, rerun with revised length control"
+LPr1_L1v2,DeepSeek-R1-Distill-Qwen-7B,"local patch, rerun with revised length control"
+LPq3_L1v2,Qwen2.5-3B-Instruct,"local patch, rerun with revised length control"
+LPq14_L1v2,Qwen2.5-14B-Instruct,"local patch, rerun with revised length control"
+Conservativeq7,Qwen2.5-7B-Instruct,"conservative (delivered text where triggered, else the A0g answer)"
+Conservativer1,DeepSeek-R1-Distill-Qwen-7B,"conservative (delivered text where triggered, else the R0 answer)"
+Conservativeq3,Qwen2.5-3B-Instruct,"conservative (delivered text where triggered, else the B0g answer)"
+Conservativeq14,Qwen2.5-14B-Instruct,"conservative (delivered text where triggered, else the M0 answer)"

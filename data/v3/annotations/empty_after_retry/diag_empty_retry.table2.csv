@@ -1,0 +1,45 @@
+檔,篇,原答→新答 字,新答,(a) 結束原因,殘段,歸類,說明
+m-station/outputs/cb_results_cb_A1.json,CB0230,628→8,`智慧政务，未来！`,非推理：n_new_tokens=6／max_new=None；L1 stop_reason=eos,是,其他 o1,演講稿被讀成 ≤10 字；退回後交出標語、稱呼、標題或「### 完整答案」殘段
+m-station/outputs/cb_results_cb_A1.json,CB0303,78→11,`1. 传奇 ｜｜⏎2.`,非推理：n_new_tokens=4／max_new=None；L1 stop_reason=None,是,其他 o2,JSON＋≤10 字＋以「【推荐话题】」開頭，加骨架預填；交出空骨架殘段
+m-station/outputs/cb_results_cb_B1.json,CB0230,475→7,`福田區李局長！`,非推理：n_new_tokens=7／max_new=None；L1 stop_reason=eos,是,其他 o1,演講稿被讀成 ≤10 字；退回後交出標語、稱呼、標題或「### 完整答案」殘段
+m-station/outputs/cb_results_cb_B1.json,CB0303,27→8,`1. 无法⏎2.`,非推理：n_new_tokens=3／max_new=None；L1 stop_reason=None,是,其他 o2,JSON＋≤10 字＋以「【推荐话题】」開頭，加骨架預填；交出空骨架殘段
+m-station/outputs/cb_results_cb_B1.json,CB0834,110→6,`根据您的.*`,非推理：n_new_tokens=4／max_new=None；L1 stop_reason=eos,是,其他 o2,條件式格式（如果…就 JSON，缺陷清單 q7-A019 同型）＋≤7 字；交出程式碼框或正則殘段
+m-station/outputs/mif_results_mif_A1.json,MIF016,432→15,`日本之旅：古今交融的美丽画卷。`,非推理：n_new_tokens=10／max_new=None；L1 stop_reason=eos,否,其他 o1,「少于300字」讀成 ≤30 字；交出一句完整標題式短文
+m-station/outputs/mif_results_mif_A1.json,MIF032,166→15,`智能相框，社交瞬间，精彩).'`,非推理：n_new_tokens=10／max_new=None；L1 stop_reason=eos,否,其他 o1,「不超过150字」讀成 ≤15 字；交出完整短標語（A1 尾帶雜字）
+m-station/outputs/mif_results_mif_A1.json,MIF055,103→7,`* 质子和中子`,非推理：n_new_tokens=9／max_new=None；L1 stop_reason=eos,是,其他 o1,原文無字數要求，讀出 ≤10 字；交出半句
+m-station/outputs/mif_results_mif_B1.json,MIF016,369→17,`日本樱花之旅，体验古韵与现代交融。`,非推理：n_new_tokens=12／max_new=None；L1 stop_reason=eos,否,其他 o1,「少于300字」讀成 ≤30 字；交出一句完整標題式短文
+m-station/outputs/mif_results_mif_B1.json,MIF032,115→12,`全新数字相框，一键社交。`,非推理：n_new_tokens=9／max_new=None；L1 stop_reason=eos,否,其他 o1,「不超过150字」讀成 ≤15 字；交出完整短標語（A1 尾帶雜字）
+m-station/outputs/mif_results_mif_B1.json,MIF055,174→7,`原子核由质子。`,非推理：n_new_tokens=7／max_new=None；L1 stop_reason=eos,是,其他 o1,原文無字數要求，讀出 ≤10 字；交出半句
+m-station/outputs/mif_results_mif_B1.json,MIF408,56→17,`早晚浇水，避免积水，观察土壤湿度。`,非推理：n_new_tokens=11／max_new=None；L1 stop_reason=eos,否,其他 o1,原文無字數要求，讀出 ≤40 字；交出完整短建議
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2q7_pq.json（sealed）,A08,43→12,`山高云雾绕，水冻冰层厚。`,非推理：n_new_tokens=13／max_new=2048；L1 stop_reason=eos,否,其他 o2,壓力題：四行七言（28 字）與 ≤20 字互斥
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2q7_pq.json（sealed）,A29,9→3,`高效。`,非推理：n_new_tokens=3／max_new=2048；L1 stop_reason=eos,否,其他 o2,壓力題：「效率」×3 與 ≤5 字互斥
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2q7_pq.json（sealed）,B05,86→15,`台北下週三最高溫：28.5°C`,非推理：n_new_tokens=13／max_new=2048；L1 stop_reason=eos,否,其他 o3,壓力題（不可得資訊）短答
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2q7_pq.json（sealed）,B14,79→11,`本季度营收入XX万元。`,非推理：n_new_tokens=8／max_new=2048；L1 stop_reason=eos,否,其他 o3,壓力題（不可得資訊）短答
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,A08,68→7,`月⏎夜⏎风⏎柳`,think 閉合；正文 9 token／預算 3802（模型自行 EOS）,否,其他 o2,壓力題：四行七言（28 字）與 ≤20 字互斥
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,A27,79→12,`健康生活，從均衡飲食、?`,think 閉合；正文 11 token／預算 3713（模型自行 EOS）,是,其他 o2,壓力題：5 點每點 ≥5 字與 ≤15 字互斥；交出截斷列點
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,B14,61→10,`本季營收500萬元。`,think 閉合；正文 12 token／預算 3770（模型自行 EOS）,否,其他 o3,壓力題（不可得資訊）短答
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,B20,116→17,`根據猫咪體重，饲喂量為2-3克/。`,think 閉合；正文 17 token／預算 3509（模型自行 EOS）,否,其他 o3,壓力題（不可得資訊）短答
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,C09,80→15,`100的階乘末尾有二十四個零。`,think 閉合；正文 15 token／預算 3858（模型自行 EOS）,否,其他 o3,題目本就要一句短答
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,C10,49→16,"`一年共有31,536,000秒。`",think 閉合；正文 16 token／預算 3695（模型自行 EOS）,否,其他 o3,題目本就要一句短答
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,C17,54→16,`2026年12月25日是星期五。`,think 閉合；正文 17 token／預算 3873（模型自行 EOS）,否,其他 o3,題目本就要一句短答
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,C20,56→15,`骰子點數和為7的概率為1/6。`,think 閉合；正文 15 token／預算 3452（模型自行 EOS）,否,其他 o3,題目本就要短答
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,C22,181→5,`42 以上`,think 閉合；正文 6 token／預算 3848（模型自行 EOS）,否,其他 o3,題目本就要短答（結尾「以上」）
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,C26,51→16,`今天星期三，100天后是星期五。`,think 閉合；正文 15 token／預算 4081（模型自行 EOS）,否,其他 o3,題目本就要一句短答
+pressure-q/outputs/_sealed_v1_pq2_noclose/runs/results_pq_PQ2r1_pq.json（sealed）,C28,57→18,`七的平方加七等於56，所以答案是七。`,think 閉合；正文 17 token／預算 3852（模型自行 EOS）,否,其他 o3,題目本就要短答
+pressure-q/outputs/runs/results_pq_PQ1q7_pq.json,A29,12→3,`效率！`,非推理：n_new_tokens=3／max_new=2048；L1 stop_reason=eos,否,其他 o2,壓力題：「效率」×3 與 ≤5 字互斥
+pressure-q/outputs/runs/results_pq_PQ1r1_pq.json,A27,77→16,"`健康生活，均衡飲食，适量...""`",think 閉合；正文 11 token／預算 3762（模型自行 EOS）,是,其他 o2,壓力題：5 點每點 ≥5 字與 ≤15 字互斥；交出截斷列點
+pressure-q/outputs/runs/results_pq_PQ1r1_pq.json,C09,59→14,`100的階乘末尾有24個零。`,think 閉合；正文 16 token／預算 3783（模型自行 EOS）,否,其他 o3,題目本就要一句短答
+pressure-q/outputs/runs/results_pq_PQ1r1_pq.json,C15,347→6,`436 完畢`,think 閉合；正文 8 token／預算 3710（模型自行 EOS）,否,其他 o3,題目本就要短答（≤60 字、結尾「完畢」）
+pressure-q/outputs/runs/results_pq_PQ1r1_pq.json,C22,199→4,`42以上`,think 閉合；正文 5 token／預算 3883（模型自行 EOS）,否,其他 o3,題目本就要短答（結尾「以上」）
+pressure-q/outputs/runs/results_pq_PQ1r1_pq.json,C28,23→6,`這個數是七。`,think 閉合；正文 7 token／預算 3848（模型自行 EOS）,否,其他 o3,題目本就要短答
+pressure-q/outputs/runs/results_pq_PQ2q7_pq.json,A29,11→3,`效率！`,非推理：n_new_tokens=3／max_new=2048；L1 stop_reason=eos,否,其他 o2,壓力題：「效率」×3 與 ≤5 字互斥
+pressure-q/outputs/runs/results_pq_PQ2r1_pq.json,A27,79→13,`1. 均衡飲食，避免過量。`,think 閉合；正文 15 token／預算 3582（模型自行 EOS）,是,其他 o2,壓力題：5 點每點 ≥5 字與 ≤15 字互斥；交出截斷列點
+pressure-q/outputs/runs/results_pq_PQ2r1_pq.json,C09,55→14,`100的阶乘末尾有24個零。`,think 閉合；正文 16 token／預算 3859（模型自行 EOS）,否,其他 o3,題目本就要一句短答
+pressure-q/outputs/runs/results_pq_PQ2r1_pq.json,C15,318→11,`**436** 完畢。`,think 閉合；正文 11 token／預算 3914（模型自行 EOS）,否,其他 o3,題目本就要短答（≤60 字、結尾「完畢」）
+pressure-q/outputs/runs/results_pq_PQ2r1_pq.json,C22,211→15,`$\boxed{42}$ 以上`,think 閉合；正文 10 token／預算 3861（模型自行 EOS）,否,其他 o3,題目本就要短答（結尾「以上」）
+pressure-q/outputs/runs/results_pq_PQ2r1_pq.json,C28,23→6,`這個數是七。`,think 閉合；正文 7 token／預算 3848（模型自行 EOS）,否,其他 o3,題目本就要短答
+r1-station/outputs/results_cb_R1_v111r1.json,CB0230,607→8,`### 完整答案`,think 閉合；正文 7 token／預算 3548（模型自行 EOS）,是,其他 o1,演講稿被讀成 ≤10 字；退回後交出標語、稱呼、標題或「### 完整答案」殘段
+r1-station/outputs/results_cb_R1_v111r1.json,CB0303,94→10,"`1. 他的…""⏎2.`",think 閉合；正文 1 token／預算 256（模型自行 EOS）,是,其他 o2,JSON＋≤10 字＋以「【推荐话题】」開頭，加骨架預填；交出空骨架殘段
+r1-station/outputs/results_cb_R1_v111r1.json,CB0834,27→3,`````,think 閉合；正文 3 token／預算 3865（模型自行 EOS）,是,其他 o2,條件式格式（如果…就 JSON，缺陷清單 q7-A019 同型）＋≤7 字；交出程式碼框或正則殘段
+r1-station/outputs/results_cb_V1_v111r1.json,CB0230,615→7,`标题：智慧未来`,think 閉合；正文 6 token／預算 3429（模型自行 EOS）,是,其他 o1,演講稿被讀成 ≤10 字；退回後交出標語、稱呼、標題或「### 完整答案」殘段
+r1-station/outputs/results_cb_V1_v111r1.json,CB0303,63→8,`1. 10⏎2.`,think 閉合；正文 2 token／預算 256（模型自行 EOS）,是,其他 o2,JSON＋≤10 字＋以「【推荐话题】」開頭，加骨架預填；交出空骨架殘段

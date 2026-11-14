@@ -1,0 +1,19 @@
+{
+ "seed": 2026110951,
+ "seed_order": 2026110952,
+ "pool": 170,
+ "excluded_used": 9,
+ "candidates": 164,
+ "picked": 60,
+ "blind_sha256_16": "41aaf97442488a88",
+ "key_file": "condition_key_private_confirm_q3.json",
+ "key_sha256": "c44e7ed79f7f311baad755d90d8dd7462db4e11ec471fd25aa32dfe59d95efa6",
+ "n_slots": {
+  "3": 31,
+  "2": 23,
+  "4": 1,
+  "1": 5
+ },
+ "n_copies": 148,
+ "gpt_blind_sha256_16": "9e97ef5bf38fd89d"
+}

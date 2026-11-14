@@ -1,0 +1,5387 @@
+{
+ "order": "orders/2026-11-11_核對器結構解析修正與歷史重算令.md（009dd86）步驟 2、3",
+ "arms": {
+  "A0g": {
+   "articles": 329,
+   "items_v1": 664,
+   "pass_v1": 482,
+   "items_v2": 664,
+   "pass_v2": 504,
+   "allpass_v1": 186,
+   "allpass_v2": 196,
+   "flip_F_to_T": 22,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "A1g": {
+   "articles": 329,
+   "items_v1": 661,
+   "pass_v1": 582,
+   "items_v2": 661,
+   "pass_v2": 597,
+   "allpass_v1": 267,
+   "allpass_v2": 277,
+   "flip_F_to_T": 16,
+   "flip_T_to_F": 1,
+   "flip_None": 0
+  },
+  "B0g": {
+   "articles": 329,
+   "items_v1": 664,
+   "pass_v1": 446,
+   "items_v2": 664,
+   "pass_v2": 464,
+   "allpass_v1": 160,
+   "allpass_v2": 168,
+   "flip_F_to_T": 18,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "B1g": {
+   "articles": 329,
+   "items_v1": 663,
+   "pass_v1": 561,
+   "items_v2": 663,
+   "pass_v2": 581,
+   "allpass_v1": 248,
+   "allpass_v2": 264,
+   "flip_F_to_T": 20,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "M0": {
+   "articles": 329,
+   "items_v1": 663,
+   "pass_v1": 492,
+   "items_v2": 663,
+   "pass_v2": 513,
+   "allpass_v1": 192,
+   "allpass_v2": 203,
+   "flip_F_to_T": 21,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "M1": {
+   "articles": 329,
+   "items_v1": 661,
+   "pass_v1": 574,
+   "items_v2": 661,
+   "pass_v2": 591,
+   "allpass_v1": 256,
+   "allpass_v2": 271,
+   "flip_F_to_T": 17,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "P0q7": {
+   "articles": 329,
+   "items_v1": 660,
+   "pass_v1": 515,
+   "items_v2": 660,
+   "pass_v2": 534,
+   "allpass_v1": 209,
+   "allpass_v2": 222,
+   "flip_F_to_T": 19,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "P1q7": {
+   "articles": 329,
+   "items_v1": 660,
+   "pass_v1": 586,
+   "items_v2": 660,
+   "pass_v2": 604,
+   "allpass_v1": 267,
+   "allpass_v2": 282,
+   "flip_F_to_T": 18,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "E1q7": {
+   "articles": 329,
+   "items_v1": 666,
+   "pass_v1": 495,
+   "items_v2": 666,
+   "pass_v2": 513,
+   "allpass_v1": 201,
+   "allpass_v2": 211,
+   "flip_F_to_T": 18,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "R0": {
+   "articles": 329,
+   "items_v1": 660,
+   "pass_v1": 422,
+   "items_v2": 660,
+   "pass_v2": 448,
+   "allpass_v1": 141,
+   "allpass_v2": 156,
+   "flip_F_to_T": 26,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "R1v13": {
+   "articles": 329,
+   "items_v1": 661,
+   "pass_v1": 520,
+   "items_v2": 661,
+   "pass_v2": 551,
+   "allpass_v1": 216,
+   "allpass_v2": 235,
+   "flip_F_to_T": 31,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "P0r1": {
+   "articles": 329,
+   "items_v1": 661,
+   "pass_v1": 472,
+   "items_v2": 661,
+   "pass_v2": 494,
+   "allpass_v1": 171,
+   "allpass_v2": 185,
+   "flip_F_to_T": 22,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "P1r1": {
+   "articles": 329,
+   "items_v1": 661,
+   "pass_v1": 539,
+   "items_v2": 661,
+   "pass_v2": 557,
+   "allpass_v1": 233,
+   "allpass_v2": 244,
+   "flip_F_to_T": 18,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "E1r1": {
+   "articles": 329,
+   "items_v1": 662,
+   "pass_v1": 438,
+   "items_v2": 662,
+   "pass_v2": 461,
+   "allpass_v1": 158,
+   "allpass_v2": 168,
+   "flip_F_to_T": 23,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "LPq7": {
+   "articles": 329,
+   "items_v1": 661,
+   "pass_v1": 597,
+   "items_v2": 661,
+   "pass_v2": 607,
+   "allpass_v1": 281,
+   "allpass_v2": 287,
+   "flip_F_to_T": 11,
+   "flip_T_to_F": 1,
+   "flip_None": 0
+  },
+  "LPr1": {
+   "articles": 329,
+   "items_v1": 661,
+   "pass_v1": 535,
+   "items_v2": 661,
+   "pass_v2": 565,
+   "allpass_v1": 229,
+   "allpass_v2": 248,
+   "flip_F_to_T": 30,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "LPq3": {
+   "articles": 329,
+   "items_v1": 663,
+   "pass_v1": 570,
+   "items_v2": 663,
+   "pass_v2": 588,
+   "allpass_v1": 257,
+   "allpass_v2": 271,
+   "flip_F_to_T": 19,
+   "flip_T_to_F": 1,
+   "flip_None": 0
+  },
+  "LPq14": {
+   "articles": 329,
+   "items_v1": 661,
+   "pass_v1": 588,
+   "items_v2": 661,
+   "pass_v2": 600,
+   "allpass_v1": 269,
+   "allpass_v2": 278,
+   "flip_F_to_T": 12,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "A1gL": {
+   "articles": 329,
+   "items_v1": 661,
+   "pass_v1": 583,
+   "items_v2": 661,
+   "pass_v2": 598,
+   "allpass_v1": 267,
+   "allpass_v2": 278,
+   "flip_F_to_T": 16,
+   "flip_T_to_F": 1,
+   "flip_None": 0
+  },
+  "R1v13L": {
+   "articles": 329,
+   "items_v1": 661,
+   "pass_v1": 523,
+   "items_v2": 661,
+   "pass_v2": 554,
+   "allpass_v1": 217,
+   "allpass_v2": 237,
+   "flip_F_to_T": 31,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "保守q7": {
+   "articles": 329,
+   "items_v1": 664,
+   "pass_v1": 549,
+   "items_v2": 664,
+   "pass_v2": 562,
+   "allpass_v1": 242,
+   "allpass_v2": 250,
+   "flip_F_to_T": 13,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "保守r1": {
+   "articles": 329,
+   "items_v1": 662,
+   "pass_v1": 487,
+   "items_v2": 662,
+   "pass_v2": 508,
+   "allpass_v1": 195,
+   "allpass_v2": 209,
+   "flip_F_to_T": 21,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  },
+  "保守q3": {
+   "articles": 329,
+   "items_v1": 664,
+   "pass_v1": 520,
+   "items_v2": 664,
+   "pass_v2": 531,
+   "allpass_v1": 220,
+   "allpass_v2": 224,
+   "flip_F_to_T": 12,
+   "flip_T_to_F": 1,
+   "flip_None": 0
+  },
+  "保守q14": {
+   "articles": 329,
+   "items_v1": 663,
+   "pass_v1": 554,
+   "items_v2": 663,
+   "pass_v2": 569,
+   "allpass_v1": 247,
+   "allpass_v2": 256,
+   "flip_F_to_T": 15,
+   "flip_T_to_F": 0,
+   "flip_None": 0
+  }
+ },
+ "compare": [
+  {
+   "name": "架構增量",
+   "a": "A0g",
+   "b": "A1g",
+   "n": 329,
+   "v1": {
+    "a": 186,
+    "b": 267,
+    "diff": 81,
+    "b_only": 81,
+    "a_only": 0,
+    "p": 8.271806125530277e-25
+   },
+   "v2": {
+    "a": 196,
+    "b": 277,
+    "diff": 81,
+    "b_only": 83,
+    "a_only": 2,
+    "p": 1.8901076996836682e-22
+   },
+   "changed": ""
+  },
+  {
+   "name": "架構增量",
+   "a": "B0g",
+   "b": "B1g",
+   "n": 329,
+   "v1": {
+    "a": 160,
+    "b": 248,
+    "diff": 88,
+    "b_only": 88,
+    "a_only": 0,
+    "p": 6.462348535570529e-27
+   },
+   "v2": {
+    "a": 168,
+    "b": 264,
+    "diff": 96,
+    "b_only": 96,
+    "a_only": 0,
+    "p": 2.524354896707238e-29
+   },
+   "changed": ""
+  },
+  {
+   "name": "架構增量",
+   "a": "M0",
+   "b": "M1",
+   "n": 329,
+   "v1": {
+    "a": 192,
+    "b": 256,
+    "diff": 64,
+    "b_only": 64,
+    "a_only": 0,
+    "p": 1.0842021724855044e-19
+   },
+   "v2": {
+    "a": 203,
+    "b": 271,
+    "diff": 68,
+    "b_only": 69,
+    "a_only": 1,
+    "p": 1.2027867851011065e-19
+   },
+   "changed": ""
+  },
+  {
+   "name": "架構增量",
+   "a": "R0",
+   "b": "R1v13",
+   "n": 329,
+   "v1": {
+    "a": 141,
+    "b": 216,
+    "diff": 75,
+    "b_only": 75,
+    "a_only": 0,
+    "p": 5.293955920339377e-23
+   },
+   "v2": {
+    "a": 156,
+    "b": 235,
+    "diff": 79,
+    "b_only": 82,
+    "a_only": 3,
+    "p": 5.295300088834776e-21
+   },
+   "changed": ""
+  },
+  {
+   "name": "架構增量",
+   "a": "P0q7",
+   "b": "P1q7",
+   "n": 329,
+   "v1": {
+    "a": 209,
+    "b": 267,
+    "diff": 58,
+    "b_only": 58,
+    "a_only": 0,
+    "p": 6.938893903907228e-18
+   },
+   "v2": {
+    "a": 222,
+    "b": 282,
+    "diff": 60,
+    "b_only": 60,
+    "a_only": 0,
+    "p": 1.734723475976807e-18
+   },
+   "changed": ""
+  },
+  {
+   "name": "架構增量",
+   "a": "P0r1",
+   "b": "P1r1",
+   "n": 329,
+   "v1": {
+    "a": 171,
+    "b": 233,
+    "diff": 62,
+    "b_only": 62,
+    "a_only": 0,
+    "p": 4.336808689942018e-19
+   },
+   "v2": {
+    "a": 185,
+    "b": 244,
+    "diff": 59,
+    "b_only": 62,
+    "a_only": 3,
+    "p": 2.4842324378160363e-15
+   },
+   "changed": ""
+  },
+  {
+   "name": "架構增量（E1）",
+   "a": "A0g",
+   "b": "E1q7",
+   "n": 329,
+   "v1": {
+    "a": 186,
+    "b": 201,
+    "diff": 15,
+    "b_only": 15,
+    "a_only": 0,
+    "p": 6.103515625e-05
+   },
+   "v2": {
+    "a": 196,
+    "b": 211,
+    "diff": 15,
+    "b_only": 16,
+    "a_only": 1,
+    "p": 0.000274658203125
+   },
+   "changed": ""
+  },
+  {
+   "name": "架構增量（E1）",
+   "a": "R0",
+   "b": "E1r1",
+   "n": 329,
+   "v1": {
+    "a": 141,
+    "b": 158,
+    "diff": 17,
+    "b_only": 18,
+    "a_only": 1,
+    "p": 7.62939453125e-05
+   },
+   "v2": {
+    "a": 156,
+    "b": 168,
+    "diff": 12,
+    "b_only": 19,
+    "a_only": 7,
+    "p": 0.028959274291992188
+   },
+   "changed": ""
+  },
+  {
+   "name": "局部修補 vs 整篇退回",
+   "a": "A1g",
+   "b": "LPq7",
+   "n": 329,
+   "v1": {
+    "a": 267,
+    "b": 281,
+    "diff": 14,
+    "b_only": 15,
+    "a_only": 1,
+    "p": 0.000518798828125
+   },
+   "v2": {
+    "a": 277,
+    "b": 287,
+    "diff": 10,
+    "b_only": 11,
+    "a_only": 1,
+    "p": 0.00634765625
+   },
+   "changed": ""
+  },
+  {
+   "name": "局部修補 vs 整篇退回",
+   "a": "R1v13",
+   "b": "LPr1",
+   "n": 329,
+   "v1": {
+    "a": 216,
+    "b": 229,
+    "diff": 13,
+    "b_only": 13,
+    "a_only": 0,
+    "p": 0.000244140625
+   },
+   "v2": {
+    "a": 235,
+    "b": 248,
+    "diff": 13,
+    "b_only": 13,
+    "a_only": 0,
+    "p": 0.000244140625
+   },
+   "changed": ""
+  },
+  {
+   "name": "局部修補 vs 整篇退回",
+   "a": "B1g",
+   "b": "LPq3",
+   "n": 329,
+   "v1": {
+    "a": 248,
+    "b": 257,
+    "diff": 9,
+    "b_only": 10,
+    "a_only": 1,
+    "p": 0.01171875
+   },
+   "v2": {
+    "a": 264,
+    "b": 271,
+    "diff": 7,
+    "b_only": 9,
+    "a_only": 2,
+    "p": 0.0654296875
+   },
+   "changed": "顯著性改變"
+  },
+  {
+   "name": "局部修補 vs 整篇退回",
+   "a": "M1",
+   "b": "LPq14",
+   "n": 329,
+   "v1": {
+    "a": 256,
+    "b": 269,
+    "diff": 13,
+    "b_only": 15,
+    "a_only": 2,
+    "p": 0.002349853515625
+   },
+   "v2": {
+    "a": 271,
+    "b": 278,
+    "diff": 7,
+    "b_only": 10,
+    "a_only": 3,
+    "p": 0.09228515625
+   },
+   "changed": "顯著性改變"
+  },
+  {
+   "name": "局部修補 vs 底",
+   "a": "A0g",
+   "b": "LPq7",
+   "n": 329,
+   "v1": {
+    "a": 186,
+    "b": 281,
+    "diff": 95,
+    "b_only": 95,
+    "a_only": 0,
+    "p": 5.048709793414476e-29
+   },
+   "v2": {
+    "a": 196,
+    "b": 287,
+    "diff": 91,
+    "b_only": 92,
+    "a_only": 1,
+    "p": 1.8983148823238428e-26
+   },
+   "changed": ""
+  },
+  {
+   "name": "局部修補 vs 底",
+   "a": "R0",
+   "b": "LPr1",
+   "n": 329,
+   "v1": {
+    "a": 141,
+    "b": 229,
+    "diff": 88,
+    "b_only": 88,
+    "a_only": 0,
+    "p": 6.462348535570529e-27
+   },
+   "v2": {
+    "a": 156,
+    "b": 248,
+    "diff": 92,
+    "b_only": 95,
+    "a_only": 3,
+    "p": 9.904811308210189e-25
+   },
+   "changed": ""
+  },
+  {
+   "name": "局部修補 vs 底",
+   "a": "B0g",
+   "b": "LPq3",
+   "n": 329,
+   "v1": {
+    "a": 160,
+    "b": 257,
+    "diff": 97,
+    "b_only": 97,
+    "a_only": 0,
+    "p": 1.262177448353619e-29
+   },
+   "v2": {
+    "a": 168,
+    "b": 271,
+    "diff": 103,
+    "b_only": 103,
+    "a_only": 0,
+    "p": 1.9721522630525295e-31
+   },
+   "changed": ""
+  },
+  {
+   "name": "局部修補 vs 底",
+   "a": "M0",
+   "b": "LPq14",
+   "n": 329,
+   "v1": {
+    "a": 192,
+    "b": 269,
+    "diff": 77,
+    "b_only": 77,
+    "a_only": 0,
+    "p": 1.3234889800848443e-23
+   },
+   "v2": {
+    "a": 203,
+    "b": 278,
+    "diff": 75,
+    "b_only": 76,
+    "a_only": 1,
+    "p": 1.0323214044661785e-21
+   },
+   "changed": ""
+  },
+  {
+   "name": "保守 vs 底",
+   "a": "A0g",
+   "b": "保守q7",
+   "n": 329,
+   "v1": {
+    "a": 186,
+    "b": 242,
+    "diff": 56,
+    "b_only": 56,
+    "a_only": 0,
+    "p": 2.7755575615628914e-17
+   },
+   "v2": {
+    "a": 196,
+    "b": 250,
+    "diff": 54,
+    "b_only": 54,
+    "a_only": 0,
+    "p": 1.1102230246251565e-16
+   },
+   "changed": ""
+  },
+  {
+   "name": "保守 vs 底",
+   "a": "R0",
+   "b": "保守r1",
+   "n": 329,
+   "v1": {
+    "a": 141,
+    "b": 195,
+    "diff": 54,
+    "b_only": 54,
+    "a_only": 0,
+    "p": 1.1102230246251565e-16
+   },
+   "v2": {
+    "a": 156,
+    "b": 209,
+    "diff": 53,
+    "b_only": 53,
+    "a_only": 0,
+    "p": 2.220446049250313e-16
+   },
+   "changed": ""
+  },
+  {
+   "name": "保守 vs 底",
+   "a": "B0g",
+   "b": "保守q3",
+   "n": 329,
+   "v1": {
+    "a": 160,
+    "b": 220,
+    "diff": 60,
+    "b_only": 60,
+    "a_only": 0,
+    "p": 1.734723475976807e-18
+   },
+   "v2": {
+    "a": 168,
+    "b": 224,
+    "diff": 56,
+    "b_only": 56,
+    "a_only": 0,
+    "p": 2.7755575615628914e-17
+   },
+   "changed": ""
+  },
+  {
+   "name": "保守 vs 底",
+   "a": "M0",
+   "b": "保守q14",
+   "n": 329,
+   "v1": {
+    "a": 192,
+    "b": 247,
+    "diff": 55,
+    "b_only": 55,
+    "a_only": 0,
+    "p": 5.551115123125783e-17
+   },
+   "v2": {
+    "a": 203,
+    "b": 256,
+    "diff": 53,
+    "b_only": 53,
+    "a_only": 0,
+    "p": 2.220446049250313e-16
+   },
+   "changed": ""
+  }
+ ],
+ "trigger": {
+  "A1g": {
+   "未觸發（現行 v1）": 185,
+   "全真": 123,
+   "部分假": 10,
+   "全假": 10,
+   "未觸發（現行 v1）；跑批時有觸發": 1
+  },
+  "B1g": {
+   "全真": 151,
+   "未觸發（現行 v1）": 159,
+   "部分假": 10,
+   "全假": 8,
+   "未觸發（現行 v1）；跑批時有觸發": 1
+  },
+  "M1": {
+   "未觸發（現行 v1）": 191,
+   "全真": 116,
+   "部分假": 10,
+   "全假": 11,
+   "未觸發（現行 v1）；跑批時有觸發": 1
+  },
+  "R1v13": {
+   "未觸發（現行 v1）": 140,
+   "全真": 162,
+   "部分假": 11,
+   "全假": 15,
+   "未觸發（現行 v1）；跑批時有觸發": 1
+  },
+  "P1q7": {
+   "全真": 102,
+   "未觸發（現行 v1）": 209,
+   "全假": 13,
+   "部分假": 5
+  },
+  "P1r1": {
+   "全真": 137,
+   "未觸發（現行 v1）": 170,
+   "部分假": 7,
+   "全假": 14,
+   "未觸發（現行 v1）；跑批時有觸發": 1
+  },
+  "E1q7": {
+   "未觸發（現行 v1）": 185,
+   "全真": 123,
+   "部分假": 10,
+   "全假": 10,
+   "未觸發（現行 v1）；跑批時有觸發": 1
+  },
+  "E1r1": {
+   "未觸發（現行 v1）": 135,
+   "全真": 162,
+   "部分假": 11,
+   "全假": 15,
+   "未觸發（現行 v1）；跑批時有觸發": 6,
+   "（其中跑批時未觸發）": 1
+  },
+  "LPq7": {
+   "未觸發（現行 v1）": 185,
+   "全真": 123,
+   "部分假": 10,
+   "全假": 10,
+   "未觸發（現行 v1）；跑批時有觸發": 1
+  },
+  "LPr1": {
+   "未觸發（現行 v1）": 140,
+   "全真": 162,
+   "部分假": 11,
+   "全假": 15,
+   "未觸發（現行 v1）；跑批時有觸發": 1
+  },
+  "LPq3": {
+   "全真": 151,
+   "未觸發（現行 v1）": 160,
+   "部分假": 10,
+   "全假": 8
+  },
+  "LPq14": {
+   "未觸發（現行 v1）": 192,
+   "全真": 116,
+   "部分假": 10,
+   "全假": 11
+  }
+ },
+ "quality_cross": {
+  "整篇退回類": {
+   "全假": {
+    "n": 16,
+    "nonusable": 3,
+    "harm": 2
+   },
+   "部分假": {
+    "n": 9,
+    "nonusable": 4,
+    "harm": 4
+   },
+   "全真": {
+    "n": 206,
+    "nonusable": 89,
+    "harm": 77
+   },
+   "fisher_harm_全假vs全真": 0.057102089798340507,
+   "fisher_nonusable_全假vs全真": 0.06702666137392643
+  },
+  "局部修補類": {
+   "全假": {
+    "n": 6,
+    "nonusable": 1,
+    "harm": 1
+   },
+   "部分假": {
+    "n": 6,
+    "nonusable": 2,
+    "harm": 1
+   },
+   "全真": {
+    "n": 102,
+    "nonusable": 33,
+    "harm": 26
+   },
+   "fisher_harm_全假vs全真": 1.0,
+   "fisher_nonusable_全假vs全真": 0.6626689800330859
+  },
+  "合計": {
+   "全假": {
+    "n": 22,
+    "nonusable": 4,
+    "harm": 3
+   },
+   "部分假": {
+    "n": 15,
+    "nonusable": 6,
+    "harm": 5
+   },
+   "全真": {
+    "n": 308,
+    "nonusable": 122,
+    "harm": 103
+   },
+   "fisher_harm_全假vs全真": 0.06043262886343085,
+   "fisher_nonusable_全假vs全真": 0.06694136463606301
+  }
+ },
+ "quality_units": [
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0692"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0692"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0375"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0375"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q077"
+   ],
+   "arm": "R1v13",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q077"
+   ],
+   "arm": "E1r1",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q010"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q010"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0184"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0184"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0369"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0369"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q103"
+   ],
+   "arm": "R1v13",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全假",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q103"
+   ],
+   "arm": "E1r1",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0073"
+   ],
+   "arm": "R1v13",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0073"
+   ],
+   "arm": "E1r1",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q110"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q110"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0380"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0380"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0464"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0464"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q066"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q066"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q044"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q044"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q090"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q090"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0206"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0206"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0390"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0390"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0330"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0330"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0399"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0399"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0037"
+   ],
+   "arm": "R1v13",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0037"
+   ],
+   "arm": "E1r1",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q063"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q063"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q085"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q085"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0138"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0138"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0123"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0123"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0046"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0046"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0318"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0318"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0379"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0379"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0312"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0312"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0377"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0377"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0485"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "cb",
+    "CB0485"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q084"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_a",
+   "key": [
+    "s3",
+    "Q084"
+   ],
+   "arm": "E1r1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q074"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q096"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0069"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0069"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0265"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q052"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q052"
+   ],
+   "arm": "P1q7",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0205"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0205"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q111"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q098"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q098"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0303"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "部分假",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0303"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "部分假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q058"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q058"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q109"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0078"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0078"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q019"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q019"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q011"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q011"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q045"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q032"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q032"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q105"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q087"
+   ],
+   "arm": "A1g",
+   "base_label": "截短",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q087"
+   ],
+   "arm": "P1q7",
+   "base_label": "截短",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q050"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q050"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0398"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q069"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0838"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0838"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q017"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0356"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q114"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "s3",
+    "Q114"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0313"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality60_b",
+   "key": [
+    "cb",
+    "CB0313"
+   ],
+   "arm": "P1q7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q011"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q011"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q019"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q019"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q020"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q020"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q023"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q023"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q030"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q030"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q034"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "部分假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q034"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "部分假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q047"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q047"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q063"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q063"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q074"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q074"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q085"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q085"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q109"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q109"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q114"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q114"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0047"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0047"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0065"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0065"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0068"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0068"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0069"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0069"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0071"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0071"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0078"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0078"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0079"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0079"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0126"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0126"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0260"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0260"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0274"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0274"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0325"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0325"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0390"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0390"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0409"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0409"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0411"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0411"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0431"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0431"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0504"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0504"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB1052"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB1052"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q004"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q004"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q005"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q005"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q023"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q023"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q034"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "部分假",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q034"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "部分假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q038"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q038"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q040"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q040"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q053"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q053"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q063"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q063"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q077"
+   ],
+   "arm": "R1v13",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q077"
+   ],
+   "arm": "LPr1",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q084"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q084"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q085"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q085"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q087"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "s3",
+    "Q087"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0018"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0018"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0023"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0023"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0037"
+   ],
+   "arm": "R1v13",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0037"
+   ],
+   "arm": "LPr1",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0046"
+   ],
+   "arm": "R1v13",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0046"
+   ],
+   "arm": "LPr1",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0047"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0047"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0069"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0069"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0072"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0072"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0139"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0139"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0153"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0153"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0236"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0236"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0265"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0265"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0372"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0372"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0377"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0377"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0380"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0380"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0407"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0407"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0408"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0408"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0431"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0431"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0455"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "quality_v114",
+   "key": [
+    "cb",
+    "CB0455"
+   ],
+   "arm": "LPr1",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "cb",
+    "CB0078"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "cb",
+    "CB0303"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "部分假",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "cb",
+    "CB0838"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "s3",
+    "Q032"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "s3",
+    "Q045"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "s3",
+    "Q058"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "s3",
+    "Q096"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "s3",
+    "Q109"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "s3",
+    "Q111"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "cb",
+    "CB0046"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "cb",
+    "CB0312"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "cb",
+    "CB0369"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "cb",
+    "CB0379"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "cb",
+    "CB0692"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "s3",
+    "Q063"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "unblind_pair",
+   "key": [
+    "s3",
+    "Q084"
+   ],
+   "arm": "R1v13",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0006"
+   ],
+   "arm": "A1g",
+   "base_label": "截短",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0006"
+   ],
+   "arm": "LPq7",
+   "base_label": "截短",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0023"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0023"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0043"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0043"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0049"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0049"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0073"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0073"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0080"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0080"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0124"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0124"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0188"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0188"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0191"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0191"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0206"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全假",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0206"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0232"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0232"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0249"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0249"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0298"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0298"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0331"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0331"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0342"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0342"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0346"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0346"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0357"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0357"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0369"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0369"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0375"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0375"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0377"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0377"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0382"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0382"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0402"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0402"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0404"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0404"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0426"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0426"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0481"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0481"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0503"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0503"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0540"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0540"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0555"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0555"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0692"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0692"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0707"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0707"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0782"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0782"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0783"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0783"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0837"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0837"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0849"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0849"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0856"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB0856"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB1093"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB1093"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB1144"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "cb",
+    "CB1144"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q008"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "部分假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q008"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "部分假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q009"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q009"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q016"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q016"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q026"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全假",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q026"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全假",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q036"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q036"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q067"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "部分假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q067"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "部分假",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q070"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q070"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q071"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q071"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q075"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q075"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q081"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q081"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q082"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "截短",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q082"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "可用",
+   "class": "全真",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q090"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "部分假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q090"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "部分假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q091"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q091"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q093"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q093"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q101"
+   ],
+   "arm": "A1g",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q101"
+   ],
+   "arm": "LPq7",
+   "base_label": "內容變差",
+   "label": "內容變差",
+   "class": "全真",
+   "nonusable": true,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q103"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "部分假",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q103"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "內容變差",
+   "class": "部分假",
+   "nonusable": true,
+   "harm": true
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q120"
+   ],
+   "arm": "A1g",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  },
+  {
+   "src": "confirm_D（聊天端）",
+   "key": [
+    "s3",
+    "Q120"
+   ],
+   "arm": "LPq7",
+   "base_label": "可用",
+   "label": "可用",
+   "class": "全假",
+   "nonusable": false,
+   "harm": false
+  }
+ ],
+ "flip_pool": 232,
+ "flip_pick": 40
+}

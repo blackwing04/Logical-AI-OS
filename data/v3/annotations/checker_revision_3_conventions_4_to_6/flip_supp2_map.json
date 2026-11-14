@@ -1,0 +1,248 @@
+{
+ "rule": "英文必含／禁用／標題必含詞翻判全收；字數口徑翻判 random.Random(SEED+7) 抽樣",
+ "n_terms": 5,
+ "n_len_pool": 298,
+ "n_len_pick": 15,
+ "map": [
+  {
+   "id": "FT01",
+   "arm": "A0g",
+   "key": [
+    "cb",
+    "CB0035"
+   ],
+   "sid": "CB0035/s02",
+   "type": "term_required",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FT02",
+   "arm": "A0g",
+   "key": [
+    "cb",
+    "CB0369"
+   ],
+   "sid": "CB0369/s03",
+   "type": "term_required",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FT03",
+   "arm": "E1q7",
+   "key": [
+    "cb",
+    "CB0035"
+   ],
+   "sid": "CB0035/s02",
+   "type": "term_required",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FT04",
+   "arm": "P0q7",
+   "key": [
+    "cb",
+    "CB0035"
+   ],
+   "sid": "CB0035/s02",
+   "type": "term_required",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FT05",
+   "arm": "P1q7",
+   "key": [
+    "cb",
+    "CB0035"
+   ],
+   "sid": "CB0035/s02",
+   "type": "term_required",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FT06",
+   "arm": "A0g",
+   "key": [
+    "cb",
+    "CB0411"
+   ],
+   "sid": "CB0411/s02",
+   "type": "length",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FT07",
+   "arm": "A1g",
+   "key": [
+    "s3",
+    "Q083"
+   ],
+   "sid": "Q083/s01",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FT08",
+   "arm": "A1g",
+   "key": [
+    "s3",
+    "Q115"
+   ],
+   "sid": "Q115/s06",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FT09",
+   "arm": "LPq14",
+   "key": [
+    "cb",
+    "CB0080"
+   ],
+   "sid": "CB0080/s03",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FT10",
+   "arm": "LPq3",
+   "key": [
+    "cb",
+    "CB0249"
+   ],
+   "sid": "CB0249/s02",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FT11",
+   "arm": "LPr1",
+   "key": [
+    "cb",
+    "CB0326"
+   ],
+   "sid": "CB0326/s05",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FT12",
+   "arm": "LPr1",
+   "key": [
+    "cb",
+    "CB0379"
+   ],
+   "sid": "CB0379/s04",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FT13",
+   "arm": "P0q7",
+   "key": [
+    "cb",
+    "CB0502"
+   ],
+   "sid": "CB0502/s04",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FT14",
+   "arm": "P0r1",
+   "key": [
+    "cb",
+    "CB0188"
+   ],
+   "sid": "CB0188/s02",
+   "type": "length",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FT15",
+   "arm": "P0r1",
+   "key": [
+    "cb",
+    "CB0392"
+   ],
+   "sid": "CB0392/s01",
+   "type": "length",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FT16",
+   "arm": "P1q7",
+   "key": [
+    "cb",
+    "CB0555"
+   ],
+   "sid": "CB0555/s05",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FT17",
+   "arm": "P1q7",
+   "key": [
+    "s3",
+    "Q062"
+   ],
+   "sid": "Q062/s01",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FT18",
+   "arm": "P1r1",
+   "key": [
+    "cb",
+    "CB0054"
+   ],
+   "sid": "CB0054/s01",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FT19",
+   "arm": "R1v13",
+   "key": [
+    "s3",
+    "Q032"
+   ],
+   "sid": "Q032/s01",
+   "type": "length",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FT20",
+   "arm": "R1v13",
+   "key": [
+    "s3",
+    "Q083"
+   ],
+   "sid": "Q083/s01",
+   "type": "length",
+   "v1": true,
+   "v2": false
+  }
+ ]
+}

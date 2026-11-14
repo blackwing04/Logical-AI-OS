@@ -1,0 +1,45 @@
+{
+ "seed": 2026110915,
+ "n": 30,
+ "n_retest": 3,
+ "inputs": {
+  "S3_M0": [
+   "experiments/gpu-station2/outputs/results_s3_M0.json",
+   "d1636d5b7b94d482"
+  ],
+  "S3_M1": [
+   "experiments/gpu-station2/outputs/results_s3_M1_v113.json",
+   "dd0855eeae92280c"
+  ],
+  "CB_M0": [
+   "experiments/gpu-station2/outputs/results_cb_M0.json",
+   "2c1cdffaae46b7e6"
+  ],
+  "CB_M1": [
+   "experiments/gpu-station2/outputs/results_cb_M1_v113.json",
+   "0eccdf2eee1bdac2"
+  ]
+ },
+ "pool": {
+  "n": 47,
+  "改善": 40,
+  "變差": 7
+ },
+ "picked_by_paper": {
+  "S3": 17,
+  "CB": 13
+ },
+ "picked_by_direction": {
+  "改善": 23,
+  "變差": 7
+ },
+ "same_text_14b": 0,
+ "retest_src": [
+  "QB09",
+  "QB04",
+  "QB08"
+ ],
+ "blind_sha256_16": "c6ca9fd8f933982e",
+ "key_file": "condition_key_private_quality14b.json",
+ "key_sha256": "7c425c524ec1ed090edca787061e7e4b33d903402b7482af639d208801fa008c"
+}

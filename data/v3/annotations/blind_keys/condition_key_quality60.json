@@ -1,0 +1,1085 @@
+{
+ "seed": 20261106,
+ "key": [
+  {
+   "id": "QA01",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0692",
+   "drawn_from": "E1r1",
+   "direction": "變差",
+   "verdicts": {
+    "R0": true,
+    "E1r1": false,
+    "R1v13": false
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   }
+  },
+  {
+   "id": "QA02",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0375",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R0": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R0",
+    "丙": "R1v13"
+   }
+  },
+  {
+   "id": "QA03",
+   "pack": "a",
+   "paper": "S3",
+   "篇": "Q077",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R1v13": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   }
+  },
+  {
+   "id": "QA04",
+   "pack": "a",
+   "paper": "S3",
+   "篇": "Q010",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": false,
+    "E1r1": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "E1r1",
+    "丙": "R0"
+   }
+  },
+  {
+   "id": "QA05",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0184",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "R1v13": true,
+    "E1r1": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "E1r1"
+   }
+  },
+  {
+   "id": "QA06",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0369",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R1v13": false,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   }
+  },
+  {
+   "id": "QA07",
+   "pack": "a",
+   "paper": "S3",
+   "篇": "Q103",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R0": false,
+    "R1v13": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R0",
+    "丙": "R1v13"
+   }
+  },
+  {
+   "id": "QA08",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0073",
+   "drawn_from": "E1r1",
+   "direction": "變差",
+   "verdicts": {
+    "R0": true,
+    "E1r1": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   }
+  },
+  {
+   "id": "QA09",
+   "pack": "a",
+   "paper": "S3",
+   "篇": "Q110",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R1v13": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   }
+  },
+  {
+   "id": "QA10",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0380",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": true,
+    "R0": false,
+    "E1r1": true
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "E1r1"
+   }
+  },
+  {
+   "id": "QA11",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0464",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": false,
+    "R0": false,
+    "E1r1": true
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "E1r1"
+   }
+  },
+  {
+   "id": "QA12",
+   "pack": "a",
+   "paper": "S3",
+   "篇": "Q066",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "R1v13": false,
+    "E1r1": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "E1r1"
+   }
+  },
+  {
+   "id": "QA13",
+   "pack": "a",
+   "paper": "S3",
+   "篇": "Q044",
+   "drawn_from": "E1r1",
+   "direction": "變差",
+   "verdicts": {
+    "R1v13": false,
+    "R0": true,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "E1r1"
+   }
+  },
+  {
+   "id": "QA14",
+   "pack": "a",
+   "paper": "S3",
+   "篇": "Q090",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R0": false,
+    "R1v13": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R0",
+    "丙": "R1v13"
+   }
+  },
+  {
+   "id": "QA15",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0206",
+   "drawn_from": "E1r1",
+   "direction": "變差",
+   "verdicts": {
+    "R1v13": true,
+    "E1r1": false,
+    "R0": true
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "E1r1",
+    "丙": "R0"
+   }
+  },
+  {
+   "id": "QA16",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0390",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "E1r1": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   }
+  },
+  {
+   "id": "QA17",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0330",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": false,
+    "R1v13": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   }
+  },
+  {
+   "id": "QA18",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0399",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": true,
+    "E1r1": false,
+    "R0": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "E1r1",
+    "丙": "R0"
+   }
+  },
+  {
+   "id": "QA19",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0037",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R1v13": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   }
+  },
+  {
+   "id": "QA20",
+   "pack": "a",
+   "paper": "S3",
+   "篇": "Q063",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": false,
+    "R1v13": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   }
+  },
+  {
+   "id": "QA21",
+   "pack": "a",
+   "paper": "S3",
+   "篇": "Q085",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "E1r1": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   }
+  },
+  {
+   "id": "QA22",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0138",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "E1r1": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   }
+  },
+  {
+   "id": "QA23",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0123",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "R1v13": true,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "E1r1"
+   }
+  },
+  {
+   "id": "QA24",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0046",
+   "drawn_from": "R1v13",
+   "direction": "變差",
+   "verdicts": {
+    "R1v13": false,
+    "R0": true,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "E1r1"
+   }
+  },
+  {
+   "id": "QA25",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0318",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "R1v13": true,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "E1r1"
+   }
+  },
+  {
+   "id": "QA26",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0379",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "E1r1": true,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   }
+  },
+  {
+   "id": "QA27",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0312",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": true,
+    "E1r1": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "E1r1",
+    "丙": "R0"
+   }
+  },
+  {
+   "id": "QA28",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0377",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": false,
+    "R0": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R0",
+    "丙": "R1v13"
+   }
+  },
+  {
+   "id": "QA29",
+   "pack": "a",
+   "paper": "CB",
+   "篇": "CB0485",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "R1v13": true,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "E1r1"
+   }
+  },
+  {
+   "id": "QA30",
+   "pack": "a",
+   "paper": "S3",
+   "篇": "Q084",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": true,
+    "R0": false,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "E1r1"
+   }
+  },
+  {
+   "id": "QB01",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q074",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A1g": true,
+    "A0g": false,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "P1q7"
+   }
+  },
+  {
+   "id": "QB02",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q096",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "P1q7": true,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB03",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0069",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "A1g": true,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "P1q7"
+   }
+  },
+  {
+   "id": "QB04",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0265",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "P1q7": true,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB05",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q052",
+   "drawn_from": "A1g",
+   "direction": "變差",
+   "verdicts": {
+    "A0g": true,
+    "P1q7": true,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB06",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0205",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A1g": true,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB07",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q111",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "A1g": true,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "P1q7"
+   }
+  },
+  {
+   "id": "QB08",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q098",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A1g": true,
+    "P1q7": true,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "P1q7",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB09",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0303",
+   "drawn_from": "A1g",
+   "direction": "變差",
+   "verdicts": {
+    "P1q7": true,
+    "A0g": true,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A0g",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB10",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q058",
+   "drawn_from": "A1g",
+   "direction": "變差",
+   "verdicts": {
+    "A0g": true,
+    "P1q7": false,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB11",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q109",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A1g": true,
+    "A0g": false,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "P1q7"
+   }
+  },
+  {
+   "id": "QB12",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0078",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A1g": true,
+    "A0g": false,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "P1q7"
+   }
+  },
+  {
+   "id": "QB13",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q019",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "P1q7": true,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB14",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q011",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A1g": true,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB15",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q045",
+   "drawn_from": "A1g",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A0g": false,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A0g",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB16",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0153",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "P1q7": false,
+    "A1g": true,
+    "A0g": true
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB17",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q032",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "A1g": true,
+    "P1q7": true,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "P1q7",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB18",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q105",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "A0g": true,
+    "P1q7": false,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB19",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q087",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A1g": false,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB20",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q050",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A1g": false,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB21",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0398",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "A0g": true,
+    "A1g": true,
+    "P1q7": false
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "P1q7"
+   }
+  },
+  {
+   "id": "QB22",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q069",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A1g": false,
+    "A0g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB23",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0050",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "A1g": true,
+    "P1q7": false,
+    "A0g": true
+   },
+   "slots": {
+    "甲": "A1g",
+    "乙": "P1q7",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB24",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0838",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A0g": false,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A0g",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB25",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q017",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "P1q7": true,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "P1q7",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB26",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q039",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "P1q7": false,
+    "A1g": true,
+    "A0g": true
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB27",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0356",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "P1q7": false,
+    "A1g": true,
+    "A0g": true
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A1g",
+    "丙": "A0g"
+   }
+  },
+  {
+   "id": "QB28",
+   "pack": "b",
+   "paper": "S3",
+   "篇": "Q114",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "A0g": false,
+    "A1g": true,
+    "P1q7": true
+   },
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "P1q7"
+   }
+  },
+  {
+   "id": "QB29",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0502",
+   "drawn_from": "P1q7",
+   "direction": "改善",
+   "verdicts": {
+    "P1q7": true,
+    "A0g": false,
+    "A1g": false
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A0g",
+    "丙": "A1g"
+   }
+  },
+  {
+   "id": "QB30",
+   "pack": "b",
+   "paper": "CB",
+   "篇": "CB0313",
+   "drawn_from": "P1q7",
+   "direction": "變差",
+   "verdicts": {
+    "P1q7": false,
+    "A0g": true,
+    "A1g": true
+   },
+   "slots": {
+    "甲": "P1q7",
+    "乙": "A0g",
+    "丙": "A1g"
+   }
+  }
+ ]
+}

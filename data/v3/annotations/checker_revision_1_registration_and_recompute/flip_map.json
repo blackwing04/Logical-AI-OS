@@ -1,0 +1,414 @@
+{
+ "seed": 2026111102,
+ "n_pool": 232,
+ "pool_by_type": {
+  "count": 18,
+  "format": 62,
+  "person": 30,
+  "structure": 79,
+  "term_required": 24,
+  "term_required_in_title": 19
+ },
+ "map": [
+  {
+   "id": "FL01",
+   "arm": "LPq14",
+   "key": [
+    "cb",
+    "CB0303"
+   ],
+   "sid": "CB0303/s05#count",
+   "type": "count"
+  },
+  {
+   "id": "FL02",
+   "arm": "LPq14",
+   "key": [
+    "s3",
+    "Q006"
+   ],
+   "sid": "Q006/s05#format",
+   "type": "format"
+  },
+  {
+   "id": "FL03",
+   "arm": "B1g",
+   "key": [
+    "cb",
+    "CB0206"
+   ],
+   "sid": "CB0206/s01#person",
+   "type": "person"
+  },
+  {
+   "id": "FL04",
+   "arm": "E1q7",
+   "key": [
+    "s3",
+    "Q034"
+   ],
+   "sid": "Q034/s01#structure",
+   "type": "structure"
+  },
+  {
+   "id": "FL05",
+   "arm": "P1r1",
+   "key": [
+    "s3",
+    "Q026"
+   ],
+   "sid": "Q026/s01#term_required",
+   "type": "term_required"
+  },
+  {
+   "id": "FL06",
+   "arm": "LPr1",
+   "key": [
+    "s3",
+    "Q022"
+   ],
+   "sid": "Q022/s01#term_required_in_title",
+   "type": "term_required_in_title"
+  },
+  {
+   "id": "FL07",
+   "arm": "P0q7",
+   "key": [
+    "cb",
+    "CB0481"
+   ],
+   "sid": "CB0481/s02#count",
+   "type": "count"
+  },
+  {
+   "id": "FL08",
+   "arm": "P0r1",
+   "key": [
+    "s3",
+    "Q120"
+   ],
+   "sid": "Q120/s05#format",
+   "type": "format"
+  },
+  {
+   "id": "FL09",
+   "arm": "LPr1",
+   "key": [
+    "cb",
+    "CB0206"
+   ],
+   "sid": "CB0206/s01#person",
+   "type": "person"
+  },
+  {
+   "id": "FL10",
+   "arm": "P0q7",
+   "key": [
+    "cb",
+    "CB0066"
+   ],
+   "sid": "CB0066/s04",
+   "type": "structure"
+  },
+  {
+   "id": "FL11",
+   "arm": "B0g",
+   "key": [
+    "s3",
+    "Q010"
+   ],
+   "sid": "Q010/s04#term_required",
+   "type": "term_required"
+  },
+  {
+   "id": "FL12",
+   "arm": "P1r1",
+   "key": [
+    "s3",
+    "Q067"
+   ],
+   "sid": "Q067/s04#term_required_in_title",
+   "type": "term_required_in_title"
+  },
+  {
+   "id": "FL13",
+   "arm": "E1r1",
+   "key": [
+    "cb",
+    "CB0303"
+   ],
+   "sid": "CB0303/s05#count",
+   "type": "count"
+  },
+  {
+   "id": "FL14",
+   "arm": "B1g",
+   "key": [
+    "s3",
+    "Q028"
+   ],
+   "sid": "Q028/s01#format",
+   "type": "format"
+  },
+  {
+   "id": "FL15",
+   "arm": "E1q7",
+   "key": [
+    "s3",
+    "Q026"
+   ],
+   "sid": "Q026/s01#person",
+   "type": "person"
+  },
+  {
+   "id": "FL16",
+   "arm": "E1q7",
+   "key": [
+    "cb",
+    "CB0260"
+   ],
+   "sid": "CB0260/s01",
+   "type": "structure"
+  },
+  {
+   "id": "FL17",
+   "arm": "P0q7",
+   "key": [
+    "s3",
+    "Q010"
+   ],
+   "sid": "Q010/s04#term_required",
+   "type": "term_required"
+  },
+  {
+   "id": "FL18",
+   "arm": "P1q7",
+   "key": [
+    "s3",
+    "Q067"
+   ],
+   "sid": "Q067/s04#term_required_in_title",
+   "type": "term_required_in_title"
+  },
+  {
+   "id": "FL19",
+   "arm": "P0r1",
+   "key": [
+    "cb",
+    "CB0303"
+   ],
+   "sid": "CB0303/s05#count",
+   "type": "count"
+  },
+  {
+   "id": "FL20",
+   "arm": "E1r1",
+   "key": [
+    "s3",
+    "Q090"
+   ],
+   "sid": "Q090/s01#format",
+   "type": "format"
+  },
+  {
+   "id": "FL21",
+   "arm": "P0q7",
+   "key": [
+    "s3",
+    "Q098"
+   ],
+   "sid": "Q098/s05#person",
+   "type": "person"
+  },
+  {
+   "id": "FL22",
+   "arm": "P1q7",
+   "key": [
+    "cb",
+    "CB0260"
+   ],
+   "sid": "CB0260/s01",
+   "type": "structure"
+  },
+  {
+   "id": "FL23",
+   "arm": "E1q7",
+   "key": [
+    "s3",
+    "Q010"
+   ],
+   "sid": "Q010/s04#term_required",
+   "type": "term_required"
+  },
+  {
+   "id": "FL24",
+   "arm": "P0q7",
+   "key": [
+    "s3",
+    "Q067"
+   ],
+   "sid": "Q067/s04#term_required_in_title",
+   "type": "term_required_in_title"
+  },
+  {
+   "id": "FL25",
+   "arm": "E1q7",
+   "key": [
+    "s3",
+    "Q091"
+   ],
+   "sid": "Q091/s04#count",
+   "type": "count"
+  },
+  {
+   "id": "FL26",
+   "arm": "P0r1",
+   "key": [
+    "s3",
+    "Q029"
+   ],
+   "sid": "Q029/s05#format",
+   "type": "format"
+  },
+  {
+   "id": "FL27",
+   "arm": "M0",
+   "key": [
+    "s3",
+    "Q098"
+   ],
+   "sid": "Q098/s05#person",
+   "type": "person"
+  },
+  {
+   "id": "FL28",
+   "arm": "A0g",
+   "key": [
+    "s3",
+    "Q067"
+   ],
+   "sid": "Q067/s04#structure",
+   "type": "structure"
+  },
+  {
+   "id": "FL29",
+   "arm": "P0r1",
+   "key": [
+    "s3",
+    "Q035"
+   ],
+   "sid": "Q035/s01",
+   "type": "term_required"
+  },
+  {
+   "id": "FL30",
+   "arm": "P1r1",
+   "key": [
+    "s3",
+    "Q021"
+   ],
+   "sid": "Q021/s01#term_required_in_title",
+   "type": "term_required_in_title"
+  },
+  {
+   "id": "FL31",
+   "arm": "E1q7",
+   "key": [
+    "cb",
+    "CB0303"
+   ],
+   "sid": "CB0303/s05#count",
+   "type": "count"
+  },
+  {
+   "id": "FL32",
+   "arm": "E1q7",
+   "key": [
+    "s3",
+    "Q120"
+   ],
+   "sid": "Q120/s05#format",
+   "type": "format"
+  },
+  {
+   "id": "FL33",
+   "arm": "B1g",
+   "key": [
+    "s3",
+    "Q098"
+   ],
+   "sid": "Q098/s05#person",
+   "type": "person"
+  },
+  {
+   "id": "FL34",
+   "arm": "E1q7",
+   "key": [
+    "cb",
+    "CB0071"
+   ],
+   "sid": "CB0071/s02#structure",
+   "type": "structure"
+  },
+  {
+   "id": "FL35",
+   "arm": "P1r1",
+   "key": [
+    "s3",
+    "Q035"
+   ],
+   "sid": "Q035/s01",
+   "type": "term_required"
+  },
+  {
+   "id": "FL36",
+   "arm": "E1r1",
+   "key": [
+    "s3",
+    "Q021"
+   ],
+   "sid": "Q021/s01#term_required_in_title",
+   "type": "term_required_in_title"
+  },
+  {
+   "id": "FL37",
+   "arm": "P1r1",
+   "key": [
+    "cb",
+    "CB0303"
+   ],
+   "sid": "CB0303/s05#count",
+   "type": "count"
+  },
+  {
+   "id": "FL38",
+   "arm": "B0g",
+   "key": [
+    "s3",
+    "Q028"
+   ],
+   "sid": "Q028/s01#format",
+   "type": "format"
+  },
+  {
+   "id": "FL39",
+   "arm": "P0q7",
+   "key": [
+    "cb",
+    "CB0206"
+   ],
+   "sid": "CB0206/s01#person",
+   "type": "person"
+  },
+  {
+   "id": "FL40",
+   "arm": "E1q7",
+   "key": [
+    "cb",
+    "CB0066"
+   ],
+   "sid": "CB0066/s04",
+   "type": "structure"
+  }
+ ]
+}

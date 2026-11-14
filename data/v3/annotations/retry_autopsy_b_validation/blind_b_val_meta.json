@@ -1,0 +1,26 @@
+{
+ "seed": 2026110916,
+ "picked": 15,
+ "blind_sha256_16": "69e4f7845540f74e",
+ "key_file": "condition_key_private_b_val.json",
+ "key_sha256": "dd0173d380b70f67045fca5e9be410e6d1dd22d1edac0ee359e226f8dfa7ccfc",
+ "n_slots": {
+  "7": 6,
+  "6": 3,
+  "8": 3,
+  "5": 3
+ },
+ "n_copies": 99,
+ "arms": [
+  "底",
+  "i",
+  "ii",
+  "iii",
+  "iii′",
+  "iv",
+  "J-1",
+  "J-2",
+  "v",
+  "J′"
+ ]
+}

@@ -1,0 +1,1191 @@
+{
+ "pack": "a",
+ "labels_file": [
+  "2026-11-08_站2品質包a_聊天端標註.md",
+  "7167a57e4b0fd702"
+ ],
+ "key_sha256": "edac64c3d72387040b9bf32d64534ffd6d1250c7137c88800bf220502474a71a",
+ "n_units": 30,
+ "by_arm": {
+  "R0": {
+   "可用": 26,
+   "內容變差": 4
+  },
+  "E1r1": {
+   "可用": 26,
+   "內容變差": 4
+  },
+  "R1v13": {
+   "內容變差": 6,
+   "可用": 22,
+   "截短": 2
+  }
+ },
+ "paired": {
+  "R0→E1r1|全部": {
+   "n": 30,
+   "兩可用": 22,
+   "前可用後非": 4,
+   "前非後可用": 4,
+   "兩非": 0,
+   "sign_p": 1.0
+  },
+  "R0→E1r1|後臂有重做": {
+   "n": 28,
+   "兩可用": 20,
+   "前可用後非": 4,
+   "前非後可用": 4,
+   "兩非": 0,
+   "sign_p": 1.0
+  },
+  "R0→R1v13|全部": {
+   "n": 30,
+   "兩可用": 19,
+   "前可用後非": 7,
+   "前非後可用": 3,
+   "兩非": 1,
+   "sign_p": 0.34375
+  },
+  "R0→R1v13|後臂有重做": {
+   "n": 30,
+   "兩可用": 19,
+   "前可用後非": 7,
+   "前非後可用": 3,
+   "兩非": 1,
+   "sign_p": 0.34375
+  },
+  "E1r1→R1v13|全部": {
+   "n": 30,
+   "兩可用": 19,
+   "前可用後非": 7,
+   "前非後可用": 3,
+   "兩非": 1,
+   "sign_p": 0.34375
+  },
+  "E1r1→R1v13|後臂有重做": {
+   "n": 30,
+   "兩可用": 19,
+   "前可用後非": 7,
+   "前非後可用": 3,
+   "兩非": 1,
+   "sign_p": 0.34375
+  }
+ },
+ "by_redone": {
+  "E1r1|有重做": {
+   "可用": 24,
+   "內容變差": 4
+  },
+  "E1r1|未重做（與底同文）": {
+   "可用": 2
+  },
+  "R1v13|有重做": {
+   "內容變差": 6,
+   "可用": 22,
+   "截短": 2
+  },
+  "R1v13|未重做（與底同文）": {}
+ },
+ "by_stratum": {
+  "E1r1|變差": [
+   "QA01",
+   "QA08",
+   "QA13",
+   "QA15"
+  ],
+  "E1r1|改善": [
+   "QA02",
+   "QA03",
+   "QA04",
+   "QA05",
+   "QA06",
+   "QA07",
+   "QA09",
+   "QA10",
+   "QA11",
+   "QA12",
+   "QA14"
+  ],
+  "R1v13|改善": [
+   "QA16",
+   "QA17",
+   "QA18",
+   "QA19",
+   "QA20",
+   "QA21",
+   "QA22",
+   "QA23",
+   "QA25",
+   "QA26",
+   "QA27",
+   "QA28",
+   "QA29",
+   "QA30"
+  ],
+  "R1v13|變差": [
+   "QA24"
+  ]
+ },
+ "units": [
+  {
+   "id": "QA01",
+   "paper": "CB",
+   "篇": "CB0692",
+   "drawn_from": "E1r1",
+   "direction": "變差",
+   "verdicts": {
+    "R0": true,
+    "E1r1": false,
+    "R1v13": false
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   },
+   "label": {
+    "R0": "可用",
+    "E1r1": "可用",
+    "R1v13": "內容變差"
+   },
+   "reason": "丙捏造「上海人口超過 1.5 億」、未圍 JSON",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 136,
+    "E1r1": 324,
+    "R1v13": 515
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA02",
+   "paper": "CB",
+   "篇": "CB0375",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R0": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "label": {
+    "E1r1": "內容變差",
+    "R0": "可用",
+    "R1v13": "可用"
+   },
+   "reason": "甲「relationships美满」英文夾入",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 171,
+    "E1r1": 209,
+    "R1v13": 218
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA03",
+   "paper": "S3",
+   "篇": "Q077",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R1v13": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "label": {
+    "E1r1": "可用",
+    "R1v13": "可用",
+    "R0": "內容變差"
+   },
+   "reason": "丙空白",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 0,
+    "E1r1": 592,
+    "R1v13": 772
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA04",
+   "paper": "S3",
+   "篇": "Q010",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": false,
+    "E1r1": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "E1r1",
+    "丙": "R0"
+   },
+   "label": {
+    "R1v13": "可用",
+    "E1r1": "內容變差",
+    "R0": "可用"
+   },
+   "reason": "乙整句英文夾入、「remindeD」",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 120,
+    "E1r1": 180,
+    "R1v13": 110
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA05",
+   "paper": "CB",
+   "篇": "CB0184",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "R1v13": true,
+    "E1r1": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "E1r1"
+   },
+   "label": {
+    "R0": "可用",
+    "R1v13": "可用",
+    "E1r1": "可用"
+   },
+   "reason": "",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 842,
+    "E1r1": 1048,
+    "R1v13": 854
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA06",
+   "paper": "CB",
+   "篇": "CB0369",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R1v13": false,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "label": {
+    "E1r1": "可用",
+    "R1v13": "內容變差",
+    "R0": "可用"
+   },
+   "reason": "乙同一段歌詞重複三遍",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 156,
+    "E1r1": 261,
+    "R1v13": 476
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA07",
+   "paper": "S3",
+   "篇": "Q103",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R0": false,
+    "R1v13": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "label": {
+    "E1r1": "可用",
+    "R0": "內容變差",
+    "R1v13": "內容變差"
+   },
+   "reason": "乙 5,381 字、「不cstdlib」亂碼、英文夾入；丙同亂碼",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 5381,
+    "E1r1": 1097,
+    "R1v13": 1079
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA08",
+   "paper": "CB",
+   "篇": "CB0073",
+   "drawn_from": "E1r1",
+   "direction": "變差",
+   "verdicts": {
+    "R0": true,
+    "E1r1": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   },
+   "label": {
+    "R0": "內容變差",
+    "E1r1": "可用",
+    "R1v13": "可用"
+   },
+   "reason": "甲中英大段混寫",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 781,
+    "E1r1": 233,
+    "R1v13": 292
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA09",
+   "paper": "S3",
+   "篇": "Q110",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R1v13": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "label": {
+    "E1r1": "可用",
+    "R1v13": "可用",
+    "R0": "可用"
+   },
+   "reason": "",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 142,
+    "E1r1": 284,
+    "R1v13": 235
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA10",
+   "paper": "CB",
+   "篇": "CB0380",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": true,
+    "R0": false,
+    "E1r1": true
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "E1r1"
+   },
+   "label": {
+    "R1v13": "可用",
+    "R0": "可用",
+    "E1r1": "內容變差"
+   },
+   "reason": "丙後設梗概＋「但什么？」對話迴圈",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 415,
+    "E1r1": 2021,
+    "R1v13": 509
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA11",
+   "paper": "CB",
+   "篇": "CB0464",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": false,
+    "R0": false,
+    "E1r1": true
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "E1r1"
+   },
+   "label": {
+    "R1v13": "可用",
+    "R0": "可用",
+    "E1r1": "可用"
+   },
+   "reason": "八篇皆可用（QA11 甲後設尾句輕微）",
+   "range_row": "QA11–18",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 589,
+    "E1r1": 1000,
+    "R1v13": 1086
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA12",
+   "paper": "S3",
+   "篇": "Q066",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "R1v13": false,
+    "E1r1": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "E1r1"
+   },
+   "label": {
+    "R0": "可用",
+    "R1v13": "可用",
+    "E1r1": "可用"
+   },
+   "reason": "八篇皆可用（QA11 甲後設尾句輕微）",
+   "range_row": "QA11–18",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 584,
+    "E1r1": 1120,
+    "R1v13": 641
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA13",
+   "paper": "S3",
+   "篇": "Q044",
+   "drawn_from": "E1r1",
+   "direction": "變差",
+   "verdicts": {
+    "R1v13": false,
+    "R0": true,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "E1r1"
+   },
+   "label": {
+    "R1v13": "可用",
+    "R0": "可用",
+    "E1r1": "可用"
+   },
+   "reason": "八篇皆可用（QA11 甲後設尾句輕微）",
+   "range_row": "QA11–18",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 3743,
+    "E1r1": 3963,
+    "R1v13": 1309
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA14",
+   "paper": "S3",
+   "篇": "Q090",
+   "drawn_from": "E1r1",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R0": false,
+    "R1v13": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "label": {
+    "E1r1": "可用",
+    "R0": "可用",
+    "R1v13": "可用"
+   },
+   "reason": "八篇皆可用（QA11 甲後設尾句輕微）",
+   "range_row": "QA11–18",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 1326,
+    "E1r1": 1355,
+    "R1v13": 1355
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA15",
+   "paper": "CB",
+   "篇": "CB0206",
+   "drawn_from": "E1r1",
+   "direction": "變差",
+   "verdicts": {
+    "R1v13": true,
+    "E1r1": false,
+    "R0": true
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "E1r1",
+    "丙": "R0"
+   },
+   "label": {
+    "R1v13": "可用",
+    "E1r1": "可用",
+    "R0": "可用"
+   },
+   "reason": "八篇皆可用（QA11 甲後設尾句輕微）",
+   "range_row": "QA11–18",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 713,
+    "E1r1": 880,
+    "R1v13": 674
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA16",
+   "paper": "CB",
+   "篇": "CB0390",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "E1r1": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   },
+   "label": {
+    "R0": "可用",
+    "E1r1": "可用",
+    "R1v13": "可用"
+   },
+   "reason": "八篇皆可用（QA11 甲後設尾句輕微）",
+   "range_row": "QA11–18",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 393,
+    "E1r1": 389,
+    "R1v13": 229
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA17",
+   "paper": "CB",
+   "篇": "CB0330",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": false,
+    "R1v13": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "label": {
+    "E1r1": "可用",
+    "R1v13": "可用",
+    "R0": "可用"
+   },
+   "reason": "八篇皆可用（QA11 甲後設尾句輕微）",
+   "range_row": "QA11–18",
+   "redone": {
+    "E1r1": false,
+    "R1v13": true
+   },
+   "same_text": [
+    [
+     "R0",
+     "E1r1"
+    ]
+   ],
+   "chars": {
+    "R0": 259,
+    "E1r1": 259,
+    "R1v13": 153
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA18",
+   "paper": "CB",
+   "篇": "CB0399",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": true,
+    "E1r1": false,
+    "R0": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "E1r1",
+    "丙": "R0"
+   },
+   "label": {
+    "R1v13": "可用",
+    "E1r1": "可用",
+    "R0": "可用"
+   },
+   "reason": "八篇皆可用（QA11 甲後設尾句輕微）",
+   "range_row": "QA11–18",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 22,
+    "E1r1": 25,
+    "R1v13": 15
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA19",
+   "paper": "CB",
+   "篇": "CB0037",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": true,
+    "R1v13": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "label": {
+    "E1r1": "可用",
+    "R1v13": "可用",
+    "R0": "內容變差"
+   },
+   "reason": "丙空白",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 0,
+    "E1r1": 172,
+    "R1v13": 127
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA20",
+   "paper": "S3",
+   "篇": "Q063",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": false,
+    "R1v13": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "label": {
+    "E1r1": "可用",
+    "R1v13": "截短",
+    "R0": "可用"
+   },
+   "reason": "乙「我已经无法。」",
+   "range_row": "",
+   "redone": {
+    "E1r1": false,
+    "R1v13": true
+   },
+   "same_text": [
+    [
+     "R0",
+     "E1r1"
+    ]
+   ],
+   "chars": {
+    "R0": 466,
+    "E1r1": 466,
+    "R1v13": 362
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA21",
+   "paper": "S3",
+   "篇": "Q085",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "E1r1": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   },
+   "label": {
+    "R0": "可用",
+    "E1r1": "可用",
+    "R1v13": "可用"
+   },
+   "reason": "",
+   "range_row": "QA21–23",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 661,
+    "E1r1": 704,
+    "R1v13": 1561
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA22",
+   "paper": "CB",
+   "篇": "CB0138",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "E1r1": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   },
+   "label": {
+    "R0": "可用",
+    "E1r1": "可用",
+    "R1v13": "可用"
+   },
+   "reason": "",
+   "range_row": "QA21–23",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 812,
+    "E1r1": 813,
+    "R1v13": 956
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA23",
+   "paper": "CB",
+   "篇": "CB0123",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "R1v13": true,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "E1r1"
+   },
+   "label": {
+    "R0": "可用",
+    "R1v13": "可用",
+    "E1r1": "可用"
+   },
+   "reason": "",
+   "range_row": "QA21–23",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 951,
+    "E1r1": 743,
+    "R1v13": 805
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA24",
+   "paper": "CB",
+   "篇": "CB0046",
+   "drawn_from": "R1v13",
+   "direction": "變差",
+   "verdicts": {
+    "R1v13": false,
+    "R0": true,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "E1r1"
+   },
+   "label": {
+    "R1v13": "內容變差",
+    "R0": "可用",
+    "E1r1": "內容變差"
+   },
+   "reason": "甲丙後設說明、只 7 行",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 85,
+    "E1r1": 262,
+    "R1v13": 320
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA25",
+   "paper": "CB",
+   "篇": "CB0318",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "R1v13": true,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "E1r1"
+   },
+   "label": {
+    "R0": "可用",
+    "R1v13": "可用",
+    "E1r1": "可用"
+   },
+   "reason": "",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 119,
+    "E1r1": 104,
+    "R1v13": 58
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA26",
+   "paper": "CB",
+   "篇": "CB0379",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "E1r1": true,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "E1r1",
+    "丙": "R1v13"
+   },
+   "label": {
+    "R0": "可用",
+    "E1r1": "可用",
+    "R1v13": "截短"
+   },
+   "reason": "丙故事停在「收到了毕秦鸣的一封信」",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 1929,
+    "E1r1": 2390,
+    "R1v13": 2632
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA27",
+   "paper": "CB",
+   "篇": "CB0312",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": true,
+    "E1r1": true,
+    "R0": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "E1r1",
+    "丙": "R0"
+   },
+   "label": {
+    "R1v13": "內容變差",
+    "E1r1": "可用",
+    "R0": "可用"
+   },
+   "reason": "甲祭品捏造「小礼物、花束」",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 563,
+    "E1r1": 694,
+    "R1v13": 568
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA28",
+   "paper": "CB",
+   "篇": "CB0377",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "E1r1": false,
+    "R0": false,
+    "R1v13": true
+   },
+   "slots": {
+    "甲": "E1r1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "label": {
+    "E1r1": "可用",
+    "R0": "可用",
+    "R1v13": "可用"
+   },
+   "reason": "",
+   "range_row": "QA28–29",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 456,
+    "E1r1": 504,
+    "R1v13": 440
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA29",
+   "paper": "CB",
+   "篇": "CB0485",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R0": false,
+    "R1v13": true,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "E1r1"
+   },
+   "label": {
+    "R0": "可用",
+    "R1v13": "可用",
+    "E1r1": "可用"
+   },
+   "reason": "",
+   "range_row": "QA28–29",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 392,
+    "E1r1": 425,
+    "R1v13": 203
+   },
+   "same_text_label_differs": []
+  },
+  {
+   "id": "QA30",
+   "paper": "S3",
+   "篇": "Q084",
+   "drawn_from": "R1v13",
+   "direction": "改善",
+   "verdicts": {
+    "R1v13": true,
+    "R0": false,
+    "E1r1": false
+   },
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "E1r1"
+   },
+   "label": {
+    "R1v13": "內容變差",
+    "R0": "可用",
+    "E1r1": "可用"
+   },
+   "reason": "甲尾「（注：这段回复避免了照抄原文…）」",
+   "range_row": "",
+   "redone": {
+    "E1r1": true,
+    "R1v13": true
+   },
+   "same_text": [],
+   "chars": {
+    "R0": 124,
+    "E1r1": 127,
+    "R1v13": 282
+   },
+   "same_text_label_differs": []
+  }
+ ]
+}

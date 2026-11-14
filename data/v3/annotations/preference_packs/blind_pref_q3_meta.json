@@ -1,0 +1,15 @@
+{
+ "seed": 2026111211,
+ "source": "confirm_l1v2_q3.json（L1 v2 體制四臂）",
+ "articles_total": 60,
+ "articles_all_same": 11,
+ "picked": 49,
+ "n_slots": {
+  "3": 29,
+  "2": 20
+ },
+ "copies": 127,
+ "blind_sha256_16": "457a9a43c246de61",
+ "key_file": "condition_key_private_pref_q3.json",
+ "key_sha256": "f7c9967f4c517fb35c77481480fedcc7df88e0807bd2bc88921230656980d438"
+}

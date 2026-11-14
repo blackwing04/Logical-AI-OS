@@ -1,0 +1,785 @@
+{
+ "seed": 2026110701,
+ "key": [
+  {
+   "id": "VA01",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q011",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA02",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q019",
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA03",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q020",
+   "slots": {
+    "甲": "A0g",
+    "乙": "LPq7",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA04",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q023",
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA05",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q030",
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA06",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q034",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA07",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q047",
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA08",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q063",
+   "slots": {
+    "甲": "A0g",
+    "乙": "LPq7",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA09",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q074",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA10",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q085",
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA11",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q109",
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA12",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "S3",
+   "篇": "Q114",
+   "slots": {
+    "甲": "A0g",
+    "乙": "A1g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA13",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0047",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA14",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0065",
+   "slots": {
+    "甲": "A0g",
+    "乙": "LPq7",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA15",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0068",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA16",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0069",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA17",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0071",
+   "slots": {
+    "甲": "A1g",
+    "乙": "LPq7",
+    "丙": "A0g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA18",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0076",
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA19",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0078",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA20",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0079",
+   "slots": {
+    "甲": "A1g",
+    "乙": "LPq7",
+    "丙": "A0g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA21",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0126",
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA22",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0260",
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA23",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0274",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA24",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0325",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A0g",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA25",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0390",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA26",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0409",
+   "slots": {
+    "甲": "LPq7",
+    "乙": "A1g",
+    "丙": "A0g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA27",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0411",
+   "slots": {
+    "甲": "A1g",
+    "乙": "A0g",
+    "丙": "LPq7"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA28",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0431",
+   "slots": {
+    "甲": "A0g",
+    "乙": "LPq7",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA29",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB0504",
+   "slots": {
+    "甲": "A1g",
+    "乙": "LPq7",
+    "丙": "A0g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VA30",
+   "pack": "a",
+   "model": "Qwen2.5-7B",
+   "paper": "CB",
+   "篇": "CB1052",
+   "slots": {
+    "甲": "A0g",
+    "乙": "LPq7",
+    "丙": "A1g"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB01",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q004",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB02",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q005",
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "LPr1"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB03",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q023",
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "LPr1"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB04",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q034",
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "LPr1"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB05",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q038",
+   "slots": {
+    "甲": "R0",
+    "乙": "LPr1",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB06",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q040",
+   "slots": {
+    "甲": "R0",
+    "乙": "LPr1",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB07",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q053",
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "LPr1"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB08",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q063",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB09",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q077",
+   "slots": {
+    "甲": "R0",
+    "乙": "LPr1",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB10",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q084",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB11",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q085",
+   "slots": {
+    "甲": "R1v13",
+    "乙": "LPr1",
+    "丙": "R0"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB12",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "S3",
+   "篇": "Q087",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB13",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0018",
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "LPr1"
+   },
+   "fullretry_equals_lp": true
+  },
+  {
+   "id": "VB14",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0023",
+   "slots": {
+    "甲": "R1v13",
+    "乙": "LPr1",
+    "丙": "R0"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB15",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0037",
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "LPr1"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB16",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0046",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB17",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0047",
+   "slots": {
+    "甲": "R1v13",
+    "乙": "LPr1",
+    "丙": "R0"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB18",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0069",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB19",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0072",
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "LPr1"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB20",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0139",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB21",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0153",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB22",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0236",
+   "slots": {
+    "甲": "R1v13",
+    "乙": "LPr1",
+    "丙": "R0"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB23",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0265",
+   "slots": {
+    "甲": "R0",
+    "乙": "LPr1",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB24",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0372",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB25",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0377",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R1v13",
+    "丙": "R0"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB26",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0380",
+   "slots": {
+    "甲": "R1v13",
+    "乙": "R0",
+    "丙": "LPr1"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB27",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0407",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB28",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0408",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB29",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0431",
+   "slots": {
+    "甲": "R0",
+    "乙": "R1v13",
+    "丙": "LPr1"
+   },
+   "fullretry_equals_lp": false
+  },
+  {
+   "id": "VB30",
+   "pack": "b",
+   "model": "R1-Distill-Qwen-7B",
+   "paper": "CB",
+   "篇": "CB0455",
+   "slots": {
+    "甲": "LPr1",
+    "乙": "R0",
+    "丙": "R1v13"
+   },
+   "fullretry_equals_lp": false
+  }
+ ]
+}

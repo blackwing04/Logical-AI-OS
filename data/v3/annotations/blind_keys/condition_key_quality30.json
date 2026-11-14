@@ -1,0 +1,275 @@
+{
+ "seed": 20261105,
+ "key": [
+  {
+   "id": "QA01",
+   "comparison": "對照站 S3 底模 v1.11-r1",
+   "paper": "S3",
+   "篇": "Q087",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA02",
+   "comparison": "Part II CB 3B v1.11",
+   "paper": "CB",
+   "篇": "CB0377",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA03",
+   "comparison": "Part II CB 7B v1.11",
+   "paper": "CB",
+   "篇": "CB0376",
+   "direction": "變差",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA04",
+   "comparison": "Part II CB 3B v1.11",
+   "paper": "CB",
+   "篇": "CB0206",
+   "direction": "變差",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA05",
+   "comparison": "對照站 S3 底模 v1.11-r1",
+   "paper": "S3",
+   "篇": "Q118",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA06",
+   "comparison": "Part II CB 7B v1.11",
+   "paper": "CB",
+   "篇": "CB0137",
+   "direction": "改善",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA07",
+   "comparison": "Part II CB 3B v1.11",
+   "paper": "CB",
+   "篇": "CB0357",
+   "direction": "改善",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA08",
+   "comparison": "對照站 CB 底模 v1.11-r1",
+   "paper": "CB",
+   "篇": "CB0318",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA09",
+   "comparison": "對照站 S3 VerIF v1.11-r1",
+   "paper": "S3",
+   "篇": "Q071",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA10",
+   "comparison": "Part II S3 3B v1.8",
+   "paper": "S3",
+   "篇": "Q037",
+   "direction": "改善",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA11",
+   "comparison": "Part II S3 3B v1.8",
+   "paper": "S3",
+   "篇": "Q026",
+   "direction": "改善",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA12",
+   "comparison": "對照站 CB 底模 v1.11-r1",
+   "paper": "CB",
+   "篇": "CB0069",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA13",
+   "comparison": "Part II CB 3B v1.11",
+   "paper": "CB",
+   "篇": "CB0164",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA14",
+   "comparison": "Part II CB 7B v1.11",
+   "paper": "CB",
+   "篇": "CB0475",
+   "direction": "改善",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA15",
+   "comparison": "Part II CB 7B v1.11",
+   "paper": "CB",
+   "篇": "CB0401",
+   "direction": "改善",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA16",
+   "comparison": "對照站 S3 VerIF v1.11-r1",
+   "paper": "S3",
+   "篇": "Q058",
+   "direction": "變差",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA17",
+   "comparison": "Part II S3 3B v1.8",
+   "paper": "S3",
+   "篇": "Q023",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA18",
+   "comparison": "對照站 CB VerIF v1.11-r1",
+   "paper": "CB",
+   "篇": "CB0145",
+   "direction": "改善",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA19",
+   "comparison": "對照站 CB 底模 v1.11-r1",
+   "paper": "CB",
+   "篇": "CB0330",
+   "direction": "改善",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA20",
+   "comparison": "對照站 S3 底模 v1.11-r1",
+   "paper": "S3",
+   "篇": "Q063",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA21",
+   "comparison": "對照站 S3 VerIF v1.11-r1",
+   "paper": "S3",
+   "篇": "Q060",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA22",
+   "comparison": "對照站 CB VerIF v1.11-r1",
+   "paper": "CB",
+   "篇": "CB0331",
+   "direction": "變差",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA23",
+   "comparison": "對照站 CB 底模 v1.11-r1",
+   "paper": "CB",
+   "篇": "CB0312",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA24",
+   "comparison": "Part II CB 3B v1.11",
+   "paper": "CB",
+   "篇": "CB0051",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA25",
+   "comparison": "對照站 CB VerIF v1.11-r1",
+   "paper": "CB",
+   "篇": "CB0380",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA26",
+   "comparison": "對照站 S3 VerIF v1.11-r1",
+   "paper": "S3",
+   "篇": "Q051",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA27",
+   "comparison": "對照站 S3 VerIF v1.11-r1",
+   "paper": "S3",
+   "篇": "Q025",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA28",
+   "comparison": "Part II CB 7B v1.11",
+   "paper": "CB",
+   "篇": "CB0834",
+   "direction": "變差",
+   "甲": "arch",
+   "乙": "base"
+  },
+  {
+   "id": "QA29",
+   "comparison": "Part II S3 3B v1.8",
+   "paper": "S3",
+   "篇": "Q107",
+   "direction": "改善",
+   "甲": "base",
+   "乙": "arch"
+  },
+  {
+   "id": "QA30",
+   "comparison": "對照站 S3 底模 v1.11-r1",
+   "paper": "S3",
+   "篇": "Q049",
+   "direction": "改善",
+   "甲": "arch",
+   "乙": "base"
+  }
+ ]
+}

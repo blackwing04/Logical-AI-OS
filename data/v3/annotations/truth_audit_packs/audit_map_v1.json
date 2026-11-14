@@ -1,0 +1,1757 @@
+{
+ "order": "簽 48f11ce 第 A 條＋補記三 ad31a8c",
+ "struct_types": [
+  "count",
+  "structure",
+  "format",
+  "term_required_in_title"
+ ],
+ "n_lit": 20,
+ "n_pass": 20,
+ "summary": {
+  "q7": {
+   "結構全審": 36,
+   "字面抽審": 20,
+   "守住抽審": 20,
+   "合計": 76,
+   "字面違反母體": 59,
+   "守住母體": 95
+  },
+  "q14": {
+   "結構全審": 26,
+   "字面抽審": 20,
+   "守住抽審": 20,
+   "合計": 66,
+   "字面違反母體": 68,
+   "守住母體": 98
+  },
+  "r1": {
+   "結構全審": 32,
+   "字面抽審": 20,
+   "守住抽審": 20,
+   "合計": 72,
+   "字面違反母體": 65,
+   "守住母體": 97
+  }
+ },
+ "map": {
+  "q7": [
+   {
+    "aid": "q7-A001",
+    "pid": "q7-001",
+    "sid": "CB0303/s05#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A002",
+    "pid": "q7-002",
+    "sid": "Q065/s04#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A003",
+    "pid": "q7-003",
+    "sid": "Q069/s04#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A004",
+    "pid": "q7-004",
+    "sid": "Q081/s01#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A005",
+    "pid": "q7-005",
+    "sid": "Q089/s01#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A006",
+    "pid": "q7-006",
+    "sid": "Q091/s04#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A007",
+    "pid": "q7-007",
+    "sid": "Q093/s01#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A008",
+    "pid": "q7-008",
+    "sid": "Q101/s07#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A009",
+    "pid": "q7-013",
+    "sid": "Q036/s01#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A010",
+    "pid": "q7-014",
+    "sid": "Q049/s08#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A011",
+    "pid": "q7-015",
+    "sid": "Q068/s04#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A012",
+    "pid": "q7-016",
+    "sid": "Q071/s02",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A013",
+    "pid": "q7-018",
+    "sid": "CB0100/s04",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A014",
+    "pid": "q7-019",
+    "sid": "CB0232/s32",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A015",
+    "pid": "q7-020",
+    "sid": "CB0298/s45",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A016",
+    "pid": "q7-021",
+    "sid": "CB0481/s03#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A017",
+    "pid": "q7-022",
+    "sid": "CB0571/s18",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A018",
+    "pid": "q7-023",
+    "sid": "CB0692/s08",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A019",
+    "pid": "q7-024",
+    "sid": "CB0707/s02",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A020",
+    "pid": "q7-025",
+    "sid": "CB0837/s03",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A021",
+    "pid": "q7-026",
+    "sid": "CB0849/s03",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A022",
+    "pid": "q7-027",
+    "sid": "CB0855/s02#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A023",
+    "pid": "q7-028",
+    "sid": "CB0856/s02#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A024",
+    "pid": "q7-029",
+    "sid": "Q008/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A025",
+    "pid": "q7-030",
+    "sid": "Q090/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A026",
+    "pid": "q7-031",
+    "sid": "Q103/s07#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A027",
+    "pid": "q7-032",
+    "sid": "Q120/s05#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A028",
+    "pid": "q7-039",
+    "sid": "Q017/s04#language",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A029",
+    "pid": "q7-040",
+    "sid": "Q045/s01#language",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A030",
+    "pid": "q7-045",
+    "sid": "Q092/s04#language",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A031",
+    "pid": "q7-046",
+    "sid": "Q099/s01",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A032",
+    "pid": "q7-048",
+    "sid": "CB0079/s06",
+    "type": "length",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A033",
+    "pid": "q7-050",
+    "sid": "CB0326/s05",
+    "type": "length",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A034",
+    "pid": "q7-060",
+    "sid": "Q070/s01",
+    "type": "length",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A035",
+    "pid": "q7-062",
+    "sid": "CB0206/s01#person",
+    "type": "person",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A036",
+    "pid": "q7-065",
+    "sid": "Q026/s01#person",
+    "type": "person",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A037",
+    "pid": "q7-066",
+    "sid": "Q075/s01#person",
+    "type": "person",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A038",
+    "pid": "q7-068",
+    "sid": "CB0066/s04",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A039",
+    "pid": "q7-069",
+    "sid": "CB0071/s02#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A040",
+    "pid": "q7-070",
+    "sid": "CB0103/s05",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A041",
+    "pid": "q7-071",
+    "sid": "CB0124/s02#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A042",
+    "pid": "q7-072",
+    "sid": "CB0260/s01",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A043",
+    "pid": "q7-073",
+    "sid": "CB0834/s02#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A044",
+    "pid": "q7-074",
+    "sid": "Q022/s01#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A045",
+    "pid": "q7-075",
+    "sid": "Q034/s01#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A046",
+    "pid": "q7-076",
+    "sid": "Q076/s01#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A047",
+    "pid": "q7-077",
+    "sid": "Q114/s06#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A048",
+    "pid": "q7-079",
+    "sid": "CB0049/s02",
+    "type": "term_forbidden",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A049",
+    "pid": "q7-080",
+    "sid": "CB0138/s02",
+    "type": "term_forbidden",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A050",
+    "pid": "q7-081",
+    "sid": "CB0171/s11",
+    "type": "term_forbidden",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A051",
+    "pid": "q7-083",
+    "sid": "CB0023/s05",
+    "type": "term_required",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A052",
+    "pid": "q7-085",
+    "sid": "CB0369/s03",
+    "type": "term_required",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A053",
+    "pid": "q7-092",
+    "sid": "Q095/s05#term_required",
+    "type": "term_required",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q7-A054",
+    "pid": "q7-093",
+    "sid": "CB0325/s18#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A055",
+    "pid": "q7-094",
+    "sid": "Q021/s01#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A056",
+    "pid": "q7-095",
+    "sid": "Q067/s04#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q7-A057",
+    "pid": "q7-098",
+    "sid": "CB0464/s07",
+    "type": "count",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A058",
+    "pid": "q7-101",
+    "sid": "Q060/s01",
+    "type": "count",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A059",
+    "pid": "q7-109",
+    "sid": "Q007/s03#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A060",
+    "pid": "q7-114",
+    "sid": "Q118/s05#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A061",
+    "pid": "q7-127",
+    "sid": "Q029/s05#format",
+    "type": "format",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A062",
+    "pid": "q7-129",
+    "sid": "Q046/s06#format",
+    "type": "format",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A063",
+    "pid": "q7-134",
+    "sid": "CB0483/s02",
+    "type": "language",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A064",
+    "pid": "q7-142",
+    "sid": "Q097/s01",
+    "type": "language",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A065",
+    "pid": "q7-145",
+    "sid": "CB0067/s01",
+    "type": "length",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A066",
+    "pid": "q7-148",
+    "sid": "CB0234/s04",
+    "type": "length",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A067",
+    "pid": "q7-160",
+    "sid": "Q062/s01#person",
+    "type": "person",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A068",
+    "pid": "q7-163",
+    "sid": "Q105/s01#person",
+    "type": "person",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A069",
+    "pid": "q7-166",
+    "sid": "CB0075/s02#structure",
+    "type": "structure",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A070",
+    "pid": "q7-169",
+    "sid": "CB0426/s01#structure",
+    "type": "structure",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A071",
+    "pid": "q7-176",
+    "sid": "Q094/s05#term_forbidden",
+    "type": "term_forbidden",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A072",
+    "pid": "q7-177",
+    "sid": "Q111/s01#term_forbidden",
+    "type": "term_forbidden",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A073",
+    "pid": "q7-180",
+    "sid": "CB0133/s01#term_required",
+    "type": "term_required",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A074",
+    "pid": "q7-182",
+    "sid": "CB0181/s03",
+    "type": "term_required",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A075",
+    "pid": "q7-188",
+    "sid": "CB0143/s03#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q7-A076",
+    "pid": "q7-189",
+    "sid": "Q080/s01#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": true,
+    "group": "守住抽審"
+   }
+  ],
+  "q14": [
+   {
+    "aid": "q14-A001",
+    "pid": "q14-001",
+    "sid": "CB0303/s05#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A002",
+    "pid": "q14-002",
+    "sid": "Q015/s01#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A003",
+    "pid": "q14-003",
+    "sid": "Q027/s01#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A004",
+    "pid": "q14-004",
+    "sid": "Q065/s04#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A005",
+    "pid": "q14-005",
+    "sid": "CB0199/s05#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A006",
+    "pid": "q14-006",
+    "sid": "CB0555/s06#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A007",
+    "pid": "q14-007",
+    "sid": "CB1052/s05",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A008",
+    "pid": "q14-008",
+    "sid": "Q086/s04#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A009",
+    "pid": "q14-009",
+    "sid": "CB0053/s28",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A010",
+    "pid": "q14-010",
+    "sid": "CB0100/s04",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A011",
+    "pid": "q14-011",
+    "sid": "CB0855/s02#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A012",
+    "pid": "q14-012",
+    "sid": "CB0856/s02#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A013",
+    "pid": "q14-013",
+    "sid": "Q006/s05#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A014",
+    "pid": "q14-014",
+    "sid": "Q008/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A015",
+    "pid": "q14-015",
+    "sid": "Q028/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A016",
+    "pid": "q14-016",
+    "sid": "Q029/s05#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A017",
+    "pid": "q14-017",
+    "sid": "Q044/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A018",
+    "pid": "q14-018",
+    "sid": "Q060/s05#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A019",
+    "pid": "q14-019",
+    "sid": "Q089/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A020",
+    "pid": "q14-020",
+    "sid": "Q090/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A021",
+    "pid": "q14-021",
+    "sid": "Q107/s02#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A022",
+    "pid": "q14-022",
+    "sid": "Q120/s05#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A023",
+    "pid": "q14-023",
+    "sid": "CB0220/s07",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A024",
+    "pid": "q14-025",
+    "sid": "CB0409/s03",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A025",
+    "pid": "q14-027",
+    "sid": "CB0843/s19",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A026",
+    "pid": "q14-039",
+    "sid": "Q061/s01#language",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A027",
+    "pid": "q14-043",
+    "sid": "CB0047/s02",
+    "type": "length",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A028",
+    "pid": "q14-051",
+    "sid": "CB0390/s04",
+    "type": "length",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A029",
+    "pid": "q14-062",
+    "sid": "Q083/s01",
+    "type": "length",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A030",
+    "pid": "q14-066",
+    "sid": "CB0235/s01",
+    "type": "person",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A031",
+    "pid": "q14-068",
+    "sid": "Q024/s04#person",
+    "type": "person",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A032",
+    "pid": "q14-069",
+    "sid": "Q079/s04#person",
+    "type": "person",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A033",
+    "pid": "q14-072",
+    "sid": "CB0066/s04",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A034",
+    "pid": "q14-073",
+    "sid": "CB0260/s01",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A035",
+    "pid": "q14-074",
+    "sid": "CB0834/s02#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A036",
+    "pid": "q14-075",
+    "sid": "Q021/s01#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A037",
+    "pid": "q14-076",
+    "sid": "Q022/s01#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A038",
+    "pid": "q14-077",
+    "sid": "Q034/s01#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A039",
+    "pid": "q14-078",
+    "sid": "Q067/s04#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A040",
+    "pid": "q14-080",
+    "sid": "CB0074/s02",
+    "type": "term_forbidden",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A041",
+    "pid": "q14-081",
+    "sid": "CB0138/s02",
+    "type": "term_forbidden",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A042",
+    "pid": "q14-082",
+    "sid": "CB0161/s01",
+    "type": "term_forbidden",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A043",
+    "pid": "q14-086",
+    "sid": "CB0023/s05",
+    "type": "term_required",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A044",
+    "pid": "q14-089",
+    "sid": "CB0362/s14",
+    "type": "term_required",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A045",
+    "pid": "q14-090",
+    "sid": "CB0369/s03",
+    "type": "term_required",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "q14-A046",
+    "pid": "q14-094",
+    "sid": "CB0325/s18#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "q14-A047",
+    "pid": "q14-096",
+    "sid": "CB0464/s07",
+    "type": "count",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A048",
+    "pid": "q14-097",
+    "sid": "Q068/s04#count",
+    "type": "count",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A049",
+    "pid": "q14-098",
+    "sid": "Q110/s01#count",
+    "type": "count",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A050",
+    "pid": "q14-100",
+    "sid": "Q091/s04#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A051",
+    "pid": "q14-102",
+    "sid": "Q114/s06#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A052",
+    "pid": "q14-110",
+    "sid": "CB0639/s02",
+    "type": "format",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A053",
+    "pid": "q14-118",
+    "sid": "Q106/s01#format",
+    "type": "format",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A054",
+    "pid": "q14-128",
+    "sid": "Q011/s01#language",
+    "type": "language",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A055",
+    "pid": "q14-132",
+    "sid": "Q053/s05#language",
+    "type": "language",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A056",
+    "pid": "q14-139",
+    "sid": "CB0004/s04",
+    "type": "length",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A057",
+    "pid": "q14-157",
+    "sid": "Q054/s01",
+    "type": "length",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A058",
+    "pid": "q14-163",
+    "sid": "Q043/s04#person",
+    "type": "person",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A059",
+    "pid": "q14-164",
+    "sid": "Q072/s01#person",
+    "type": "person",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A060",
+    "pid": "q14-170",
+    "sid": "CB0075/s02#structure",
+    "type": "structure",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A061",
+    "pid": "q14-172",
+    "sid": "CB0136/s03#structure",
+    "type": "structure",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A062",
+    "pid": "q14-178",
+    "sid": "CB0431/s04",
+    "type": "term_forbidden",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A063",
+    "pid": "q14-182",
+    "sid": "Q096/s01#term_forbidden",
+    "type": "term_forbidden",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A064",
+    "pid": "q14-185",
+    "sid": "CB0035/s02",
+    "type": "term_required",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A065",
+    "pid": "q14-187",
+    "sid": "CB0133/s01#term_required",
+    "type": "term_required",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "q14-A066",
+    "pid": "q14-192",
+    "sid": "CB0143/s03#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": true,
+    "group": "守住抽審"
+   }
+  ],
+  "r1": [
+   {
+    "aid": "r1-A001",
+    "pid": "r1-001",
+    "sid": "CB0303/s05#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A002",
+    "pid": "r1-002",
+    "sid": "Q051/s01#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A003",
+    "pid": "r1-003",
+    "sid": "Q061/s01#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A004",
+    "pid": "r1-004",
+    "sid": "Q065/s04#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A005",
+    "pid": "r1-005",
+    "sid": "Q068/s04#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A006",
+    "pid": "r1-006",
+    "sid": "Q069/s04#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A007",
+    "pid": "r1-007",
+    "sid": "Q081/s01#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A008",
+    "pid": "r1-008",
+    "sid": "Q106/s01#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A009",
+    "pid": "r1-009",
+    "sid": "Q119/s01#count",
+    "type": "count",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A010",
+    "pid": "r1-010",
+    "sid": "CB0199/s05#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A011",
+    "pid": "r1-012",
+    "sid": "CB0407/s04",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A012",
+    "pid": "r1-013",
+    "sid": "CB0555/s06#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A013",
+    "pid": "r1-015",
+    "sid": "Q016/s01",
+    "type": "forbidden_charset",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A014",
+    "pid": "r1-021",
+    "sid": "CB0100/s04",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A015",
+    "pid": "r1-022",
+    "sid": "CB0232/s32",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A016",
+    "pid": "r1-023",
+    "sid": "CB0842/s22",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A017",
+    "pid": "r1-024",
+    "sid": "CB0843/s22",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A018",
+    "pid": "r1-025",
+    "sid": "CB0856/s02#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A019",
+    "pid": "r1-026",
+    "sid": "CB1144/s22",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A020",
+    "pid": "r1-027",
+    "sid": "Q006/s05#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A021",
+    "pid": "r1-028",
+    "sid": "Q008/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A022",
+    "pid": "r1-029",
+    "sid": "Q028/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A023",
+    "pid": "r1-030",
+    "sid": "Q044/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A024",
+    "pid": "r1-031",
+    "sid": "Q090/s01#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A025",
+    "pid": "r1-032",
+    "sid": "Q103/s07#format",
+    "type": "format",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A026",
+    "pid": "r1-033",
+    "sid": "CB0079/s06#language",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A027",
+    "pid": "r1-042",
+    "sid": "Q058/s01",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A028",
+    "pid": "r1-043",
+    "sid": "Q073/s01#language",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A029",
+    "pid": "r1-044",
+    "sid": "Q092/s04#language",
+    "type": "language",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A030",
+    "pid": "r1-045",
+    "sid": "CB0047/s02",
+    "type": "length",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A031",
+    "pid": "r1-046",
+    "sid": "CB0066/s01",
+    "type": "length",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A032",
+    "pid": "r1-047",
+    "sid": "CB0068/s01",
+    "type": "length",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A033",
+    "pid": "r1-059",
+    "sid": "CB0782/s33",
+    "type": "person",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A034",
+    "pid": "r1-061",
+    "sid": "Q015/s01#person",
+    "type": "person",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A035",
+    "pid": "r1-062",
+    "sid": "Q024/s04#person",
+    "type": "person",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A036",
+    "pid": "r1-068",
+    "sid": "CB0071/s02#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A037",
+    "pid": "r1-069",
+    "sid": "CB0260/s01",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A038",
+    "pid": "r1-070",
+    "sid": "CB0426/s01#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A039",
+    "pid": "r1-071",
+    "sid": "CB0834/s02#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A040",
+    "pid": "r1-072",
+    "sid": "Q034/s01#structure",
+    "type": "structure",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A041",
+    "pid": "r1-075",
+    "sid": "CB0138/s02",
+    "type": "term_forbidden",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A042",
+    "pid": "r1-076",
+    "sid": "CB0161/s01",
+    "type": "term_forbidden",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A043",
+    "pid": "r1-077",
+    "sid": "CB0230/s04",
+    "type": "term_forbidden",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A044",
+    "pid": "r1-080",
+    "sid": "CB0035/s02",
+    "type": "term_required",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A045",
+    "pid": "r1-085",
+    "sid": "CB0314/s01",
+    "type": "term_required",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A046",
+    "pid": "r1-091",
+    "sid": "Q105/s01#term_required",
+    "type": "term_required",
+    "truth": false,
+    "group": "字面抽審"
+   },
+   {
+    "aid": "r1-A047",
+    "pid": "r1-092",
+    "sid": "CB0325/s18#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A048",
+    "pid": "r1-093",
+    "sid": "Q021/s01#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A049",
+    "pid": "r1-094",
+    "sid": "Q022/s01#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A050",
+    "pid": "r1-095",
+    "sid": "Q067/s04#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A051",
+    "pid": "r1-096",
+    "sid": "Q076/s01#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A052",
+    "pid": "r1-097",
+    "sid": "Q080/s01#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": false,
+    "group": "結構全審"
+   },
+   {
+    "aid": "r1-A053",
+    "pid": "r1-103",
+    "sid": "Q037/s05#count",
+    "type": "count",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A054",
+    "pid": "r1-105",
+    "sid": "Q089/s01#count",
+    "type": "count",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A055",
+    "pid": "r1-112",
+    "sid": "Q032/s01#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A056",
+    "pid": "r1-115",
+    "sid": "Q091/s04#forbidden_charset",
+    "type": "forbidden_charset",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A057",
+    "pid": "r1-119",
+    "sid": "CB0187/s08",
+    "type": "format",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A058",
+    "pid": "r1-125",
+    "sid": "CB0507/s05",
+    "type": "format",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A059",
+    "pid": "r1-133",
+    "sid": "CB0359/s09",
+    "type": "language",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A060",
+    "pid": "r1-134",
+    "sid": "CB0376/s01",
+    "type": "language",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A061",
+    "pid": "r1-145",
+    "sid": "CB0076/s04",
+    "type": "length",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A062",
+    "pid": "r1-152",
+    "sid": "Q096/s01",
+    "type": "length",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A063",
+    "pid": "r1-157",
+    "sid": "Q043/s04#person",
+    "type": "person",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A064",
+    "pid": "r1-160",
+    "sid": "Q063/s01#person",
+    "type": "person",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A065",
+    "pid": "r1-166",
+    "sid": "CB0124/s02#structure",
+    "type": "structure",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A066",
+    "pid": "r1-168",
+    "sid": "CB0413/s29",
+    "type": "structure",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A067",
+    "pid": "r1-173",
+    "sid": "CB0164/s01",
+    "type": "term_forbidden",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A068",
+    "pid": "r1-179",
+    "sid": "Q100/s01#term_forbidden",
+    "type": "term_forbidden",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A069",
+    "pid": "r1-183",
+    "sid": "CB0025/s02",
+    "type": "term_required",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A070",
+    "pid": "r1-190",
+    "sid": "CB0478/s01",
+    "type": "term_required",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A071",
+    "pid": "r1-193",
+    "sid": "Q070/s01#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": true,
+    "group": "守住抽審"
+   },
+   {
+    "aid": "r1-A072",
+    "pid": "r1-194",
+    "sid": "Q116/s04#term_required_in_title",
+    "type": "term_required_in_title",
+    "truth": true,
+    "group": "守住抽審"
+   }
+  ]
+ }
+}

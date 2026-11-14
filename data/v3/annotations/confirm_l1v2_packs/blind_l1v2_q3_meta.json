@@ -1,0 +1,26 @@
+{
+ "seed": 2026111201,
+ "articles": 60,
+ "articles_changed": 22,
+ "copies": 33,
+ "changed_by_arm": {
+  "整篇退回 v1.13": 23,
+  "局部修補 v1.14": 25,
+  "保守": 21
+ },
+ "reuse_base_by_arm": {
+  "保守": 9,
+  "整篇退回 v1.13": 6,
+  "局部修補 v1.14": 6
+ },
+ "cons_source_new": {
+  "(a) 局部修補": 26,
+  "(c) 交底": 26,
+  "未觸發（新體制）交底": 7,
+  "(b) 機械修": 1
+ },
+ "blind_sha256_16": "a1dc1cc70b300205",
+ "gpt_blind_sha256_16": "9a34e39a37a654ba",
+ "key_file": "condition_key_private_confirm_l1v2_q3.json",
+ "key_sha256": "085a80a23b7ce62a2b59461028c68836f63fd1c1e0b167b4c4b22bad067230dc"
+}

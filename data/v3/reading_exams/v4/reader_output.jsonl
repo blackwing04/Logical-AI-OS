@@ -1,0 +1,115 @@
+{"id": "W001", "requirements": [], "conflicts": []}
+{"id": "W002", "requirements": [], "conflicts": []}
+{"id": "W003", "requirements": [{"id": "W003/s01", "type": "format", "param": {"format": "table"}, "quote": "他提議用表格整理，大家都覺得好，那就用表格。"}], "conflicts": []}
+{"id": "W004", "requirements": [{"id": "W004/s01", "type": "format", "param": {"format": "numbered"}, "quote": "範例裡每點都以數字編號，你不用學，用圓點就好。"}, {"id": "W004/s01#c1num_", "type": "num_label", "param": {}, "quote": "範例裡每點都以數字編號，你不用學，用圓點就好。"}], "conflicts": []}
+{"id": "W005", "requirements": [{"id": "X/s01#c1star", "type": "starts_with", "param": {"s": "敬啟者"}, "quote": "前幾天那封信以「敬啟者」開頭，這次也照用。"}], "conflicts": []}
+{"id": "W006", "requirements": [{"id": "W006/s01", "type": "format", "param": {"format": "bullets"}, "quote": "這次活動有五個攤位，幫我寫一則活動公告，條列式列出攤位。"}], "conflicts": []}
+{"id": "W007", "requirements": [], "conflicts": []}
+{"id": "W008", "requirements": [{"id": "W008/s01#copy", "type": "copy_ratio", "param": {"max_overlap": 0.9, "trigger": "改成", "material_chars": 21, "material_scope": "整篇原文"}, "quote": "本來說五百字，後來改成三百字以內，就三百。"}, {"id": "W008/s01", "type": "length", "param": {"op": "<=", "n": 300, "unit": "字"}, "quote": "本來說五百字，後來改成三百字以內，就三百。"}], "conflicts": []}
+{"id": "W009", "requirements": [{"id": "X/s01#c1cou", "type": "count", "param": {"n": 3, "unit": "個"}, "quote": "不要編號，列出三個城市。"}], "conflicts": []}
+{"id": "W010", "requirements": [{"id": "W010/s01#term_required", "type": "term_required", "param": {"terms": ["咖啡因"]}, "quote": "必須提到「咖啡因」，不准出現「咖啡」。"}, {"id": "W010/s01", "type": "term_forbidden", "param": {"terms": ["咖啡"]}, "quote": "必須提到「咖啡因」，不准出現「咖啡」。"}], "conflicts": [{"a": "內容必須出現「咖啡因」", "b": "不得出現「咖啡」", "kept": "不得出現「咖啡」"}]}
+{"id": "W011", "requirements": [{"id": "W011/s01", "type": "sentence_count", "param": {"op": "<=", "n": 2}, "quote": "回答最多兩句話。"}], "conflicts": []}
+{"id": "W012", "requirements": [], "conflicts": []}
+{"id": "W013", "requirements": [], "conflicts": []}
+{"id": "W014", "requirements": [{"id": "X/s01#c1coun", "type": "count", "param": {"n": 4, "unit": "款"}, "quote": "介紹四款筆電，每款不超過五十字。"}, {"id": "X/s01#c2len", "type": "length", "param": {"op": "<=", "n": 50, "unit": "字", "scope": "item"}, "quote": "介紹四款筆電，每款不超過五十字。"}], "conflicts": []}
+{"id": "W015", "requirements": [], "conflicts": []}
+{"id": "W016", "requirements": [{"id": "X/s01#c1max", "type": "count_max", "param": {"n": 6, "unit": "點"}, "quote": "一開始想列十點，最後決定只列六點。"}, {"id": "X/s01#c2coun", "type": "count", "param": {"n": 6, "unit": "點"}, "quote": "一開始想列十點，最後決定只列六點。"}], "conflicts": []}
+{"id": "W017", "requirements": [{"id": "W017/s01", "type": "language", "param": {"lang": "en"}, "quote": "那位教授的論文都用英文發表，幫我用中文寫一段介紹他的研究。"}, {"id": "W017/s01#c1lan", "type": "language", "param": {"lang": "zh"}, "quote": "那位教授的論文都用英文發表，幫我用中文寫一段介紹他的研究。"}], "conflicts": []}
+{"id": "W018", "requirements": [{"id": "W018/s01", "type": "forbidden_charset", "param": {"classes": ["digits"], "digit_kind": "b"}, "quote": "我只是隨口說說「不要用數字」，其實無所謂，寫一份報價說明。"}], "conflicts": []}
+{"id": "W019", "requirements": [{"id": "W019/s01", "type": "length", "param": {"op": "<=", "n": 100, "unit": "字"}, "quote": "這篇投稿的字數上限是三千字，但我想先寫個摘要，摘要一百字以內。"}], "conflicts": []}
+{"id": "W020", "requirements": [], "conflicts": []}
+{"id": "W021", "requirements": [{"id": "W021/s01#forbidden_charset", "type": "forbidden_charset", "param": {"classes": ["latin"]}, "quote": "先前約好不要出現英文字母，這次繼續遵守。"}, {"id": "W021/s01", "type": "language_forbidden", "param": {"lang": "en"}, "quote": "先前約好不要出現英文字母，這次繼續遵守。"}], "conflicts": []}
+{"id": "W022", "requirements": [{"id": "W022/s01", "type": "length", "param": {"op": "<=", "n": 8, "unit": "字"}, "quote": "上次的標題是「春季優惠」，這次換一個新標題，八個字以內。"}], "conflicts": []}
+{"id": "W023", "requirements": [{"id": "X/s01#c1star", "type": "starts_with", "param": {"s": "各位鄉親"}, "quote": "開頭用「各位鄉親」，最後用「謝謝大家」收尾，寫一段演講稿。"}, {"id": "X/s01#c2ends", "type": "ends_with", "param": {"s": "謝謝大家"}, "quote": "開頭用「各位鄉親」，最後用「謝謝大家」收尾，寫一段演講稿。"}], "conflicts": []}
+{"id": "W024", "requirements": [{"id": "W024/s01", "type": "length", "param": {"op": ">=", "n": 800, "unit": "字"}, "quote": "他堅持要寫滿八百字，我同意他，就寫八百字以上。"}], "conflicts": []}
+{"id": "W025", "requirements": [{"id": "W025/s01", "type": "length", "param": {"op": ">=", "n": 5000, "unit": "字"}, "quote": "爸媽說報告要寫滿五千字，但這是小組作業的一部分，我只負責五百字。"}, {"id": "W025/s01#c1len", "type": "length", "param": {"op": ">=", "n": 500, "unit": "字"}, "quote": "爸媽說報告要寫滿五千字，但這是小組作業的一部分，我只負責五百字。"}], "conflicts": []}
+{"id": "W026", "requirements": [{"id": "W026/s01", "type": "format", "param": {"format": "bullets"}, "quote": "我同事習慣用表格，我不喜歡，用條列就好。"}], "conflicts": []}
+{"id": "W027", "requirements": [{"id": "X/s01#c1line", "type": "line_count", "param": {"n": 5}, "quote": "寫一首五行詩。"}], "conflicts": []}
+{"id": "W028", "requirements": [{"id": "W028/s01#copy", "type": "copy_ratio", "param": {"max_overlap": 0.9, "trigger": "改成", "material_chars": 20, "material_scope": "整篇原文"}, "quote": "原本至少六點，後來改成最多三點，列三點。"}, {"id": "W028/s01#c1max", "type": "count_max", "param": {"n": 3, "unit": "點"}, "quote": "原本至少六點，後來改成最多三點，列三點。"}, {"id": "W028/s01#c2cou", "type": "count", "param": {"n": 3, "unit": "點"}, "quote": "原本至少六點，後來改成最多三點，列三點。"}], "conflicts": []}
+{"id": "W029", "requirements": [{"id": "W029/s01", "type": "language", "param": {"lang": "en"}, "quote": "整份用英文，要提到 Kaohsiung。"}], "conflicts": []}
+{"id": "W030", "requirements": [{"id": "W030/s01", "type": "forbidden_charset", "param": {"classes": ["punct"]}, "quote": "全文禁止使用任何標點，寫一段感想。"}], "conflicts": []}
+{"id": "W031", "requirements": [{"id": "X/s01#c1star", "type": "starts_with", "param": {"s": "早安"}, "quote": "開頭用「早安」，第一個字是「早」。"}, {"id": "X/s01#c2star", "type": "starts_with", "param": {"s": "早"}, "quote": "開頭用「早安」，第一個字是「早」。"}], "conflicts": []}
+{"id": "W032", "requirements": [], "conflicts": []}
+{"id": "W033", "requirements": [{"id": "X/s01#c1len", "type": "length", "param": {"op": "<=", "n": 20, "unit": "字", "scope": "item"}, "quote": "前一版說好每點不超過二十字，這版同樣。"}], "conflicts": []}
+{"id": "W034", "requirements": [{"id": "W034/s01#length", "type": "length", "param": {"op": "<=", "n": 200, "unit": "字"}, "quote": "至少一千字，最多兩百字。"}, {"id": "W034/s01", "type": "length", "param": {"op": ">=", "n": 1000, "unit": "字"}, "quote": "至少一千字，最多兩百字。"}], "conflicts": [{"a": "字數至少 1000 字", "b": "字數不超過 200 字", "kept": "字數不超過 200 字"}]}
+{"id": "W035", "requirements": [{"id": "W035/s01", "type": "length", "param": {"op": "~", "n": 200, "unit": "字"}, "quote": "網路上很多人說文案要短於三十字，我不信，你寫完整一點，兩百字左右。"}], "conflicts": []}
+{"id": "W036", "requirements": [{"id": "X/s01#c1no_p", "type": "no_paragraph", "param": {}, "quote": "這部影集第三季有十集，幫我寫一段劇評，一段就好。"}], "conflicts": []}
+{"id": "W037", "requirements": [{"id": "X/s01#c1sent", "type": "sentence_count", "param": {"op": ">=", "n": 4}, "quote": "上次你寫了剛好四句話，這次也四句。"}, {"id": "X/s01#c2sent", "type": "sentence_count", "param": {"op": "<=", "n": 4}, "quote": "上次你寫了剛好四句話，這次也四句。"}], "conflicts": []}
+{"id": "W038", "requirements": [{"id": "W038/s01#c1no_p", "type": "no_paragraph", "param": {}, "quote": "請一氣呵成寫完，中間不要分段。"}], "conflicts": []}
+{"id": "W039", "requirements": [{"id": "W039/s01", "type": "length", "param": {"op": "<=", "n": 150, "unit": "字"}, "quote": "這間餐廳週一公休，幫我寫一則推薦文，不要超過一百五十字。"}], "conflicts": []}
+{"id": "W040", "requirements": [{"id": "W040/s01", "type": "length", "param": {"op": "<=", "n": 200, "unit": "字"}, "quote": "他說要一千字，我只要兩百字以內，寫兩百字以內。"}], "conflicts": []}
+{"id": "W041", "requirements": [], "conflicts": []}
+{"id": "W042", "requirements": [], "conflicts": []}
+{"id": "W043", "requirements": [{"id": "W043/s01", "type": "length", "param": {"op": ">=", "n": 300, "unit": "字"}, "quote": "上一份用了三百字很剛好，這份比照辦理。"}], "conflicts": []}
+{"id": "W044", "requirements": [{"id": "W044/s01#structure", "type": "structure", "param": {"need": "heading"}, "quote": "標題請不要超過九個字，寫一篇美食推薦。"}], "conflicts": []}
+{"id": "W045", "requirements": [{"id": "X/s01#c1titl", "type": "title_length", "param": {"n": 5}, "quote": "她提醒我標題不要超過五個字，我照做。"}], "conflicts": []}
+{"id": "W046", "requirements": [{"id": "X/s01#c1one_", "type": "one_sentence", "param": {}, "quote": "這款手機有 128G 和 256G，幫我寫一句比較建議。"}], "conflicts": []}
+{"id": "W047", "requirements": [{"id": "W047/s01#term_required", "type": "term_required", "param": {"terms": ["咖啡因"]}, "quote": "要提到「咖啡因」，不能出現「茶」。"}, {"id": "W047/s01", "type": "term_forbidden", "param": {"terms": ["茶"]}, "quote": "要提到「咖啡因」，不能出現「茶」。"}], "conflicts": []}
+{"id": "W048", "requirements": [{"id": "W048/s01", "type": "forbidden_charset", "param": {"classes": ["punct"]}, "quote": "不能有任何標點，引用的話要用「」括起來。"}, {"id": "W048/s01#c1pair", "type": "pair_symbol", "param": {"sym": "「」"}, "quote": "不能有任何標點，引用的話要用「」括起來。"}], "conflicts": [{"a": "不得出現標點符號", "b": "須使用「」", "kept": "不得出現標點符號"}]}
+{"id": "W049", "requirements": [{"id": "X/s01#c1cou", "type": "count", "param": {"n": 3, "unit": "點"}, "quote": "用三點說明，每點以「第一」「第二」「第三」開頭。"}], "conflicts": []}
+{"id": "W050", "requirements": [{"id": "W050/s01", "type": "length", "param": {"op": "<=", "n": 80, "unit": "字"}, "quote": "列五點，每點不超過十六字，全文不超過八十字。"}, {"id": "W050/s01#c1cou", "type": "count", "param": {"n": 5, "unit": "點"}, "quote": "列五點，每點不超過十六字，全文不超過八十字。"}, {"id": "W050/s01#c2len", "type": "length", "param": {"op": "<=", "n": 16, "unit": "字", "scope": "item"}, "quote": "列五點，每點不超過十六字，全文不超過八十字。"}], "conflicts": []}
+{"id": "W051", "requirements": [], "conflicts": []}
+{"id": "W052", "requirements": [{"id": "X/s01#c1star", "type": "starts_with", "param": {"s": "冬"}, "quote": "第一個字用「冬」，寫一段冬天的短文。"}], "conflicts": []}
+{"id": "W053", "requirements": [], "conflicts": []}
+{"id": "W054", "requirements": [{"id": "X/s01#c1coun", "type": "count_max", "param": {"n": 5, "unit": "點"}, "quote": "這份合約有十二條，幫我摘要重點，五點以內。"}], "conflicts": []}
+{"id": "W055", "requirements": [{"id": "W055/s01#cmax", "type": "count_max", "param": {"n": 3, "unit": "點"}, "quote": "點列至多三點，說明怎麼省電。"}], "conflicts": []}
+{"id": "W056", "requirements": [{"id": "X/s01#c1sent", "type": "sentence_count", "param": {"op": ">=", "n": 2}, "quote": "說明書第 8 頁的圖看不懂，幫我用白話解釋，兩句話。"}, {"id": "X/s01#c2sent", "type": "sentence_count", "param": {"op": "<=", "n": 2}, "quote": "說明書第 8 頁的圖看不懂，幫我用白話解釋，兩句話。"}], "conflicts": []}
+{"id": "W057", "requirements": [{"id": "X/s01#c1answ", "type": "answer_one_word", "param": {}, "quote": "用一個字形容你的心情。"}], "conflicts": []}
+{"id": "W058", "requirements": [{"id": "W058/s01", "type": "count", "param": {"n": 4, "unit": "點"}, "quote": "他說要列四點，就照那個走。"}], "conflicts": []}
+{"id": "W059", "requirements": [], "conflicts": []}
+{"id": "W060", "requirements": [{"id": "W060/s01", "type": "language", "param": {"lang": "en"}, "quote": "整份要用英文寫，介紹台灣小吃。"}], "conflicts": []}
+{"id": "W061", "requirements": [], "conflicts": []}
+{"id": "W062", "requirements": [{"id": "W062/s01", "type": "structure", "param": {"need": "paragraphs", "n": 2}, "quote": "我同事建議分兩段，我覺得可以，分兩段。"}], "conflicts": []}
+{"id": "W063", "requirements": [{"id": "W063/s01", "type": "structure", "param": {"need": "paragraphs", "n": 2}, "quote": "四句話寫完，分兩段。"}, {"id": "W063/s01#c1sent", "type": "sentence_count", "param": {"op": ">=", "n": 4}, "quote": "四句話寫完，分兩段。"}, {"id": "W063/s01#c2sent", "type": "sentence_count", "param": {"op": "<=", "n": 4}, "quote": "四句話寫完，分兩段。"}], "conflicts": []}
+{"id": "W064", "requirements": [{"id": "X/s01#c1star", "type": "starts_with", "param": {"s": "您好"}, "quote": "客戶交代開頭一定要寫「您好」，就這麼辦。"}], "conflicts": []}
+{"id": "W065", "requirements": [{"id": "X/s01#c1cou", "type": "count", "param": {"n": 4, "unit": "種"}, "quote": "用斜線分隔，列出四種水果。"}], "conflicts": []}
+{"id": "W066", "requirements": [{"id": "W066/s01", "type": "forbidden_charset", "param": {"classes": ["digits"], "digit_kind": "a"}, "quote": "不要出現任何阿拉伯數字，說明怎麼看時鐘。"}], "conflicts": []}
+{"id": "W067", "requirements": [], "conflicts": []}
+{"id": "W068", "requirements": [{"id": "X/s01#c1cou", "type": "count", "param": {"n": 3, "unit": "個"}, "quote": "草稿裡我寫了十個重點，太多了，砍到三個。"}], "conflicts": []}
+{"id": "W069", "requirements": [{"id": "X/s01#c1line", "type": "line_count", "param": {"n": 4}, "quote": "四行詩，每行剛好六個字。"}, {"id": "X/s01#c2per_", "type": "per_unit_length", "param": {"unit_of": "行", "op": "=", "n": 6, "unit": "字"}, "quote": "四行詩，每行剛好六個字。"}], "conflicts": []}
+{"id": "W070", "requirements": [{"id": "X/s01#c1sent", "type": "sentence_count", "param": {"op": ">=", "n": 5}, "quote": "不多不少五句話，描述你的週末。"}, {"id": "X/s01#c2sent", "type": "sentence_count", "param": {"op": "<=", "n": 5}, "quote": "不多不少五句話，描述你的週末。"}], "conflicts": []}
+{"id": "W071", "requirements": [{"id": "W071/s01#structure", "type": "structure", "param": {"need": "paragraphs", "n": 4}, "quote": "第三段不得超過五十字，寫四段的旅遊心得。"}, {"id": "W071/s01#c1sect", "type": "section_length", "param": {"i": 3, "n": 50}, "quote": "第三段不得超過五十字，寫四段的旅遊心得。"}], "conflicts": []}
+{"id": "W072", "requirements": [{"id": "X/s01#c1one_", "type": "one_sentence", "param": {}, "quote": "用單單一句話說明什麼是 AI。"}], "conflicts": []}
+{"id": "W073", "requirements": [], "conflicts": []}
+{"id": "W074", "requirements": [], "conflicts": []}
+{"id": "W075", "requirements": [{"id": "X/s01#c1one_", "type": "one_sentence", "param": {}, "quote": "請列出三位歷史人物並各寫一句介紹。"}, {"id": "X/s01#c2coun", "type": "count", "param": {"n": 3, "unit": "位"}, "quote": "請列出三位歷史人物並各寫一句介紹。"}], "conflicts": []}
+{"id": "W076", "requirements": [{"id": "X/s01#c1ends", "type": "ends_with", "param": {"s": "加油"}, "quote": "老闆要求最後兩個字是「加油」，照他的意思。"}], "conflicts": []}
+{"id": "W077", "requirements": [{"id": "W077/s01", "type": "language", "param": {"lang": "ja"}, "quote": "表弟說他要用日文寫，我不管他，我自己的用中文就好。"}], "conflicts": []}
+{"id": "W078", "requirements": [], "conflicts": []}
+{"id": "W079", "requirements": [{"id": "X/s01#c1ends", "type": "ends_with", "param": {"s": "晚安"}, "quote": "結尾要是「晚安」，最後兩個字要是「再見」。"}, {"id": "X/s01#c2ends", "type": "ends_with", "param": {"s": "再見"}, "quote": "結尾要是「晚安」，最後兩個字要是「再見」。"}], "conflicts": [{"a": "結尾須為「晚安」", "b": "結尾須為「再見」", "kept": "結尾須為「晚安」"}]}
+{"id": "W080", "requirements": [{"id": "W080/s01", "type": "sentence_count", "param": {"op": ">=", "n": 3}, "quote": "只能回「好」，而且要說明理由三句以上。"}, {"id": "W080/s01#c1answ", "type": "answer_literal", "param": {"options": ["好"]}, "quote": "只能回「好」，而且要說明理由三句以上。"}], "conflicts": [{"a": "只回答「好」", "b": "至少 3 句", "kept": "只回答「好」"}]}
+{"id": "W081", "requirements": [{"id": "W081/s01", "type": "term_required", "param": {"terms": ["感謝"], "min_count": 3}, "quote": "「感謝」至少要出現三次，寫一段謝詞。"}, {"id": "W081/s01#c1term", "type": "term_min_count", "param": {"terms": ["感謝"], "n": 3}, "quote": "「感謝」至少要出現三次，寫一段謝詞。"}], "conflicts": []}
+{"id": "W082", "requirements": [{"id": "W082/s01", "type": "language", "param": {"lang": "en"}, "quote": "主管強調一定要用英文，那就用英文。"}], "conflicts": []}
+{"id": "W083", "requirements": [{"id": "W083/s01#copy", "type": "copy_ratio", "param": {"max_overlap": 0.9, "trigger": "改成", "material_chars": 37, "material_scope": "整篇原文"}, "quote": "一開始我想寫成新聞稿，後來改成社群貼文，請寫成貼文，不要用 hashtag。"}], "conflicts": []}
+{"id": "W084", "requirements": [{"id": "X/s01#c1one_", "type": "one_sentence", "param": {}, "quote": "我主管口頭禪是「報告不準超過一頁」，但這不是報告，是聊天，幫我回一句謝謝。"}], "conflicts": []}
+{"id": "W085", "requirements": [], "conflicts": []}
+{"id": "W086", "requirements": [{"id": "W086/s01", "type": "language", "param": {"lang": "zh"}, "quote": "老師規定的作業是寫英文作文，但我想先用中文打草稿，請用中文寫。"}], "conflicts": []}
+{"id": "W087", "requirements": [{"id": "X/s01#c1len", "type": "length", "param": {"op": "<=", "n": 6, "unit": "字", "scope": "title"}, "quote": "標題訂為「臺南古蹟一日遊完整攻略」，標題不超過六個字。"}], "conflicts": []}
+{"id": "W088", "requirements": [], "conflicts": []}
+{"id": "W089", "requirements": [{"id": "W089/s01", "type": "count", "param": {"n": 5, "unit": "點"}, "quote": "至少列五點，最多三點。"}, {"id": "W089/s01#c1max", "type": "count_max", "param": {"n": 3, "unit": "點"}, "quote": "至少列五點，最多三點。"}], "conflicts": [{"a": "列出 5 點（逐點列出）", "b": "不超過 3 點", "kept": "不超過 3 點"}]}
+{"id": "W090", "requirements": [{"id": "W090/s01#c1cou", "type": "count", "param": {"n": 3, "unit": "種"}, "quote": "我朋友用了五個顏色做簡報，幫我推薦配色，三種就好。"}], "conflicts": []}
+{"id": "W091", "requirements": [{"id": "X/s01#c1sent", "type": "sentence_count", "param": {"op": ">=", "n": 3}, "quote": "我爸六十歲生日，幫我寫一段祝壽詞，三句話。"}, {"id": "X/s01#c2sent", "type": "sentence_count", "param": {"op": "<=", "n": 3}, "quote": "我爸六十歲生日，幫我寫一段祝壽詞，三句話。"}], "conflicts": []}
+{"id": "W092", "requirements": [{"id": "W092/s01#structure", "type": "structure", "param": {"need": "paragraphs", "n": 2}, "quote": "每一段都要寫滿一百字，總共寫兩段。"}, {"id": "W092/s01#c1len", "type": "length", "param": {"op": ">=", "n": 100, "unit": "字", "scope": "section"}, "quote": "每一段都要寫滿一百字，總共寫兩段。"}], "conflicts": []}
+{"id": "W093", "requirements": [{"id": "W093/s01#c1lan", "type": "language", "param": {"lang": "zh"}, "quote": "我之前說過「全部用英文」，那是開玩笑的，用中文就好。"}], "conflicts": []}
+{"id": "W094", "requirements": [{"id": "X/s01#c1no_p", "type": "no_paragraph", "param": {}, "quote": "剛剛那版不要分段很好，這次也不要分段。"}], "conflicts": []}
+{"id": "W095", "requirements": [{"id": "W095/s01#copy", "type": "copy_ratio", "param": {"max_overlap": 0.9, "trigger": "改成", "material_chars": 13, "material_scope": "整篇原文"}, "quote": "原定分四段，現在改成三段。"}, {"id": "W095/s01#c1str", "type": "structure", "param": {"need": "paragraphs", "n": 3}, "quote": "原定分四段，現在改成三段。"}], "conflicts": []}
+{"id": "W096", "requirements": [{"id": "W096/s01", "type": "length", "param": {"op": "<=", "n": 300, "unit": "字"}, "quote": "隔壁部門的週報都限三百字，我們不用，寫詳細一點。"}], "conflicts": []}
+{"id": "W097", "requirements": [{"id": "X/s01#c1star", "type": "starts_with", "param": {"s": "早安"}, "quote": "開頭用「早安」，第一個字是「午」。"}, {"id": "X/s01#c2star", "type": "starts_with", "param": {"s": "午"}, "quote": "開頭用「早安」，第一個字是「午」。"}], "conflicts": [{"a": "開頭須為「早安」", "b": "開頭須為「午」", "kept": "開頭須為「早安」"}]}
+{"id": "W098", "requirements": [{"id": "X/s01#c1pair", "type": "pair_symbol", "param": {"sym": "《》"}, "quote": "提到的電影名稱都要用《》標示，推薦兩部電影。"}, {"id": "X/s01#c2coun", "type": "count", "param": {"n": 2, "unit": "部"}, "quote": "提到的電影名稱都要用《》標示，推薦兩部電影。"}], "conflicts": []}
+{"id": "W099", "requirements": [], "conflicts": []}
+{"id": "W100", "requirements": [{"id": "W100/s01", "type": "count", "param": {"n": 7, "unit": "個"}, "quote": "請給我正好七個點子。"}, {"id": "W100/s01#c1coun", "type": "count_exact", "param": {"n": 7, "unit": "個"}, "quote": "請給我正好七個點子。"}], "conflicts": []}
+{"id": "W101", "requirements": [{"id": "W101/s01#copy", "type": "copy_ratio", "param": {"max_overlap": 0.9, "trigger": "擴寫", "material_chars": 23, "material_scope": "整篇原文"}, "quote": "原本那篇是三段，我覺得太短了，這次擴寫成五段。"}, {"id": "W101/s01#c1str", "type": "structure", "param": {"need": "paragraphs", "n": 5}, "quote": "原本那篇是三段，我覺得太短了，這次擴寫成五段。"}], "conflicts": []}
+{"id": "W102", "requirements": [{"id": "W102/s01", "type": "language", "param": {"lang": "en"}, "quote": "整份用英文，但必須寫出「高雄」兩字。"}], "conflicts": []}
+{"id": "W103", "requirements": [{"id": "W103/s01", "type": "length", "param": {"op": "<=", "n": 100, "unit": "字"}, "quote": "「永續」這個詞要出現兩次以上，全文一百字以內。"}, {"id": "W103/s01#c1term", "type": "term_min_count", "param": {"terms": ["永續"], "n": 2}, "quote": "「永續」這個詞要出現兩次以上，全文一百字以內。"}], "conflicts": []}
+{"id": "W104", "requirements": [{"id": "W104/s01", "type": "count", "param": {"n": 2, "unit": "點"}, "quote": "至少列兩點，最多五點。"}, {"id": "W104/s01#c1max", "type": "count_max", "param": {"n": 5, "unit": "點"}, "quote": "至少列兩點，最多五點。"}], "conflicts": []}
+{"id": "W105", "requirements": [{"id": "W105/s01", "type": "length", "param": {"op": "<=", "n": 80, "unit": "字"}, "quote": "列七點，每點至少十五字，全文不超過八十字。"}, {"id": "W105/s01#c1cou", "type": "count", "param": {"n": 7, "unit": "點"}, "quote": "列七點，每點至少十五字，全文不超過八十字。"}, {"id": "W105/s01#c2len", "type": "length", "param": {"op": ">=", "n": 15, "unit": "字", "scope": "item"}, "quote": "列七點，每點至少十五字，全文不超過八十字。"}], "conflicts": [{"a": "字數不超過 80 字", "b": "列出 7 點（逐點列出），字數至少 15 字", "kept": "字數不超過 80 字；列出 7 點（逐點列出）"}]}
+{"id": "W106", "requirements": [], "conflicts": []}
+{"id": "W107", "requirements": [{"id": "X/s01#c1star", "type": "starts_with", "param": {"s": "各位好朋友"}, "quote": "開場第一段請以「各位好朋友」起頭。"}], "conflicts": []}
+{"id": "W108", "requirements": [], "conflicts": []}
+{"id": "W109", "requirements": [], "conflicts": []}
+{"id": "W110", "requirements": [{"id": "X/s01#c1cou", "type": "count", "param": {"n": 5, "unit": "點"}, "quote": "原先排定的是四點，不過後來發現要補一點，所以列五點。"}], "conflicts": []}
+{"id": "W111", "requirements": [{"id": "X/s01#c1len", "type": "length", "param": {"op": "<=", "n": 10, "unit": "字", "scope": "item"}, "quote": "每項理由都不要超過十個字，列四項。"}, {"id": "X/s01#c2cou", "type": "count", "param": {"n": 4, "unit": "項"}, "quote": "每項理由都不要超過十個字，列四項。"}], "conflicts": []}
+{"id": "W112", "requirements": [], "conflicts": []}
+{"id": "W113", "requirements": [], "conflicts": []}
+{"id": "W114", "requirements": [{"id": "X/s01#c1one_", "type": "one_sentence", "param": {}, "quote": "最末一句話要是「下次見」。"}], "conflicts": []}
+{"id": "W115", "requirements": [{"id": "W115/s01", "type": "length", "param": {"op": "<=", "n": 20, "unit": "字"}, "quote": "「感謝」出現兩次，全文不超過二十字。"}, {"id": "W115/s01#c1term", "type": "term_min_count", "param": {"terms": ["感謝"], "n": 2}, "quote": "「感謝」出現兩次，全文不超過二十字。"}], "conflicts": []}

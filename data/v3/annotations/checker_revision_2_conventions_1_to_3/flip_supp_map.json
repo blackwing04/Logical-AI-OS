@@ -1,0 +1,318 @@
+{
+ "rule": "語言／禁用詞／JSON 翻判全收＋任何型別守→違翻判；同文同條一次；不含保守臂",
+ "n": 26,
+ "map": [
+  {
+   "id": "FS01",
+   "arm": "A0g",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS02",
+   "arm": "A1g",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS03",
+   "arm": "A1g",
+   "key": [
+    "s3",
+    "Q082"
+   ],
+   "sid": "Q082/s01#count",
+   "type": "count",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS04",
+   "arm": "A1gL",
+   "key": [
+    "s3",
+    "Q082"
+   ],
+   "sid": "Q082/s01#count",
+   "type": "count",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS05",
+   "arm": "E1q7",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS06",
+   "arm": "E1q7",
+   "key": [
+    "s3",
+    "Q053"
+   ],
+   "sid": "Q053/s05#language",
+   "type": "language",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS07",
+   "arm": "E1r1",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS08",
+   "arm": "E1r1",
+   "key": [
+    "s3",
+    "Q052"
+   ],
+   "sid": "Q052/s01#term_forbidden",
+   "type": "term_forbidden",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS09",
+   "arm": "E1r1",
+   "key": [
+    "s3",
+    "Q074"
+   ],
+   "sid": "Q074/s04#term_forbidden",
+   "type": "term_forbidden",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS10",
+   "arm": "LPq14",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS11",
+   "arm": "LPq14",
+   "key": [
+    "s3",
+    "Q044"
+   ],
+   "sid": "Q044/s01",
+   "type": "language",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS12",
+   "arm": "LPq3",
+   "key": [
+    "s3",
+    "Q109"
+   ],
+   "sid": "Q109/s01#count",
+   "type": "count",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS13",
+   "arm": "LPr1",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS14",
+   "arm": "LPr1",
+   "key": [
+    "s3",
+    "Q052"
+   ],
+   "sid": "Q052/s01#term_forbidden",
+   "type": "term_forbidden",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS15",
+   "arm": "LPr1",
+   "key": [
+    "s3",
+    "Q083"
+   ],
+   "sid": "Q083/s01#term_forbidden",
+   "type": "term_forbidden",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS16",
+   "arm": "M0",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS17",
+   "arm": "M0",
+   "key": [
+    "s3",
+    "Q049"
+   ],
+   "sid": "Q049/s08#language",
+   "type": "language",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS18",
+   "arm": "P0q7",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS19",
+   "arm": "P0q7",
+   "key": [
+    "s3",
+    "Q074"
+   ],
+   "sid": "Q074/s04#term_forbidden",
+   "type": "term_forbidden",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS20",
+   "arm": "P0r1",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS21",
+   "arm": "P0r1",
+   "key": [
+    "s3",
+    "Q074"
+   ],
+   "sid": "Q074/s04#term_forbidden",
+   "type": "term_forbidden",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS22",
+   "arm": "P0r1",
+   "key": [
+    "s3",
+    "Q100"
+   ],
+   "sid": "Q100/s01#term_forbidden",
+   "type": "term_forbidden",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS23",
+   "arm": "P1q7",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS24",
+   "arm": "P1r1",
+   "key": [
+    "cb",
+    "CB0100"
+   ],
+   "sid": "CB0100/s04",
+   "type": "format",
+   "v1": false,
+   "v2": true
+  },
+  {
+   "id": "FS25",
+   "arm": "R0",
+   "key": [
+    "s3",
+    "Q052"
+   ],
+   "sid": "Q052/s01#term_forbidden",
+   "type": "term_forbidden",
+   "v1": true,
+   "v2": false
+  },
+  {
+   "id": "FS26",
+   "arm": "R0",
+   "key": [
+    "s3",
+    "Q083"
+   ],
+   "sid": "Q083/s01#term_forbidden",
+   "type": "term_forbidden",
+   "v1": true,
+   "v2": false
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+代號,確切型號,出處／底座,規模,載入,生成上限,所用臂,跑批檔核對
+q3,Qwen2.5-3B-Instruct,Qwen 官方指令版（Qwen2.5 系列）,3B,bitsandbytes 4-bit NF4（雙重量化、計算 fp16）；原檔 bfloat16,2048,B0g（底）、B1g（整篇退回）、LPq3（局部修補）、保守q3,10 檔（1439 篇次）；記 device_map 者 8 檔，全為 cuda:0
+q7,Qwen2.5-7B-Instruct,Qwen 官方指令版（Qwen2.5 系列）,7B,bitsandbytes 4-bit NF4（雙重量化、計算 fp16）；原檔 bfloat16,2048,A0g（底）、A1g、P0q7、P1q7、E1q7、LPq7、保守q7、A1gL,22 檔（3126 篇次）；記 device_map 者 16 檔，全為 cuda:0
+q14,Qwen2.5-14B-Instruct,Qwen 官方指令版（Qwen2.5 系列）,14B,bitsandbytes 4-bit NF4（雙重量化、計算 fp16）；原檔 bfloat16,2048,M0（底）、M1、LPq14、保守q14,10 檔（1403 篇次）；記 device_map 者 8 檔，全為 cuda:0
+r1,DeepSeek-R1-Distill-Qwen-7B,DeepSeek 以 DeepSeek-R1 產生的約 80 萬筆樣本微調而成；底座 Qwen2.5-Math-7B（Qwen 系、7B；模型卡 Base Model 欄）,7B,bitsandbytes 4-bit NF4（雙重量化、計算 fp16）；原檔 bfloat16,4096（含思考段）,R0（底）、R1v13、P0r1、P1r1、E1r1、LPr1、保守r1、R1v13L,22 檔（3182 篇次）；記 device_map 者 16 檔，全為 cuda:0

@@ -1,0 +1,3 @@
+卷,名稱,篇,語言,來源,檔
+S3,合成卷 S3（2026-10-22 出卷）,120,繁體中文,甲類 72 篇：聊天端原創材料＋簽核模板限制；乙類 48 篇：CC 原創材料與請求句，題材與問法取自 PTT 等網路熱門看板（只取題材，不貼原文）；含哨兵 3 篇,laios-bridge/data/mstation/synth3/articles_s3_final.json
+CB,ComplexBench 純規則子集,209,簡體中文,"Wen et al., NeurIPS 2024（arXiv 2407.03978）；thu-coai/ComplexBench @749f457，MIT；原 1150 題中限制全可由規則核對者",laios-bridge/data/complexbench/（NOTICE.md）
