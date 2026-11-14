@@ -57,6 +57,20 @@ Part II 的 gold 由聊天端（一個 LLM 會話）標註，不是人類標註�
 
 Part II 報告：Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/zenodo.23826978)。
 
+## v3：治理層——好處、代價、失效，與量尺本身的校準（2026-11）
+
+報告：*Logical AI OS: A Training-Free Governance Layer Outside the Model for Instruction Following —
+Benefits, Costs, Failures, and the Calibration of the Measuring Instrument Itself*。
+Zenodo DOI [10.5281/zenodo.23838240](https://doi.org/10.5281/zenodo.23838240)（3.0 版；全版本：
+[10.5281/zenodo.23826977](https://doi.org/10.5281/zenodo.23826977)）。arXiv：已送出，編號待定。
+
+各表背後的材料在 [`data/v3/`](data/v3/)（題目、各臂答案全文、盲測包與標註、讀題考卷）、
+[`results/v3/`](results/v3/)（逐題判定與資料包）、[`eval/v3/`](eval/v3/)（獨立核對器），tag
+[`v3.0-data`](https://github.com/blackwing04/Logical-AI-OS/tree/v3.0-data)；每個檔的大小與 SHA-256 見
+[`manifest/v3_manifest.csv`](manifest/v3_manifest.csv)。逐題判定可以用公開的核對器從公開的答案重算；報告各表則可由這些判定、公開的標註與資料包重算。
+少數分析（表 2 的字數剔除欄、有效正文字數、自述查核）目前只能對照公開的彙總查核，見報告第 10.4 節。
+治理層的實作（讀題規則、門檻、模板、修補與控長）不公開，可向作者申請，由作者審核。
+
 ## 誠實清單（先讀這個）
 
 這份收裝刻意把**不利的判定**放在和結果同等的位置：
@@ -93,6 +107,9 @@ Part II 報告：Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/ze
 | [`eval/`](eval/) | Part II 評分腳本：呼叫 Multi-IF 與 ComplexBench 官方檢查器的 glue、聊天端為 S1–S3 自寫的獨立核對器、讀題覆蓋率統計 |
 | [`docs/parts_spec_v2.md`](docs/parts_spec_v2.md) | Part II 零件規格表：每個零件量什麼、量到多少（只有數值） |
 | [`docs/failure_taxonomy.md`](docs/failure_taxonomy.md) | Part II 失敗型錄（模型自身的失敗；架構造成的失敗）與邊界圖 |
+| [`data/v3/`](data/v3/) | v3 題目與答案：S3 與 ComplexBench 純規則子集的題目、各臂交付答案全文、人與 AI 標註者的盲測包與標註、讀題考卷 |
+| [`results/v3/`](results/v3/) | v3 逐題判定（各臂 × 每篇 × 每條可核條目，三種核對器量尺；逐篇全守）與表層資料包 |
+| [`eval/v3/`](eval/v3/) | v3 獨立核對器（v1 與 v2，可重現每一個公開判定）；資料包產生程式與匯出程式，供溯源 |
 
 ## 公開範圍與不公開的東西
 

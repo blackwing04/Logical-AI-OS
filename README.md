@@ -72,6 +72,25 @@ Gold in Phase II was labelled by the reviewer session (an LLM), not by a human; 
 
 Part II report: Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/zenodo.23826978).
 
+## v3: the governance layer — benefits, costs, failures, and the calibration of the checker (2026-11)
+
+Report: *Logical AI OS: A Training-Free Governance Layer Outside the Model for Instruction Following —
+Benefits, Costs, Failures, and the Calibration of the Measuring Instrument Itself*.
+Zenodo DOI [10.5281/zenodo.23838240](https://doi.org/10.5281/zenodo.23838240) (Version 3.0; all versions:
+[10.5281/zenodo.23826977](https://doi.org/10.5281/zenodo.23826977)). arXiv: submitted, ID pending.
+
+The material behind its tables is in [`data/v3/`](data/v3/) (prompts, every arm's answers, blind packs
+and annotations, reading exams), [`results/v3/`](results/v3/) (per-item verdicts and the data pack) and
+[`eval/v3/`](eval/v3/) (the standalone checker), tagged
+[`v3.0-data`](https://github.com/blackwing04/Logical-AI-OS/tree/v3.0-data); size and SHA-256 of every
+file are in [`manifest/v3_manifest.csv`](manifest/v3_manifest.csv). The per-item verdicts can be
+recomputed from the published answers with the published checker, and the report's tables from those
+verdicts, the published annotations and the data pack. A few analyses (the length-removal column of
+Table 2, effective-body lengths, and the self-report checks) can only be checked against the published
+summaries; see Section 10.4 of the report. The governance layer's implementation (reading rules,
+thresholds, templates, patching and length control) is not published; it can be requested from the
+author and is subject to the author's review.
+
 ## Honesty list (read this first)
 
 This release deliberately places the **unfavourable findings** on the same footing
@@ -115,6 +134,9 @@ as the results:
 | [`eval/`](eval/) | Part II scoring scripts: glue around the official Multi-IF and ComplexBench checkers, the reviewer's independent checkers for S1–S3, the reading-coverage statistics |
 | [`docs/parts_spec_v2.md`](docs/parts_spec_v2.md) | Part II parts specification: what each part measures and the number it reached (numbers only) |
 | [`docs/failure_taxonomy.md`](docs/failure_taxonomy.md) | Part II failure taxonomy (the model's own failures; failures the architecture caused) and boundary map |
+| [`data/v3/`](data/v3/) | v3 items and answers: S3 and ComplexBench rule-only subset prompts, every arm's delivered answer, the blind packs and annotations of the human and AI raters, the reading exams |
+| [`results/v3/`](results/v3/) | v3 per-item verdicts (every arm × article × constraint item under the three checker scales; article all-pass) and the table-level data pack |
+| [`eval/v3/`](eval/v3/) | v3 standalone checker (v1 and v2; reproduces every published verdict); the pack generators and export programs, published for provenance |
 
 ## Scope of this release, and what is not in it
 
