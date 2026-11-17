@@ -62,7 +62,7 @@ Part II 報告：Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/ze
 報告：*Logical AI OS: A Training-Free Governance Layer Outside the Model for Instruction Following —
 Benefits, Costs, Failures, and the Calibration of the Measuring Instrument Itself*。
 Zenodo DOI [10.5281/zenodo.23838240](https://doi.org/10.5281/zenodo.23838240)（3.0 版；全版本：
-[10.5281/zenodo.23826977](https://doi.org/10.5281/zenodo.23826977)）。arXiv：已送出，編號待定。
+[10.5281/zenodo.23826977](https://doi.org/10.5281/zenodo.23826977)）。arXiv：[arXiv:2611.19767](https://arxiv.org/abs/2611.19767)。
 
 各表背後的材料在 [`data/v3/`](data/v3/)（題目、各臂答案全文、盲測包與標註、讀題考卷）、
 [`results/v3/`](results/v3/)（逐題判定與資料包）、[`eval/v3/`](eval/v3/)（獨立核對器），tag

@@ -77,7 +77,7 @@ Part II report: Zenodo DOI [10.5281/zenodo.23826978](https://doi.org/10.5281/zen
 Report: *Logical AI OS: A Training-Free Governance Layer Outside the Model for Instruction Following —
 Benefits, Costs, Failures, and the Calibration of the Measuring Instrument Itself*.
 Zenodo DOI [10.5281/zenodo.23838240](https://doi.org/10.5281/zenodo.23838240) (Version 3.0; all versions:
-[10.5281/zenodo.23826977](https://doi.org/10.5281/zenodo.23826977)). arXiv: submitted, ID pending.
+[10.5281/zenodo.23826977](https://doi.org/10.5281/zenodo.23826977)). arXiv: [arXiv:2611.19767](https://arxiv.org/abs/2611.19767).
 
 The material behind its tables is in [`data/v3/`](data/v3/) (prompts, every arm's answers, blind packs
 and annotations, reading exams), [`results/v3/`](results/v3/) (per-item verdicts and the data pack) and
