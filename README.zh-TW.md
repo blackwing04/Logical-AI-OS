@@ -179,6 +179,8 @@ Zenodo DOI [10.5281/zenodo.23838240](https://doi.org/10.5281/zenodo.23838240)（
 **research use only (Qwen Research License)**，不在 CC BY 範圍內。模型與兩個題庫的授權寫在
 [`data/phase2/README.md`](data/phase2/README.md)。
 
+**授權說明。** 不同材料的授權不同。其中 Qwen2.5-3B-Instruct 產生的答案僅供研究使用（Qwen Research License），不適用 CC BY 4.0。完整對照表見 [`data/v3/README.md`](data/v3/README.md#licences)。
+
 論文（Zenodo）側為 **CC BY**。
 
 **不在任何授權範圍內**：測試語料。它源自 WildChat，授權由該資料集自身規範；
